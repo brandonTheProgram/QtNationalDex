@@ -1,0 +1,1367 @@
+650
+Chespin
+Spiky Nut Pokemon
+Grass
+Grass
+The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.
+Overgrow
+When HP is below 1/3rd its maximum, power of Grass-type moves is increased by 50%.
+Bulletproof
+Protects the Pokemon from some ball and bomb moves.
+2
+None
+None
+2 0 1 0 16 650
+None
+651 0 36
+None
+652 0 0
+
+651
+Quilladin
+Spiny Armor Pokemon
+Grass
+Grass
+It relies on its sturdy shell to deflect predators' attacks. It counterattacks with its sharp quills.
+Overgrow
+When HP is below 1/3rd its maximum, power of Grass-type moves is increased by 50%.
+Bulletproof
+Protects the Pokemon from some ball and bomb moves.
+2
+None
+None
+2 1 1 0 36 650
+None
+651 0 36
+None
+652 0 0
+
+652
+Chesnaught
+Spiny Armor Pokemon
+Grass
+Fighting
+When it takes a defensive posture with its fists guarding its face, it could withstand a bomb blast.
+Overgrow
+When HP is below 1/3rd its maximum, power of Grass-type moves is increased by 50%.
+Bulletproof
+Protects the Pokemon from some ball and bomb moves.
+2
+None
+None
+2 0 1 0 0 650
+None
+651 1 36
+None
+652 0 0
+
+653
+Fennekin
+Fox Pokemon
+Fire
+Fire
+Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.
+Blaze
+When HP is below 1/3rd its maximum, power of Fire-type moves is increased by 50%.
+Magician
+The Pokémon steals the held item of a Pokemon it hits with a move.
+2
+None
+None
+2 0 1 0 16 653
+None
+654 0 36
+None
+655 0 0
+
+654
+Braixen
+Fox Pokemon
+Fire
+Fire
+When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.
+Blaze
+When HP is below 1/3rd its maximum, power of Fire-type moves is increased by 50%.
+Magician
+The Pokémon steals the held item of a Pokemon it hits with a move.
+2
+None
+None
+2 1 1 0 36 653
+None
+654 0 36
+None
+655 0 0
+
+655
+Delphox
+Fox Pokemon
+Fire
+Psychic
+Using psychic power, it generates a fiery vortex of 5,400 degree Fahrenheit, incinerating foes swept into this whirl of flame.
+Blaze
+When HP is below 1/3rd its maximum, power of Fire-type moves is increased by 50%.
+Magician
+The Pokémon steals the held item of a Pokemon it hits with a move.
+2
+None
+None
+2 0 1 0 0 653
+None
+654 1 36
+None
+655 0 0
+
+656
+Froakie
+Bubble Frog Pokemon
+Water
+Water
+It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.
+Torrent
+When HP is below 1/3rd its maximum, power of Water-type moves is increased by 50%.
+Protean
+Before the Pokemon uses a move, it becomes a pure Pokemon of that type.
+2
+None
+None
+2 0 1 0 16 656
+None
+657 0 36
+None
+658 0 0
+
+657
+Frogadier
+Bubble Frog Pokemon
+Water
+Water
+It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.
+Torrent
+When HP is below 1/3rd its maximum, power of Water-type moves is increased by 50%.
+Protean
+Before the Pokemon uses a move, it becomes a pure Pokemon of that type.
+2
+None
+None
+2 1 1 0 36 656
+None
+657 0 36
+None
+658 0 0
+
+658
+Greninja
+Ninja Pokemon
+Water
+Dark
+It appears and vanishes with a ninja’s grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.
+Torrent
+When HP is below 1/3rd its maximum, power of Water-type moves is increased by 50%.
+Protean
+Before the Pokemon uses a move, it becomes a pure Pokemon of that type.
+2
+None
+None
+2 0 1 0 0 656
+None
+657 1 36
+None
+658 0 0
+
+659
+Bunnelby
+Digging Pokemon
+Normal
+Normal
+It has ears like shovels. Digging holes strengthens its ears so much that they can sever thick roots effortlessly.
+Pickup
+Has a 10% chance of finding and holding an item after battle. Will not work if this Pokemon is already holding an item. From Black & White, it allows for the user to pick up the item of its opponent or ally if they used up the item in battle.
+Huge Power
+The Pokemon's Attack stat is doubled while it has this ability.
+3
+Cheek Pouch
+Restores HP as well when the Pokemon eats a Berry
+1 0 1 0 20 659
+None
+0 0 20
+None
+660 0 0
+
+660
+Diggersby
+Digging Pokemon
+Normal
+Ground
+With their powerful ears, they can heft boulders of a ton or more with ease. They can be a big help at construction sites.
+Pickup
+Has a 10% chance of finding and holding an item after battle. Will not work if this Pokemon is already holding an item. From Black & White, it allows for the user to pick up the item of its opponent or ally if they used up the item in battle.
+Huge Power
+The Pokemon's Attack stat is doubled while it has this ability.
+3
+Cheek Pouch
+Restores HP as well when the Pokemon eats a Berry
+1 0 1 0 0 659
+None
+0 1 20
+None
+660 0 0
+
+661
+Fletchling
+Tiny Robin Pokemon
+Normal
+Flying
+While it's an amiable Pokémon, if you touch it unexpectedly, it will heat up its body in an instant, and you'll be burned.
+Big Pecks
+Protects the Pokemon from Defense-lowering effects.
+Gale Wings
+All Flying-type moves have their Speed Priority increased by 1 if the Pokemon's Hit Points are at maximum.
+2
+None
+None
+2 0 1 0 17 661
+None
+662 0 35
+None
+663 0 0
+
+662
+Fletchinder
+Ember Pokemon
+Fire
+Flying
+It scatters embers in the tall grass. Then bug Pokémon, frightened by the flames, come flying out, and Fletchinder gobbles them up.
+Flame Body
+The opponent has a 30% chance of being induced with Burn when using an attack, that requires physical contact, against this Pokémon.
+Gale Wings
+All Flying-type moves have their Speed Priority increased by 1 if the Pokemon's Hit Points are at maximum.
+2
+None
+None
+2 1 1 0 35 661
+None
+662 0 35
+None
+663 0 0
+
+663
+Talonflame
+Scorching Pokemon
+Fire
+Flying
+Bird Pokémon make up most of its diet. It approaches at high speeds and smacks them down to the ground with its powerful kick.
+Flame Body
+The opponent has a 30% chance of being induced with Burn when using an attack, that requires physical contact, against this Pokémon.
+Gale Wings
+All Flying-type moves have their Speed Priority increased by 1 if the Pokemon's Hit Points are at maximum.
+2
+None
+None
+2 0 1 0 0 661
+None
+662 1 35
+None
+663 0 0
+
+664
+Scatterbug
+Scatterdust Pokemon
+Bug
+Bug
+When under attack from bird Pokémon, it spews a poisonous black powder that causes paralysis on contact.
+Shield Dust
+Damaging moves used by the opponent will not have an additional effect.
+Friend Guard
+In Double & Triple battles, the damage that ally Pokemon receive from attacks is reduced by 25%.
+3
+Compoundeyes
+Raises the Pokemon's accuracy by 30%.
+2 0 1 0 9 664
+None
+665 0 12
+None
+666 0 0
+
+665
+Spewpa
+Scatterdust Pokemon
+Bug
+Bug
+It lives hidden within thicket shadows. When predators attack, it quickly bristles the fur covering its body in an effort to threaten them.
+Shed Skin
+Every turn, it has a 1 in 3 chance of healing from a status condition(BURN, PARALYZE, SLEEP, POISON, FREEZE).
+Friend Guard
+In Double & Triple battles, the damage that ally Pokemon receive from attacks is reduced by 25%.
+2
+None
+None
+2 1 1 0 12 664
+None
+665 0 12
+None
+666 0 0
+
+666
+Vivillon
+Scale Pokemon
+Bug
+Flying
+The patterns on this Pokémon's wings depend on the climate and topography of its habitat. It scatters colorful scales.
+Shield Dust
+Damaging moves used by the opponent will not have an additional effect.
+Friend Guard
+In Double & Triple battles, the damage that ally Pokemon receive from attacks is reduced by 25%.
+3
+Compoundeyes
+Raises the Pokemon's accuracy by 30%.
+2 0 1 0 0 664
+None
+665 1 12
+None
+666 0 0
+
+667
+Litleo
+Lion Cub Pokemon
+Fire
+Normal
+When they're young, they live with a pride. Once they're able to hunt prey on their own, they're kicked out and have to make their own way.
+Rivalry
+Attack & Special Attack is increased by 25% if the foe is of the same gender; Attack & Special Attack is decreased by 25% if the foe is of the opposite gender.
+Moxie
+Attack is raised by one stage when the Pokemon knocks out another Pokemon.
+3
+Unnerve
+The opponent Pokemon will never use their held Berry while the Pokemon is in battle. Opponents in S.O.S. Battles are more likely to call for help.
+1 0 1 0 35 667
+None
+0 0 35
+None
+668 0 0
+
+668
+Pyroar
+Royal Pokemon
+Fire
+Normal
+The males are usually lazy, but when attacked by a strong foe, a male will protect its friends with no regard for its own safety.
+Rivalry
+Attack & Special Attack is increased by 25% if the foe is of the same gender; Attack & Special Attack is decreased by 25% if the foe is of the opposite gender.
+Moxie
+Attack is raised by one stage when the Pokemon knocks out another Pokemon.
+3
+Unnerve
+The opponent Pokemon will never use their held Berry while the Pokemon is in battle. Opponents in S.O.S. Battles are more likely to call for help.
+1 0 1 0 0 667
+None
+0 1 35
+None
+668 0 0
+
+669
+Flabébé
+Single Bloom Pokemon
+Fairy
+Fairy
+It's not safe without the power of a flower, but it will keep traveling around until it finds one with the color and shape it wants.
+Flower Veil
+Ally Grass-type Pokemon are protected from status conditions and the lowering of their stats.
+Symbiosis
+Passes the Pokemon's hold item to its adjacent ally when that ally consumes its hold item.
+2
+None
+None
+2 0 1 0 19 669
+None
+670 0 0
+Using a Shiny Stone
+671 0 0
+
+670
+Floette
+Fairy Pokemon
+Fairy
+Fairy
+It gives its own power to flowers, pouring its heart into caring for them. Floette never forgives anyone who messes up a flower bed.
+Flower Veil
+Ally Grass-type Pokemon are protected from status conditions and the lowering of their stats.
+Symbiosis
+Passes the Pokemon's hold item to its adjacent ally when that ally consumes its hold item.
+2
+None
+None
+2 1 0 1 0 669
+None
+670 0 0
+Using a Shiny Stone
+671 0 0
+
+671
+Florges
+Garden Pokemon
+Fairy
+Fairy
+It controls the flowers it grows. The petal blizzards that Florges triggers are overwhelming in their beauty and power.
+Flower Veil
+Ally Grass-type Pokemon are protected from status conditions and the lowering of their stats.
+Symbiosis
+Passes the Pokemon's hold item to its adjacent ally when that ally consumes its hold item.
+2
+None
+None
+2 0 0 1 0 669
+None
+670 1 0
+Using a Shiny Stone
+671 0 0
+
+672
+Skiddo
+Mount Pokemon
+Grass
+Grass
+If it has sunshine and water, it doesn't need to eat, because it can generate energy from the leaves on its back.
+Sap Sipper
+Attack is raised by one stage when the Pokemon is hit by a Grass-type move. User recieves no damage from Grass-type attacks.
+Grass Pelt
+Increases Defense by 50% when battling on Grass or if the move Grassy Terrain is in effect.
+2
+None
+None
+1 0 1 0 32 672
+None
+0 0 32
+None
+673 0 0
+
+673
+Gogoat
+Mount Pokemon
+Grass
+Grass
+It can tell how its trainer is feeling by subtle shifts in the grip on its horns. This empathetic sense lets them run as if one being.
+Sap Sipper
+Attack is raised by one stage when the Pokemon is hit by a Grass-type move. User recieves no damage from Grass-type attacks.
+Grass Pelt
+Increases Defense by 50% when battling on Grass or if the move Grassy Terrain is in effect.
+2
+None
+None
+1 0 1 0 0 672
+None
+0 1 32
+None
+673 0 0
+
+674
+Pancham
+Playful Pokemon
+Fighting
+Fighting
+There's no point to the leaf in its mouth, aside from an effort to look cool. It's mischievous, so it's not well suited to inexperienced Trainers.
+Iron Fist
+The power of punching moves is increased by 20%.
+Scrappy
+Allows the Pokemon to hit Ghost-type Pokemon with Normal-type and Fighting-type moves.
+3
+Mold Breaker
+The Pokemon's moves are not affected by foe's abilities during battle.
+1 0 1 1 32 674
+None
+0 0 32
+Leveling up to level 32 with a Dark-type in your team
+675 0 0
+
+675
+Pangoro
+Daunting Pokemon
+Fighting
+Dark
+Pangoro is the type to talk with its fists. It doesn't say much as it pummels opponents with enough force to send a dump truck flying.
+Iron Fist
+The power of punching moves is increased by 20%.
+Scrappy
+Allows the Pokemon to hit Ghost-type Pokemon with Normal-type and Fighting-type moves.
+3
+Mold Breaker
+The Pokemon's moves are not affected by foe's abilities during battle.
+1 0 1 1 0 674
+None
+0 1 32
+Leveling up to level 32 with a Dark-type in your team
+675 0 0
+
+676
+Furfrou
+Poodle Pokemon
+Normal
+Normal
+Left alone, its fur will grow longer and longer, but it will only allow someone it trusts to cut it.
+Fur Coat
+Halves the damage from physical moves on this Pokemon
+None
+None
+1
+None
+None
+0 0 0 0 0 676
+None
+0 0 0
+None
+0 0 0
+
+677
+Espurr
+Restraint Pokemon
+Psychic
+Psychic
+The organ that emits its intense psychic power is sheltered by its ears to keep power from leaking out.
+Keen Eye
+Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
+Own Tempo
+The Pokemon cannot be Confused while having this ability.
+3
+Infiltrator
+The protections and stat boosts caused by the moves Substitute, Reflect, Light Screen and Safeguard by the opponent are ignored.
+1 0 1 0 25 677
+None
+0 0 25
+None
+678 0 0
+
+678
+Meowstic
+Constraint Pokemon
+Psychic
+Psychic
+The eyeball patterns on the interior of its ears emit psychic energy. It keeps the patterns tightly covered because that power is too immense.
+Keen Eye
+Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
+Prankster
+Status category moves have their Speed Priority increased by 1. Moves increased by this that are used on Dark-type opponents will fail.
+3
+Infiltrator
+The protections and stat boosts caused by the moves Substitute, Reflect, Light Screen and Safeguard by the opponent are ignored.
+1 0 1 0 0 677
+None
+0 1 25
+None
+678 0 0
+
+679
+Honedge
+Sword Pokemon
+Steel
+Ghost
+If anyone dares to grab its hilt, it wraps a blue cloth around that person's arm and drains that person's life energy completely.
+No Guard
+The accuracy of all moves known by this Pokemon and all Pokemon targeting this Pokemon raises to 100%.
+None
+None
+1
+None
+None
+2 0 1 0 35 679
+None
+680 0 0
+Using a Dusk Stone
+681 0 0
+
+680
+Doublade
+Sword Pokemon
+Steel
+Ghost
+The complex attack patterns of its two swords are unstoppable, even for an opponent greatly accomplished at swordplay.
+No Guard
+The accuracy of all moves known by this Pokemon and all Pokemon targeting this Pokemon raises to 100%.
+None
+None
+1
+None
+None
+2 1 0 1 0 679
+None
+680 0 0
+Using a Dusk Stone
+681 0 0
+
+681
+Aegislash
+Royal Sword Pokemon
+Steel
+Ghost
+Apparently, it can detect the innate qualities of leadership. According to legend, whoever it recognizes is destined to become king.
+Stance Change
+The Pokemon changes its form to Blade Forme when it uses an attack move, and changes to Shield Forme when it uses King's Shield.
+None
+None
+1
+None
+None
+2 0 0 1 0 679
+None
+680 1 0
+Using a Dusk Stone
+681 0 0
+
+682
+Spritzee
+Perfume Pokemon
+Fairy
+Fariy
+In the past, rather than using perfume, royal ladies carried a Spritzee that would waft a fragrance they liked.
+Healer
+At the end of the turn, there is a 30% chance of either Ally being healed from a status condition.
+Aroma Veil
+Protects itself and its allies from attacks that limit their move choices.
+2
+None
+None
+1 0 0 1 0 682
+None
+0 0 0
+Trade with Sachet
+683 0 0
+
+683
+Aromatisse
+Fragance Pokemon
+Fairy
+Fairy
+It devises various scents, pleasant and unpleasant, and emits scents that its enemies dislike in order to gain an edge in battle.
+Healer
+At the end of the turn, there is a 30% chance of either Ally being healed from a status condition.
+Aroma Veil
+Protects itself and its allies from attacks that limit their move choices.
+2
+None
+None
+1 0 0 1 0 682
+None
+0 1 0
+Trade with Sachet
+683 0 0
+
+684
+Swirlix
+Cotton Candy Pokemon
+Fairy
+Fairy
+To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy.
+Sweet Veil
+Prevents itself and ally Pokemon from falling asleep.
+Unburden
+Speed is doubled once the held item is consumed.
+2
+None
+None
+1 0 0 1 0 684
+None
+0 0 0
+Trade with Whipped Dream
+685 0 0
+
+685
+Slurpuff
+Meringue Pokemon
+Fairy
+Fairy
+Its sense of smell is 100 million times better than a human's, so even the faintest scent tells it about everything in the area. It's like it can see with its nose!
+Sweet Veil
+Prevents itself and ally Pokemon from falling asleep.
+Unburden
+Speed is doubled once the held item is consumed.
+2
+None
+None
+1 0 0 1 0 684
+None
+0 1 0
+Trade with Whipped Dream
+685 0 0
+
+686
+Inkay
+Revolving Pokemon
+Dark
+Psychic
+It draws prey near with its blinking lights and then wraps them up in its long tentacles and holds them in place.
+Contrary
+Moves used on the Pokemon that raise stats lower the stats, while the moves that lower the stats raise the stat.
+Infiltrator
+The protections and stat boosts caused by the moves Substitute, Reflect, Light Screen and Safeguard by the opponent are ignored.
+3
+Suction Cups
+Negates moves that force switching out.
+1 0 1 1 30 686
+None
+0 0 30
+Leveling up to level 30 while holding the 3DS upside-down
+687 0 0
+
+687
+Malamar
+Overturning Pokemon
+Dark
+Psychic
+It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.
+Contrary
+Moves used on the Pokemon that raise stats lower the stats, while the moves that lower the stats raise the stat.
+Infiltrator
+The protections and stat boosts caused by the moves Substitute, Reflect, Light Screen and Safeguard by the opponent are ignored.
+3
+Suction Cups
+Negates moves that force switching out.
+1 0 1 1 0 686
+None
+0 1 0
+Leveling up to level 30 while holding the 3DS upside-down
+687 0 0
+
+688
+Binacle
+Two-Handed Pokemon
+Rock
+Water
+They stretch and then contract, yanking their rocks along with them in bold hops. They eat seaweed that washes up on the shoreline.
+Tough Claws
+Increases the power of moves that make physical contact by 30%.
+Pickpocket
+When a Pokemon makes physical contact with the Pokemon, the item of the opponent is stolen.
+3
+Sniper
+Power of critical-hit moves is increased to 225% rather than 150%.
+1 0 1 0 39 688
+None
+0 0 39
+None
+689 0 0
+
+689
+Barbaracle
+Collective Pokemon
+Rock
+Water
+Barbaracle's legs and hands have minds of their own, and they will move independently. But they usually follow the head's orders.
+Tough Claws
+Increases the power of moves that make physical contact by 30%.
+Pickpocket
+When a Pokemon makes physical contact with the Pokemon, the item of the opponent is stolen.
+3
+Sniper
+Power of critical-hit moves is increased to 225% rather than 150%.
+1 0 1 0 0 688
+None
+0 1 39
+None
+689 0 0
+
+690
+Skrelp
+Mock Kelp Pokemon
+Poison
+Water
+It vanishes into seaweed and remains perfectly still to avoid attacks from large Pokémon. Rotten seaweed is its main food source.
+Poison Point
+The opponent has a 30% chance of being induced with Poison when using an attack, that requires physical contact, against this Pokemon.
+Adaptability
+Increases the Same Type Attack Bonus from *1.5 to *2.
+3
+Poison Touch
+When the Pokemon attacks its opponents with a move that causes Physical Contact, there is a 30% chance that the target is Poisoned.
+1 0 1 0 48 690
+None
+0 0 48
+None
+691 0 0
+
+691
+Dragalge
+Mock Kelp Pokemon
+Poison
+Dragon
+Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory.
+Poison Point
+The opponent has a 30% chance of being induced with Poison when using an attack, that requires physical contact, against this Pokemon.
+Adaptability
+Increases the Same Type Attack Bonus from *1.5 to *2.
+3
+Poison Touch
+When the Pokemon attacks its opponents with a move that causes Physical Contact, there is a 30% chance that the target is Poisoned.
+1 0 1 0 0 690
+None
+0 1 48
+None
+691 0 0
+
+692
+Clauncher
+Water Gun Pokemon
+Water
+Water
+It moves around by jetting water from its right pincer. It has a poor sense of balance, so it's terrible at swimming straight.
+Mega Launcher
+Increases the power of Aura and Pulse moves by 50%.
+None
+None
+1
+None
+None
+1 0 1 0 37 692
+None
+0 0 37
+None
+693 0 0
+
+693
+Clawitzer
+Howitzer Pokemon
+Water
+Water
+It compresses the water it has sucked up and then projects it with enough power to punch a hole right through a thick sheet of iron.
+Mega Launcher
+Increases the power of Aura and Pulse moves by 50%.
+None
+None
+1
+None
+None
+1 0 1 0 0 693
+None
+0 1 37
+None
+693 0 0
+
+694
+Helioptile
+Generator Pokemon
+Electric
+Normal
+They make their home in deserts. They can generate their energy from basking in the sun, so eating food is not a requirement.
+Dry Skin
+HP is restored when hit by Water-type moves or when it is raining but also makes the Pokemon weak to Fire-type moves and reduces HP during strong sunlight.
+Solar Power
+During sunshine, the Pokemon's Special Attack raises to 1.5 times but HP decreases by 1/8th the maximum HP every turn.
+3
+Sand Veil
+Raises the Pokemon’s evasion during a sandstorm by one level.
+1 0 0 1 0 694
+None
+0 0 0
+Using a Sun Stone
+695 0 0
+
+695
+Heliolisk
+Generator Pokemon
+Electric
+Normal
+It stimulates its muscles with electricity, boosting the strength in its legs and enabling it to run 100 yards in five seconds.
+Dry Skin
+HP is restored when hit by Water-type moves or when it is raining but also makes the Pokemon weak to Fire-type moves and reduces HP during strong sunlight.
+Solar Power
+During sunshine, the Pokemon's Special Attack raises to 1.5 times but HP decreases by 1/8th the maximum HP every turn.
+3
+Sand Veil
+Raises the Pokemon’s evasion during a sandstorm by one level.
+1 0 0 1 0 694
+None
+0 1 0
+Using a Sun Stone
+695 0 0
+
+696
+Tyrunt
+Royal Heir Pokemon
+Rock
+Dragon
+This Pokemon was restored from a fossil. If something happens that it doesn't like, it throws a tantrum and runs wild.
+Strong Jaw
+Increases the power of biting moves by 50%.
+Sturdy
+The Pokemon will remain with 1 HP if it was going to be knocked out by a move when at full Hit Points, and it is immune to One Hit KO moves.
+2
+None
+None
+1 0 1 1 39 696
+None
+0 0 39
+Leveling up to level 39 in the Daytime
+697 0 0
+
+697
+Tyrantrum
+Despot Pokemon
+Rock
+Dragon
+Thanks to its gargantuan jaws, which could shred thick metal plates as if they were paper, it was invincible in the ancient world it once inhabited.
+Strong Jaw
+Increases the power of biting moves by 50%.
+Rock Head
+Does not receive recoil damage from recoil-causing damages.
+2
+None
+None
+1 0 1 1 0 696
+None
+0 1 39
+Leveling up to level 39 during the Daytime
+697 0 0
+
+698
+Amaura
+Tundra Pokemon
+Rock
+Ice
+It lived in cold areas in ancient times. It's said that when Amaura whinnies, auroras appear in the night sky.
+Refrigerate
+Increases the power of Normal-type moves by 20%. It then changes those moves to Ice-type.
+Snow Warning
+Hailstorm blows when the Pokemon enters battle. As of X & Y, this lasts 5 turns.
+2
+None
+None
+1 0 1 1 39 698
+None
+0 0 39
+Leveling up to level 39 during the Nighttime
+699 0 0
+
+699
+Aurorus
+Tundra Pokemon
+Rock
+Ice
+The diamond-shaped crystals on its body expel air as cold as -240 degrees Fahrenheit, surrounding its enemies and encasing them in ice.
+Refrigerate
+Increases the power of Normal-type moves by 20%. It then changes those moves to Ice-type.
+Snow Warning
+Hailstorm blows when the Pokemon enters battle. As of X & Y, this lasts 5 turns.
+2
+None
+None
+1 0 1 1 0 698
+None
+0 1 39
+Leveling up to level 39 during the Nighttime
+699 0 0
+
+700
+Sylveon
+Intertwining Pokemon
+Fairy
+Fairy
+Sylveon wraps its ribbonlike feelers around its Trainer's arm because this touch enables it to read its Trainer's feelings.
+Cute Charm
+The opponent has a 30% chance of being induced with Attract when using an attack, that requires physical contact, against this Pokemon.
+Pixilate
+Increases the power of Normal-type moves by 20%. It then changes those moves to Fairy-type.
+2
+None
+None
+8 0 1 1 0 133
+None
+0 1 0
+Leveling up with Bond of 2 Hearts in Pokemon Refresh
+700 1 0
+
+701
+Hawlucha
+Wrestling Pokemon
+Fighting
+Flying
+In combat, Hawlucha leaps nimbly about, taking advantage of its opponents' blind spots. It's also skilled at using superb submission holds.
+Limber
+The Pokemon cannot be Paralysed while having this ability.
+Mold Breaker
+The Pokemon's moves are not affected by foe's abilities during battle.
+3
+Unburden
+Speed is doubled once the held item is consumed.
+0 0 0 0 0 701
+None
+0 0 0
+None
+0 0 0
+
+702
+Dedenne
+Antenna Pokemon
+Electric
+Fairy
+It sneaks into people's homes and steals electricity from their outlets. When your electric bill seems off, it's the handiwork of this rascal.
+Cheek Pouch
+Restores HP as well when the Pokemon eats a Berry.
+Plus
+When battling with Plus or Minus, Special Attack increases by 50%.
+3
+Pickup
+Has a 10% chance of finding and holding an item after battle. Will not work if this Pokemon is already holding an item. From Black & White, it allows for the user to pick up the item of its opponent or ally if they used up the item in battle.
+0 0 0 0 0 702
+None
+0 0 0
+None
+0 0 0
+
+703
+Carbink
+Jewel Pokemon
+Rock
+Fairy
+Born from the high temperatures and pressures deep underground, it defends itself by firing beams from the jewel part of its body.
+Clear Body
+Opponents' moves which lower this Pokemon's stats will have no effect. However this Pokemon may lower its own stats with its own moves.
+Sturdy
+The Pokemon will remain with 1 HP if it was going to be knocked out by a move when at full Hit Points, and it is immune to One Hit KO moves.
+2
+None
+None
+0 0 0 0 0 703
+None
+0 0 0
+None
+0 0 0
+
+704
+Goomy
+Soft Tissue Pokemon
+Dragon
+Dragon
+It uses its horns to check out its surroundings. They're very sensitive, so if you grab them, it will feel a strong shock and be unable to move.
+Sap Sipper
+Attack is raised by one stage when the Pokemon is hit by a Grass-type move. User recieves no damage from Grass-type attacks.
+Gooey
+Lowers the opponent's Speed by one stage when it makes physical contact.
+3
+Hydration
+All status problems: Burn, Paralysis, Sleep, Frozen and Poison, are healed when raining.
+2 0 1 0 40 704
+None
+705 0 50
+Leveling up to level 50 in the Rain
+706 0 0
+
+705
+Sliggoo
+Soft Tissue Pokemon
+Dragon
+Dragon
+This Pokémon's mucous can dissolve anything. Toothless, it sprays mucous on its prey. Once they're nicely dissolved, it slurps them up.
+Sap Sipper
+Attack is raised by one stage when the Pokemon is hit by a Grass-type move. User recieves no damage from Grass-type attacks.
+Gooey
+Lowers the opponent's Speed by one stage when it makes physical contact.
+3
+Hydration
+All status problems: Burn, Paralysis, Sleep, Frozen and Poison, are healed when raining.
+2 1 1 1 50 704
+None
+705 0 50
+Leveling up to level 50 in the Rain
+706 0 0
+
+706
+Goodra
+Dragon Pokemon
+Dragon
+Dragon
+It's very friendly toward people. If you grow close to it, Goodra will hug you with its sticky, slime-covered body. Don't get mad.
+Sap Sipper
+Attack is raised by one stage when the Pokemon is hit by a Grass-type move. User recieves no damage from Grass-type attacks.
+Gooey
+Lowers the opponent's Speed by one stage when it makes physical contact.
+3
+Hydration
+All status problems: Burn, Paralysis, Sleep, Frozen and Poison, are healed when raining.
+2 0 1 1 0 704
+None
+705 1 50
+None
+706 0 0
+
+707
+Klefki
+Key Ring Pokemon
+Steel
+Fairy
+This even-tempered Pokemon has a habit of collecting keys. It will sneak into people's homes to steal their keys.
+Prankster
+Status category moves have their Speed Priority increased by 1. Moves increased by this that are used on Dark-type opponents will fail.
+Magician
+The Pokemon steals the held item of a Pokémon it hits with a move.
+2
+None
+None
+0 0 0 0 0 707
+None
+0 0 0
+None
+0 0 0
+
+708
+Phantump
+Stump Pokemon
+Ghost
+Grass
+These Pokémon are stumps possessed by the spirits of children who died in the forest. Their cries sound like eerie screams.
+Natural Cure
+The Pokemon's status (BURN, PARALYZE, SLEEP, POISON, FREEZE) is healed when withdrawn from battle.
+Harvest
+The Pokemon has a 50% chance of restoring a consumed berry. During sunshine, this chance increases to 100%.
+3
+Frisk
+Reveals the foe’s held item.
+1 0 0 1 0 708
+None
+0 0 0
+Trade
+709 0 0
+
+709
+Trevenant
+Elder Tree Pokemon
+Ghost
+Grass
+This Pokémon controls trees via roots stretching from its feet, and it will attack anyone that dares to ravage the forest.
+Natural Cure
+The Pokemon's status (BURN, PARALYZE, SLEEP, POISON, FREEZE) is healed when withdrawn from battle.
+Harvest
+The Pokemon has a 50% chance of restoring a consumed berry. During sunshine, this chance increases to 100%.
+3
+Frisk
+Reveals the foe’s held item.
+1 0 0 1 0 708
+None
+0 1 0
+Trade
+709 0 0
+
+710
+Pumpkaboo
+Pumpkin Pokemon
+Ghost
+Grass
+The pumpkin body is inhabited by a spirit trapped in this world. As the sun sets, it becomes restless and active.
+Pickup
+Has a 10% chance of finding and holding an item after battle. Will not work if this Pokemon is already holding an item. From Black & White, it allows for the user to pick up the item of its opponent or ally if they used up the item in battle.
+Insomnia
+The Pokemon cannot be put to Sleep while having this ability.
+3
+Frisk
+Reveals the foe’s held item.
+1 0 0 1 0 710
+None
+0 0 0
+Trade
+711 0 0
+
+711
+Gourgeist
+Pumpkin Pokemon
+Ghost
+Grass
+Singing in eerie voices, they wander town streets on the night of the new moon. Anyone who hears their song is cursed.
+Pickup
+Has a 10% chance of finding and holding an item after battle. Will not work if this Pokemon is already holding an item. From Black & White, it allows for the user to pick up the item of its opponent or ally if they used up the item in battle.
+Insomnia
+The Pokemon cannot be put to Sleep while having this ability.
+3
+Frisk
+Reveals the foe’s held item.
+1 0 0 1 0 710
+None
+0 1 0
+Trade
+711 0 0
+
+712
+Bergmite
+Ice Chunk Pokemon
+Ice
+Ice
+Using air of -150 degrees Fahrenheit, they freeze opponents solid. They live in herds above the snow line on mountains.
+Own Tempo
+The Pokemon cannot be Confused while having this ability.
+Sturdy
+The Pokemon will remain with 1 HP if it was going to be knocked out by a move when at full Hit Points, and it is immune to One Hit KO moves.
+3
+Ice Body
+HP is restored by 1/16th of maximum HP when its hailing.
+1 0 1 0 37 712
+None
+0 0 37
+None
+713 0 0
+
+713
+Avalugg
+Iceberg Pokemon
+Ice
+Ice
+The way several Bergmite huddle on its back make it look like an aircraft carrier made of ice.
+Own Tempo
+The Pokemon cannot be Confused while having this ability.
+Sturdy
+The Pokemon will remain with 1 HP if it was going to be knocked out by a move when at full Hit Points, and it is immune to One Hit KO moves.
+3
+Ice Body
+HP is restored by 1/16th of maximum HP when its hailing.
+1 0 1 0 0 712
+None
+0 1 37
+None
+713 0 0
+
+714
+Noibat
+Sound Wave Pokemon
+Flying
+Dragon
+Even a robust wrestler will become dizzy and unable to stand when exposed to its 200,000-hertz ultrasonic waves.
+Frisk
+Reveals the foe’s held item.
+Telepathy
+Prevents damage from team-mates during Double and Triple battles.
+3
+Infiltrator
+The protections and stat boosts caused by the moves Substitute, Reflect, Light Screen and Safeguard by the opponent are ignored.
+1 0 1 0 48 714
+None
+0 0 48
+None
+715 0 0
+
+715
+Noivern
+Sound Wave Pokemon
+Flying
+Dragon
+The ultrasonic waves it emits from its ears can reduce a large boulder to pebbles. It swoops out of the dark to attack.
+Frisk
+Reveals the foe’s held item.
+Telepathy
+Prevents damage from team-mates during Double and Triple battles.
+3
+Infiltrator
+The protections and stat boosts caused by the moves Substitute, Reflect, Light Screen and Safeguard by the opponent are ignored.
+1 0 1 0 0 714
+None
+0 1 48
+None
+715 0 0
+
+716
+Xerneas
+Life Pokemon
+Fairy
+Fairy
+When the horns on its head shine in seven different colors, it is said to be sharing everlasting life.
+Fairy Aura
+Powers up every Pokemon in play's Fairy-type moves by 33.3%.
+None
+None
+1
+None
+None
+0 0 0 0 0 716
+None
+0 0 0
+None
+0 0 0
+
+717
+Yveltal
+Destruction Pokemon
+Dark
+Flying
+When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.
+Dark Aura
+Powers up every Pokémon in play's Dark-type moves by 33.3%.
+None
+None
+1
+None
+None
+0 0 0 0 0 717
+None
+0 0 0
+None
+0 0 0
+
+718
+Zygarde
+Order Pokemon
+Dragon
+Ground
+This is Zygarde's form when it has gathered 50% of its cells. It wipes out all those who oppose it, showing not a shred of mercy.
+Aura Break
+The effects of Aura Abilities are reversed to lower the power of affected moves.
+Power Construct
+Other Cells gather to aid when its HP becomes half or less. Then the Pokemon changes its form to Complete Forme.
+2
+None
+None
+0 0 0 0 0 718
+None
+0 0 0
+None
+0 0 0
+
+719
+Diancie
+Jewel Pokemon
+Rock
+Fairy
+A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.
+Clear Body
+Opponents' moves which lower this Pokemon's stats will have no effect. However this Pokemon may lower its own stats with its own moves.
+None
+None
+1
+None
+None
+0 0 0 0 0 719
+None
+0 0 0
+None
+0 0 0
+
+720
+Hoopa
+Mischief Pokemon
+Psychic
+Ghost
+It is said to be able to seize anything it desires with its six rings and six huge arms. With its powers sealed, it is transformed into a much smaller form.
+Magician
+The Pokémon steals the held item of a Pokemon it hits with a move.
+None
+None
+1
+None
+None
+0 0 0 0 0 720
+None
+0 0 0
+None
+0 0 0
+
+721
+Volcanion
+Steam Pokemon
+Fire
+Water
+It lets out billows of steam and disappears into the dense fog. It's said to live in mountains where humans do not tread.
+Water Absorb
+The Pokemon heals up to 1/4 of its maximum Hit Points when hit with Water-type moves.
+None
+None
+1
+None
+None
+0 0 0 0 0 721
+None
+0 0 0
+None
+0 0 0
