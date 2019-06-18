@@ -1,0 +1,1633 @@
+722
+Rowlet
+Grass Quill Pokemon
+Grass
+Flying
+It sends its feathers, which are as sharp as blades, flying in attack. Its legs are strong, so its kicks are also formidable.
+Overgrow
+When HP is below 1/3rd its maximum, power of Grass-type moves is increased by 50%.
+Long Reach
+The Pokemon uses its moves without making contact with the target.
+2
+None
+None
+2 0 1 0 17 722
+None
+723 0 34
+None
+724 0 0
+
+723
+Dartrix
+Blade Quill Pokemon
+Grass
+Flying
+Supremely sensitive to the presence of others, it can detect opponents standing behind it, flinging its sharp feathers to take them out.
+Overgrow
+When HP is below 1/3rd its maximum, power of Grass-type moves is increased by 50%.
+Long Reach
+The Pokemon uses its moves without making contact with the target.
+2
+None
+None
+2 1 1 0 34 722
+None
+723 0 34
+None
+724 0 0
+
+724
+Decidueye
+Arrow Quill Pokemon
+Grass
+Ghost
+Decidueye can nock and fire an arrow at an enemy in a tenth of a second, so its battles are decided in the blink of an eye.
+Overgrow
+When HP is below 1/3rd its maximum, power of Grass-type moves is increased by 50%.
+Long Reach
+The Pokemon uses its moves without making contact with the target.
+2
+None
+None
+2 0 1 0 0 722
+None
+723 1 34
+None
+724 0 0
+
+725
+Litten
+Fire Cat Pokemon
+Fire
+Fire
+If you try too hard to get close to it, it won't open up to you. Even if you do grow close, giving it too much affection is still a no-no.
+Blaze
+When HP is below 1/3rd its maximum, power of Fire-type moves is increased by 50%.
+Intimidate
+Upon entering battle, the opponent’s Attack lowers one stage. In a Double Battle, both opponents’ Attack are lowered. Pokemon with the Clear Body, Hyper Cutter, or White Smoke ability are unaffected. In a link battle, if both sides switch on the same turn, and first player sends out a Pokemon with Intimidate, the opponent’s Attack will be lowered before the opponent’s Pokemon switches. Opponents in S.O.S. Battles are more likely to call for help.
+2
+None
+None
+2 0 1 0 17 725
+None
+726 0 34
+None
+727 0 0
+
+726
+Torracat
+Fire Cat Pokemon
+Fire
+Fire
+It can act spoiled if it grows close to its Trainer. A powerful Pokemon, its sharp claws can leave its Trainer's whole body covered in scratches.
+Blaze
+When HP is below 1/3rd its maximum, power of Fire-type moves is increased by 50%.
+Intimidate
+Upon entering battle, the opponent’s Attack lowers one stage. In a Double Battle, both opponents’ Attack are lowered. Pokemon with the Clear Body, Hyper Cutter, or White Smoke ability are unaffected. In a link battle, if both sides switch on the same turn, and first player sends out a Pokemon with Intimidate, the opponent’s Attack will be lowered before the opponent’s Pokemon switches. Opponents in S.O.S. Battles are more likely to call for help.
+2
+None
+None
+2 1 1 0 34 725
+None
+726 0 34
+None
+727 0 0
+
+727
+Incineroar
+Heel Pokemon
+Fire
+Dark
+Although it's rough mannered and egotistical, it finds beating down unworthy opponents boring. It gets motivated for stronger opponents.
+Blaze
+When HP is below 1/3rd its maximum, power of Fire-type moves is increased by 50%.
+Intimidate
+Upon entering battle, the opponent’s Attack lowers one stage. In a Double Battle, both opponents’ Attack are lowered. Pokemon with the Clear Body, Hyper Cutter, or White Smoke ability are unaffected. In a link battle, if both sides switch on the same turn, and first player sends out a Pokemon with Intimidate, the opponent’s Attack will be lowered before the opponent’s Pokemon switches. Opponents in S.O.S. Battles are more likely to call for help.
+2
+None
+None
+2 0 1 0 0 725
+None
+726 1 34
+None
+727 0 0
+
+728
+Popplio
+Sea Lion Pokemon
+Water
+Water
+This Pokemon snorts body fluids from its nose, blowing balloons to smash into its foes. It's famous for being a hard worker.
+Torrent
+When HP is below 1/3rd its maximum, power of Water-type moves is increased by 50%.
+Liquid Voice
+All sound-based moves become Water-type moves.
+2
+None
+None
+2 0 1 0 17 728
+None
+729 0 34
+None
+730 0 0
+
+729
+Brionne
+Pop Star Pokemon
+Water
+Water
+It gets excited when it sees a dance it doesn't know. This hard worker practices diligently until it can learn that dance.
+Torrent
+When HP is below 1/3rd its maximum, power of Water-type moves is increased by 50%.
+Liquid Voice
+All sound-based moves become Water-type moves.
+2
+None
+None
+2 1 1 0 34 728
+None
+729 0 34
+None
+730 0 0
+
+730
+Primarina
+Soloist Pokemon
+Water
+Fairy
+Its singing voice is its chief weapon in battle. This Pokemon's Trainer must prioritize the daily maintenance of its throat at all costs.
+Torrent
+When HP is below 1/3rd its maximum, power of Water-type moves is increased by 50%.
+Liquid Voice
+All sound-based moves become Water-type moves.
+2
+None
+None
+2 0 1 0 0 728
+None
+729 1 34
+None
+730 0 0
+
+731
+Pikipek
+Woodpecker Pokemon
+Normal
+Flying
+It pecks at trees with its hard beak. You can get some idea of its mood or condition from the rhythm of its pecking.
+Keen Eye
+Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
+Pickup
+Has a 10% chance of finding and holding an item after battle. Will not work if this Pokemon is already holding an item. From Black & White, it allows for the user to pick up the item of its opponent or ally if they used up the item in battle.
+3
+Skill Link
+Moves that attack 2-5 times always hit 5 times.
+2 0 1 0 14 731
+None
+732 0 28
+None
+733 0 0
+
+732
+Trumbeak
+Bugle Beak Pokemon
+Normal
+Flying
+From its mouth, it fires the seeds of berries it has eaten. The scattered seeds give rise to new plants.
+Keen Eye
+Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
+Pickup
+Has a 10% chance of finding and holding an item after battle. Will not work if this Pokemon is already holding an item. From Black & White, it allows for the user to pick up the item of its opponent or ally if they used up the item in battle.
+3
+Skill Link
+Moves that attack 2-5 times always hit 5 times.
+2 1 1 0 28 731
+None
+732 0 28
+None
+733 0 0
+
+733
+Toucannon
+Cannon Pokemon
+Normal
+Flying
+They smack beaks with others of their kind to communicate. The strength and number of hits tell each other how they feel.
+Keen Eye
+Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
+Pickup
+Has a 10% chance of finding and holding an item after battle. Will not work if this Pokemon is already holding an item. From Black & White, it allows for the user to pick up the item of its opponent or ally if they used up the item in battle.
+3
+Skill Link
+Moves that attack 2-5 times always hit 5 times.
+2 0 1 0 0 731
+None
+732 1 28
+None
+733 0 0
+
+734
+Yungoos
+Loitering Pokemon
+Normal
+Normal
+Its stomach takes up most of its long torso. It's a big eater, so the amount Trainers have to spend on its food is no laughing matter.
+Stakeout
+Doubles the damage dealt to the target's replacement if the target switches out.
+Adaptability
+Increases the Same Type Attack Bonus from *1.5 to *2.
+3
+Strong Jaw
+Increases the power of biting moves by 50%.
+1 0 1 1 20 734
+None
+0 0 20
+Leveling up to level 20 during the Daytime
+735 0 0
+
+735
+Gumshoos
+Stakeout Pokemon
+Normal
+Normal
+It adores having Rattata and Raticate for dinner, but as it's diurnal, it never encounters them. This Pokemon boasts incredible patience.
+Stakeout
+Doubles the damage dealt to the target's replacement if the target switches out.
+Adaptability
+Increases the Same Type Attack Bonus from *1.5 to *2.
+3
+Strong Jaw
+Increases the power of biting moves by 50%.
+1 0 1 1 0 734
+None
+0 1 20
+Leveling up to level 20 during the Daytime
+735 0 0
+
+736
+Grubbin
+Larva Pokemon
+Bug
+Bug
+It spits a sticky thread to stop opponents in their tracks, and then it grabs them in its sharp, sturdy mandibles to take them down.
+Swarm
+When HP is below 1/3rd its maximum, power of Bug-type moves is increased by 50%.
+None
+None
+1
+None
+None
+2 0 1 0 20 736
+None
+737 0 0
+Leveling up while at Blush Mountain/Vast Poni Canyon
+738 0 0
+
+737
+Charjabug
+Battery Pokemon
+Bug
+Electric
+It buries itself in fallen leaves and barely moves, munching away on humus. If you accidentally step on one, you'll get a shock!
+Battery
+Powers up ally Pokemon's special moves.Boosts Ally Pokemon's Special Attack by 30%.
+None
+None
+1
+None
+None
+2 1 1 1 0 736
+None
+737 0 0
+Leveling up while at Blush Mountain/Vast Poni Canyon
+738 0 0
+
+738
+Vikavolt
+Stag Beetle Pokemon
+Bug
+Electric
+It has an organ that generates electricity in its abdomen. It concentrates energy in its strong jaws and fires off powerful jolts of electricity.
+Levitate
+Damage dealing Ground-type moves have no effect on this Pokemon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes.
+None
+None
+1
+None
+None
+2 0 1 1 0 736
+None
+737 1 0
+Leveling up while at Blush Mountain/Vast Poni Canyon
+738 0 0
+
+739
+Crabrawler
+Boxing Pokemon
+Fighting
+Fighting
+Its hard pincers are well suited to both offense and defense. Fights between two Crabrawler are like boxing matches.
+Hyper Cutter
+Opponent cannot lower this Pokemon’s Attack value. This Pokemon may still lower its own Attack value using a move of by itself.
+Anger Point
+Increases Attack to maximum level upon taking a critical hit.
+3
+Iron Fist
+The power of punching moves is increased by 20%.
+1 0 1 1 1 739
+None
+0 0 0
+Leveling up on top of Mount Lanakina
+740 0 0
+
+740
+Crabominable
+Wooly Crab Pokemon
+Fighting
+Ice
+It just throws punches indiscriminately. In times of desperation, it can lop off its own pincers and fire them like rockets.
+Hyper Cutter
+Opponent cannot lower this Pokemon’s Attack value. This Pokemon may still lower its own Attack value using a move of by itself.
+Anger Point
+Increases Attack to maximum level upon taking a critical hit.
+3
+Iron Fist
+The power of punching moves is increased by 20%.
+1 0 1 1 0 739
+None
+0 1 0
+Leveling up on top of Mount Lanakina
+740 0 0
+
+741
+Oricorio(type changes based on Style)
+Dancing Pokemon
+Fire
+Flying
+It wins the hearts of its enemies with its passionate dancing and then uses the opening it creates to burn them up with blazing flames.
+Dancer
+When another Pokemon uses a dance move, it can use a dance move following it regardless of its Speed.
+None
+None
+1
+None
+None
+0 0 0 0 0 741
+None
+0 0 0
+None
+0 0 0
+
+742
+Cutiefly
+Bee Fly Pokemon
+Bug
+Fairy
+Cutiefly can pick up the auras of living things. It skillfully reads those auras to predict its foes' movements and make fools of them.
+Honey Gather
+May pick up a Honey after battle; the higher the level, the higher the chance.
+Sweet Veil
+Prevents itself and ally Pokemon from falling asleep.
+3
+Shield Dust
+Damaging moves used by the opponent will not have an additional effect.
+1 0 1 0 25 742
+None
+0 0 25
+None
+743 0 0
+
+743
+Ribombee
+Bee Fly Pokemon
+Bug
+Fairy
+Rain makes pollen damp, so Ribombee hates rain. When it sees ominous clouds, it finds a hollow in a tree, where it waits stock-still.
+Honey Gather
+May pick up a Honey after battle; the higher the level, the higher the chance.
+Sweet Veil
+Prevents itself and ally Pokemon from falling asleep.
+3
+Shield Dust
+Damaging moves used by the opponent will not have an additional effect.
+1 0 1 0 0 742
+None
+0 1 25
+None
+743 0 0
+
+744
+Rockruff
+Puppy Pokemon
+Rock
+Rock
+As they develop, their disposition grows more violent and aggressive. Many Trainers find them too much to handle and abandon them.
+Keen Eye
+Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
+Own Tempo
+The Pokemon cannot be Confused while having this ability.
+3
+Vital Spirit
+The Pokemon cannot be Asleep while having this ability.
+1 0 1 1 25 744
+None
+0 0 25
+Leveling up to level 25 during the Daytime
+745 0 0
+
+745
+Lycanroc
+Wolf Pokemon
+Rock
+Rock
+When properly raised from a young age, it will become a trustworthy partner that will absolutely never betray its Trainer.
+Keen Eye
+Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
+Steadfast
+Speed raises by one level every time the Pokemon flinches.
+3
+Sand Rush
+Speed is doubled during a sandstorm.
+1 0 1 1 0 744
+None
+0 1 25
+Leveling up to level 25 during the day
+745 0 0
+
+746
+Wishiwashi
+Small Fry Pokemon
+Water
+Water
+They're weak, so they move in schools. However, they can also often be seen all alone, having strayed from the school.
+Schooling
+Changes the Pokemon's form when it is Level 20 and has more than 25% Hit Points. When Hit Points drop below 25%, it changes back to Solo Form.
+None
+None
+1
+None
+None
+0 0 0 0 0 746
+None
+0 0 0
+None
+0 0 0
+
+747
+Mareanie
+Brutal Star Pokemon
+Poison
+Water
+They eat Corsola branches, so Mareanie are hated by craftsmen who work with Corsola branches that have naturally fallen off.
+Merciless
+The Pokemon's attacks become critical hits if the target is poisoned.
+Regenerator
+When the Pokemon switches out of battle, up to 33.3% of its maximum Hit Points are restored
+3
+Limber
+The Pokemon cannot be Paralysed while having this ability.
+1 0 1 0 38 747
+None
+0 0 38
+None
+748 0 0
+
+748
+Toxapex
+Brutal Star Pokemon
+Poison
+Water
+To attack, this Pokémon sends toxic spikes flying at its enemies. Ones that come close get mown down by the claws on its feet.
+Merciless
+The Pokemon's attacks become critical hits if the target is poisoned.
+Regenerator
+When the Pokemon switches out of battle, up to 33.3% of its maximum Hit Points are restored
+3
+Limber
+The Pokemon cannot be Paralysed while having this ability.
+1 0 1 0 0 747
+None
+0 1 38
+None
+748 0 0
+
+749
+Mudbray
+Donkey Pokemon
+Ground
+Ground
+It loves playing in the mud. If it isn't showered with mud on a daily basis, it gets stressed out and stops listening to its Trainer.
+Own Tempo
+The Pokemon cannot be Confused while having this ability.
+Inner Focus
+This Pokemon will not flinch. Does not prevent flinching with Focus Punch.
+3
+Staminia
+Boosts the Defense stat when hit by an attack.
+1 0 1 0 30 749
+None
+0 0 30
+None
+750 0 0
+
+750
+Mudsdale
+Draft Horse Pokemon
+Ground
+Ground
+It remains calm and unmoving no matter the situation. It mixes dirt with the saliva in its mouth to make a special kind of mud.
+Own Tempo
+The Pokemon cannot be Confused while having this ability.
+Inner Focus
+This Pokemon will not flinch. Does not prevent flinching with Focus Punch.
+3
+Staminia
+Boosts the Defense stat when hit by an attack.
+1 0 1 0 0 749
+None
+0 1 30
+None
+750 0 0
+
+751
+Dewpider
+Water Bubble Pokemon
+Water
+Bug
+When two Dewpider meet, they display their water bubbles to each other. Then the one with the smaller bubble gets out of the other's way.
+Water Bubble
+Decreases Fire-type move power on the Pokemon by 50%. Increases power of Water-type moves used by the Pokémon by 100% before adding STAB. Prevents Burn.
+Water Absorb
+The Pokemon heals up to 1/4 of its maximum Hit Points when hit with Water-type moves.
+2
+None
+None
+1 0 1 0 22 751
+None
+0 0 22
+None
+752 0 0
+
+752
+Araquanid
+Water Bubble Pokemon
+Water
+Bug
+It delivers headbutts with the water bubble on its head. Small Pokémon get sucked into the bubble, where they drown.
+Water Bubble
+Decreases Fire-type move power on the Pokemon by 50%. Increases power of Water-type moves used by the Pokémon by 100% before adding STAB. Prevents Burn.
+Water Absorb
+The Pokemon heals up to 1/4 of its maximum Hit Points when hit with Water-type moves.
+2
+None
+None
+1 0 1 0 0 751
+None
+0 1 22
+None
+752 0 0
+
+753
+Fomantis
+Sickle Grass Pokemon
+Grass
+Grass
+When the sun rises, Fomantis spreads its four leaves and bathes in the sunlight. The tip of its head has a pleasant aroma.
+Leaf Guard
+Prevents the Pokemon from being afflicted by status conditions during strong sunlight.
+Contrary
+Moves used on the Pokemon that raise stats lower the stats, while the moves that lower the stats raise the stat.
+2
+None
+None
+1 0 1 1 34 753
+None
+0 0 34
+Leveling up to level 34 during the Daytime
+754 0 0
+
+754
+Lurantis
+Bloom Sickle Pokemon
+Grass
+Grass
+As it slashes into its enemies, it looks like it's dancing. Its elegant appearance has led some to call it the most glamorous Grass Pokemon.
+Leaf Guard
+Prevents the Pokemon from being afflicted by status conditions during strong sunlight.
+Contrary
+Moves used on the Pokemon that raise stats lower the stats, while the moves that lower the stats raise the stat.
+2
+None
+None
+1 0 1 1 0 753
+None
+0 1 34
+Leveling up to level 34 during the Daytime
+754 0 0
+
+755
+Morelull
+Illuminating Pokemon
+Grass
+Fairy
+It scatters its shining spores around itself. Even though they're dangerous, nighttime tours of forests where Morelull live are popular.
+Illuminate
+Raises the likelihood of meeting wild Pokemon by illuminating the surroundings.
+Rain Dish
+If Heavy Rain weather is in effect, recovers 1/16th max Hit Points at the end of the turn.
+3
+Effect Spore
+The opponent has a 10% chance of being induced by PARALYZE, POISON, or SLEEP when using an attack, that requires physical contact, against this Pokemon.
+1 0 1 0 24 755
+None
+0 0 24
+None
+756 0 0
+
+756
+Shiinotic
+Illuminating Pokemon
+Grass
+Fairy
+It emits flickering spores that cause drowsiness. When its prey succumb to sleep, this Pokémon feeds on them by sucking in their energy.
+Illuminate
+Raises the likelihood of meeting wild Pokemon by illuminating the surroundings.
+Rain Dish
+If Heavy Rain weather is in effect, recovers 1/16th max Hit Points at the end of the turn.
+3
+Effect Spore
+The opponent has a 10% chance of being induced by PARALYZE, POISON, or SLEEP when using an attack, that requires physical contact, against this Pokemon.
+1 0 1 0 0 755
+None
+0 1 24
+None
+756 0 0
+
+757
+Salandit
+Toxic Lizard Pokemon
+Poison
+Fire
+The males will do whatever the females tell them. They give the females most of their food. Due to malnutrition, the males can't evolve.
+Corrosion
+The Pokemon can poison the target even if it's a Steel or Poison type.
+Oblivious
+The Pokemon cannot be under the Attract condition, or be taunted, while having this ability.
+2
+None
+None
+1 0 1 1 33 757
+None
+0 0 33
+Leveling up to level 33 with a Female
+758 0 0
+
+758
+Salazzle
+Toxic Lizard Pokemon
+Poison
+Fire
+It punishes Salandit that couldn't bring it food with a fierce slap of its flame-spewing palm.
+Corrosion
+The Pokemon can poison the target even if it's a Steel or Poison type.
+Oblivious
+The Pokemon cannot be under the Attract condition, or be taunted, while having this ability.
+2
+None
+None
+1 0 1 1 0 757
+None
+0 1 33
+Leveling up to level 33 with a Female
+758 0 0
+
+759
+Stufful
+Flailing Pokemon
+Normal
+Fighting
+Despite its adorable appearance, when it gets angry and flails about, its arms and legs could knock a pro wrestler sprawling.
+Fluffy
+Halves the damage taken from moves that make direct contact, but doubles that of Fire-type moves.
+Cute Charm
+The opponent has a 30% chance of being induced with Attract when using an attack, that requires physical contact, against this Pokemon.
+3
+Klutz
+The Pokemon cannot receive any effect of hold items except those that affect experience such as Exp.Share or Macho Brace.
+1 0 1 0 27 759
+None
+0 0 27
+None
+760 0 0
+
+760
+Bewear
+Strong Arm Pokemon
+Normal
+Fighting
+This Pokemon has the habit of hugging its companions. Many Trainers have left this world after their spines were squashed by its hug.
+Fluffy
+Halves the damage taken from moves that make direct contact, but doubles that of Fire-type moves.
+Unnerve
+The opponent Pokemon will never use their held Berry while the Pokemon is in battle. Opponents in S.O.S. Battles are more likely to call for help.
+3
+Klutz
+The Pokemon cannot receive any effect of hold items except those that affect experience such as Exp.Share or Macho Brace.
+1 0 1 0 0 759
+None
+0 1 27
+None
+760 0 0
+
+761
+Bounsweet
+Fruit Pokemon
+Grass
+Grass
+It tries to resist being swallowed by a bird Pokemon by spinning the sepals on its head. It's usually a fruitless attempt.
+Leaf Guard
+Prevents the Pokemon from being afflicted by status conditions during strong sunlight.
+Sweet Veil
+Prevents itself and ally Pokemon from falling asleep.
+3
+Oblivious
+The Pokemon cannot be under the Attract condition, or be taunted, while having this ability.
+2 0 1 0 18 761
+None
+762 0 0
+Leveling up while knowing Stomp
+763 0 0
+
+762
+Steenee
+Fruit Pokemon
+Grass
+Grass
+It's protected by its hard sepals, so it plays with bird Pokemon without worry. They peck it relentlessly, but it doesn't care.
+Leaf Guard
+Prevents the Pokemon from being afflicted by status conditions during strong sunlight.
+Sweet Veil
+Prevents itself and ally Pokemon from falling asleep.
+3
+Oblivious
+The Pokemon cannot be under the Attract condition, or be taunted, while having this ability.
+2 1 1 1 1 762
+None
+762 0 0
+Leveling up while knowing Stomp
+763 0 0
+
+763
+Tsareena
+Fruit Pokemon
+Grass
+Grass
+A Pokemon known for the beauty of its well-shaped legs, it sometimes appears as a mascot in advertisements for beauty salons.
+Leaf Guard
+Prevents the Pokemon from being afflicted by status conditions during strong sunlight.
+Sweet Veil
+Prevents itself and ally Pokemon from falling asleep.
+3
+Queenly Majesty
+Prevents the opponent from using moves with increased Speed Priority on this Pokemon or its allies.
+2 0 1 1 0 762
+None
+762 1 0
+Leveling up while knowing Stomp
+763 0 0
+
+764
+Comfey
+Posy Picker Pokemon
+Fairy
+Fairy
+It stretches sticky vines out from its head and picks flowers to adorn itself with. When it doesn't have any flowers, it feels uneasy.
+Flower Veil
+Ally Grass-type Pokemon are protected from status conditions and the lowering of their stats.
+Natural Cure
+The Pokemon's status (BURN, PARALYZE, SLEEP, POISON, FREEZE) is healed when withdrawn from battle.
+3
+Triage
+Healing moves have +3 Priority when used by this Pokemon.
+0 0 0 0 0 764
+None
+0 0 0
+None
+0 0 0
+
+765
+Oranguru
+Sage Pokemon
+Normal
+Psychic
+It normally spends its time meditating in the treetops. It throws Poke Balls and gives other Pokemon orders as it pleases.
+Inner Focus
+This Pokemon will not flinch. Does not prevent flinching with Focus Punch.
+Symbiosis
+Passes the Pokemon hold item to its adjacent ally when that ally consumes its hold item.
+3
+Telepathy
+Prevents damage from team-mates during Double and Triple battles.
+0 0 0 0 0 765
+None
+0 0 0
+None
+0 0 0
+
+766
+Passimian
+Teamwork Pokemon
+Fighting
+Fighting
+They use their saliva to stick leaves to their shoulders. You can tell what troop they belong to from the position of the leaves.
+Receiver
+The Pokemon copies the Ability of a defeated ally.
+Defiant
+Attack is raised by two stages when the Pokemon has its stats lowered. Doesn't work on self inflicted stat drops or drops from allies.
+2
+None
+None
+0 0 0 0 0 766
+None
+0 0 0
+None
+0 0 0
+
+767
+Wimpod
+Turn Tail Pokemon
+Bug
+Water
+This Pokemon is a coward. As it desperately dashes off, the flailing of its many legs leaves a sparkling clean path in its wake.
+Wimp Out
+When the Pokemon's Hit Points hit 50% or less, the Pokemon will switch out. Works once per battle. The Pokemon will not switch out if it drops below 50% due to Confusion, Weather, use of Substitute or when the damage inflicted is by a Pokemon with the Sheer Force ability. It will not activate if health is brought back up above 50% due to a hold item.
+None
+None
+1
+None
+None
+1 0 1 0 30 767
+None
+0 0 30
+None
+768 0 0
+
+768
+Golisopod
+Hard Scale Pokemon
+Bug
+Water
+Its claws, which it can extend and retract at will, are its greatest weapons. Golisopod is sometimes accompanied by Wimpod.
+Emergency Exit
+When the Pokemon's Hit Points hit 50% or less, the Pokemon will switch out. Works once per battle. The Pokemon will not switch out if it drops below 50% due to Confusion, Weather, use of Substitute or when the damage inflicted is by a Pokemon with the Sheer Force ability. It will not activate if health is brought back up above 50% due to a hold item.
+None
+None
+1
+None
+None
+1 0 1 0 0 767
+None
+0 1 30
+None
+768 0 0
+
+769
+Sandygast
+Sand Heap Pokemon
+Ghost
+Ground
+It takes control of anyone who puts a hand in its mouth. And so it adds to the accumulation of its sand-mound body.
+Water Compaction
+Increases Defense by 2 stages every time it is hit by a Water-type move.
+Sand Veil
+Raises the Pokemon’s evasion during a sandstorm by one level.
+2
+None
+None
+1 0 1 0 42 769
+None
+0 0 42
+None
+770 0 0
+
+770
+Palossand
+Sand Castle Pokemon
+Ghost
+Ground
+Each of its grains of sand has its own will. Palossand eats small Pokemon and siphons away their vital essence while they're still alive.
+Water Compaction
+Increases Defense by 2 stages every time it is hit by a Water-type move.
+Sand Veil
+Raises the Pokemon’s evasion during a sandstorm by one level.
+2
+None
+None
+1 0 1 0 0 769
+None
+0 1 42
+None
+770 0 0
+
+771
+Pyukumuku
+Sea Cucumber Pokemon
+Water
+Water
+The tradition known as Pyukumuku chucking started from the custom of throwing Pyukumuku back into the sea after they wash onshore.
+Innards Out
+Damages the attacker landing the finishing hit by the amount equal to its last HP.
+Unaware
+Foe's stat modifications are ignored.
+2
+None
+None
+0 0 0 0 0 771
+None
+0 0 0
+None
+0 0 0
+
+772
+Type: Null
+Synthetic Pokemon
+Normal
+Normal
+A Pokemon weapon developed for a specific mission, it went berserk during an experiment, so it was cryogenically frozen.
+Battle Armor
+Opponent’s moves cannot Critical Hit.
+None
+None
+1
+None
+None
+1 0 1 1 1 772
+None
+0 0 0
+Leveling up with Happiness value at 220
+723 0 0
+
+773
+Silvally
+Synthetic Pokemon
+Normal
+Normal
+Its trust in its partner is what awakens it. This Pokemon is capable of changing its type, a flexibility that is well displayed in battle.
+RKS System
+Changes the Pokémon's type to match the memory disc it holds.
+None
+None
+1
+None
+None
+1 0 1 1 0 772
+None
+0 1 0
+Leveling up with Happiness value at 220
+723 0 0
+
+774
+Minior
+Meteor Pokemon
+Rock
+Flying
+Although its outer shell is uncommonly durable, the shock of falling to the ground smashes the shell to smithereens.
+Shield Down
+Changes the Pokemon into its Core form when its Hit Points drop below 50%. Before then, it cannot be affected by Status Conditions such as Burn or Paralysis
+None
+None
+1
+None
+None
+0 0 0 0 0 774
+None
+0 0 0
+None
+0 0 0
+
+775
+Komala
+Drowsing Pokemon
+Normal
+Normal
+It is born asleep, and it dies asleep. All its movements are apparently no more than the results of it tossing and turning in its dreams.
+Comatose
+It acts as if it is affected by the Sleep status condition. All special effects of moves based on the Sleep status condition affect this Pokemon such as Snore & Sleep Talk working from the Pokemon with Comatose and double damage from Hex & Wake-up Slap, Dream Eater & Nightmare and even abilities such as Bad Dreams will activate. This Pokemon can still attack.
+None
+None
+1
+None
+None
+0 0 0 0 0 775
+None
+0 0 0
+None
+0 0 0
+
+776
+Turtonator
+Blast Turtle Pokemon
+Fire
+Dragon
+Its exploding shell poses a real danger but is sensitive to moisture. On rainy days, Turtonator takes silent refuge in caves.
+Shell Armor
+Opponent’s moves cannot Critical Hit.
+None
+None
+1
+None
+None
+0 0 0 0 0 776
+None
+0 0 0
+None
+0 0 0
+
+777
+Togedemaru
+Roly-Poly Pokemon
+Electric
+Steel
+The spiny fur on its back is normally at rest. When this Pokemon becomes agitated, its fur stands on end and stabs into its attackers.
+Iron Barbs
+If physical contact is made on this Pokemon, the opponent will receive damage equal to 1/8th of its maximum HP.
+Sturdy
+The Pokemon will remain with 1 HP if it was going to be knocked out by a move when at full Hit Points, and it is immune to One Hit KO moves.
+3
+Lightningrod
+Electric-type moves are drawn to this Pokemon. Electric-type moves will do no damage and the Pokemon's SP ATK is raised one stage.
+0 0 0 0 0 777
+None
+0 0 0
+None
+0 0 0
+
+778
+Mimikyu
+Disguise Pokemon
+Ghost
+Fairy
+A gust of wind revealed what hides under this Pokemon's rag to a passing Trainer, who went home and died painfully that very night.
+Disguise
+Once per battle, the Pokemon can withstand one damaging attack without receiving any damage. Damage inflicted through entry hazards, weather or status conditions will not break the disguise. Damage from Confusion will break the Disguise.
+None
+None
+1
+None
+None
+0 0 0 0 0 778
+None
+0 0 0
+None
+0 0 0
+
+779
+Bruxish
+Gnash Teeth Pokemon
+Water
+Psychic
+It burrows beneath the sand, radiating psychic power from the protuberance on its head. It waits for prey as it surveys the area.
+Dazzling
+Prevents the opponent from using moves with increased Speed Priority on this Pokemon.
+Wonder Skin
+Makes non-damaging moves that are targeted at this Pokemon have the accuracy of 50%.
+3
+Strong Jaw
+Increases the power of biting moves by 50%.
+0 0 0 0 0 779
+None
+0 0 0
+None
+0 0 0
+
+780
+Drampa
+Placid Pokemon
+Normal
+Dragon
+If a child it has made friends with is bullied, Drampa will find the bully's house and burn it to the ground.
+Beserk
+Boosts the Pokemon's Sp. Atk stat when it takes a hit that causes its HP to become half or less.
+Cloud Nine
+All weather effects are negated while the Pokemon is on the field.
+3
+Sap Sipper
+Attack is raised by one stage when the Pokemon is hit by a Grass-type move. User receives no damage from Grass-type attacks.
+0 0 0 0 0 780
+None
+0 0 0
+None
+0 0 0
+
+781
+Dhelmise
+Sea Crepper Pokemon
+Ghost
+Grass
+It wraps its prey in green seaweed and sucks away their vitality. It only likes to go after big prey like Wailord.
+Steelworker
+Increases the power of Steel-type moves used by this Pokemon by 50%.
+None
+None
+1
+None
+None
+0 0 0 0 0 781
+None
+0 0 0
+None
+0 0 0
+
+782
+Jangmo-o
+Scaly Pokemon
+Dragon
+Dragon
+It will never show an enemy its back in battle. Ancient warriors liked Jangmo-o for its valiant disposition and made it one of their own.
+Bulletproof
+Protects the Pokemon from some ball and bomb moves.
+Overcoat
+Protects Pokemon from Weather Effects and Powder moves such as Sleep Powder, Poison Powder etc.
+3
+Soundproof
+Unaffected by sound moves. If this Pokemon swithces out with Baton Pass, Perish Song against the switched out will not be nullified.
+2 0 1 0 35 782
+None
+783 0 45
+None
+784 0 0
+
+783
+Hakamo-o
+Scaly Pokemon
+Dragon
+Fighting
+The scales it sheds can be molded and processed to make pots and pans. They conduct heat well, so they're a popular item.
+Bulletproof
+Protects the Pokemon from some ball and bomb moves.
+Overcoat
+Protects Pokemon from Weather Effects and Powder moves such as Sleep Powder, Poison Powder etc.
+3
+Soundproof
+Unaffected by sound moves. If this Pokemon swithces out with Baton Pass, Perish Song against the switched out will not be nullified.
+2 1 1 0 45 782
+None
+783 0 45
+None
+784 0 0
+
+784
+Kommo-o
+Scaly Pokemon
+Dragon
+Fighting
+When it howls after finishing off its prey, the metallic sounds of its celebrating comrades can be heard from all around.
+Bulletproof
+Protects the Pokemon from some ball and bomb moves.
+Overcoat
+Protects Pokemon from Weather Effects and Powder moves such as Sleep Powder, Poison Powder etc.
+3
+Soundproof
+Unaffected by sound moves. If this Pokemon swithces out with Baton Pass, Perish Song against the switched out will not be nullified.
+2 0 1 0 0 782
+None
+783 1 45
+None
+784 0 0
+
+785
+Tapu Koko
+Land Spirit Pokemon
+Electric
+Fairy
+Although it's called a guardian deity, if a person or Pokemon puts it in a bad mood, it will become a malevolent deity and attack.
+Electric Surge
+Activates Electric Terrain for 5 turns when the Pokemon enters a battle.
+Telepathy
+Prevents damage from team-mates during Double and Triple battles.
+2
+None
+None
+0 0 0 0 0 785
+None
+0 0 0
+None
+0 0 0
+
+786
+Tapu Lele
+Land Spirit Pokemon
+Psychic
+Fairy
+Although called a guardian deity, Tapu Lele is devoid of guilt about its cruel disposition and can be described as nature incarnate.
+Psychic Surge
+Activates Psychic Terrain for 5 turns when the Pokemon enters a battle.
+Telepathy
+Prevents damage from team-mates during Double and Triple battles.
+2
+None
+None
+0 0 0 0 0 786
+None
+0 0 0
+None
+0 0 0
+
+787
+Tapu Bulu
+Land Spirit Pokemon
+Grass
+Fairy
+Although it's called a guardian deity, it's violent enough to crush anyone it sees as an enemy.
+Grassy Surge
+Activates Grassy Terrain for 5 turns when the Pokemon enters a battle.
+Telepathy
+Prevents damage from team-mates during Double and Triple battles.
+2
+None
+None
+0 0 0 0 0 787
+None
+0 0 0
+None
+0 0 0
+
+788
+Tapu Fini
+Land Spirit Pokemon
+Water
+Fairy
+This guardian deity of Poni Island manipulates water. Because it lives deep within a thick fog, it came to be both feared and revered.
+Misty Surge
+Activates Misty Terrain for 5 turns when the Pokemon enters a battle.
+Telepathy
+Prevents damage from team-mates during Double and Triple battles.
+2
+None
+None
+0 0 0 0 0 788
+None
+0 0 0
+None
+0 0 0
+
+789
+Cosmog
+Nebula Pokemon
+Psychic
+Psychic
+Whether or not it's a Pokémon from this world is a mystery. When it's in a jam, it warps away to a safe place to hide.
+Unaware
+Foe's stat modifications are ignored.
+None
+None
+1
+None
+None
+2 0 1 0 43 789
+None
+790 0 53
+Leveling up to level 53 in Specific Game
+791 1 792
+
+790
+Cosmoem
+Protostar Pokemon
+Psychic
+Psychic
+Motionless as if dead, its body is faintly warm to the touch. In the distant past, it was called the cocoon of the stars.
+Sturdy
+The Pokemon will remain with 1 HP if it was going to be knocked out by a move when at full Hit Points, and it is immune to One Hit KO moves.
+None
+None
+1
+None
+None
+2 1 1 1 53 789
+None
+790 0 53
+Leveling up to level 53 in Specific Game
+791 1 792
+
+791
+Solgaleo
+Sunne Pokemon
+Psychic
+Steel
+This Pokemon is said to be a male evolution of Cosmog. At the activation of its third eye, it departs for another world.
+Full Metal Body
+Prevents other Pokemon's moves or Abilities from lowering the Pokemon's stats.
+None
+None
+1
+None
+None
+2 0 1 1 0 789
+None
+790 1 53
+Leveling up to level 53 in Specific Game
+791 1 792
+
+792
+Lunala
+Moone Pokemon
+Psychic
+Ghost
+It is said to be a female evolution of Cosmog. When its third eye activates, away it flies to another world.
+Shadow Shield
+Reduces damage inflicted on this Pokemon when at max Hit Points by 50%. It is not affected by moves or abilities that would ignore the ability such as Mold Breaker, Moongeist Beam or Sunsteel Strike.
+None
+None
+1
+None
+None
+2 0 1 1 0 789
+None
+790 1 53
+Leveling up to level 53 in Specific Game
+791 1 792
+
+793
+Nihilego
+Parasite Pokemon
+Rock
+Poison
+It appeared in this world from an Ultra Wormhole. Nihilego appears to be a parasite that lives by feeding on people and Pokemon.
+Beast Boost
+Increases the Pokemon's highest stat when it knocks out a Pokemon.
+None
+None
+1
+None
+None
+0 0 0 0 0 793
+None
+0 0 0
+None
+0 0 0
+
+794
+Buzzwole
+Swollen Pokemon
+Bug
+Fighting
+This Ultra Beast appeared from another world. It shows off its body, but whether that display is a boast or a threat remains unclear.
+Beast Boost
+Increases the Pokemon's highest stat when it knocks out a Pokemon.
+None
+None
+1
+None
+None
+0 0 0 0 0 794
+None
+0 0 0
+None
+0 0 0
+
+795
+Pheromosa
+Lissome Pokemon
+Bug
+Fighting
+One of the Ultra Beasts. It refuses to touch anything, perhaps because it senses some uncleanness in this world.
+Beast Boost
+Increases the Pokemon's highest stat when it knocks out a Pokemon.
+None
+None
+1
+None
+None
+0 0 0 0 0 795
+None
+0 0 0
+None
+0 0 0
+
+796
+Xurkitree
+Glowing Pokemon
+Electric
+Electric
+One of the mysterious life-forms known as Ultra Beasts. Astonishing electric shocks emanate from its entire body, according to witnesses.
+Beast Boost
+Increases the Pokemon's highest stat when it knocks out a Pokemon.
+None
+None
+1
+None
+None
+0 0 0 0 0 796
+None
+0 0 0
+None
+0 0 0
+
+797
+Celesteela
+Launch Pokemon
+Steel
+Flying
+One kind of Ultra Beast. Witnesses have seen it burn down a forest by expelling gas from its two arms.
+Beast Boost
+Increases the Pokemon's highest stat when it knocks out a Pokemon.
+None
+None
+1
+None
+None
+0 0 0 0 0 797
+None
+0 0 0
+None
+0 0 0
+
+798
+Kartana
+Drawn Sword Pokemon
+Grass
+Steel
+One of the Ultra Beast life-forms, it was observed cutting down a gigantic steel tower with one stroke of its blade.
+Beast Boost
+Increases the Pokemon's highest stat when it knocks out a Pokemon.
+None
+None
+1
+None
+None
+0 0 0 0 0 798
+None
+0 0 0
+None
+0 0 0
+
+799
+Guzzlord
+Junkivore Pokemon
+Dark
+Dragon
+A dangerous Ultra Beast, it appears to be eating constantly, but for some reason its droppings have never been found.
+Beast Boost
+Increases the Pokemon's highest stat when it knocks out a Pokemon.
+None
+None
+1
+None
+None
+0 0 0 0 0 799
+None
+0 0 0
+None
+0 0 0
+
+800
+Necrozma
+Prism Pokemon
+Psychic
+Psychic
+It looks somehow pained as it rages around in search of light, which serves as its energy. It's apparently from another world.
+Prism Armor
+Reduces the power of Super Effective moves used against this Pokemon by 25%.
+None
+None
+1
+None
+None
+0 0 0 0 0 800
+None
+0 0 0
+None
+0 0 0
+
+801
+Magearna
+Artifical Pokemon
+Steel
+Fairy
+This artificial Pokémon, constructed more than 500 years ago, can understand human speech but cannot itself speak.
+Soul-Heart
+Boosts its Sp. Atk stat every time a Pokemon faints.
+None
+None
+1
+None
+None
+0 0 0 0 0 801
+None
+0 0 0
+None
+0 0 0
+
+802
+Marshadow
+Gloomdweller Pokemon
+Fighting
+Ghost
+It slips into the shadows of others and mimics their powers and movements. As it improves, it becomes stronger than those it's imitating.
+Technician
+Moves with a base power of 60 or less are boosted in power by 50%.
+None
+None
+1
+None
+None
+0 0 0 0 0 802
+None
+0 0 0
+None
+0 0 0
+
+803
+Poipole
+Poison Pin Pokemon
+Poison
+Poison
+An Ultra Beast that lives in a different world, it cackles wildly as it sprays its opponents with poison from the needles on its head.
+Beast Boost
+Increases the Pokemon's highest stat when it knocks out a Pokemon.
+None
+None
+1
+None
+None
+1 0 1 1 1 803
+None
+0 0 1
+Leveling up while knowing Dragon Pulse
+804 0 0
+
+804
+Naganadel
+Poison Pin Pokemon
+Poison
+Dragon
+One kind of Ultra Beast, it fires a glowing, venomous liquid from its needles. This liquid is also immensely adhesive.
+Beast Boost
+Increases the Pokemon's highest stat when it knocks out a Pokemon.
+None
+None
+1
+None
+None
+1 0 1 1 0 803
+None
+0 1 1
+Leveling up while knowing Dragon Pulse
+804 0 0
+
+805
+Stakataka
+Rampart Pokemon
+Rock
+Steel
+When stone walls started moving and attacking, the brute's true identity was this mysterious life-form, which brings to mind an Ultra Beast.
+Beast Boost
+Increases the Pokemon's highest stat when it knocks out a Pokemon.
+None
+None
+1
+None
+None
+0 0 0 0 0 805
+None
+0 0 0
+None
+0 0 0
+
+806
+Blacephalon
+Fireworks Pokemon
+Fire
+Ghost
+It slithers toward people. Then, without warning, it triggers the explosion of its own head. It's apparently one kind of Ultra Beast.
+Beast Boost
+Increases the Pokemon's highest stat when it knocks out a Pokemon.
+None
+None
+1
+None
+None
+0 0 0 0 0 806
+None
+0 0 0
+None
+0 0 0
+
+807
+Zeraora
+Thunderclap Pokemon
+Electric
+Electric
+It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they'll be electrocuted by the flying sparks.
+Volt Absorb
+The Pokemon heals up to 1/4 of its maximum Hit Points when hit with Electric-type moves.
+None
+None
+1
+None
+None
+0 0 0 0 0 807
+None
+0 0 0
+None
+0 0 0
