@@ -6,7 +6,7 @@ The information and images are © Nintendo/Creatures Inc./GAME FREAK Inc. I do n
 
 # To Use
 
-This project was created using [Qt](https://www.qt.io/). Download the project and open it up in Qt to run the application.
+This project was created using [Qt](https://www.qt.io/). Download the project and open it up in Qt to run the application or open up the release folder and run "NationalDex.exe".
 
 ![Screenshot (23)](https://user-images.githubusercontent.com/43584979/56476238-d0347600-6449-11e9-9421-85c8f305194d.png)
 ![Screenshot (21)](https://user-images.githubusercontent.com/43584979/56476235-cc085880-6449-11e9-816f-d0adbc22b190.png)
