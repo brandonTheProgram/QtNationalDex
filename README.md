@@ -8,6 +8,6 @@ The information and images are © Nintendo/Creatures Inc./GAME FREAK Inc. I do n
 
 This project was created using [Qt](https://www.qt.io/). Download the project and open it up in Qt to run the application or open up the release folder and run "NationalDex.exe".
 
-![Screenshot (23)](https://user-images.githubusercontent.com/43584979/56476238-d0347600-6449-11e9-9421-85c8f305194d.png)
-![Screenshot (21)](https://user-images.githubusercontent.com/43584979/56476235-cc085880-6449-11e9-816f-d0adbc22b190.png)
-![Screenshot (22)](https://user-images.githubusercontent.com/43584979/56476237-ce6ab280-6449-11e9-8916-348dca9d1a58.png)
+![Screenshot (12)](https://user-images.githubusercontent.com/43584979/62331285-60824e00-b470-11e9-8da0-3f73682e9d3c.png)
+![Screenshot (13)](https://user-images.githubusercontent.com/43584979/62331291-65df9880-b470-11e9-914a-42cb997edbb5.png)
+![Screenshot (11)](https://user-images.githubusercontent.com/43584979/62331294-6841f280-b470-11e9-8a3c-95bdda7ac9f6.png)
