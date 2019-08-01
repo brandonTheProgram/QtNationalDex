@@ -104,14 +104,14 @@ class PokemonWeakness //Base Class
          * PokemonWeakness ();
          *   Constructor; this method initializes the pokemon weakness object
          *   			  with values
-         *   Parameters: priType (string) - the name of the Pokemon's
-         *   								primary type
-         *   			 secType (string) - the name of the Pokemon's
-         *   								secondary type
+         *   Parameters: PRI_TYPE (string) - the name of the Pokemon's
+         *   								 primary type
+         *   			 SEC_TYPE (string) - the name of the Pokemon's
+         *   								 secondary type
          *   Return: none
          ***************************************************************/
-        PokemonWeakness(const string &priType,
-                        const string &secType); //Non-default constructor
+        PokemonWeakness(const string &PRI_TYPE,
+                        const string &SEC_TYPE); //Non-default constructor
 
         /****************************************************************
          * ~PokemonWeakness ();
@@ -119,31 +119,31 @@ class PokemonWeakness //Base Class
          *   Parameters: none
          *   Return: none
          ***************************************************************/
-        ~PokemonWeakness(); //Deconstructor
+        virtual ~PokemonWeakness(); //Deconstructor
 
         /******************
          **** MUTATORS ****
          ******************/
 
         /****************************************************************
-         * 	void InitializePriTypeEnum(const string &priType);
+         * 	void InitializePriTypeEnum(const string &PRI_TYPE);
          *
          *   Mutator; this method initializes the priTypeEnum
-         *   Parameters: priType (string) - the name of the Pokemon's
-         *   						        primary type
+         *   Parameters: PRI_TYPE (string) - the name of the Pokemon's
+         *   						         primary type
          *   Return: none
          ***************************************************************/
-        void InitializePriTypeEnum(const string &priType);
+        void InitializePriTypeEnum(const string &PRI_TYPE);
 
         /****************************************************************
-         * 	void InitializeSecTypeEnum(const string &secType);
+         * 	void InitializeSecTypeEnum(const string &SEC_TYPE);
          *
          *   Mutator; this method initializes the secTypeEnum
-         *   Parameters: secType (string) - the name of the Pokemon's
+         *   Parameters: SEC_TYPE (string) - the name of the Pokemon's
          *   						        secondary type
          *   Return: none
          ***************************************************************/
-        void InitializeSecTypeEnum(const string &secType);
+        void InitializeSecTypeEnum(const string &SEC_TYPE);
 
         /****************************************************************
          * 	void SetDamageValues(const float &NORMAL_DMG,

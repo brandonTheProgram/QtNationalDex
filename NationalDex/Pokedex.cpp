@@ -36,13 +36,13 @@ Pokedex::Pokedex()
 *************************************************************************/
 Pokedex::~Pokedex()
 {
-    pokedex.clear();
-    attackDex.clear();
-    pokedexCopy.clear();
+    pokedex           .clear();
+    attackDex         .clear();
+    pokedexCopy       .clear();
 
-    vector<Pkmn>().swap(pokedex);
-    vector<Attack>().swap(attackDex);
-    vector<Pokemon>().swap(pokedexCopy);
+    vector<Pkmn>()    .swap(pokedex);
+    vector<Attack>()  .swap(attackDex);
+    vector<Pokemon>() .swap(pokedexCopy);
 }
 
 /************************************************************************
@@ -64,9 +64,10 @@ void Pokedex::CreateAttackList(const string& INPUT_FILE)
 
     int index;							   //PROC - the index in the array
 
-    Attack *attack = new Attack;	       //PROC - create a new attack
+    Attack *attack;                        //PROC - create a new attack
 
-    index = 0;
+    attack = new Attack;
+    index  = 0;
 
     //PROCESSING - While not at the end of the file and not out of space,
     //             load in every move and add it to the list
@@ -113,13 +114,7 @@ void Pokedex::CreateAttackList(const string& INPUT_FILE)
 * 	==> returns nothing
 *************************************************************************/
 void Pokedex::CreatePokedexCopy()
-{
-    for(auto it: pokedex)
-    {
-        //PROCESSING - Add only the Pokemon to the list
-        pokedexCopy.push_back(it.currentPkmn);
-    }
-}
+{for(auto it: pokedex){pokedexCopy.push_back(it.currentPkmn);}}
 
 /************************************************************************
 * Method LoadRegion: Class Pokedex
@@ -139,21 +134,23 @@ void Pokedex::CreatePokedexCopy()
 void Pokedex::LoadRegion(const string& INPUT_FILE, const int& REGION_MAX,
                          const string& ATTACK_FILE)
 {
-    static int pokdexIndex = 0;                   //PROC - the position in
-                                                  //	   in vector
+    static int     pokdexIndex = 0;                //PROC - the position in
+                                                   //	    in vector
 
-    std::ifstream fin(INPUT_FILE.c_str());        //IN   - the input file
-                                                  //       variable
+    std::ifstream  fin(INPUT_FILE.c_str());        //IN   - the input file
+                                                   //       variable
 
-    std::ifstream attackFin(ATTACK_FILE.c_str()); //IN   - the attack
-                                                  //       file variable
+    std::ifstream  attackFin(ATTACK_FILE.c_str()); //IN   - the attack
+                                                   //       file variable
 
-    vector<string> attackNames;					  //PROC - the names of the
-                                                  //       attacks
-    vector<int> attackLvls;						  //PROC - the levels of the
-                                                  //       attacks
+    vector<string> attackNames;					   //PROC - the names of the
+                                                   //       attacks
+    vector<int>    attackLvls;				       //PROC - the levels of the
+                                                   //       attacks
 
-    Pkmn *newPokemon = new Pkmn;				  //PROC - Create a new Pokemon
+    Pkmn *newPokemon;                              //PROC - Create a new Pokemon
+
+    newPokemon = new Pkmn;
 
     //While not at the end of the file and the index doesn't exceed the max
     //number of Pokemon available in the region
@@ -187,7 +184,7 @@ void Pokedex::LoadRegion(const string& INPUT_FILE, const int& REGION_MAX,
         attackLvls.clear();
 
         vector<string>().swap(attackNames);
-        vector<int>().swap(attackLvls);
+        vector<int>   ().swap(attackLvls);
 
         newPokemon = new Pkmn;
 
@@ -197,7 +194,7 @@ void Pokedex::LoadRegion(const string& INPUT_FILE, const int& REGION_MAX,
     delete newPokemon;
 
     //Close the input files
-    fin.close();
+    fin      .close();
     attackFin.close();
 }
 
@@ -219,18 +216,18 @@ void Pokedex::LoadRegion(const string& INPUT_FILE, const int& REGION_MAX,
 void Pokedex::LoadPokemonMoves(std::ifstream& fin, vector<string>& attackNames,
                                vector<int>& attackLvls)
 {
-    string pokemonName;	//PROC - The name of the Pokemon
-    string attackName;  //PROC - The name of the attack
+    string pokemonName;	 //PROC - The name of the Pokemon
+    string attackName;   //PROC - The name of the attack
 
-    int moveListSize;   //PROC - The amount of moves the Pokemon knows
-    int    attackLvl;	//PROC - The level of the attack
+    int    moveListSize; //PROC - The amount of moves the Pokemon knows
+    int    attackLvl;	 //PROC - The level of the attack
 
     getline(fin, pokemonName);
 
     fin >> moveListSize;
 
     attackNames.reserve(moveListSize);
-    attackLvls.reserve(moveListSize);
+    attackLvls .reserve(moveListSize);
 
     for(int index = 0; index < moveListSize; index++)
     {
@@ -263,9 +260,7 @@ void Pokedex::SetEvolutions()
     {
         //If the pokemon has an evloution, then set it
         if(it.currentPkmn.GetEvolutions() != 0)
-        {
-            it.pkmnEvos.SetInitialValues(pokedexCopy, it.currentPkmn);
-        }
+            {it.pkmnEvos.SetInitialValues(pokedexCopy, it.currentPkmn);}
     }
 }
 
@@ -288,10 +283,8 @@ vector<Pkmn> Pokedex::GetRegion(const int &START, const int &END) const
 {
     vector<Pkmn> regionVec; //PROC - The vector that will be returned
 
-    for (int index = START; index < END;index++)
-    {
-        regionVec.push_back(pokedex[index]);
-    }
+    for(int index = START; index < END;index++)
+        {regionVec.push_back(pokedex[index]);}
 
     return regionVec;
 }

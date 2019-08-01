@@ -27,46 +27,28 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    kanto.cpp \
-    johto.cpp \
-    hoenn.cpp \
-    sinnoh.cpp \
-    unova.cpp \
-    kalos.cpp \
-    alola.cpp \
     dialog.cpp \
     Moveset.cpp \
     Pokedex.cpp \
     Pokemon.cpp \
     PokemonEvolutions.cpp \
-    PokemonWeakness.cpp
+    PokemonWeakness.cpp \
+    region.cpp
 
 HEADERS += \
-    kanto.h \
-    johto.h \
-    hoenn.h \
-    sinnoh.h \
-    unova.h \
-    kalos.h \
-    alola.h \
     dialog.h \
     mainwindow.h \
     Moveset.h \
     Pokedex.h \
     Pokemon.h \
     PokemonEvolutions.h \
-    PokemonWeakness.h
+    PokemonWeakness.h \
+    region.h
 
 FORMS += \
         mainwindow.ui \
-    introscene.ui \
-    kanto.ui \
-    hoenn.ui \
-    sinnoh.ui \
-    unova.ui \
-    kalos.ui \
-    alola.ui \
-    dialog.ui
+    dialog.ui \
+    region.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

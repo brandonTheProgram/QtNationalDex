@@ -35,7 +35,6 @@ namespace globalPDexConsts
     const int UNOVA_DEX        = 649;
     const int KALOS_DEX        = 721;
     const int ALOLA_DEX        = 807;
-    const int INVALID_COL      = 30;
 }
 
 //A Pokemon object with it's information
@@ -59,7 +58,7 @@ class Pokedex //Base class
          **      OVERLOADERS         **
          ******************************/
         //Overloading the array operator
-        Pkmn& operator[] (int index){return pokedex[index];}
+        Pkmn& operator[] (const int& INDEX){return pokedex[INDEX];}
 
         /******************************
          ** CONSTRUCTOR & DESTRUCTOR **
@@ -79,7 +78,7 @@ class Pokedex //Base class
          *   Parameters: none
          *   Return: none
          ***************************************************************/
-        ~Pokedex(); //Deconstructor
+        virtual ~Pokedex(); //Deconstructor
 
         /******************
          **** MUTATORS ****

@@ -19,7 +19,7 @@ PokemonWeakness::PokemonWeakness()
 
     //PROCESSING - Initialize the array to 0
     for(int index = 0; index < globalWeakConsts::MAX_TYPES; index++)
-        damageAr[index] = 0.0;
+        {damageAr[index] = 0.0;}
 }
 
 /************************************************************************
@@ -30,20 +30,19 @@ PokemonWeakness::PokemonWeakness()
 *-----------------------------------------------------------------------
 * PRE-CONDITIONS
 * 	The following need to be passed in
-* 		priType (string) - the name of the Pokemon's
-*		   			       primary type
-*		secType (string) - the name of the Pokemon's
-*		    			   secondary type
+* 		PRI_TYPE (string) - the name of the Pokemon's
+*		   			        primary type
+*		SEC_TYPE (string) - the name of the Pokemon's
+*		    			    secondary type
 *
 * POST-CONDITIONS
 * 	==> returns nothing
 *************************************************************************/
-PokemonWeakness::PokemonWeakness(const string &priType,
-                                 const string &secType)
+PokemonWeakness::PokemonWeakness(const string &PRI_TYPE,
+                                 const string &SEC_TYPE)
 {
-    InitializePriTypeEnum(priType);
-
-    InitializeSecTypeEnum(secType);
+    InitializePriTypeEnum(PRI_TYPE);
+    InitializeSecTypeEnum(SEC_TYPE);
 }
 
 /************************************************************************
@@ -58,10 +57,7 @@ PokemonWeakness::PokemonWeakness(const string &priType,
 * POST-CONDITIONS
 * 	==> returns nothing
 *************************************************************************/
-PokemonWeakness::~PokemonWeakness()
-{
-
-}
+PokemonWeakness::~PokemonWeakness(){}
 
 /************************************************************************
 * Method InitializePriTypeEnum: Class PokemonWeakness
@@ -71,86 +67,48 @@ PokemonWeakness::~PokemonWeakness()
 *-----------------------------------------------------------------------
 * PRE-CONDITIONS
 * 	The following need to be passed in
-*  	 	priType (string) - the name of the Pokemon's primary type
+*  	 	PRI_TYPE (string) - the name of the Pokemon's primary type
 *
 * POST-CONDITIONS
 * 	==> returns nothing
 *************************************************************************/
-void PokemonWeakness::InitializePriTypeEnum(const std::string &priType)
+void PokemonWeakness::InitializePriTypeEnum(const string &PRI_TYPE)
 {
-    //Based on the name of the Pokemon's type, initialize the corresponding enum
-    if(priType == "Normal")
-    {
-        priTypeEnum = NORMAL;
-    }
-    else if(priType == "Fighting")
-    {
-        priTypeEnum = FIGHTING;
-    }
-    else if(priType == "Flying")
-    {
-        priTypeEnum = FLYING;
-    }
-    else if(priType == "Poison")
-    {
-        priTypeEnum = POISON;
-    }
-    else if(priType == "Ground")
-    {
-        priTypeEnum = GROUND;
-    }
-    else if(priType == "Rock")
-    {
-        priTypeEnum = ROCK;
-    }
-    else if(priType == "Bug")
-    {
-        priTypeEnum = BUG;
-    }
-    else if(priType == "Ghost")
-    {
-        priTypeEnum = GHOST;
-    }
-    else if(priType == "Steel")
-    {
-        priTypeEnum = STEEL;
-    }
-    else if(priType == "Fire")
-    {
-        priTypeEnum = FIRE;
-    }
-    else if(priType == "Water")
-    {
-        priTypeEnum = WATER;
-    }
-    else if(priType == "Grass")
-    {
-        priTypeEnum = GRASS;
-    }
-    else if(priType == "Electric")
-    {
-        priTypeEnum = ELECTRIC;
-    }
-    else if(priType == "Psychic")
-    {
-        priTypeEnum = PSYCHIC;
-    }
-    else if(priType == "Ice")
-    {
-        priTypeEnum = ICE;
-    }
-    else if(priType == "Dragon")
-    {
-        priTypeEnum = DRAGON;
-    }
-    else if(priType == "Dark")
-    {
-        priTypeEnum = DARK;
-    }
-    else if(priType == "Fairy")
-    {
-        priTypeEnum = FAIRY;
-    }
+    if     (PRI_TYPE == "Normal")    {priTypeEnum = NORMAL;}
+
+    else if(PRI_TYPE == "Fighting")  {priTypeEnum = FIGHTING;}
+
+    else if(PRI_TYPE == "Flying")    {priTypeEnum = FLYING;}
+
+    else if(PRI_TYPE == "Poison")    {priTypeEnum = POISON;}
+
+    else if(PRI_TYPE == "Ground")    {priTypeEnum = GROUND;}
+
+    else if(PRI_TYPE == "Rock")      {priTypeEnum = ROCK;}
+
+    else if(PRI_TYPE == "Bug")       {priTypeEnum = BUG;}
+
+    else if(PRI_TYPE == "Ghost")     {priTypeEnum = GHOST;}
+
+    else if(PRI_TYPE == "Steel")     {priTypeEnum = STEEL;}
+
+    else if(PRI_TYPE == "Fire")      {priTypeEnum = FIRE;}
+
+    else if(PRI_TYPE == "Water")     {priTypeEnum = WATER;}
+
+    else if(PRI_TYPE == "Grass")     {priTypeEnum = GRASS;}
+
+    else if(PRI_TYPE == "Electric")  {priTypeEnum = ELECTRIC;}
+
+    else if(PRI_TYPE == "Psychic")   {priTypeEnum = PSYCHIC;}
+
+    else if(PRI_TYPE == "Ice")       {priTypeEnum = ICE;}
+
+    else if(PRI_TYPE == "Dragon")    {priTypeEnum = DRAGON;}
+
+    else if(PRI_TYPE == "Dark")      {priTypeEnum = DARK;}
+
+    else if(PRI_TYPE == "Fairy")     {priTypeEnum = FAIRY;}
 }
 
 /************************************************************************
@@ -161,86 +119,48 @@ void PokemonWeakness::InitializePriTypeEnum(const std::string &priType)
 *-----------------------------------------------------------------------
 * PRE-CONDITIONS
 * 	The following need to be passed in
-*  	 	secType (string) - the name of the Pokemon's secondary type
+*  	 	SEC_TYPE (string) - the name of the Pokemon's secondary type
 *
 * POST-CONDITIONS
 * 	==> returns nothing
 *************************************************************************/
-void PokemonWeakness::InitializeSecTypeEnum(const std::string &secType)
+void PokemonWeakness::InitializeSecTypeEnum(const string &SEC_TYPE)
 {
-    //Based on the name of the Pokemon's type, initialize the corresponding enum
-    if(secType == "Normal")
-    {
-        secTypeEnum = NORMAL;
-    }
-    else if(secType == "Fighting")
-    {
-        secTypeEnum = FIGHTING;
-    }
-    else if(secType == "Flying")
-    {
-        secTypeEnum = FLYING;
-    }
-    else if(secType == "Poison")
-    {
-        secTypeEnum = POISON;
-    }
-    else if(secType == "Ground")
-    {
-        secTypeEnum = GROUND;
-    }
-    else if(secType == "Rock")
-    {
-        secTypeEnum = ROCK;
-    }
-    else if(secType == "Bug")
-    {
-        secTypeEnum = BUG;
-    }
-    else if(secType == "Ghost")
-    {
-        secTypeEnum = GHOST;
-    }
-    else if(secType == "Steel")
-    {
-        secTypeEnum = STEEL;
-    }
-    else if(secType == "Fire")
-    {
-        secTypeEnum = FIRE;
-    }
-    else if(secType == "Water")
-    {
-        secTypeEnum = WATER;
-    }
-    else if(secType == "Grass")
-    {
-        secTypeEnum = GRASS;
-    }
-    else if(secType == "Electric")
-    {
-        secTypeEnum = ELECTRIC;
-    }
-    else if(secType == "Psychic")
-    {
-        secTypeEnum = PSYCHIC;
-    }
-    else if(secType == "Ice")
-    {
-        secTypeEnum = ICE;
-    }
-    else if(secType == "Dragon")
-    {
-        secTypeEnum = DRAGON;
-    }
-    else if(secType == "Dark")
-    {
-        secTypeEnum = DARK;
-    }
-    else if(secType == "Fairy")
-    {
-        secTypeEnum = FAIRY;
-    }
+    if     (SEC_TYPE == "Normal")    {secTypeEnum = NORMAL;}
+
+    else if(SEC_TYPE == "Fighting")  {secTypeEnum = FIGHTING;}
+
+    else if(SEC_TYPE == "Flying")    {secTypeEnum = FLYING;}
+
+    else if(SEC_TYPE == "Poison")    {secTypeEnum = POISON;}
+
+    else if(SEC_TYPE == "Ground")    {secTypeEnum = GROUND;}
+
+    else if(SEC_TYPE == "Rock")      {secTypeEnum = ROCK;}
+
+    else if(SEC_TYPE == "Bug")       {secTypeEnum = BUG;}
+
+    else if(SEC_TYPE == "Ghost")     {secTypeEnum = GHOST;}
+
+    else if(SEC_TYPE == "Steel")     {secTypeEnum = STEEL;}
+
+    else if(SEC_TYPE == "Fire")      {secTypeEnum = FIRE;}
+
+    else if(SEC_TYPE == "Water")     {secTypeEnum = WATER;}
+
+    else if(SEC_TYPE == "Grass")     {secTypeEnum = GRASS;}
+
+    else if(SEC_TYPE == "Electric")  {secTypeEnum = ELECTRIC;}
+
+    else if(SEC_TYPE == "Psychic")   {secTypeEnum = PSYCHIC;}
+
+    else if(SEC_TYPE == "Ice")       {secTypeEnum = ICE;}
+
+    else if(SEC_TYPE == "Dragon")    {secTypeEnum = DRAGON;}
+
+    else if(SEC_TYPE == "Dark")      {secTypeEnum = DARK;}
+
+    else if(SEC_TYPE == "Fairy")     {secTypeEnum = FAIRY;}
 }
 
 /************************************************************************
@@ -3298,38 +3218,55 @@ void PokemonWeakness::CalcDamageTaken()
     {
     case NORMAL:	NormalTypeDmg();
                     break;
+
     case FIGHTING:	FightingTypeDmg();
                     break;
+
     case FLYING:	FlyingTypeDmg();
                     break;
+
     case POISON:	PoisonTypeDmg();
                     break;
+
     case GROUND:	GroundTypeDmg();
                     break;
+
     case ROCK:		RockTypeDmg();
                     break;
+
     case BUG:		BugTypeDmg();
                     break;
+
     case GHOST:		GhostTypeDmg();
                     break;
+
     case STEEL:		SteelTypeDmg();
                     break;
+
     case FIRE:		FireTypeDmg();
                     break;
+
     case WATER:		WaterTypeDmg();
                     break;
+
     case GRASS:		GrassTypeDmg();
                     break;
+
     case ELECTRIC:	ElectricTypeDmg();
                     break;
+
     case PSYCHIC:	PsychicTypeDmg();
                     break;
+
     case ICE:		IceTypeDmg();
                     break;
+
     case DRAGON:	DragonTypeDmg();
                     break;
+
     case DARK:		DarkTypeDmg();
                     break;
+
     case FAIRY:		FairyTypeDmg();
                     break;
     }

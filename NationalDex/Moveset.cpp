@@ -15,7 +15,7 @@
 Moveset::Moveset()
 {
     lvlMoveset.clear();
-    TMMoveset.clear();
+    TMMoveset .clear();
 }
 
 /************************************************************************
@@ -26,25 +26,25 @@ Moveset::Moveset()
 *-----------------------------------------------------------------------
 * PRE-CONDITIONS
 * 	The following need to be passed in
-*   	attackDex (vector<Attack>) - the attackdex
-*   	moves     (vector<string>) - the moves the Pokemon learns
-*   	lvls      (vector<int>)    - the levels when the Pokemon
-*                                    learns the move
+*   	ATTACK_DEX (vector<Attack>) - the attackdex
+*   	MOVES      (vector<string>) - the moves the Pokemon learns
+*   	LVLS       (vector<int>)    - the levels when the Pokemon
+*                                     learns the move
 * POST-CONDITIONS
 * 	==> returns nothing
 *************************************************************************/
-Moveset::Moveset(const vector<Attack>& attackDex,
-                 const vector<string>& moves,
-                 const vector<int>   & lvls)
+Moveset::Moveset(const vector<Attack>& ATTACK_DEX,
+                 const vector<string>& MOVES,
+                 const vector<int>   & LVLS)
 {
-    int index;		//PROC - The index in the array
-    int levelIndex;	//PROC - The index in the level array
+    int index;                    //PROC - The index in the array
+    int levelIndex;               //PROC - The index in the level array
 
-    bool found;		//PROC - The condition if the move was found
+    bool found;                   //PROC - The condition if the move was found
 
-    LvlAttack newAttack; //PROC - The attack with a level
+    LvlAttack newAttack;          //PROC - The attack with a level
 
-    auto size = attackDex.size(); //PROC - The size of the attackdex
+    auto size = ATTACK_DEX.size(); //PROC - The size of the attackdex
 
     found      = false;
     index      = 0;
@@ -52,29 +52,28 @@ Moveset::Moveset(const vector<Attack>& attackDex,
 
     //PROCESSING - for every move that the Pokemon has, find it in the
     //			   attackdex and store it as a TM move or a level move
-    for(auto moveIt: moves)
+    for(auto moveIt: MOVES)
     {
         while(!found && (index != signed(size)))
         {
-            if(!(attackDex[index].name.compare(moveIt)))
+            if(!(ATTACK_DEX[index].name.compare(moveIt)))
             {
                 //If the move found is a TM, store it
-                if((attackDex[index].TM == 1) && (lvls[levelIndex] == 0))
-                    TMMoveset.push_back(attackDex[index]);
+                if((ATTACK_DEX[index].TM == 1) && (LVLS[levelIndex] == 0))
+                    {TMMoveset.push_back(ATTACK_DEX[index]);}
                 //If the move is a level move, then store the
                 //level and attack
                 else
                 {
-                    newAttack.attack = attackDex[index];
-                    newAttack.lvl = lvls[levelIndex];
+                    newAttack.attack = ATTACK_DEX[index];
+                    newAttack.lvl    = LVLS     [levelIndex];
                     lvlMoveset.push_back(newAttack);
                     levelIndex++;
                 }
 
                 found = true;
             }
-            else
-                ++index;
+            else{++index;}
         }
         index = 0;
         found = false;
@@ -96,10 +95,10 @@ Moveset::Moveset(const vector<Attack>& attackDex,
 Moveset::~Moveset()
 {
     lvlMoveset.clear();
-    TMMoveset.clear();
+    TMMoveset .clear();
 
     vector<LvlAttack>().swap(lvlMoveset);
-    vector<Attack>().swap(TMMoveset);
+    vector<Attack>   ().swap(TMMoveset);
 }
 
 /************************************************************************
@@ -110,25 +109,25 @@ Moveset::~Moveset()
 *-----------------------------------------------------------------------
 * PRE-CONDITIONS
 * 	The following need to be passed in
-*   	attackDex (vector<Attack>) - the attackdex
-*   	moves     (vector<string>) - the moves the Pokemon learns
-*   	lvls      (vector<int>)    - the levels when the Pokemon
-*                                    learns the move
+*   	ATTACK_DEX (vector<Attack>) - the attackdex
+*   	MOVES      (vector<string>) - the moves the Pokemon learns
+*   	LVLS       (vector<int>)    - the levels when the Pokemon
+*                                     learns the move
 * POST-CONDITIONS
 * 	==> returns nothing
 *************************************************************************/
-void Moveset::InitializeMoveSets(const vector<Attack>& attackDex,
-                                 const vector<string>& moves,
-                                 const vector<int>   & lvls)
+void Moveset::InitializeMoveSets(const vector<Attack>& ATTACK_DEX,
+                                 const vector<string>& MOVES,
+                                 const vector<int>   & LVLS)
 {
-    int index;		//PROC - The index in the array
-    int levelIndex;	//PROC - The index in the level array
+    int index;                    //PROC - The index in the array
+    int levelIndex;               //PROC - The index in the level array
 
-    bool found;		//PROC - The condition if the move was found
+    bool found;                   //PROC - The condition if the move was found
 
-    LvlAttack newAttack; //PROC - The attack with a level
+    LvlAttack newAttack;          //PROC - The attack with a level
 
-    auto size = attackDex.size(); //PROC - The size of the attackdex
+    auto size = ATTACK_DEX.size(); //PROC - The size of the attackdex
 
     found      = false;
     index      = 0;
@@ -136,29 +135,28 @@ void Moveset::InitializeMoveSets(const vector<Attack>& attackDex,
 
     //PROCESSING - for every move that the Pokemon has, find it in the
     //			   attackdex and store it as a TM move or a level move
-    for(auto moveIt: moves)
+    for(auto moveIt: MOVES)
     {
         while(!found && (index != signed(size)))
         {
-            if(!(attackDex[index].name.compare(moveIt)))
+            if(!(ATTACK_DEX[index].name.compare(moveIt)))
             {
                 //If the move found is a TM, store it
-                if((attackDex[index].TM == 1) && (lvls[levelIndex] == 0))
-                    TMMoveset.push_back(attackDex[index]);
+                if((ATTACK_DEX[index].TM == 1) && (LVLS[levelIndex] == 0))
+                    {TMMoveset.push_back(ATTACK_DEX[index]);}
                 //If the move is a level move,
                 //then store the level and attack
                 else
                 {
-                    newAttack.attack = attackDex[index];
-                    newAttack.lvl = lvls[levelIndex];
+                    newAttack.attack = ATTACK_DEX[index];
+                    newAttack.lvl    = LVLS      [levelIndex];
                     lvlMoveset.push_back(newAttack);
                     levelIndex++;
                 }
 
                 found = true;
             }
-            else
-                ++index;
+            else{++index;}
         }
         index = 0;
         found = false;
@@ -180,6 +178,7 @@ void Moveset::InitializeMoveSets(const vector<Attack>& attackDex,
 string Moveset::PrintTM() const
 {
     using namespace movesetGlobalConsts; //Using the column constants
+
     using std::setw; 					 //Used for output column sizes
 
     std::ostringstream out;              //OUT  - the output stream var
@@ -210,10 +209,8 @@ string Moveset::PrintTM() const
         for(auto it: TMMoveset)
         {
             //Punctuate the TM number
-            if(it.TMNum < 10)
-                tm = ("TM0" + std::to_string(it.TMNum));
-            else
-                tm = ("TM" + std::to_string(it.TMNum));
+            if(it.TMNum < 10){tm = ("TM0" + std::to_string(it.TMNum));}
+            else             {tm = ("TM"  + std::to_string(it.TMNum));}
 
             out << setw(LVL_COL)    << tm	         << " "
                 << setw(NAME_COL)   << (it.name)     << " "
@@ -224,8 +221,7 @@ string Moveset::PrintTM() const
                 << setw(PP_COL)     << it.pp		 << " "
                 << setw(EFFECT_COL) << it.effRate	 << " " << std::endl;
 
-            out << setw(DES_COL) << " " << (it.desc)
-                << std::endl << std::endl;
+            out << setw(DES_COL) << " " << (it.desc) << std::endl << std::endl;
         }
 
         out << std::endl;
@@ -249,6 +245,7 @@ string Moveset::PrintTM() const
 string Moveset::PrintLvl() const
 {
     using namespace movesetGlobalConsts; //Using the column constants
+
     using std::setw; 					 //Used for output column sizes
 
     std::ostringstream out;              //OUT  - the output stream var
@@ -269,8 +266,8 @@ string Moveset::PrintLvl() const
             << setw(PP_COL)     << "PP"			  << " "
             << setw(EFFECT_COL) << "Effect %";
 
-        out << std::endl << std::setfill('-')
-            << setw(LINE_COL) << "-" << std::endl;
+        out << std::endl << std::setfill('-') << setw(LINE_COL)
+            << "-" << std::endl;
 
         out << std::setfill(' ');
 

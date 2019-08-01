@@ -10,9 +10,11 @@
 #define UI_MAINWINDOW_H
 
 #include <QtCore/QVariant>
+#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QMainWindow>
+#include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
@@ -25,6 +27,7 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
+    QAction *actionSearch;
     QWidget *centralWidget;
     QGroupBox *regionBox;
     QVBoxLayout *verticalLayout;
@@ -36,6 +39,7 @@ public:
     QPushButton *kalosButton;
     QPushButton *alolaButton;
     QMenuBar *menuBar;
+    QMenu *menuSearch;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
 
@@ -44,6 +48,11 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->resize(474, 362);
+        actionSearch = new QAction(MainWindow);
+        actionSearch->setObjectName(QString::fromUtf8("actionSearch"));
+        QIcon icon;
+        icon.addFile(QString::fromUtf8(":/images/icons/Search Icon.png"), QSize(), QIcon::Normal, QIcon::Off);
+        actionSearch->setIcon(icon);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         regionBox = new QGroupBox(centralWidget);
@@ -113,6 +122,8 @@ public:
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
         menuBar->setGeometry(QRect(0, 0, 474, 17));
+        menuSearch = new QMenu(menuBar);
+        menuSearch->setObjectName(QString::fromUtf8("menuSearch"));
         MainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
@@ -120,6 +131,9 @@ public:
         statusBar = new QStatusBar(MainWindow);
         statusBar->setObjectName(QString::fromUtf8("statusBar"));
         MainWindow->setStatusBar(statusBar);
+
+        menuBar->addAction(menuSearch->menuAction());
+        menuSearch->addAction(actionSearch);
 
         retranslateUi(MainWindow);
 
@@ -129,6 +143,7 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
+        actionSearch->setText(QApplication::translate("MainWindow", "Search", nullptr));
         regionBox->setTitle(QApplication::translate("MainWindow", "REGIONS", nullptr));
         kantoButton->setText(QApplication::translate("MainWindow", "KANTO", nullptr));
         johtoButton->setText(QApplication::translate("MainWindow", "JOHTO", nullptr));
@@ -137,6 +152,7 @@ public:
         unovaButton->setText(QApplication::translate("MainWindow", "UNOVA", nullptr));
         kalosButton->setText(QApplication::translate("MainWindow", "KALOS", nullptr));
         alolaButton->setText(QApplication::translate("MainWindow", "ALOLA", nullptr));
+        menuSearch->setTitle(QApplication::translate("MainWindow", "Search", nullptr));
     } // retranslateUi
 
 };

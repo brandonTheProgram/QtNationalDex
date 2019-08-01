@@ -61,13 +61,13 @@ class PokemonEvolutions //Base Class
          * PokemonEvolutions ();
          *   Constructor; this method initializes the Pokemon Evolutions object
          *   			  with values
-         *   Parameters: pokedex       (vector<Pokemon>) - the pokedex
-         *   			 currentPokemon(currentPokemon)  - the current Pokemon
+         *   Parameters: POKEDEX        (vector<Pokemon>) - the pokedex
+         *   			 CURRENT_POKEMON(currentPokemon)  - the current Pokemon
          *   Return: none
          ***************************************************************/
-        PokemonEvolutions(const vector<Pokemon>& pokedex,
-                          const Pokemon& currentPokemon);//Non-Default
-                                                         //Constructor
+        PokemonEvolutions(const vector<Pokemon>& POKEDEX,
+                          const Pokemon        & CURRENT_POKEMON);
+        //Non-Default Constructor
 
         /****************************************************************
          * ~PokemonEvolutions ();
@@ -75,7 +75,7 @@ class PokemonEvolutions //Base Class
          *   Parameters: none
          *   Return: none
          ***************************************************************/
-        ~PokemonEvolutions(); //Deconstructor
+        virtual ~PokemonEvolutions(); //Deconstructor
 
         /******************
          **** MUTATORS ****
@@ -86,12 +86,12 @@ class PokemonEvolutions //Base Class
          *	 	 	 	        const Pokemon& currentPokemon);
          *   Mutator; this method set the values of the Pokemon Evolutions
          *   		  object
-         *   Parameters: pokedex       (vector<Pokemon>) - the pokedex
-         *   			 currentPokemon(currentPokemon)  - the current Pokemon
+         *   Parameters: POKEDEX        (vector<Pokemon>) - the pokedex
+         *   			 CURRENT_POKEMON(currentPokemon)  - the current Pokemon
          *   Return: none
          ***************************************************************/
-        void SetInitialValues(const vector<Pokemon>& pokedex,
-                              const Pokemon& currentPokemon);
+        void SetInitialValues(const vector<Pokemon>& POKEDEX,
+                              const Pokemon        & CURRENT_POKEMON);
 
         /*******************
          **** ACCESSORS ****
@@ -101,7 +101,7 @@ class PokemonEvolutions //Base Class
          * 	void PrintEvoTree(std::ostream &fout) const;
          *
          *   Accessor; this prints the evolution tree
-         *   Parameters: fout (ostream) - the output variable
+         *   Parameters: none
          *   Return: none
          ***************************************************************/
         string PrintEvoTree() const;
@@ -110,7 +110,7 @@ class PokemonEvolutions //Base Class
          * 	void PrintTwoEvos(std::ostream &fout) const;
          *
          *   Accessor; this prints a two evolution family tree
-         *   Parameters: fout (ostream) - the output variable
+         *   Parameters: none
          *   Return: none
          ***************************************************************/
         string PrintTwoEvos() const;
@@ -119,7 +119,7 @@ class PokemonEvolutions //Base Class
          * 	void PrintThreeEvos(std::ostream &fout) const;
          *
          *   Accessor; this prints a three evolution family tree
-         *   Parameters: fout (ostream) - the output variable
+         *   Parameters: none
          *   Return: none
          ***************************************************************/
         string PrintThreeEvos() const;
@@ -128,7 +128,7 @@ class PokemonEvolutions //Base Class
          * 	void PrintBranchEvos(std::ostream &fout) const;
          *
          *   Accessor; this prints a branch evolution family tree
-         *   Parameters: fout (ostream) - the output variable
+         *   Parameters: none
          *   Return: none
          ***************************************************************/
         string PrintBranchEvos() const;
@@ -137,7 +137,7 @@ class PokemonEvolutions //Base Class
          * 	void PrintSpecialEvosBranch(std::ostream &fout) const;
          *
          *   Accessor; this prints the special branch evolution family tree
-         *   Parameters: fout (ostream) - the output variable
+         *   Parameters: none
          *   Return: none
          ***************************************************************/
         string PrintSpecialEvosBranch() const;
@@ -145,11 +145,11 @@ class PokemonEvolutions //Base Class
     private:
         vector<Pokemon> pokedexCopy; //A copy of the Pokedex
 
-        Pokemon mainPokemon;		 //The main Pokemon
-        Pokemon firstEvo;			 //The first evolution of the Pokemon
-        Pokemon secondEvo;			 //The second evolution of the Pokemon
-        Pokemon finalEvo;			 //The final evolution of the Pokemon
-        Pokemon branchEvo;			 //The branch evolution of the Pokemon
+        Pokemon         mainPokemon; //The main Pokemon
+        Pokemon         firstEvo;	 //The first evolution of the Pokemon
+        Pokemon         secondEvo;	 //The second evolution of the Pokemon
+        Pokemon         finalEvo;	 //The final evolution of the Pokemon
+        Pokemon         branchEvo;	 //The branch evolution of the Pokemon
 };
 
 #endif /* POKEMONEVOLUTIONS_H_ */

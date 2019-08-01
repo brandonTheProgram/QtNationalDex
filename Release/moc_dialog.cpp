@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Dialog_t {
-    QByteArrayData data[4];
-    char stringdata0[33];
+    QByteArrayData data[7];
+    char stringdata0[81];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -32,12 +32,16 @@ struct qt_meta_stringdata_Dialog_t {
 static const qt_meta_stringdata_Dialog_t qt_meta_stringdata_Dialog = {
     {
 QT_MOC_LITERAL(0, 0, 6), // "Dialog"
-QT_MOC_LITERAL(1, 7, 15), // "ComboBoxOptions"
+QT_MOC_LITERAL(1, 7, 15), // "evolutionNumber"
 QT_MOC_LITERAL(2, 23, 0), // ""
-QT_MOC_LITERAL(3, 24, 8) // "argument"
+QT_MOC_LITERAL(3, 24, 14), // "POKEMON_NUMBER"
+QT_MOC_LITERAL(4, 39, 15), // "ComboBoxOptions"
+QT_MOC_LITERAL(5, 55, 8), // "ARGUMENT"
+QT_MOC_LITERAL(6, 64, 16) // "EvolutionClicked"
 
     },
-    "Dialog\0ComboBoxOptions\0\0argument"
+    "Dialog\0evolutionNumber\0\0POKEMON_NUMBER\0"
+    "ComboBoxOptions\0ARGUMENT\0EvolutionClicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -47,18 +51,26 @@ static const uint qt_meta_data_Dialog[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       1,   14, // methods
+       3,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       0,       // signalCount
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    1,   29,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       1,    1,   19,    2, 0x0a /* Public */,
+       4,    1,   32,    2, 0x0a /* Public */,
+       6,    0,   35,    2, 0x0a /* Public */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::Int,    3,
 
  // slots: parameters
-    QMetaType::Void, QMetaType::Int,    3,
+    QMetaType::Void, QMetaType::Int,    5,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -69,8 +81,19 @@ void Dialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
         auto *_t = static_cast<Dialog *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->ComboBoxOptions((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 0: _t->evolutionNumber((*reinterpret_cast< const int(*)>(_a[1]))); break;
+        case 1: _t->ComboBoxOptions((*reinterpret_cast< const int(*)>(_a[1]))); break;
+        case 2: _t->EvolutionClicked(); break;
         default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (Dialog::*)(const int & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&Dialog::evolutionNumber)) {
+                *result = 0;
+                return;
+            }
         }
     }
 }
@@ -104,15 +127,22 @@ int Dialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 3;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 1)
+        if (_id < 3)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 1;
+        _id -= 3;
     }
     return _id;
+}
+
+// SIGNAL 0
+void Dialog::evolutionNumber(const int & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 QT_WARNING_POP
 QT_END_MOC_NAMESPACE

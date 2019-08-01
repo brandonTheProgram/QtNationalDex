@@ -55,10 +55,7 @@ Pokemon::Pokemon()
 * POST-CONDITIONS
 * 	==> returns nothing
 *************************************************************************/
-Pokemon::~Pokemon()
-{
-
-}
+Pokemon::~Pokemon(){}
 
 /************************************************************************
 * Method PrintAbility: Class Pokemon

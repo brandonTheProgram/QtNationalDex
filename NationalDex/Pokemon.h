@@ -92,7 +92,7 @@ class Pokemon //Base Class
          *   Parameters: none
          *   Return: none
          ***************************************************************/
-        ~Pokemon(); //Deconstructor
+        virtual ~Pokemon(); //Deconstructor
 
         /*******************
          **** ACCESSORS ****
@@ -278,7 +278,7 @@ class Pokemon //Base Class
         /****************************************************************
          * bool GetBranchEvo() const;
          *
-         *   Accessor; This returns if the Pokemon is the branch evolution
+         *   Accessor; This returns if the Pokemon has a branch evolution
          *-----------------------------------------------------------------
          *   Parameters: none
          *-----------------------------------------------------------------

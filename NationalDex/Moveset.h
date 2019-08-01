@@ -97,16 +97,16 @@ class Moveset //Base Class
          * Moveset ();
          *   Constructor; this method initializes the Moveset of the Pokemon
          *   			  object with values
-         *   Parameters: attackDex (vector<Attack>) - the attackdex
-         *   			 moves     (vector<string>) - the moves the Pokemon
-         *   			 							  learns
-         *   			 lvls      (vector<int>)    - the levels when the
-         *   			 							  Pokemon learns the move
+         *   Parameters: ATTACK_DEX (vector<Attack>) - the attackdex
+         *   			 MOVES      (vector<string>) - the moves the Pokemon
+         *   			 							   learns
+         *   			 LVLS       (vector<int>)    - the levels when the
+         *   			 							   Pokemon learns the move
          *   Return: none
          ***************************************************************/
-        Moveset(const vector<Attack>& attackDex,
-                const vector<string>& moves,
-                const vector<int>   & lvls);//Non-Deafult Constructor
+        Moveset(const vector<Attack>& ATTACK_DEX,
+                const vector<string>& MOVES,
+                const vector<int>   & LVLS);//Non-Deafult Constructor
 
         /****************************************************************
          * ~Pokedex ();
@@ -114,29 +114,28 @@ class Moveset //Base Class
          *   Parameters: none
          *   Return: none
          ***************************************************************/
-        ~Moveset(); //Deconstructor
+        virtual ~Moveset(); //Deconstructor
 
         /******************
          **** MUTATORS ****
          ******************/
 
         /****************************************************************
-         * 			void InitializeMoveSets(const vector<Attack>& attackDex,
-         *									const vector<string>& moves,
-         *									const vector<int>   & lvls);
+         * 	void InitializeMoveSets(const vector<Attack>& attackDex,
+         *							const vector<string>& moves,
+         *							const vector<int>   & lvls);
          *
          *   Mutator; this method initializes the pokemon's moves
-         *   Parameters: attackDex (vector<Attack>) - the attackdex
-         *   			 moves     (vector<string>) - the moves the Pokemon
-         *   			 							  learns
-         *   			 lvls      (vector<int>)    - the levels the Pokemon
-         *   			 							  learns the move
+         *   Parameters: ATTACK_DEX (vector<Attack>) - the attackdex
+         *   			 MOVES      (vector<string>) - the moves the Pokemon
+         *   			 							   learns
+         *   			 LVLS       (vector<int>)    - the levels the Pokemon
+         *   			 							   learns the move
          *   Return: none
          ***************************************************************/
-        void InitializeMoveSets(const vector<Attack>& attackDex,
-                                const vector<string>& moves,
-                                const vector<int>   & lvls);
-
+        void InitializeMoveSets(const vector<Attack>& ATTACK_DEX,
+                                const vector<string>& MOVES,
+                                const vector<int>   & LVLS);
 
         /*******************
          **** ACCESSORS ****
@@ -164,7 +163,7 @@ class Moveset //Base Class
          * 	string PrintTM() const;
          *
          *   Accessor; this method returns the printed format of the TM moveset
-         *   Parameters:
+         *   Parameters: none
          *   Return: TM Moveset format
          ***************************************************************/
         string PrintTM() const;
@@ -172,8 +171,9 @@ class Moveset //Base Class
         /****************************************************************
          * 	string PrintLvl() const;
          *
-         *   Accessor; this method returns the printed format of the level moveset
-         *   Parameters: fout (ostream) - the output variable
+         *   Accessor; this method returns the printed format of the
+         *             level moveset
+         *   Parameters: none
          *   Return: Level Moveset format
          ***************************************************************/
         string PrintLvl() const;

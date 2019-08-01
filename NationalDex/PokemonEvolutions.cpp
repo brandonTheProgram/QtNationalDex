@@ -13,9 +13,7 @@
 * 	==> returns nothing
 *************************************************************************/
 PokemonEvolutions::PokemonEvolutions()
-{
-    pokedexCopy.clear();
-}
+{pokedexCopy.clear();}
 
 /************************************************************************
 * Method PokemonEvolutions: Class PokemonEvolutions
@@ -25,18 +23,18 @@ PokemonEvolutions::PokemonEvolutions()
 *-----------------------------------------------------------------------
 * PRE-CONDITIONS
 * 	The following need to be passed in
-* 		pokedex       (vector<Pokemon>) - the pokedex
-*   	currentPokemon(currentPokemon)  - the current Pokemon
+* 		POKEDEX        (vector<Pokemon>) - the pokedex
+*   	CURRENT_POKEMON(currentPokemon)  - the current Pokemon
 *
 * POST-CONDITIONS
 * 	==> returns nothing
 *************************************************************************/
-PokemonEvolutions::PokemonEvolutions(const vector<Pokemon>& pokedex,
-                                     const Pokemon& currentPokemon)
+PokemonEvolutions::PokemonEvolutions(const vector<Pokemon>& POKEDEX,
+                                     const Pokemon        & CURRENT_POKEMON)
 {
-    pokedexCopy = pokedex;
+    pokedexCopy = POKEDEX;
 
-    mainPokemon = currentPokemon;
+    mainPokemon = CURRENT_POKEMON;
 
     firstEvo  	= pokedexCopy[mainPokemon.GetFirstEvoNum() - 1];
 
@@ -81,33 +79,33 @@ PokemonEvolutions::~PokemonEvolutions()
 *-----------------------------------------------------------------------
 * PRE-CONDITIONS
 * 	The following need to be passed in
-* 		pokedex       (vector<Pokemon>) - the pokedex
-*   	currentPokemon(currentPokemon)  - the current Pokemon
+* 		POKEDEX        (vector<Pokemon>) - the pokedex
+*   	CURRENT_POKEMON(currentPokemon)  - the current Pokemon
 *
 * POST-CONDITIONS
 * 	==> returns nothing
 *************************************************************************/
-void PokemonEvolutions::SetInitialValues(const vector<Pokemon>& pokedex,
-                                         const Pokemon& currentPokemon)
+void PokemonEvolutions::SetInitialValues(const vector<Pokemon>& POKEDEX,
+                                         const Pokemon        & CURRENT_POKEMON)
 {
-    pokedexCopy = pokedex;
+    pokedexCopy = POKEDEX;
 
-    mainPokemon = currentPokemon;
+    mainPokemon = CURRENT_POKEMON;
 
     firstEvo  	= pokedexCopy[mainPokemon.GetFirstEvoNum() - 1];
 
     //If the Pokemon has a second evolution, then store it
     if(mainPokemon.GetEvolutions() == 2)
-        secondEvo 	= pokedexCopy[mainPokemon.GetSecondEvoNum() - 1];
+        {secondEvo 	= pokedexCopy[mainPokemon.GetSecondEvoNum() - 1];}
 
     //If the Pokemon is not a special branch pokemon like Eevee which has
     //multiple final evolution forms, then store it
     if(mainPokemon.GetEvolutions() <= 2)
-        finalEvo  	= pokedexCopy[mainPokemon.GetFinalEvoNum() - 1];
+        {finalEvo  	= pokedexCopy[mainPokemon.GetFinalEvoNum() - 1];}
 
     //If the Pokemon only has one branch evo, then store it
     if(mainPokemon.GetBranchEvo() == true && mainPokemon.GetEvolutions() <= 2)
-        branchEvo 	= pokedexCopy[mainPokemon.GetBranchEvoNum() - 1];
+        {branchEvo 	= pokedexCopy[mainPokemon.GetBranchEvoNum() - 1];}
 }
 
 /************************************************************************
@@ -118,32 +116,24 @@ void PokemonEvolutions::SetInitialValues(const vector<Pokemon>& pokedex,
 *-----------------------------------------------------------------------
 * PRE-CONDITIONS
 * 	The following need to be passed in
-* 		fout (ostream) - the output variable
 *
 * POST-CONDITIONS
 * 	==> returns nothing
 *************************************************************************/
 string PokemonEvolutions::PrintEvoTree() const
 {
-    string evoString;
+    string evoString;   //PROC - the evolution tree as a single string
 
     //PROCESSING - If the pokemon has a branch evolution tree, then display that
-    if(mainPokemon.GetBranchEvo() == true)
-    {
-        evoString = PrintBranchEvos();
-    }
+    if(mainPokemon.GetBranchEvo() == true){evoString = PrintBranchEvos();}
+
     else
     {
         //PROCESSING - If the pokemon has only one evolution, then display that
-        if(mainPokemon.GetEvolutions() == 1)
-        {
-            evoString = PrintTwoEvos();
-        }
+        if(mainPokemon.GetEvolutions() == 1){evoString = PrintTwoEvos();}
+
         //PROCESSING - If the pokemon has only two evolution, then display that
-        else
-        {
-            evoString = PrintThreeEvos();
-        }
+        else{evoString = PrintThreeEvos();}
     }
 
     return (evoString);
@@ -157,7 +147,6 @@ string PokemonEvolutions::PrintEvoTree() const
 *-----------------------------------------------------------------------
 * PRE-CONDITIONS
 * 	The following need to be passed in
-* 		fout (ostream) - the output variable
 *
 * POST-CONDITIONS
 * 	==> returns nothing
@@ -170,22 +159,17 @@ string PokemonEvolutions::PrintTwoEvos() const
     evoTree << firstEvo.GetName() << " evolves by ";
 
     //PROCESSING - If the Pokemon evolves through special conditions
-    if((firstEvo.GetEvoThroughLvl()  == true  &&
-        firstEvo.GetEvoThroughCond() == true) ||
+    if((firstEvo.GetEvoThroughLvl()  == true   &&
+        firstEvo.GetEvoThroughCond() == true)  ||
        (firstEvo.GetEvoThroughLvl()  == false  &&
         firstEvo.GetEvoThroughCond() == true))
-    {
-        evoTree << firstEvo.GetFinalEvoCond();
-    }
+    {evoTree << firstEvo.GetFinalEvoCond();}
+
     else if(firstEvo.GetEvoThroughLvl()  == true  &&
             firstEvo.GetEvoThroughCond() == false)
-    {
-        evoTree << "leveling up to level " << firstEvo.GetEvoLvl();
-    }
-    else
-    {
-        evoTree << "\nERROR\n";
-    }
+    {evoTree << "leveling up to level " << firstEvo.GetEvoLvl();}
+
+    else{evoTree << "\nERROR\n";}
 
     evoTree << " into " << finalEvo.GetName() << ".";
 
@@ -196,22 +180,16 @@ string PokemonEvolutions::PrintTwoEvos() const
              << firstEvo.GetName() << " by ";
 
         //PROCESSING - If the Pokemon evolves through special conditions
-        if((branchEvo.GetEvoThroughLvl() == true    &&
+        if((branchEvo.GetEvoThroughLvl()  == true    &&
             branchEvo.GetEvoThroughCond() == true)   ||
            (branchEvo.GetEvoThroughLvl()  == false   &&
             branchEvo.GetEvoThroughCond() == true))
-        {
-            evoTree << branchEvo.GetFinalEvoCond();
-        }
+        {evoTree << branchEvo.GetFinalEvoCond();}
         else if(branchEvo.GetEvoThroughLvl()  == true &&
                 branchEvo.GetEvoThroughCond() == false)
-        {
-            evoTree << "leveling up to level " << branchEvo.GetFinalEvoLvl();;
-        }
-        else
-        {
-            evoTree << "\nERROR\n";
-        }
+        {evoTree << "leveling up to level " << branchEvo.GetFinalEvoLvl();}
+
+        else{evoTree << "\nERROR\n";}
 
         evoTree << " into " << branchEvo.GetName() << ".";
     }
@@ -227,7 +205,6 @@ string PokemonEvolutions::PrintTwoEvos() const
 *-----------------------------------------------------------------------
 * PRE-CONDITIONS
 * 	The following need to be passed in
-* 		fout (ostream) - the output variable
 *
 * POST-CONDITIONS
 * 	==> returns nothing
@@ -240,45 +217,35 @@ string PokemonEvolutions::PrintThreeEvos() const
 
     //If the first evolution evolves through leveling and condition
     //or just condition
-    if((firstEvo.GetEvoThroughLvl()  == true  &&
-        firstEvo.GetEvoThroughCond() == true) ||
+    if((firstEvo.GetEvoThroughLvl()  == true   &&
+        firstEvo.GetEvoThroughCond() == true)  ||
        (firstEvo.GetEvoThroughLvl()  == false  &&
         firstEvo.GetEvoThroughCond() == true))
-    {
-        evoTree << firstEvo.GetSecondEvoCond();
-    }
+    {evoTree << firstEvo.GetSecondEvoCond();}
+
     //If the first evolution evolves through leveling and not condition
     else if(firstEvo.GetEvoThroughLvl()  == true &&
             firstEvo.GetEvoThroughCond() == false)
-    {
-        evoTree << "leveling up to level " << firstEvo.GetEvoLvl();
-    }
-    else
-    {
-        evoTree << "\nERROR\n";
-    }
+    {evoTree << "leveling up to level " << firstEvo.GetEvoLvl();}
+
+    else{evoTree << "\nERROR\n";}
 
     evoTree << " into " << secondEvo.GetName() << " then by ";
 
     //If the second evolution evolves through leveling and condition
     //or just condition
-    if((secondEvo.GetEvoThroughLvl()  == true  &&
-        secondEvo.GetEvoThroughCond() == true) ||
+    if((secondEvo.GetEvoThroughLvl()  == true   &&
+        secondEvo.GetEvoThroughCond() == true)  ||
        (secondEvo.GetEvoThroughLvl()  == false  &&
         secondEvo.GetEvoThroughCond() == true))
-    {
-        evoTree << secondEvo.GetFinalEvoCond();
-    }
+    {evoTree << secondEvo.GetFinalEvoCond();}
+
     //If the second evolution evolves through leveling and not condition
     else if(secondEvo.GetEvoThroughLvl()  == true &&
             secondEvo.GetEvoThroughCond() == false)
-    {
-        evoTree << "leveling up to level " << secondEvo.GetEvoLvl();
-    }
-    else
-    {
-        evoTree << "\nERROR\n";
-    }
+    {evoTree << "leveling up to level " << secondEvo.GetEvoLvl();}
+
+    else{evoTree << "\nERROR\n";}
 
     evoTree << " into " << finalEvo.GetName() << ".";
 
@@ -286,25 +253,19 @@ string PokemonEvolutions::PrintThreeEvos() const
     if(mainPokemon.GetBranchEvo() == true)
     {
         evoTree << " A branch evolution is available by evolving "
-             << secondEvo.GetName() << " by ";
+                << secondEvo.GetName() << " by ";
 
-        if((branchEvo.GetEvoThroughLvl() == true    &&
+        if((branchEvo.GetEvoThroughLvl() == true     &&
             branchEvo.GetEvoThroughCond() == true)   ||
            (branchEvo.GetEvoThroughLvl()  == false   &&
             branchEvo.GetEvoThroughCond() == true))
-        {
-            evoTree << branchEvo.GetFinalEvoCond();
-        }
+        {evoTree << branchEvo.GetFinalEvoCond();}
+
         else if(branchEvo.GetEvoThroughLvl()  == true &&
                 branchEvo.GetEvoThroughCond() == false)
-        {
-            evoTree << "leveling up to level "
-                 << branchEvo.GetFinalEvoLvl();;
-        }
-        else
-        {
-            evoTree << "\nERROR\n";
-        }
+        {evoTree << "leveling up to level " << branchEvo.GetFinalEvoLvl();}
+
+        else{evoTree << "\nERROR\n";}
 
         evoTree << " into " << branchEvo.GetName() << ".";
     }
@@ -320,25 +281,25 @@ string PokemonEvolutions::PrintThreeEvos() const
 *-----------------------------------------------------------------------
 * PRE-CONDITIONS
 * 	The following need to be passed in
-* 		fout (ostream) - the output variable
 *
 * POST-CONDITIONS
 * 	==> returns nothing
 *************************************************************************/
 string PokemonEvolutions::PrintBranchEvos() const
 {
-    unsigned int index;				//PROC - The index in the array
+    unsigned int index;				//PROC       - The index in the array
 
-    bool specialBranchs;	        //PROC - The condition if the Pokemon is
-                                    //       a special branch with more
-                                    //       evolutions than normal(>2)
+    bool specialBranchs;	        //PROC       - The condition if the Pokemon
+                                    //             is a special branch with more
+                                    //             evolutions than normal(>2)
 
-    std::ostringstream evoTree; //PROC & OUT - The evolution tree
+    std::ostringstream evoTree;     //PROC & OUT - The evolution tree
 
-    string functionString;
+    string functionString;          //PROC & OUT - The string containing the
+                                    //             fucntion called
 
     //PROCESSING - Initialize the values
-    index = 0;
+    index          = 0;
     specialBranchs = false;
 
     //PROCESSING - Store the value of the size of the vector
@@ -364,15 +325,10 @@ string PokemonEvolutions::PrintBranchEvos() const
     if(specialBranchs == false)
     {
         //PROCESSING - Pokemon with only 2 normal evolutions and 1 branch evo
-        if(mainPokemon.GetEvolutions() == 1)
-        {
-            functionString = PrintTwoEvos();
-        }
+        if(mainPokemon.GetEvolutions() == 1){functionString = PrintTwoEvos();}
+
         //PROCESSING - Pokemon with only 3 normal evolutions and 1 branch evo
-        else
-        {
-            functionString = PrintThreeEvos();
-        }
+        else{functionString = PrintThreeEvos();}
     }
 
     evoTree << functionString;
@@ -388,7 +344,6 @@ string PokemonEvolutions::PrintBranchEvos() const
 *-----------------------------------------------------------------------
 * PRE-CONDITIONS
 * 	The following need to be passed in
-* 		fout (ostream) - the output variable
 *
 * POST-CONDITIONS
 * 	==> returns nothing
@@ -505,7 +460,8 @@ string PokemonEvolutions::PrintSpecialEvosBranch() const
             //If the Pokemon is not Tyrogue, then output how to obtain it
             if(tyroEvoIndex != (TYROGUE_EVOLUTIONS[0] - 1))
             {
-                evoTree << pokedexCopy[tyroEvoIndex].GetName() << " obtained by ";
+                evoTree << pokedexCopy[tyroEvoIndex].GetName()
+                        << " obtained by ";
 
                 if((pokedexCopy[tyroEvoIndex].GetEvoThroughCond() == true  &&
                     pokedexCopy[tyroEvoIndex].GetEvoThroughLvl()  == true) ||
