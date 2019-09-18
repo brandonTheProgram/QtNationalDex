@@ -17,17 +17,23 @@
  * ------------------------------------------------------------------------
  * USED FOR SPECIFC VALUES
  * ------------------------------------------------------------------------
- * GIF_PATH     : The path to the pokemon gif
- * IMAGE_PATH   : The path to the pokemon image
- * FONT         : The font of the text
- * IMAGE_SIZE   : The size of the image
+ * GIF_PATH         : The path to the pokemon gif
+ * IMAGE_PATH       : The path to the pokemon image
+ * GAME_VER_ONE     : The first version of the game in the current generation
+ * GAME_VER_TWO     : The second version of the game in the current generation
+ * FONT             : The font of the text
+ * IMAGE_SIZE       : The size of the image
+ * WORD_WRAP_LIMIT  : The size of the work wrap limit
  *************************************************************************/
 namespace PokemonDialog
 {
     const QString GIF_PATH   = ":/pokemonGifs/pokemonGifs/";
     const QString IMAGE_PATH = ":/pokemonImages/pokemonImages/";
+    const QString GAME_VER_ONE = "Ultra Sun";
+    const QString GAME_VER_TWO = "Ultra Moon";
     const QFont   FONT("Times", 10, QFont::Bold);
     const QSize   IMAGE_SIZE(250, 250);
+    const int     WORD_WRAP_LIMIT = 150;
 
     //The enum of the menu options
     enum options
@@ -136,7 +142,7 @@ public:
      *   Return: none
      ***************************************************************/
     void DisplayDefault() const
-        {options->setPlainText(tr("This Pokemon has no known evolutions"));}
+        {options->setPlainText(tr("Pick an option below!"));}
 
     /****************************************************************
      * 	void DisplayAbilities() const;
@@ -192,6 +198,8 @@ public:
      *   Return: none
      ***************************************************************/
     void DisplayTMMoveset() const;
+
+    QString WordWrap(const string& SEN, const int& LENGTH) const;
 
 public slots:
     /****************************************************************
@@ -256,6 +264,10 @@ private:
     QPushButton          *branchEvoBut;   //Button for the branch evolution
     QComboBox            *comboBox;       //The combobox that holds the options
     QLabel               *description;    //The Description of the Pokemon
+    QLabel               *versionOneLoc;  //The location of the Pokemon in
+                                          //version one
+    QLabel               *versionTwoLoc;  //The location of the Pokemon in
+                                          //version two
     QTextEdit            *options;        //The different options that can be
                                           //displayed by the QComboBox
     QMovie               *movie;          //The animated gif of the Pokemon

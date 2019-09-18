@@ -1,6 +1,8 @@
 #include "dialog.h"
 #include "ui_dialog.h"
 
+using namespace PokemonDialog;
+
 /************************************************************************
 * Method Dialog: Class Dialog
 *----------------------------------------------------------------------
@@ -42,6 +44,8 @@ Dialog::Dialog(QWidget *parent) :
     secType         = new QLabel;
     image           = new QLabel;
     description     = new QLabel;
+    versionOneLoc     = new QLabel;
+    versionTwoLoc    = new QLabel;
 
     firstEvoBut     = new QPushButton;
     secEvoBut       = new QPushButton;
@@ -61,6 +65,8 @@ Dialog::Dialog(QWidget *parent) :
     priType         ->setFont(PokemonDialog::FONT);
     secType         ->setFont(PokemonDialog::FONT);
     description     ->setFont(PokemonDialog::FONT);
+    versionOneLoc     ->setFont(PokemonDialog::FONT);
+    versionTwoLoc    ->setFont(PokemonDialog::FONT);
     options         ->setFont(PokemonDialog::FONT);
     comboBox        ->setFont(PokemonDialog::FONT);
 
@@ -80,7 +86,7 @@ Dialog::Dialog(QWidget *parent) :
 
     //Set the options so that they can not be edited
     options->setReadOnly(true);
-    options->setPlainText(tr("Pick an option below"));
+    options->setPlainText(tr("Pick an option below!"));
 
     //Edit the layouts
     mainLayout  ->addWidget(topBox);
@@ -96,6 +102,8 @@ Dialog::Dialog(QWidget *parent) :
 
     middleLayout->addWidget(image);
     middleLayout->addWidget(description);
+    middleLayout->addWidget(versionOneLoc);
+    middleLayout->addWidget(versionTwoLoc);
 
     bottomLayout->addWidget(options);
     bottomLayout->addWidget(comboBox);
@@ -142,6 +150,8 @@ Dialog::~Dialog()
     delete secType;
     delete comboBox;
     delete description;
+    delete versionOneLoc;
+    delete versionTwoLoc;
     delete mainLayout;
     delete topLayout;
     delete middleLayout;
@@ -206,6 +216,10 @@ void Dialog::SetPokemonValues()
     QString secEvoNum;      //PROC - the second evolution number as a QString
     QString finalEvoNum;    //PROC - the final evolution number as a QString
     QString branchEvoNum;   //PROC - the branch evolution number as a QString
+    QString versionOneLoc;  //OUT  - the location of the pokemon in version one
+                            //       of the current game
+    QString versionTwoLoc;  //OUT  - the location of the pokemon in version two
+                            //       of the current game
 
     QPixmap firstEvoPixmap; //PROC - the pixmap of the first evo
     QPixmap secEvoPixmap;   //PROC - the pixmap of the second evo
@@ -223,6 +237,8 @@ void Dialog::SetPokemonValues()
     pokemon       = this->currentPokemon.currentPkmn;
     pokemonNumber = QString::number(pokemon.GetPokedexNumber());
     gifPath       = (PokemonDialog::GIF_PATH + pokemonNumber + ".gif");
+    versionOneLoc = WordWrap(pokemon.GetVersionOneLocation(), WORD_WRAP_LIMIT);
+    versionTwoLoc = WordWrap(pokemon.GetVersionOneLocation(), WORD_WRAP_LIMIT);
 
     //OUTPUT - set the text for the ui objects
     idNumber      ->setText(pokemonNumber);
@@ -239,6 +255,8 @@ void Dialog::SetPokemonValues()
 
     description->setText(QString::fromStdString(pokemon.GetDescription()));
 
+    this->versionOneLoc->setText(GAME_VER_ONE + "   : "  + versionOneLoc);
+    this->versionTwoLoc->setText(GAME_VER_TWO + ": "     + versionTwoLoc);
     //Set up and start playing the gif
     movie->setFileName(gifPath);
     movie->start();
@@ -582,6 +600,40 @@ void Dialog::DisplayTMMoveset() const
 {
     options->setPlainText(QString::fromStdString(
                               currentPokemon.pkmnMoves.PrintTM()));
+}
+
+QString Dialog::WordWrap(const string &SEN, const int &LENGTH) const
+{
+    std::istringstream words(SEN); //PROC - the words in the sentence
+
+    std::ostringstream wrapped;			//PROC - the wrapped text
+
+    string        word;					//PROC - the word
+
+    if (words >> word)
+    {
+        wrapped << word;
+
+        size_t space_left = LENGTH - word.length();
+
+        while (words >> word)
+        {
+            if (space_left < word.length() + 1)
+            {
+                wrapped << '\n' << word;
+
+                space_left = LENGTH - word.length();
+            }
+            else
+            {
+                wrapped << ' ' << word;
+
+                space_left -= word.length() + 1;
+            }
+        }
+    }
+
+    return QString::fromStdString(wrapped.str());
 }
 
 /************************************************************************

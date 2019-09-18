@@ -4,6 +4,8 @@ Spiky Nut Pokemon
 Grass
 Grass
 The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.
+Breed Chesnaught
+Breed Chesnaught
 Overgrow
 When HP is below 1/3rd its maximum, power of Grass-type moves is increased by 50%.
 Bulletproof
@@ -23,6 +25,8 @@ Spiny Armor Pokemon
 Grass
 Grass
 It relies on its sturdy shell to deflect predators' attacks. It counterattacks with its sharp quills.
+Evolve Chespin
+Evolve Chespin
 Overgrow
 When HP is below 1/3rd its maximum, power of Grass-type moves is increased by 50%.
 Bulletproof
@@ -42,6 +46,8 @@ Spiny Armor Pokemon
 Grass
 Fighting
 When it takes a defensive posture with its fists guarding its face, it could withstand a bomb blast.
+Evolve Quilladin
+Evolve Quilladin
 Overgrow
 When HP is below 1/3rd its maximum, power of Grass-type moves is increased by 50%.
 Bulletproof
@@ -61,6 +67,8 @@ Fox Pokemon
 Fire
 Fire
 Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.
+Breed Delphox
+Breed Delphox
 Blaze
 When HP is below 1/3rd its maximum, power of Fire-type moves is increased by 50%.
 Magician
@@ -80,6 +88,8 @@ Fox Pokemon
 Fire
 Fire
 When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.
+Evolve Fennekin
+Evolve Fennekin
 Blaze
 When HP is below 1/3rd its maximum, power of Fire-type moves is increased by 50%.
 Magician
@@ -99,6 +109,8 @@ Fox Pokemon
 Fire
 Psychic
 Using psychic power, it generates a fiery vortex of 5,400 degree Fahrenheit, incinerating foes swept into this whirl of flame.
+Evolve Braixen
+Evolve Braixen
 Blaze
 When HP is below 1/3rd its maximum, power of Fire-type moves is increased by 50%.
 Magician
@@ -118,6 +130,8 @@ Bubble Frog Pokemon
 Water
 Water
 It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.
+Breed Greninja
+Breed Greninja
 Torrent
 When HP is below 1/3rd its maximum, power of Water-type moves is increased by 50%.
 Protean
@@ -137,6 +151,8 @@ Bubble Frog Pokemon
 Water
 Water
 It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.
+Evolve Froakie
+Evolve Froakie
 Torrent
 When HP is below 1/3rd its maximum, power of Water-type moves is increased by 50%.
 Protean
@@ -156,6 +172,8 @@ Ninja Pokemon
 Water
 Dark
 It appears and vanishes with a ninja’s grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.
+Evolve Frogadier
+Evolve Frogadier
 Torrent
 When HP is below 1/3rd its maximum, power of Water-type moves is increased by 50%.
 Protean
@@ -175,6 +193,8 @@ Digging Pokemon
 Normal
 Normal
 It has ears like shovels. Digging holes strengthens its ears so much that they can sever thick roots effortlessly.
+Transfer required
+Transfer required
 Pickup
 Has a 10% chance of finding and holding an item after battle. Will not work if this Pokemon is already holding an item. From Black & White, it allows for the user to pick up the item of its opponent or ally if they used up the item in battle.
 Huge Power
@@ -194,6 +214,8 @@ Digging Pokemon
 Normal
 Ground
 With their powerful ears, they can heft boulders of a ton or more with ease. They can be a big help at construction sites.
+Transfer required
+Transfer required
 Pickup
 Has a 10% chance of finding and holding an item after battle. Will not work if this Pokemon is already holding an item. From Black & White, it allows for the user to pick up the item of its opponent or ally if they used up the item in battle.
 Huge Power
@@ -213,6 +235,8 @@ Tiny Robin Pokemon
 Normal
 Flying
 While it's an amiable Pokémon, if you touch it unexpectedly, it will heat up its body in an instant, and you'll be burned.
+Route 8, Wela Volcano Park
+Route 8, Wela Volcano Park
 Big Pecks
 Protects the Pokemon from Defense-lowering effects.
 Gale Wings
@@ -232,6 +256,8 @@ Ember Pokemon
 Fire
 Flying
 It scatters embers in the tall grass. Then bug Pokémon, frightened by the flames, come flying out, and Fletchinder gobbles them up.
+Route 8 (SOS Only), Wela Volcano Park (SOS Only)
+Route 8 (SOS Only), Wela Volcano Park (SOS Only)
 Flame Body
 The opponent has a 30% chance of being induced with Burn when using an attack, that requires physical contact, against this Pokémon.
 Gale Wings
@@ -251,6 +277,8 @@ Scorching Pokemon
 Fire
 Flying
 Bird Pokémon make up most of its diet. It approaches at high speeds and smacks them down to the ground with its powerful kick.
+Evolve Fletchinder
+Evolve Fletchinder
 Flame Body
 The opponent has a 30% chance of being induced with Burn when using an attack, that requires physical contact, against this Pokémon.
 Gale Wings
@@ -270,6 +298,8 @@ Scatterdust Pokemon
 Bug
 Bug
 When under attack from bird Pokémon, it spews a poisonous black powder that causes paralysis on contact.
+Hau'oli City - Island Scan (Thursday)
+Hau'oli City - Island Scan (Thursday)
 Shield Dust
 Damaging moves used by the opponent will not have an additional effect.
 Friend Guard
@@ -289,6 +319,8 @@ Scatterdust Pokemon
 Bug
 Bug
 It lives hidden within thicket shadows. When predators attack, it quickly bristles the fur covering its body in an effort to threaten them.
+Evolve Scatterbug
+Evolve Scatterbug
 Shed Skin
 Every turn, it has a 1 in 3 chance of healing from a status condition(BURN, PARALYZE, SLEEP, POISON, FREEZE).
 Friend Guard
@@ -308,6 +340,8 @@ Scale Pokemon
 Bug
 Flying
 The patterns on this Pokémon's wings depend on the climate and topography of its habitat. It scatters colorful scales.
+Evolve Spewpa
+Evolve Spewpa
 Shield Dust
 Damaging moves used by the opponent will not have an additional effect.
 Friend Guard
@@ -327,6 +361,8 @@ Lion Cub Pokemon
 Fire
 Normal
 When they're young, they live with a pride. Once they're able to hunt prey on their own, they're kicked out and have to make their own way.
+Poke Pelago
+Poke Pelago
 Rivalry
 Attack & Special Attack is increased by 25% if the foe is of the same gender; Attack & Special Attack is decreased by 25% if the foe is of the opposite gender.
 Moxie
@@ -346,6 +382,8 @@ Royal Pokemon
 Fire
 Normal
 The males are usually lazy, but when attacked by a strong foe, a male will protect its friends with no regard for its own safety.
+Poni Plains
+Poni Plains
 Rivalry
 Attack & Special Attack is increased by 25% if the foe is of the same gender; Attack & Special Attack is decreased by 25% if the foe is of the opposite gender.
 Moxie
@@ -360,11 +398,13 @@ None
 668 0 0
 
 669
-Flabébé
+Flabebe
 Single Bloom Pokemon
 Fairy
 Fairy
 It's not safe without the power of a flower, but it will keep traveling around until it finds one with the color and shape it wants.
+Melemele Meadow
+Melemele Meadow
 Flower Veil
 Ally Grass-type Pokemon are protected from status conditions and the lowering of their stats.
 Symbiosis
@@ -384,6 +424,8 @@ Fairy Pokemon
 Fairy
 Fairy
 It gives its own power to flowers, pouring its heart into caring for them. Floette never forgives anyone who messes up a flower bed.
+Poni Meadow, Ula'ula Meadow
+Poni Meadow, Ula'ula Meadow
 Flower Veil
 Ally Grass-type Pokemon are protected from status conditions and the lowering of their stats.
 Symbiosis
@@ -403,6 +445,8 @@ Garden Pokemon
 Fairy
 Fairy
 It controls the flowers it grows. The petal blizzards that Florges triggers are overwhelming in their beauty and power.
+Evolve Floette
+Evolve Floette
 Flower Veil
 Ally Grass-type Pokemon are protected from status conditions and the lowering of their stats.
 Symbiosis
@@ -422,6 +466,8 @@ Mount Pokemon
 Grass
 Grass
 If it has sunshine and water, it doesn't need to eat, because it can generate energy from the leaves on its back.
+Transfer required
+Transfer required
 Sap Sipper
 Attack is raised by one stage when the Pokemon is hit by a Grass-type move. User recieves no damage from Grass-type attacks.
 Grass Pelt
@@ -441,6 +487,8 @@ Mount Pokemon
 Grass
 Grass
 It can tell how its trainer is feeling by subtle shifts in the grip on its horns. This empathetic sense lets them run as if one being.
+Transfer required
+Transfer required
 Sap Sipper
 Attack is raised by one stage when the Pokemon is hit by a Grass-type move. User recieves no damage from Grass-type attacks.
 Grass Pelt
@@ -460,6 +508,8 @@ Playful Pokemon
 Fighting
 Fighting
 There's no point to the leaf in its mouth, aside from an effort to look cool. It's mischievous, so it's not well suited to inexperienced Trainers.
+Route 10, Route 11
+Route 10, Route 11
 Iron Fist
 The power of punching moves is increased by 20%.
 Scrappy
@@ -479,6 +529,8 @@ Daunting Pokemon
 Fighting
 Dark
 Pangoro is the type to talk with its fists. It doesn't say much as it pummels opponents with enough force to send a dump truck flying.
+Route 10 (SOS Only), Route 11 (SOS Only)
+Route 10 (SOS Only), Route 11 (SOS Only)
 Iron Fist
 The power of punching moves is increased by 20%.
 Scrappy
@@ -498,6 +550,8 @@ Poodle Pokemon
 Normal
 Normal
 Left alone, its fur will grow longer and longer, but it will only allow someone it trusts to cut it.
+Route 2, Ancient Poni Path, Hau'oli City, Poni Wilds
+Route 2, Ancient Poni Path, Hau'oli City, Poni Wilds
 Fur Coat
 Halves the damage from physical moves on this Pokemon
 None
@@ -517,6 +571,8 @@ Restraint Pokemon
 Psychic
 Psychic
 The organ that emits its intense psychic power is sheltered by its ears to keep power from leaking out.
+Transfer required
+Transfer required
 Keen Eye
 Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
 Own Tempo
@@ -536,6 +592,8 @@ Constraint Pokemon
 Psychic
 Psychic
 The eyeball patterns on the interior of its ears emit psychic energy. It keeps the patterns tightly covered because that power is too immense.
+Transfer required
+Transfer required
 Keen Eye
 Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
 Prankster
@@ -555,6 +613,8 @@ Sword Pokemon
 Steel
 Ghost
 If anyone dares to grab its hilt, it wraps a blue cloth around that person's arm and drains that person's life energy completely.
+Akala Outskirts - Island Scan (Wednesday)
+Akala Outskirts - Island Scan (Wednesday)
 No Guard
 The accuracy of all moves known by this Pokemon and all Pokemon targeting this Pokemon raises to 100%.
 None
@@ -574,6 +634,8 @@ Sword Pokemon
 Steel
 Ghost
 The complex attack patterns of its two swords are unstoppable, even for an opponent greatly accomplished at swordplay.
+Evolve Honedge
+Evolve Honedge
 No Guard
 The accuracy of all moves known by this Pokemon and all Pokemon targeting this Pokemon raises to 100%.
 None
@@ -593,6 +655,8 @@ Royal Sword Pokemon
 Steel
 Ghost
 Apparently, it can detect the innate qualities of leadership. According to legend, whoever it recognizes is destined to become king.
+Evolve Doublade
+Evolve Doublade
 Stance Change
 The Pokemon changes its form to Blade Forme when it uses an attack move, and changes to Shield Forme when it uses King's Shield.
 None
@@ -612,6 +676,8 @@ Perfume Pokemon
 Fairy
 Fariy
 In the past, rather than using perfume, royal ladies carried a Spritzee that would waft a fragrance they liked.
+Transfer required
+Transfer required
 Healer
 At the end of the turn, there is a 30% chance of either Ally being healed from a status condition.
 Aroma Veil
@@ -631,6 +697,8 @@ Fragance Pokemon
 Fairy
 Fairy
 It devises various scents, pleasant and unpleasant, and emits scents that its enemies dislike in order to gain an edge in battle.
+Transfer required
+Transfer required
 Healer
 At the end of the turn, there is a 30% chance of either Ally being healed from a status condition.
 Aroma Veil
@@ -650,6 +718,8 @@ Cotton Candy Pokemon
 Fairy
 Fairy
 To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy.
+Transfer required
+Transfer required
 Sweet Veil
 Prevents itself and ally Pokemon from falling asleep.
 Unburden
@@ -669,6 +739,8 @@ Meringue Pokemon
 Fairy
 Fairy
 Its sense of smell is 100 million times better than a human's, so even the faintest scent tells it about everything in the area. It's like it can see with its nose!
+Transfer required
+Transfer required
 Sweet Veil
 Prevents itself and ally Pokemon from falling asleep.
 Unburden
@@ -688,6 +760,8 @@ Revolving Pokemon
 Dark
 Psychic
 It draws prey near with its blinking lights and then wraps them up in its long tentacles and holds them in place.
+Route 1, Ancient Poni Path, Poni Gauntlet, Poni Wilds
+Route 1, Ancient Poni Path, Poni Gauntlet, Poni Wilds
 Contrary
 Moves used on the Pokemon that raise stats lower the stats, while the moves that lower the stats raise the stat.
 Infiltrator
@@ -707,6 +781,8 @@ Overturning Pokemon
 Dark
 Psychic
 It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.
+Evolve Inkay
+Evolve Inkay
 Contrary
 Moves used on the Pokemon that raise stats lower the stats, while the moves that lower the stats raise the stat.
 Infiltrator
@@ -726,6 +802,8 @@ Two-Handed Pokemon
 Rock
 Water
 They stretch and then contract, yanking their rocks along with them in bold hops. They eat seaweed that washes up on the shoreline.
+Breed Barbaracle
+Breed Barbaracle
 Tough Claws
 Increases the power of moves that make physical contact by 30%.
 Pickpocket
@@ -745,6 +823,8 @@ Collective Pokemon
 Rock
 Water
 Barbaracle's legs and hands have minds of their own, and they will move independently. But they usually follow the head's orders.
+Ultra Space Wilds
+Ultra Space Wilds
 Tough Claws
 Increases the power of moves that make physical contact by 30%.
 Pickpocket
@@ -764,6 +844,8 @@ Mock Kelp Pokemon
 Poison
 Water
 It vanishes into seaweed and remains perfectly still to avoid attacks from large Pokémon. Rotten seaweed is its main food source.
+Trade from Moon/Ultra Moon
+Breed Dragalge
 Poison Point
 The opponent has a 30% chance of being induced with Poison when using an attack, that requires physical contact, against this Pokemon.
 Adaptability
@@ -783,6 +865,8 @@ Mock Kelp Pokemon
 Poison
 Dragon
 Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory.
+Trade from Moon/Ultra Moon
+Poni Breaker Coast
 Poison Point
 The opponent has a 30% chance of being induced with Poison when using an attack, that requires physical contact, against this Pokemon.
 Adaptability
@@ -802,6 +886,8 @@ Water Gun Pokemon
 Water
 Water
 It moves around by jetting water from its right pincer. It has a poor sense of balance, so it's terrible at swimming straight.
+Breed Clawitzer
+Trade from Sun/Ultra Sun
 Mega Launcher
 Increases the power of Aura and Pulse moves by 50%.
 None
@@ -821,6 +907,8 @@ Howitzer Pokemon
 Water
 Water
 It compresses the water it has sucked up and then projects it with enough power to punch a hole right through a thick sheet of iron.
+Poni Breaker Coast
+Trade from Sun/Ultra Sun
 Mega Launcher
 Increases the power of Aura and Pulse moves by 50%.
 None
@@ -840,6 +928,8 @@ Generator Pokemon
 Electric
 Normal
 They make their home in deserts. They can generate their energy from basking in the sun, so eating food is not a requirement.
+Breed Heliolisk
+Breed Heliolisk
 Dry Skin
 HP is restored when hit by Water-type moves or when it is raining but also makes the Pokemon weak to Fire-type moves and reduces HP during strong sunlight.
 Solar Power
@@ -859,6 +949,8 @@ Generator Pokemon
 Electric
 Normal
 It stimulates its muscles with electricity, boosting the strength in its legs and enabling it to run 100 yards in five seconds.
+Ultra Space Wilds
+Ultra Space Wilds
 Dry Skin
 HP is restored when hit by Water-type moves or when it is raining but also makes the Pokemon weak to Fire-type moves and reduces HP during strong sunlight.
 Solar Power
@@ -878,6 +970,8 @@ Royal Heir Pokemon
 Rock
 Dragon
 This Pokemon was restored from a fossil. If something happens that it doesn't like, it throws a tantrum and runs wild.
+Route 8 Fossil Restoration Center
+Route 8 Fossil Restoration Center
 Strong Jaw
 Increases the power of biting moves by 50%.
 Sturdy
@@ -897,6 +991,8 @@ Despot Pokemon
 Rock
 Dragon
 Thanks to its gargantuan jaws, which could shred thick metal plates as if they were paper, it was invincible in the ancient world it once inhabited.
+Evolve Tyrunt
+Evolve Tyrunt
 Strong Jaw
 Increases the power of biting moves by 50%.
 Rock Head
@@ -916,6 +1012,8 @@ Tundra Pokemon
 Rock
 Ice
 It lived in cold areas in ancient times. It's said that when Amaura whinnies, auroras appear in the night sky.
+Route 8 Fossil Restoration Center
+Route 8 Fossil Restoration Center
 Refrigerate
 Increases the power of Normal-type moves by 20%. It then changes those moves to Ice-type.
 Snow Warning
@@ -935,6 +1033,8 @@ Tundra Pokemon
 Rock
 Ice
 The diamond-shaped crystals on its body expel air as cold as -240 degrees Fahrenheit, surrounding its enemies and encasing them in ice.
+Evolve Amaura
+Evolve Amaura
 Refrigerate
 Increases the power of Normal-type moves by 20%. It then changes those moves to Ice-type.
 Snow Warning
@@ -954,6 +1054,8 @@ Intertwining Pokemon
 Fairy
 Fairy
 Sylveon wraps its ribbonlike feelers around its Trainer's arm because this touch enables it to read its Trainer's feelings.
+Evolve Eevee
+Evolve Eevee
 Cute Charm
 The opponent has a 30% chance of being induced with Attract when using an attack, that requires physical contact, against this Pokemon.
 Pixilate
@@ -973,6 +1075,8 @@ Wrestling Pokemon
 Fighting
 Flying
 In combat, Hawlucha leaps nimbly about, taking advantage of its opponents' blind spots. It's also skilled at using superb submission holds.
+Route 3
+Route 3
 Limber
 The Pokemon cannot be Paralysed while having this ability.
 Mold Breaker
@@ -992,6 +1096,8 @@ Antenna Pokemon
 Electric
 Fairy
 It sneaks into people's homes and steals electricity from their outlets. When your electric bill seems off, it's the handiwork of this rascal.
+Blush Mountain
+Blush Mountain
 Cheek Pouch
 Restores HP as well when the Pokemon eats a Berry.
 Plus
@@ -1011,6 +1117,8 @@ Jewel Pokemon
 Rock
 Fairy
 Born from the high temperatures and pressures deep underground, it defends itself by firing beams from the jewel part of its body.
+Ten Carat Hill, Vast Poni Canyon
+Ten Carat Hill, Vast Poni Canyon
 Clear Body
 Opponents' moves which lower this Pokemon's stats will have no effect. However this Pokemon may lower its own stats with its own moves.
 Sturdy
@@ -1030,6 +1138,8 @@ Soft Tissue Pokemon
 Dragon
 Dragon
 It uses its horns to check out its surroundings. They're very sensitive, so if you grab them, it will feel a strong shock and be unable to move.
+Route 17 (SOS Only), Lush Jungle (SOS Only)
+Route 17 (SOS Only), Lush Jungle (SOS Only)
 Sap Sipper
 Attack is raised by one stage when the Pokemon is hit by a Grass-type move. User recieves no damage from Grass-type attacks.
 Gooey
@@ -1049,6 +1159,8 @@ Soft Tissue Pokemon
 Dragon
 Dragon
 This Pokémon's mucous can dissolve anything. Toothless, it sprays mucous on its prey. Once they're nicely dissolved, it slurps them up.
+Exeggutor Island (SOS Only)
+Exeggutor Island (SOS Only)
 Sap Sipper
 Attack is raised by one stage when the Pokemon is hit by a Grass-type move. User recieves no damage from Grass-type attacks.
 Gooey
@@ -1068,6 +1180,8 @@ Dragon Pokemon
 Dragon
 Dragon
 It's very friendly toward people. If you grow close to it, Goodra will hug you with its sticky, slime-covered body. Don't get mad.
+Evolve Sliggoo
+Evolve Sliggoo
 Sap Sipper
 Attack is raised by one stage when the Pokemon is hit by a Grass-type move. User recieves no damage from Grass-type attacks.
 Gooey
@@ -1087,6 +1201,8 @@ Key Ring Pokemon
 Steel
 Fairy
 This even-tempered Pokemon has a habit of collecting keys. It will sneak into people's homes to steal their keys.
+Thrifty Megamart
+Thrifty Megamart
 Prankster
 Status category moves have their Speed Priority increased by 1. Moves increased by this that are used on Dark-type opponents will fail.
 Magician
@@ -1106,6 +1222,8 @@ Stump Pokemon
 Ghost
 Grass
 These Pokémon are stumps possessed by the spirits of children who died in the forest. Their cries sound like eerie screams.
+Memorial Hill
+Memorial Hill
 Natural Cure
 The Pokemon's status (BURN, PARALYZE, SLEEP, POISON, FREEZE) is healed when withdrawn from battle.
 Harvest
@@ -1125,6 +1243,8 @@ Elder Tree Pokemon
 Ghost
 Grass
 This Pokémon controls trees via roots stretching from its feet, and it will attack anyone that dares to ravage the forest.
+Evolve Phantump
+Evolve Phantump
 Natural Cure
 The Pokemon's status (BURN, PARALYZE, SLEEP, POISON, FREEZE) is healed when withdrawn from battle.
 Harvest
@@ -1144,6 +1264,8 @@ Pumpkin Pokemon
 Ghost
 Grass
 The pumpkin body is inhabited by a spirit trapped in this world. As the sun sets, it becomes restless and active.
+Transfer required
+Transfer required
 Pickup
 Has a 10% chance of finding and holding an item after battle. Will not work if this Pokemon is already holding an item. From Black & White, it allows for the user to pick up the item of its opponent or ally if they used up the item in battle.
 Insomnia
@@ -1163,6 +1285,8 @@ Pumpkin Pokemon
 Ghost
 Grass
 Singing in eerie voices, they wander town streets on the night of the new moon. Anyone who hears their song is cursed.
+Transfer required
+Transfer required
 Pickup
 Has a 10% chance of finding and holding an item after battle. Will not work if this Pokemon is already holding an item. From Black & White, it allows for the user to pick up the item of its opponent or ally if they used up the item in battle.
 Insomnia
@@ -1182,6 +1306,8 @@ Ice Chunk Pokemon
 Ice
 Ice
 Using air of -150 degrees Fahrenheit, they freeze opponents solid. They live in herds above the snow line on mountains.
+Transfer required
+Transfer required
 Own Tempo
 The Pokemon cannot be Confused while having this ability.
 Sturdy
@@ -1201,6 +1327,8 @@ Iceberg Pokemon
 Ice
 Ice
 The way several Bergmite huddle on its back make it look like an aircraft carrier made of ice.
+Transfer required
+Transfer required
 Own Tempo
 The Pokemon cannot be Confused while having this ability.
 Sturdy
@@ -1220,6 +1348,8 @@ Sound Wave Pokemon
 Flying
 Dragon
 Even a robust wrestler will become dizzy and unable to stand when exposed to its 200,000-hertz ultrasonic waves.
+Verdant Cavern
+Verdant Cavern
 Frisk
 Reveals the foe’s held item.
 Telepathy
@@ -1239,6 +1369,8 @@ Sound Wave Pokemon
 Flying
 Dragon
 The ultrasonic waves it emits from its ears can reduce a large boulder to pebbles. It swoops out of the dark to attack.
+Resolution Cave
+Resolution Cave
 Frisk
 Reveals the foe’s held item.
 Telepathy
@@ -1258,6 +1390,8 @@ Life Pokemon
 Fairy
 Fairy
 When the horns on its head shine in seven different colors, it is said to be sharing everlasting life.
+Ultra Space Wilds
+Trade from Ultra Sun
 Fairy Aura
 Powers up every Pokemon in play's Fairy-type moves by 33.3%.
 None
@@ -1277,6 +1411,8 @@ Destruction Pokemon
 Dark
 Flying
 When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.
+Trade from Ultra Moon
+Ultra Space Wilds
 Dark Aura
 Powers up every Pokémon in play's Dark-type moves by 33.3%.
 None
@@ -1296,6 +1432,8 @@ Order Pokemon
 Dragon
 Ground
 This is Zygarde's form when it has gathered 50% of its cells. It wipes out all those who oppose it, showing not a shred of mercy.
+Resolution Cave
+Resolution Cave
 Aura Break
 The effects of Aura Abilities are reversed to lower the power of affected moves.
 Power Construct
@@ -1315,6 +1453,8 @@ Jewel Pokemon
 Rock
 Fairy
 A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.
+Transfer required
+Transfer required
 Clear Body
 Opponents' moves which lower this Pokemon's stats will have no effect. However this Pokemon may lower its own stats with its own moves.
 None
@@ -1334,6 +1474,8 @@ Mischief Pokemon
 Psychic
 Ghost
 It is said to be able to seize anything it desires with its six rings and six huge arms. With its powers sealed, it is transformed into a much smaller form.
+Transfer required
+Transfer required
 Magician
 The Pokémon steals the held item of a Pokemon it hits with a move.
 None
@@ -1353,6 +1495,8 @@ Steam Pokemon
 Fire
 Water
 It lets out billows of steam and disappears into the dense fog. It's said to live in mountains where humans do not tread.
+Transfer required
+Transfer required
 Water Absorb
 The Pokemon heals up to 1/4 of its maximum Hit Points when hit with Water-type moves.
 None

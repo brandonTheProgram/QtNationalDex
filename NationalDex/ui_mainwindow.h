@@ -28,6 +28,8 @@ class Ui_MainWindow
 {
 public:
     QAction *actionSearch;
+    QAction *actionType_Chart;
+    QAction *actionNature_Chart;
     QWidget *centralWidget;
     QGroupBox *regionBox;
     QVBoxLayout *verticalLayout;
@@ -40,6 +42,8 @@ public:
     QPushButton *alolaButton;
     QMenuBar *menuBar;
     QMenu *menuSearch;
+    QMenu *menuType_Chart;
+    QMenu *menuNature_Chart;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
 
@@ -53,6 +57,10 @@ public:
         QIcon icon;
         icon.addFile(QString::fromUtf8(":/images/icons/Search Icon.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionSearch->setIcon(icon);
+        actionType_Chart = new QAction(MainWindow);
+        actionType_Chart->setObjectName(QString::fromUtf8("actionType_Chart"));
+        actionNature_Chart = new QAction(MainWindow);
+        actionNature_Chart->setObjectName(QString::fromUtf8("actionNature_Chart"));
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         regionBox = new QGroupBox(centralWidget);
@@ -124,6 +132,10 @@ public:
         menuBar->setGeometry(QRect(0, 0, 474, 17));
         menuSearch = new QMenu(menuBar);
         menuSearch->setObjectName(QString::fromUtf8("menuSearch"));
+        menuType_Chart = new QMenu(menuBar);
+        menuType_Chart->setObjectName(QString::fromUtf8("menuType_Chart"));
+        menuNature_Chart = new QMenu(menuBar);
+        menuNature_Chart->setObjectName(QString::fromUtf8("menuNature_Chart"));
         MainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
@@ -133,7 +145,11 @@ public:
         MainWindow->setStatusBar(statusBar);
 
         menuBar->addAction(menuSearch->menuAction());
+        menuBar->addAction(menuType_Chart->menuAction());
+        menuBar->addAction(menuNature_Chart->menuAction());
         menuSearch->addAction(actionSearch);
+        menuType_Chart->addAction(actionType_Chart);
+        menuNature_Chart->addAction(actionNature_Chart);
 
         retranslateUi(MainWindow);
 
@@ -144,15 +160,19 @@ public:
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
         actionSearch->setText(QApplication::translate("MainWindow", "Search", nullptr));
+        actionType_Chart->setText(QApplication::translate("MainWindow", "Type Chart", nullptr));
+        actionNature_Chart->setText(QApplication::translate("MainWindow", "Nature Chart", nullptr));
         regionBox->setTitle(QApplication::translate("MainWindow", "REGIONS", nullptr));
-        kantoButton->setText(QApplication::translate("MainWindow", "KANTO", nullptr));
-        johtoButton->setText(QApplication::translate("MainWindow", "JOHTO", nullptr));
-        hoennButton->setText(QApplication::translate("MainWindow", "HOENN", nullptr));
-        sinnohButton->setText(QApplication::translate("MainWindow", "SINNOH", nullptr));
-        unovaButton->setText(QApplication::translate("MainWindow", "UNOVA", nullptr));
-        kalosButton->setText(QApplication::translate("MainWindow", "KALOS", nullptr));
-        alolaButton->setText(QApplication::translate("MainWindow", "ALOLA", nullptr));
+        kantoButton->setText(QApplication::translate("MainWindow", "KANTO: 001-151", nullptr));
+        johtoButton->setText(QApplication::translate("MainWindow", "JOHTO: 152 - 251", nullptr));
+        hoennButton->setText(QApplication::translate("MainWindow", "HOENN: 252 - 386", nullptr));
+        sinnohButton->setText(QApplication::translate("MainWindow", "SINNOH: 387 - 493", nullptr));
+        unovaButton->setText(QApplication::translate("MainWindow", "UNOVA: 494 - 649", nullptr));
+        kalosButton->setText(QApplication::translate("MainWindow", "KALOS: 650 - 721", nullptr));
+        alolaButton->setText(QApplication::translate("MainWindow", "ALOLA: 722 - 807", nullptr));
         menuSearch->setTitle(QApplication::translate("MainWindow", "Search", nullptr));
+        menuType_Chart->setTitle(QApplication::translate("MainWindow", "Type Chart", nullptr));
+        menuNature_Chart->setTitle(QApplication::translate("MainWindow", "Nature Chart", nullptr));
     } // retranslateUi
 
 };

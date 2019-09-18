@@ -50,7 +50,7 @@
         </font>
        </property>
        <property name="text">
-        <string>KANTO</string>
+        <string>KANTO: 001-151</string>
        </property>
       </widget>
      </item>
@@ -63,7 +63,7 @@
         </font>
        </property>
        <property name="text">
-        <string>JOHTO</string>
+        <string>JOHTO: 152 - 251</string>
        </property>
       </widget>
      </item>
@@ -76,7 +76,7 @@
         </font>
        </property>
        <property name="text">
-        <string>HOENN</string>
+        <string>HOENN: 252 - 386</string>
        </property>
       </widget>
      </item>
@@ -89,7 +89,7 @@
         </font>
        </property>
        <property name="text">
-        <string>SINNOH</string>
+        <string>SINNOH: 387 - 493</string>
        </property>
       </widget>
      </item>
@@ -102,7 +102,7 @@
         </font>
        </property>
        <property name="text">
-        <string>UNOVA</string>
+        <string>UNOVA: 494 - 649</string>
        </property>
       </widget>
      </item>
@@ -115,7 +115,7 @@
         </font>
        </property>
        <property name="text">
-        <string>KALOS</string>
+        <string>KALOS: 650 - 721</string>
        </property>
       </widget>
      </item>
@@ -128,7 +128,7 @@
         </font>
        </property>
        <property name="text">
-        <string>ALOLA</string>
+        <string>ALOLA: 722 - 807</string>
        </property>
       </widget>
      </item>
@@ -150,7 +150,21 @@
     </property>
     <addaction name="actionSearch"/>
    </widget>
+   <widget class="QMenu" name="menuType_Chart">
+    <property name="title">
+     <string>Type Chart</string>
+    </property>
+    <addaction name="actionType_Chart"/>
+   </widget>
+   <widget class="QMenu" name="menuNature_Chart">
+    <property name="title">
+     <string>Nature Chart</string>
+    </property>
+    <addaction name="actionNature_Chart"/>
+   </widget>
    <addaction name="menuSearch"/>
+   <addaction name="menuType_Chart"/>
+   <addaction name="menuNature_Chart"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
@@ -168,6 +182,16 @@
    </property>
    <property name="text">
     <string>Search</string>
+   </property>
+  </action>
+  <action name="actionType_Chart">
+   <property name="text">
+    <string>Type Chart</string>
+   </property>
+  </action>
+  <action name="actionNature_Chart">
+   <property name="text">
+    <string>Nature Chart</string>
    </property>
   </action>
  </widget>

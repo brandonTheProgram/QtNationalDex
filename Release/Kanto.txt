@@ -4,6 +4,8 @@ Seed Pokemon
 Grass
 Poison
 Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
+Route 2 - Island Scan (Friday)
+Route 2 - Island Scan (Friday)
 Overgrow
 When HP is below 1/3rd its maximum, power of Grass-type moves is increased by 50%.
 Chlorophyll
@@ -23,6 +25,8 @@ Seed Pokemon
 Grass
 Poison
 There is a bud on this Pokemon's back. If it spends more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.
+Evolve Bulbasaur
+Evolve Bulbasaur
 Overgrow
 When HP is below 1/3rd its maximum, power of Grass-type moves is increased by 50%.
 Chlorophyll
@@ -42,6 +46,8 @@ Seed Pokemon
 Grass
 Poison
 The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.
+Evolve Ivysaur
+Evolve Ivysaur
 Overgrow
 When HP is below 1/3rd its maximum, power of Grass-type moves is increased by 50%.
 Chlorophyll
@@ -61,6 +67,8 @@ Lizard Pokemon
 Fire
 Fire
 The flame that burns at the tip of its tail is an indication of its emotions. If the Pokemon becomes enraged, the flame burns fiercely.
+Route 3 - Island Scan (Sunday)
+Route 3 - Island Scan (Sunday)
 Blaze
 When HP is below 1/3rd its maximum, power of Fire-type moves is increased by 50%.
 Solar Power
@@ -80,6 +88,8 @@ Flame Pokemon
 Fire
 Fire
 Charmeleon mercilessly destroys its foes using its sharp claws. The flame at the tip of its tail flares with a bluish white color when excited.
+Evolve Charmander
+Evolve Charmander
 Blaze
 When HP is below 1/3rd its maximum, power of Fire-type moves is increased by 50%.
 Solar Power
@@ -99,6 +109,8 @@ Flame Pokemon
 Fire
 Flying
 Charizard flies around in search of powerful opponents. It breathes fire of great heat that it melts anything. It never attacks opponents weaker than it.
+Evolve Charmeleon
+Evolve Charmeleon
 Blaze
 When HP is below 1/3rd its maximum, power of Fire-type moves is increased by 50%.
 Solar Power
@@ -118,6 +130,8 @@ Tiny Turtule Pokemon
 Water
 Water
 Squirtle's shell is not merely used for protection. The shell's rounded shape help minimize resistance in water, enabling Squirtle to swim at high speeds.
+Seaward Cave - Island Scan (Monday)
+Seaward Cave - Island Scan (Monday)
 Torrent
 When HP is below 1/3rd its maximum, power of Water-type moves is increased by 50%.
 Rain Dish
@@ -137,6 +151,8 @@ Turtle Pokemon
 Water
 Water
 Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages.
+Evolve Squirtle
+Evolve Squirtle
 Torrent
 When HP is below 1/3rd its maximum, power of Water-type moves is increased by 50%.
 Rain Dish
@@ -156,6 +172,8 @@ Shellfish Pokemon
 Water
 Water
 Blastoise has water spouts that protrude from its shell. They can shoot bullets of water with enough accuracy to strike objects over 160 feet away.
+Evolve Wartortle
+Evolve Wartortle
 Torrent
 When HP is below 1/3rd its maximum, power of Water-type moves is increased by 50%.
 Rain Dish
@@ -175,6 +193,8 @@ Worm Pokemon
 Bug
 Bug
 Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. This Pokemon releases a terrifically strong odor.
+Route 1, Route 5, Lush Jungle (SOS Only), Melemele Meadow
+Route 1, Route 5, Lush Jungle (SOS Only), Melemele Meadow
 Shield Dust
 Damaging moves used by the opponent will not have an additional effect.
 Run Away
@@ -194,6 +214,8 @@ Cocoon Pokemon
 Bug
 Bug
 The shell covering this Pokemon's body is as hard as an iron slab. It stays still preparing its soft innards for evolution inside the hard shell.
+Route 5, Lush Jungle, Melemele Meadow
+Route 5, Lush Jungle, Melemele Meadow
 Shed Skin
 Every turn, it has a 1 in 3 chance of healing from a status condition(BURN, PARALYZE, SLEEP, POISON, FREEZE).
 None
@@ -213,6 +235,8 @@ Butterfly Pokemon
 Bug
 Flying
 Butterfree has a superior ability to search for delicious honey from flowers. It can search out flowers that are blooming over six miles from its nest.
+Route 5, Lush Jungle (SOS Only), Melemele Meadow
+Route 5, Lush Jungle (SOS Only), Melemele Meadow
 Compoundeyes
 Raises the Pokemon's accuracy by 30%.
 Tinted Lens
@@ -232,6 +256,8 @@ Hairy Bug Pokemon
 Bug
 Poison
 Weedle has an extremely acute sense of smell. It can distinguish its favorite kinds of leaves just by sniffing with its big red proboscis (nose).
+Breed Beedrill
+Breed Beedrill
 Shield Dust
 Damaging moves used by the opponent will not have an additional effect.
 Run Away
@@ -251,6 +277,8 @@ Cocoon Pokemon
 Bug
 Poison
 Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution.
+Evolve Weedle
+Evolve Weedle
 Shed Skin
 Every turn, it has a 1 in 3 chance of healing from a status condition(BURN, PARALYZE, SLEEP, POISON, FREEZE).
 None
@@ -270,6 +298,8 @@ Posion Bee Pokemon
 Bug
 Poison
 Beedrill is extremely territorial. No one should ever approach its nest—this is for their own safety. If angered, they will attack in a furious swarm.
+Route 4 - Island Scan (Thursday)
+Route 4 - Island Scan (Thursday)
 Swarm
 When HP is below 1/3rd its maximum, power of Bug-type moves is increased by 50%.
 Sniper
@@ -289,6 +319,8 @@ Tiny Bird Pokemon
 Normal
 Flying
 Pidgey has an extremely sharp sense of direction. It is capable of unerringly returning home to its nest, however far it may be removed.
+Breed Pidgeot
+Breed Pidgeot
 Keen Eye
 Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
 Big Pecks
@@ -308,6 +340,8 @@ Bird Pokemon
 Normal
 Flying
 Pidgeotto claims a large area as its own territory. If its territory is violated, it shows no mercy in thoroughly punishing with its sharp claws.
+Evolve Pidgey
+Evolve Pidgey
 Keen Eye
 Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
 Big Pecks
@@ -327,6 +361,8 @@ Bird Pokemon
 Normal
 Flying
 This Pokemon has a dazzling plumage of beautifully glossy feathers. Many Trainers captivated by the striking beauty of the feathers.
+Route 10 - Island Scan (Thursday)
+Route 10 - Island Scan (Thursday)
 Keen Eye
 Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
 Big Pecks
@@ -346,6 +382,8 @@ Mouse Pokemon
 Normal
 Normal
 Rattata is cautious in the extreme. Even while it is asleep, it constantly listens by moving its ears around. It will make its nest and live anywhere.
+Route 1, Route 2, Route 4, Route 6, Route 8, Kala'e Bay
+Route 1, Route 2, Route 4, Route 6, Route 8, Kala'e Bay, Verdant Cavern
 Run Away
 Except for trainer battles, can always run from battle. It still cannot switch during Mean Look or Block or when the opponent is trapping with the Arena Trap, Magnet Pull, or Shadow Tag ability.
 Hustle
@@ -365,6 +403,8 @@ Mouse Pokemon
 Normal
 Normal
 Raticate's sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.
+Route 8 (SOS Only), Route 10, Route 15, Route 16, Route 17, Akala Outskirts, Mount Lanakila, Poni Plains, Tapu Village
+Route 8 (SOS Only), Route 10, Route 15, Route 16, Route 17, Akala Outskirts, Mount Lanakila, Poni Plains, Tapu Village
 Run Away
 Except for trainer battles, can always run from battle. It still cannot switch during Mean Look or Block or when the opponent is trapping with the Arena Trap, Magnet Pull, or Shadow Tag ability.
 Hustle
@@ -384,6 +424,8 @@ Tiny Bird Pokemon
 Normal
 Flying
 Spearow has a very loud cry that can be heard over half a mile away. If its high, keening cry is heard echoing all around, it's a warning of danger.
+Route 2, Route 3
+Route 2, Route 3
 Keen Eye
 Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
 Sniper
@@ -403,6 +445,8 @@ Beak Pokemon
 Normal
 Flying
 Fearow is recognized by its long neck and elongated beak. They are conveniently shaped for catching prey in soil or water.
+Route 10, Route 17, Mount Hokulani, Poni Plains
+Route 10, Route 17, Mount Hokulani, Poni Plains
 Keen Eye
 Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
 Sniper
@@ -422,6 +466,8 @@ Snake Pokemon
 Poison
 Poison
 Ekans curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare.
+Route 2
+Route 2
 Intimidate
 Upon entering battle, the opponent’s Attack lowers one stage. In a Double Battle, both opponents’ Attack are lowered. Pokemon with the Clear Body, Hyper Cutter, or White Smoke ability are unaffected. In a link battle, if both sides switch on the same turn, and first player sends out a Pokemon with Intimidate, the opponent’s Attack will be lowered before the opponent’s Pokemon switches. Opponents in S.O.S. Battles are more likely to call for help.
 Unnerve
@@ -441,6 +487,8 @@ Cobra Pokemon
 Poison
 Poison
 This Pokemon is terrifically strong in order to constrict things with its body. Once Arbok wraps its body around its foe, escaping is impossible.
+Evolve Ekans
+Evolve Ekans
 Intimidate
 Upon entering battle, the opponent’s Attack lowers one stage. In a Double Battle, both opponents’ Attack are lowered. Pokemon with the Clear Body, Hyper Cutter, or White Smoke ability are unaffected. In a link battle, if both sides switch on the same turn, and first player sends out a Pokemon with Intimidate, the opponent’s Attack will be lowered before the opponent’s Pokemon switches. Opponents in S.O.S. Battles are more likely to call for help.
 Unnerve
@@ -460,6 +508,8 @@ Mouse Pokemon
 Electric
 Electric
 Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you see a blackened berry, this Pokemon shocked it.
+Route 1 (SOS Only)
+Route 1 (SOS Only)
 Static
 The opponent has a 30% chance of being induced with PARALYZE when using an attack, that requires physical contact, against this Pokemon.
 Lightningrod
@@ -479,6 +529,8 @@ Mouse Pokemon
 Electric
 Electric
 If the electrical sacs become excessively charged, Raichu plants its tail in the ground and discharges.
+Evolve Pikachu
+Evolve Pikachu
 Static
 The opponent has a 30% chance of being induced with PARALYZE when using an attack, that requires physical contact, against this Pokemon.
 Lightningrod
@@ -498,6 +550,8 @@ Mouse Pokemon
 Ground
 Ground
 Sandshrew's body is configured to absorb water without waste, enabling it to survive in an arid desert. This Pokemon curls up for protection.
+Trade from Moon/Ultra Moon
+Mount Lanakila, Tapu Village
 Sand Veil
 Raises the Pokemon’s evasion during a sandstorm by one level.
 Sand Rush
@@ -517,6 +571,8 @@ Mouse Pokemon
 Ground
 Ground
 Sandslash's body is covered by tough spikes, which are hardened sections of its hide. Once a year, the old spikes fall out and new ones replace them.
+Trade from Moon/Ultra Moon
+Evolve Sandshrew
 Sand Veil
 Raises the Pokemon's evasion during a sandstorm by one level.
 Sand Rush
@@ -536,6 +592,8 @@ Poison Pin Pokemon
 Poison
 Poison
 Nidoran has barbs that secrete a powerful poison. When enraged, it releases a horrible toxin from its horn thought to be developed as protection.
+Transfer required
+Transfer required
 Poison Point
 The opponent has a 30% chance of being induced with Poison when using an attack, that requires physical contact, against this Pokemon.
 Hustle
@@ -555,6 +613,8 @@ Poison Pin Pokemon
 Poison
 Poison
 When Nidorina are with their friends or family, they keep their barbs tucked away to prevent hurting each other. It grows nervous when seperated.
+Transfer required
+Transfer required
 Poison Point
 The opponent has a 30% chance of being induced with Poison when using an attack, that requires physical contact, against this Pokemon.
 Hustle
@@ -574,6 +634,8 @@ Drill Pokemon
 Poison
 Ground
 Nidoqueen's body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. Its strongest when it is defending its young.
+Transfer required
+Transfer required
 Poison Point
 The opponent has a 30% chance of being induced with Poison when using an attack, that requires physical contact, against this Pokemon.
 Sheer Force
@@ -593,6 +655,8 @@ Poison Pin Pokemon
 Poison
 Poison
 Nidoran has developed muscles for moving its ears and can freely be moved in any direction. The slightest sound does not escape this Pokemon's notice.
+Transfer required
+Transfer required
 Poison Point
 The opponent has a 30% chance of being induced with Poison when using an attack, that requires physical contact, against this Pokemon.
 Hustle
@@ -612,6 +676,8 @@ Poison Pin Pokemon
 Poison
 Poison
 Nidorino has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges it.
+Transfer required
+Transfer required
 Poison Point
 The opponent has a 30% chance of being induced with Poison when using an attack, that requires physical contact, against this Pokemon.
 Hustle
@@ -631,6 +697,8 @@ Poison Pin Pokemon
 Poison
 Ground
 Nidoking's thick tail packs enormously destructive power. Once this Pokemon goes on a rampage, there is no stopping it.
+Transfer required
+Transfer required
 Poison Point
 The opponent has a 30% chance of being induced with Poison when using an attack, that requires physical contact, against this Pokemon.
 Sheer Force
@@ -650,6 +718,8 @@ Fairy Pokemon
 Fairy
 Fairy
 On every night of a full moon, groups of this Pokemon come out to play. When dawn arrives, the tired Clefairy return to their quiet mountain retreats.
+Mount Hokulani (SOS Only)
+Mount Hokulani (SOS Only)
 Cute Charm
 The opponent has a 30% chance of being induced with Attract when using an attack, that requires physical contact, against this Pokemon.
 Friend Guard
@@ -669,6 +739,8 @@ Fairy Pokemon
 Fairy
 Fairy
 Clefable moves by skipping lightly as if it were flying using its wings. Its bouncy step lets it even walk on water.
+Evolve Clefairy
+Evolve Clefairy
 Cute Charm
 The opponent has a 30% chance of being induced with Attract when using an attack, that requires physical contact, against this Pokemon.
 Unaware
@@ -688,6 +760,8 @@ Fox Pokemon
 Fire
 Fire
 At the time of its birth, Vulpix has one white tail. The tail separates into six if this Pokemon receives plenty of love from its Trainer.
+Mount Lanakila, Tapu Village
+Trade from Sun/Ultra Sun
 Flash Fire
 Activates when user is hit by a damaging Fire-type move (including Fire-type Hidden Power). Once activated, user’s Fire-type moves deal 1.5 times damage. While this ability is in effect, this Pokemon is immune to damage from Fire-type attacks and Fire-type Hidden Power (accuracy and effect from these moves are ignored). For Fire-type Pokemon with this ability, Will-O-Wisp activates this ability without having an effect. If a non-Fire-type Pokemon has this ability, Will-O-Wisp will activate the ability and will have an effect.
 Drought
@@ -707,6 +781,8 @@ Fox Pokemon
 Fire
 Fire
 It is vindictive and relentless by nature. Those who cross it even once will be cursed for a thousand years, along with their descendants.
+Evolve Vulpix
+Trade from Sun/Ultra Sun
 Flash Fire
 Activates when user is hit by a damaging Fire-type move (including Fire-type Hidden Power). Once activated, user’s Fire-type moves deal 1.5 times damage. While this ability is in effect, this Pokemon is immune to damage from Fire-type attacks and Fire-type Hidden Power (accuracy and effect from these moves are ignored). For Fire-type Pokemon with this ability, Will-O-Wisp activates this ability without having an effect. If a non-Fire-type Pokemon has this ability, Will-O-Wisp will activate the ability and will have an effect.
 Drought
@@ -726,6 +802,8 @@ Balloon Pokemon
 Normal
 Fairy
 When this Pokemon sings, it never pauses to breathe. If it is against an opponent that does not fall asleep, it cannot breathe, endangering its life.
+Route 4 (SOS Only), Route 6 (SOS Only)
+Route 4 (SOS Only), Route 6 (SOS Only)
 Cute Charm
 The opponent has a 30% chance of being induced with Attract when using an attack, that requires physical contact, against this Pokemon.
 Friend Guard
@@ -745,6 +823,8 @@ Balloon Pokemon
 Normal
 Fairy
 By inhaling deeply, this Pokemon can inflate itself seemingly without end. Once inflated, Wigglytuff bounces along lightly like a balloon.
+Evolve Jigglypuff
+Evolve Jigglypuff
 Cute Charm
 The opponent has a 30% chance of being induced with Attract when using an attack, that requires physical contact, against this Pokemon.
 Frisk
@@ -764,6 +844,8 @@ Bat Pokemon
 Poison
 Flying
 Zubat avoids sunlight because exposure causes it to become unhealthy. During the day, it sleeps because prolonged exposure to the sun slightly burns it.
+Diglett's Tunnel, Hau'oli Cemetery, Memorial Hill, Seaward Cave, Ten Carat Hill, Verdant Cavern, Sandy Cave
+Diglett's Tunnel, Hau'oli Cemetery, Memorial Hill, Seaward Cave, Ten Carat Hill, Verdant Cavern, Sandy Cave
 Inner Focus
 This Pokemon will not flinch. Does not prevent flinching with Focus Punch.
 Infiltrator
@@ -783,6 +865,8 @@ Bat Pokemon
 Poison
 Flying
 Golbat bites down on prey with its four fangs and drinks the victim's blood. It is particularly active in the pitch black of night.
+Diglett's Tunnel (SOS Only), Lush Jungle, Memorial Hill (SOS Only), Mount Lanakila, Resolution Cave, Vast Poni Canyon, Thrifty Megamart
+Diglett's Tunnel (SOS Only), Lush Jungle, Memorial Hill (SOS Only), Mount Lanakila, Resolution Cave, Vast Poni Canyon, Thrifty Megamart
 Inner Focus
 This Pokemon will not flinch. Does not prevent flinching with Focus Punch.
 Infiltrator
@@ -802,6 +886,8 @@ Weed Pokemon
 Grass
 Poison
 Oddish searches for fertile, nutrient-rich soil, then plants itself. During the day, the Pokemon's feet are thought to change shape into roots.
+Transfer required
+Transfer required
 Chlorophyll
 When sunny, the Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Strong Sunlight.
 Run Away
@@ -822,6 +908,8 @@ Weed Pokemon
 Grass
 Poison
 Gloom releases a foul fragrance from the pistil of its flower. When faced with danger, the stench worsens.
+Transfer required
+Transfer required
 Chlorophyll
 When sunny, the Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Strong Sunlight.
 Stench
@@ -841,6 +929,8 @@ Flower Pokemon
 Grass
 Poison
 The petals are used to attract prey that are then doused with toxic spores. Once the prey are immobilized, this Pokemon catches and devours them.
+Transfer required
+Transfer required
 Chlorophyll
 When sunny, the Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Strong Sunlight.
 Effect Spore
@@ -860,6 +950,8 @@ Mushroom Pokemon
 Bug
 Grass
 Paras has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from this Bug Pokemon host.
+Brooklet Hill, Lush Jungle
+Brooklet Hill, Lush Jungle
 Effect Spore
 The opponent has a 10% chance of being induced by PARALYZE, POISON, or SLEEP when using an attack, that requires physical contact, against this Pokemon.
 Damp
@@ -879,6 +971,8 @@ Mushroom Pokemon
 Bug
 Grass
 A mushroom grown larger than the host's body controls Parasect. A host-parasite pair in which the parasite mushroom has taken over the host bug.
+Route 11
+Route 11
 Effect Spore
 The opponent has a 10% chance of being induced by PARALYZE, POISON, or SLEEP when using an attack, that requires physical contact, against this Pokemon.
 Damp
@@ -898,6 +992,8 @@ Insect Pokemon
 Bug
 Poison
 Its eyes also function as radar units. It catches and eats small bugs that hide in darkness.
+Transfer required
+Transfer required
 Compoundeyes
 Raises the Pokemon's accuracy by 30%.
 Run Away
@@ -917,6 +1013,8 @@ Posion Moth Pokemon
 Bug
 Poison
 Its favorite prey are small insects that gather around streetlights, attracted by the light in the darkness. This pokemon is nocturnal.
+Transfer required
+Transfer required
 Shield Dust
 Damaging moves used by the opponent will not have an additional effect.
 Wonder Skin
@@ -936,6 +1034,8 @@ Mole Pokemon
 Ground
 Ground
 Around their crops, farmers plant the kind of tree that Diglett like to eat as a way of getting Diglett to plow the fields for them.
+Route 5, Route 7, Diglett's Tunnel, Verdant Cavern
+Route 5, Route 7, Diglett's Tunnel, Verdant Cavern
 Sand Veil
 Raises the Pokemon's evasion during a sandstorm by one level.
 Sand Force
@@ -955,6 +1055,8 @@ Mole Pokemon
 Ground
 Ground
 Dugtrio are actually triplets that emerged from one body. As a result, each triplet thinks exactly like the other two triplets.
+Haina Desert, Lush Jungle, Poni Coast, Resolution Cave, Vast Poni Canyon
+Haina Desert, Lush Jungle, Poni Coast, Resolution Cave, Vast Poni Canyon
 Sand Veil
 Raises the Pokemon's evasion during a sandstorm by one level.
 Sand Force
@@ -974,6 +1076,8 @@ Scratch Cat Pokemon
 Normal
 Normal
 Meowth withdraws its sharp claws into its paws to slinkily sneak about without making any incriminating footsteps.
+Route 1, Route 2, Hau'oli City, Malie Garden
+Route 1, Route 2, Hau'oli City, Malie Garden
 Pickup
 Has a 10% chance of finding and holding an item after battle. Will not work if this Pokemon is already holding an item. From Black & White, it allows for the user to pick up the item of its opponent or ally if they used up the item in battle.
 Unnerve
@@ -993,6 +1097,8 @@ Classy Pokemon
 Normal
 Normal
 The whiskers sense air movements to determine what is in the Pokemon's surrounding vicinity.
+Malie Garden (SOS Only)
+Malie Garden (SOS Only)
 Limber
 The Pokemon cannot be Paralysed while having this ability.
 Unnerve
@@ -1012,6 +1118,8 @@ Duck Pokemon
 Water
 Water
 Psyduck uses a mysterious power. When it does so, this Pokemon generates brain waves that are supposedly only seen in sleepers.
+Brooklet Hill, Malie Garden, Seaward Cave, Ten Carat Hill, Sandy Cave
+Brooklet Hill, Malie Garden, Seaward Cave, Ten Carat Hill, Sandy Cave
 Damp
 Explosion, Selfdestruct & Mind Blown will not work while the Pokemon is on the field.
 Swift Swim
@@ -1031,6 +1139,8 @@ Duck Pokemon
 Water
 Water
 Psyduck uses a mysterious power. When it does so, this Pokemon generates brain waves that are supposedly only seen in sleepers.
+Poni Gauntlet, Vast Poni Canyon
+Poni Gauntlet, Vast Poni Canyon
 Damp
 Explosion, Selfdestruct & Mind Blown will not work while the Pokemon is on the field.
 Swift Swim
@@ -1050,6 +1160,8 @@ Pig Monkey Pokemon
 Fighting
 Fighting
 When Mankey starts shaking and its nasal breathing turns rough, it's a sign that it is becoming angry. It is impossible for anyone to flee its wrath.
+Route 3
+Route 3
 Vital Spirit
 The Pokemon cannot be Asleep while having this ability.
 Defiant
@@ -1069,6 +1181,8 @@ Pig Monkey Pokemon
 Fighting
 Fighting
 When Primeape becomes furious, its blood circulation is boosted. In turn, its muscles are made even stronger. It also becomes less intelligent when mad.
+Poni Plains
+Poni Plains
 Vital Spirit
 The Pokemon cannot be Asleep while having this ability.
 Defiant
@@ -1088,6 +1202,8 @@ Puppy Pokemon
 Fire
 Fire
 Growlithe has a superb sense of smell. Once it smells anything, this Pokemon won't forget the scent, no matter what.
+Route 2
+Route 2
 Intimidate
 Upon entering battle, the opponent’s Attack lowers one stage. In a Double Battle, both opponents’ Attack are lowered. Pokemon with the Clear Body, Hyper Cutter, or White Smoke ability are unaffected. In a link battle, if both sides switch on the same turn, and first player sends out a Pokemon with Intimidate, the opponent’s Attack will be lowered before the opponent’s Pokemon switches. Opponents in S.O.S. Battles are more likely to call for help.
 Justified
@@ -1107,6 +1223,8 @@ Legendary Pokemon
 Fire
 Fire
 Arcanine is known for its high speed. It is said to be capable of running over 6,200 miles in a single day and night.
+Evolve Growlithe
+Evolve Growlithe
 Intimidate
 Upon entering battle, the opponent’s Attack lowers one stage. In a Double Battle, both opponents’ Attack are lowered. Pokemon with the Clear Body, Hyper Cutter, or White Smoke ability are unaffected. In a link battle, if both sides switch on the same turn, and first player sends out a Pokemon with Intimidate, the opponent’s Attack will be lowered before the opponent’s Pokemon switches. Opponents in S.O.S. Battles are more likely to call for help.
 Justified
@@ -1126,6 +1244,8 @@ Tadpole Pokemon
 Water
 Water
 Poliwag has a very thin skin. It is possible to see the Pokemon's spiral innards right through the skin.
+Brooklet Hill
+Brooklet Hill
 Water Absorb
 The Pokemon heals up to 1/4 of its maximum Hit Points when hit with Water-type moves.
 Swift Swim
@@ -1145,6 +1265,8 @@ Tadpole Pokemon
 Water
 Water
 The surface of Poliwhirl's body is always wet and slick with a slimy fluid. It can easily slip and slide out of the clutches of any enemy in battle.
+Brooklet Hill
+Brooklet Hill
 Water Absorb
 The Pokemon heals up to 1/4 of its maximum Hit Points when hit with Water-type moves.
 Swift Swim
@@ -1164,6 +1286,8 @@ Tadpole Pokemon
 Water
 Fighting
 Poliwrath's highly developed, brawny muscles never grow fatigued, however much it exercises.
+Malie Garden (SOS Only)
+Malie Garden (SOS Only)
 Water Absorb
 The Pokemon heals up to 1/4 of its maximum Hit Points when hit with Water-type moves.
 Swift Swim
@@ -1183,6 +1307,8 @@ Psi Pokemon
 Psychic
 Psychic
 Abra sleeps for eighteen hours a day. However, it can sense the presence of foes even while it is sleeping. It teleports to safety when threatened.
+Route 2, Hau'oli City
+Route 2, Hau'oli City
 Synchronize
 When this Pokemon becomes Poisoned, Paralyzed, or Burned, so does the opponent. However, Fire-type and Water Veil ability Pokemon cannot be Burned, Poison-type and Steel-type and Immunity ability Pokemon cannot be Poisoned, and Limber ability Pokemon cannot be Paralyzed.
 Magic Guard
@@ -1202,6 +1328,8 @@ Psi Pokemon
 Psychic
 Psychic
 Kadabra emits a peculiar alpha wave if it develops a headache. Only people with a particularly strong psyche can become a Trainer of this Pokemon.
+Evolve Abra
+Evolve Abra
 Synchronize
 When this Pokemon becomes Poisoned, Paralyzed, or Burned, so does the opponent. However, Fire-type and Water Veil ability Pokemon cannot be Burned, Poison-type and Steel-type and Immunity ability Pokemon cannot be Poisoned, and Limber ability Pokemon cannot be Paralyzed.
 Magic Guard
@@ -1221,6 +1349,8 @@ Psi Pokemon
 Psychic
 Psychic
 Alakazam's brain continually grows, infinitely multiplying brain cells. This amazing brain gives this Pokemon an astoundingly high IQ of 5,000.
+Evolve Kadabra
+Evolve Kadabra
 Synchronize
 When this Pokemon becomes Poisoned, Paralyzed, or Burned, so does the opponent. However, Fire-type and Water Veil ability Pokemon cannot be Burned, Poison-type and Steel-type and Immunity ability Pokemon cannot be Poisoned, and Limber ability Pokemon cannot be Paralyzed.
 Magic Guard
@@ -1240,6 +1370,8 @@ Superpower Pokemon
 Fighting
 Fighting
 Machop's muscles are special, they never get sore no matter how much they are used in exercise. Machop has sufficient power to hurl a hundred adult humans.
+Ten Carat Hill
+Ten Carat Hill
 Guts
 Attack is increased by 50% when induced with a status (BURN, PARALYZE, SLEEP, POISON, FREEZE). Burn's effect of lowering Attack is not applied.
 Steadfast
@@ -1259,6 +1391,8 @@ Superpower Pokemon
 Fighting
 Fighting
 Machoke undertakes bodybuilding every day even as it helps people with tough, physically demanding labor. On its days off, this Pokemon exercises.
+Vast Poni Canyon
+Vast Poni Canyon
 Guts
 Attack is increased by 50% when induced with a status (BURN, PARALYZE, SLEEP, POISON, FREEZE). Burn's effect of lowering Attack is not applied.
 Steadfast
@@ -1278,6 +1412,8 @@ Superpower Pokemon
 Fighting
 Fighting
 With four arms, it can attack and defend simultaneously. It's said to have mastered every martial art in the world.
+Evolve Machoke
+Evolve Machoke
 Guts
 Attack is increased by 50% when induced with a status (BURN, PARALYZE, SLEEP, POISON, FREEZE). Burn's effect of lowering Attack is not applied.
 Steadfast
@@ -1297,6 +1433,8 @@ Flower Pokemon
 Grass
 Poison
 A Bellsprout’s thin and flexible body lets it bend and sway to avoid any attack. From its mouth, it leaks a fluid that melts even iron.
+Trade from Sun/Moon
+Trade from Sun/Moon
 Chlorophyll
 When sunny, the Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Strong Sunlight.
 Gluttony
@@ -1316,6 +1454,8 @@ Flycatcher Pokemon
 Grass
 Poison
 A Pokemon that appears to be a plant. It captures unwary prey by dousing them with a toxic powder.
+Trade from Sun/Moon
+Trade from Sun/Moon
 Chlorophyll
 When sunny, the Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Strong Sunlight.
 Gluttony
@@ -1335,6 +1475,8 @@ Flycatacher Pokemon
 Grass
 Poison
 This horrifying plant Pokemon attracts prey with aromatic honey, then melts them in its mouth.
+Trade from Sun/Moon
+Trade from Sun/Moon
 Chlorophyll
 When sunny, the Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Strong Sunlight.
 Gluttony
@@ -1354,6 +1496,8 @@ Jellyfish Pokemon
 Water
 Poison
 Its body is almost entirely composed of water. It ensnares its foe with its two long tentacles, then stabs with the poison stingers at their tips.
+Route 7, Route 8, Brooklet Hill, Hano Beach, Hau'oli City, Kala'e Bay, Melemele Sea
+Route 7, Route 8, Brooklet Hill, Hano Beach, Hau'oli City, Kala'e Bay, Melemele Sea
 Clear Body
 Opponents' moves which lower this Pokemon's stats will have no effect. However this Pokemon may lower its own stats with its own moves.
 Rain Dish
@@ -1373,6 +1517,8 @@ Jellyfish Pokemon
 Water
 Poison
 It extends its 80 tentacles to form an encircling poisonous net that is difficult to escape.
+Route 14, Route 15, Route 16, Poni Breaker Coast
+Route 14, Route 15, Route 16, Poni Breaker Coast
 Clear Body
 Opponents' moves which lower this Pokemon's stats will have no effect. However this Pokemon may lower its own stats with its own moves.
 Rain Dish
@@ -1392,6 +1538,8 @@ Rock Pokemon
 Rock
 Ground
 When Geodude sleeps deeply, it buries itself halfway into the ground. It will not awaken even if hikers step on it unwittingly.
+Breed Graveler
+Breed Graveler
 Rock Head
 Does not receive recoil damage from recoil-causing damages.
 Sand Veil
@@ -1411,6 +1559,8 @@ Rock Pokemon
 Rock
 Ground
 It rolls on mountain paths to move. Once it builds momentum, no Pokemon can stop it without difficulty.
+Route 12, Route 17, Blush Mountain
+Route 12, Route 17, Blush Mountain
 Rock Head
 Does not receive recoil damage from recoil-causing damages.
 Sand Veil
@@ -1430,6 +1580,8 @@ Megaton Pokemon
 Rock
 Ground
 If there is a large earthquake, these Pokemon will come rolling down off the mountains en masse to the foothills below.
+Evolve Graveler
+Evolve Graveler
 Rock Head
 Does not receive recoil damage from recoil-causing damages.
 Sand Veil
@@ -1449,6 +1601,8 @@ Fire Horse Pokemon
 Fire
 Fire
 A Ponyta is very weak at birth. It can barely stand up. Its legs become stronger as it stumbles and falls while trying to keep up with its parent.
+Transfer required
+Transfer required
 Run Away
 Except for trainer battles, can always run from battle. It still cannot switch during Mean Look or Block or when the opponent is trapping with the Arena Trap, Magnet Pull, or Shadow Tag ability.
 Flame Body
@@ -1468,6 +1622,8 @@ Fire Horse Pokemon
 Fire
 Fire
 When at an all-out gallop, its blazing mane sparkles, enhancing its beautiful appearance.
+Transfer required
+Transfer required
 Run Away
 Except for trainer battles, can always run from battle. It still cannot switch during Mean Look or Block or when the opponent is trapping with the Arena Trap, Magnet Pull, or Shadow Tag ability.
 Flame Body
@@ -1487,6 +1643,8 @@ Dopey Pokemon
 Water
 Psychic
 It catches prey by dipping its tail in water at the side of a river. But it often forgets what it is doing and spends entire days at the water's edge.
+Route 1, Route 15, Route 16, Kala'e Bay
+Route 1, Route 15, Route 16, Kala'e Bay
 Oblivious
 The Pokemon cannot be under the Attract condition, or be taunted, while having this ability.
 Regenerator
@@ -1506,6 +1664,8 @@ Hermit Crab Pokemon
 Water
 Psychic
 Slowbro's tail has a Shellder firmly attached with a bite. As a result, the tail can't be used for fishing anymore.
+Kala'e Bay (SOS Only)
+Kala'e Bay (SOS Only)
 Oblivious
 The Pokemon cannot be under the Attract condition, or be taunted, while having this ability.
 Regenerator
@@ -1525,6 +1685,8 @@ Magnet Pokemon
 Electric
 Steel
 Magnemite floats in the air by emitting electromagnetic waves from the units at its sides. These waves block gravity.
+Route 1, Hau'oli City, Malie City
+Route 1, Hau'oli City, Malie City
 Magnet Pull
 Steel types cannot run nor switch while this Pokemon is in battle. Because the opponent's switching is blocked, the opponent cannot switch on the turn this Pokemon switches out of battle. The opponent may still switch with Baton Pass.
 Analytic
@@ -1544,6 +1706,8 @@ Magnet Pokemon
 Electric
 Steel
 Magneton emits a powerful magnetic force that is fatal to electronics and precision instruments.
+Evolve Magnemite
+Evolve Magnemite
 Magnet Pull
 Steel types cannot run nor switch while this Pokemon is in battle. Because the opponent's switching is blocked, the opponent cannot switch on the turn this Pokemon switches out of battle. The opponent may still switch with Baton Pass.
 Analytic
@@ -1563,6 +1727,8 @@ Wild Duck Pokemon
 Normal
 Flying
 If it eats the plant stick it carries as emergency rations, it runs off in search of a new stick.
+Transfer required
+Transfer required
 Keen Eye
 Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
 Defiant
@@ -1582,6 +1748,8 @@ Twin Bird Pokemon
 Normal
 Flying
 A Pokemon with two heads. More skilled at running than flying, it is capable of racing at speeds over 60 mph.
+Transfer required
+Transfer required
 Run Away
 Except for trainer battles, can always run from battle. It still cannot switch during Mean Look or Block or when the opponent is trapping with the Arena Trap, Magnet Pull, or Shadow Tag ability.
 Tangled Feet
@@ -1601,6 +1769,8 @@ Triple Bird Pokemon
 Normal
 Flying
 An enemy that takes its eyes off any of the three heads—even for a second—will get pecked severely.
+Transfer required
+Transfer required
 Run Away
 Except for trainer battles, can always run from battle. It still cannot switch during Mean Look or Block or when the opponent is trapping with the Arena Trap, Magnet Pull, or Shadow Tag ability.
 Tangled Feet
@@ -1620,6 +1790,8 @@ Sea Lion Pokemon
 Water
 Water
 Although it can't walk well on land, it is a graceful swimmer. It especially loves being in frigid seas.
+Seaward Cave
+Seaward Cave
 Thick Fat
 Fire and Ice-type moves deal 50% damage.
 Ice Body
@@ -1639,6 +1811,8 @@ Sea Lion Pokemon
 Water
 Ice
 Dewgong loves to snooze on bitterly cold ice. The sight of this Pokemon sleeping on a glacier was mistakenly thought to be a mermaid long ago.
+Evolve Seel
+Evolve Seel
 Thick Fat
 Fire and Ice-type moves deal 50% damage.
 Ice Body
@@ -1658,6 +1832,8 @@ Sludge Pokemon
 Poison
 Poison
 As it moves, it loses bits of its body from which new Grimer emerge. This worsens the stench around it.
+Route 1, Hau'oli City, Malie City
+Route 1, Hau'oli City, Malie City
 Stench
 If the Pokemon uses a move that deals damage on the opponent, there is a chance the opponent flinches.
 Poison Touch
@@ -1677,6 +1853,8 @@ Sludge Pokemon
 Poison
 Poison
 A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact.
+Evolve Grimer
+Evolve Grimer
 Stench
 If the Pokemon uses a move that deals damage on the opponent, there is a chance the opponent flinches.
 Poison Touch
@@ -1696,6 +1874,8 @@ Bivalve Pokemon
 Water
 Water
 It swims facing backward by opening and closing its two-piece shell. It is surprisingly fast.
+Kala'e Bay
+Kala'e Bay
 Shell Armor
 Opponent's moves cannot Critical Hit.
 Overcoat
@@ -1715,6 +1895,8 @@ Bivalve Pokemon
 Water
 Ice
 Once it slams its shell shut, it is impossible to open, even by those with superior strength.
+Evolve Shellder
+Evolve Shellder
 Shell Armor
 Opponent's moves cannot Critical Hit.
 Overcoat
@@ -1734,6 +1916,8 @@ Gas Pokemon
 Ghost
 Poison
 It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.
+Hau'oli Cemetery, Memorial Hill, Route 1
+Hau'oli Cemetery, Memorial Hill, Route 1
 Levitate
 Damage dealing Ground-type moves have no effect on this Pokemon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes.
 None
@@ -1753,6 +1937,8 @@ Gas Pokemon
 Ghost
 Poison
 By licking, it saps the victim's life. It causes shaking that won't stop until the victim's demise.
+Thrifty Megamart
+Thrifty Megamart
 Levitate
 Damage dealing Ground-type moves have no effect on this Pokemon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes.
 None
@@ -1772,6 +1958,8 @@ Shadow Pokemon
 Ghost
 Poison
 To steal the life of its target, it slips into the prey's shadow and silently waits for an opportunity.
+Thrifty Megamart (SOS Only)
+Thrifty Megamart (SOS Only)
 Cursed Body
 When a move hits the Pokemon, the move has a 30% chance of getting disabled.
 None
@@ -1791,6 +1979,8 @@ Rock Snake Pokemon
 Rock
 Ground
 Onix has a magnet in its brain. It acts as a compass so that this Pokemon does not lose direction while it is tunneling.
+Ten Carat Hill - Island Scan (Tuesday)
+Ten Carat Hill - Island Scan (Tuesday)
 Rock Head
 Does not receive recoil damage from recoil-causing damages.
 Weak Armor
@@ -1810,6 +2000,8 @@ Hypnosis Pokemon
 Psychic
 Psychic
 It remembers every dream it eats. It rarely eats the dreams of adults because children's are much tastier.
+Route 2
+Route 2
 Insomnia
 The Pokemon cannot be put to Sleep while having this ability.
 Inner Focus
@@ -1829,6 +2021,8 @@ Hypnosis Pokemon
 Psychic
 Psychic
 Always holding a pendulum that it rocks at a steady rhythm, it causes drowsiness in anyone nearby. It then eats the dreams of the victim.
+Poni Plains, Hau'oli City
+Poni Plains, Hau'oli City
 Insomnia
 The Pokemon cannot be put to Sleep while having this ability.
 Inner Focus
@@ -1848,6 +2042,8 @@ River Crab Pokemon
 Water
 Water
 If it senses danger approaching, it cloaks itself with bubbles from its mouth so it will look bigger.
+Transfer required
+Transfer required
 Hyper Cutter
 Opponent cannot lower this Pokemon's Attack value. This Pokemon may still lower its own Attack value using a move of by itself.
 Sheer Force
@@ -1867,6 +2063,8 @@ Pincer Pokemon
 Water
 Water
 Said to be capable of prying open Shellder and Cloyster shells using its 10,000-horsepower pincer.
+Transfer required
+Transfer required
 Hyper Cutter
 Opponent cannot lower this Pokemon's Attack value. This Pokemon may still lower its own Attack value using a move of by itself.
 Sheer Force
@@ -1886,6 +2084,8 @@ Ball Pokemon
 Electric
 Electric
 It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.
+Breed Electrode
+Breed Electrode
 Soundproof
 Unaffected by sound moves. If this Pokemon swithces out with Baton Pass, Perish Song against the switched out will not be nullified.
 Aftermath
@@ -1905,6 +2105,8 @@ Ball Pokemon
 Electric
 Electric
 It is dangerous. If it has too much electricity and has nothing to do, it amuses itself by exploding.
+Team Rocket's Castle
+Team Rocket's Castle
 Soundproof
 Unaffected by sound moves. If this Pokemon swithces out with Baton Pass, Perish Song against the switched out will not be nullified.
 Aftermath
@@ -1924,6 +2126,8 @@ Egg Pokemon
 Grass
 Psychic
 The shell is very durable. Even if it cracks, it can survive without spilling the contents.
+Exeggutor Island
+Exeggutor Island
 Chlorophyll
 When sunny, the Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Strong Sunlight.
 Harvest
@@ -1943,6 +2147,8 @@ Coconut Pokemon
 Grass
 Psychic
 Each of the fruits is an independently-thinking head. It is said that if one drops off, it becomes an Exeggcute.
+Exeggutor Island
+Exeggutor Island
 Chlorophyll
 When sunny, the Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Strong Sunlight.
 Harvest
@@ -1962,6 +2168,8 @@ Lonely Pokemon
 Ground
 Ground
 Wears the skull of its deceased mother. Its cries echo inside the skull and come out as a sad melody.
+Wela Volcano Park
+Wela Volcano Park
 Rock Head
 Does not recieve recoil damage from recoil-causing damages.
 Battle Armor
@@ -1981,6 +2189,8 @@ Bone Keeper Pokemon
 Ground
 Ground
 The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.
+Evolve Cubone
+Evolve Cubone
 Rock Head
 Does not recieve recoil damage from recoil-causing damages.
 Battle Armor
@@ -2000,6 +2210,8 @@ Kicking Pokemon
 Fighting
 Fighting
 It is also called the Kick Master. It uses its elastic legs to execute every known kick.
+Transfer required
+Transfer required
 Limber
 The Pokemon cannot be Paralysed while having this ability.
 Unburden
@@ -2019,6 +2231,8 @@ Punching Pokemon
 Fighting
 Fighting
 Its punches slice through the air. However, it seems to need a short break after fighting for three minutes.
+Transfer required
+Transfer required
 Keen Eye
 Opponent cannot lower this Pokemon's accuracy. The Pokemon ignores evasion boosts of the opponent.
 Inner Focus
@@ -2038,6 +2252,8 @@ Licking Pokemon
 Normal
 Normal
 Its tongue spans almost 7 feet and moves more freely than its forelegs. Its licks can cause paralysis.
+Poni Gauntlet
+Poni Gauntlet
 Own Tempo
 The Pokemon cannot be Confused while having this ability.
 Cloud Nine
@@ -2057,6 +2273,8 @@ Poison Gas Pokemon
 Poison
 Poison
 Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning. Beware!
+Transfer required
+Transfer required
 Levitate
 Damage dealing Ground-type moves have no effect on this Pokemon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes.
 None
@@ -2076,6 +2294,8 @@ Poison Gas Pokemon
 Poison
 Poison
 Weezing alternately shrinks and inflates its twin bodies to mix together toxic gases inside. The more the gases mix, the more powerful the toxins.
+Transfer required
+Transfer required
 Levitate
 Damage dealing Ground-type moves have no effect on this Pokemon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes.
 None
@@ -2095,6 +2315,8 @@ Spikes Pokemon
 Ground
 Rock
 A Pokemon with a one-track mind. Once it charges, it won't stop running until it falls asleep.
+Blush Mountain - Island Scan (Sunday)
+Blush Mountain - Island Scan (Sunday)
 Lightningrod
 Electric-type moves are drawn to this Pokemon. Electric-type moves will do no damage and the Pokemon's SP ATK is raised one stage.
 Reckless
@@ -2114,6 +2336,8 @@ Drill Pokemon
 Ground
 Rock
 Its brain developed after it stood up on its hind legs. Its drill horn bores tunnels through solid rock.
+Evolve Rhyhorn
+Evolve Rhyhorn
 Lightningrod
 Electric-type moves are drawn to this Pokemon. Electric-type moves will do no damage and the Pokemon's SP ATK is raised one stage.
 Reckless
@@ -2133,6 +2357,8 @@ Egg Pokemon
 Normal
 Normal
 Chansey is a kind Pokemon who shares its egg with those who are sick or injured. It walks carefully to prevent its egg from breaking.
+Poni Plains
+Poni Plains
 Natural Cure
 The Pokemon's status (BURN, PARALYZE, SLEEP, POISON, FREEZE) is healed when withdrawn from battle.
 Healer
@@ -2152,6 +2378,8 @@ Vine Pokemon
 Grass
 Grass
 Its body is wrapped in vines. The rest of its form is hidden beneath these vines.
+Transfer required
+Transfer required
 Chlorophyll
 When sunny, the Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Strong Sunlight.
 Regenerator
@@ -2171,6 +2399,8 @@ Parent Pokemon
 Normal
 Normal
 A rare Pokemon which raises its children in its pocket. They will attack viciously and without warning if they feel their young are threatened.
+Wela Volcano Park
+Wela Volcano Park
 Early Bird
 Sleep conditions lasts for half as long, rounding down. For example, half of three turns is 1.5, which rounds down to one turn. When the number of turns to sleep is one, half of this rounded down is zero, and the Pokemon wakes up instantly.
 Inner Focus
@@ -2190,6 +2420,8 @@ Dragon Pokemon
 Water
 Water
 In this unique Pokemon species, thousands of Eggs hatch every spring, and then the male raises them himself.
+Kala'e Bay - Island Scan (Wednesday)
+Kala'e Bay - Island Scan (Wednesday)
 Swift Swim
 When rainy, The Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Heavy Rain.
 Damp
@@ -2209,6 +2441,8 @@ Dragon Pokemon
 Water
 Water
 Seadra has a violent temperament, and the quills that cover its body can render its victim unconscious.
+Evolve Horsea
+Evolve Horsea
 Poison Point
 The opponent has a 30% chance of being induced with Poison when using an attack, that requires physical contact, against this Pokemon.
 Damp
@@ -2228,6 +2462,8 @@ Goldfish Pokemon
 Water
 Water
 Goldeen is a very beautiful Pokemon with fins that billow elegantly in water.However, if your guard is down, it might ram you powerfully with its horn.
+Brooklet Hill, Malie Garden
+Brooklet Hill, Malie Garden
 Swift Swim
 When rainy, The Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Heavy Rain.
 Lightningrod
@@ -2247,6 +2483,8 @@ Goldfish Pokemon
 Water
 Water
 Its sharp, drill-like horn is capable of crushing even stone. To protect its family, it will fight with its drill-sharp horn.
+Brooklet Hill (SOS Only), Malie Garden (SOS Only)
+Brooklet Hill (SOS Only), Malie Garden (SOS Only)
 Swift Swim
 When rainy, The Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Heavy Rain.
 Lightningrod
@@ -2266,6 +2504,8 @@ Star Shape Pokemon
 Water
 Water
 The core of this Water Pokemon shines in a rainbow of seven colors, a core that is valued by some as a type of jewelry.
+Route 7, Hano Beach
+Route 7, Hano Beach
 Illuminate
 Raises the likelihood of meeting wild Pokemon by illuminating the surroundings.
 Analytic
@@ -2285,6 +2525,8 @@ Star Shape Pokemon
 Water
 Water
 At the center of its body is a red core, which sends mysterious radio signals into the night sky.
+Route 7 (SOS Only), Hano Beach (SOS Only)
+Route 7 (SOS Only), Hano Beach (SOS Only)
 Illuminate
 Raises the likelihood of meeting wild Pokemon by illuminating the surroundings.
 Analytic
@@ -2304,6 +2546,8 @@ Barrier Pokemon
 Psychic
 Fairy
 By rapidly moving its fingers, Mr. Mime can stop air molecules to create an invisible wall.
+Hau'oli City (SOS Only)
+Hau'oli City (SOS Only)
 Soundproof
 Unaffected by sound moves. If this Pokemon swithces out with Baton Pass, Perish Song against the switched out will not be nullified.
 Technician
@@ -2323,6 +2567,8 @@ Mantis Pokemon
 Bug
 Flying
 Its claws are sharp as swords, and it is a powerful flyer. This Pokemon is rarely seen by humans and almost never captured.
+Poni Plains
+Poni Plains
 Swarm
 When HP is below 1/3rd its maximum, power of Bug-type moves is increaed by 50%.
 Steadfast
@@ -2342,6 +2588,8 @@ Human Shape Pokemon
 Ice
 Psychic
 Jynx is known for expressing its many and varied feelings by dancing around in graceful and rhythmical motions.
+Seaward Cave (SOS Only)
+Seaward Cave (SOS Only)
 Oblivious
 The Pokemon cannot be under the Attract condition, or be taunted, while having this ability.
 Dry Skin
@@ -2361,6 +2609,8 @@ Electric Pokemon
 Electric
 Electric
 It appears near power generators, and because it eats electricity, it can cause blackouts.
+Blush Mountain (SOS Only), Mount Hokulani (SOS Only)
+Blush Mountain (SOS Only), Mount Hokulani (SOS Only)
 Static
 The opponent has a 30% chance of being induced with PARALYZE when using an attack, that requires physical contact, against this Pokemon.
 Vital Spirit
@@ -2380,6 +2630,8 @@ Spitfire Pokemon
 Fire
 Fire
 Its body is like a furnace, making Magmar a living inferno. It has been discovered only near active volcanoes.
+Wela Volcano Park (SOS Only)
+Wela Volcano Park (SOS Only)
 Flame Body
 The opponent has a 30% chance of being induced with Burn when using an attack, that requires physical contact, against this Pokemon.
 Vital Spirit
@@ -2399,6 +2651,8 @@ Stag Bettle Pokemon
 Bug
 Bug
 Its two long pincer horns are powerful. Once they grip an enemy, they won't release until the foe is torn.
+Exeggutor Island, Lush Jungle, Poni Grove, Exeggutor Island
+Exeggutor Island, Lush Jungle, Poni Grove, Exeggutor Island
 Hyper Cutter
 Opponent cannot lower this Pokemon's Attack value. This Pokemon may still lower its own Attack value using a move of by itself.
 Moxie
@@ -2418,6 +2672,8 @@ Wild Bull Pokemon
 Normal
 Normal
 When it targets an enemy, it charges furiously while whipping its body with its long tails. It won't stop until it hits something
+Paniola Ranch, Poni Plains
+Paniola Ranch, Poni Plains
 Intimidate
 Upon entering battle, the opponent’s Attack lowers one stage. In a Double Battle, both opponents’ Attack are lowered. Pokemon with the Clear Body, Hyper Cutter, or White Smoke ability are unaffected. In a link battle, if both sides switch on the same turn, and first player sends out a Pokemon with Intimidate, the opponent’s Attack will be lowered before the opponent’s Pokemon switches. Opponents in S.O.S. Battles are more likely to call for help.
 Sheer Force
@@ -2437,6 +2693,8 @@ Fish Pokemon
 Water
 Water
 Magikarp is virtually useless in battle as it can only splash around. As a result, it is considered to be weak.
+Route 7, Route 8, Route 9, Route 13, Route 14, Route 15, Akala Outskirts, Brooklet Hill, Kala'e Bay, Malie Garden, Melemele Sea, Paniola Town, Poni Breaker Coast, Poni Gauntlet, Poni Meadow, Seafolk Village, Seaward Cave, Vast Poni Canyon
+Route 7, Route 8, Route 9, Route 13, Route 14, Route 15, Akala Outskirts, Brooklet Hill, Kala'e Bay, Malie Garden, Melemele Sea, Paniola Town, Poni Breaker Coast, Poni Gauntlet, Poni Meadow, Seafolk Village, Seaward Cave, Vast Poni Canyon
 Swift Swim
 When rainy, The Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Heavy Rain.
 Rattled
@@ -2455,7 +2713,9 @@ Gyrados
 Atrocious Pokemon
 Water
 Flying
-his Pokemon has a vicious temperament, so use extreme caution. Its fangs can crush stones and its scales are harder than steel.
+This Pokemon has a vicious temperament, so use extreme caution. Its fangs can crush stones and its scales are harder than steel.
+Route 7 (SOS Only), Route 8 (SOS Only), Route 9 (SOS Only), Route 13 (SOS Only), Route 14 (SOS Only), Route 15 (SOS Only), Akala Outskirts (SOS Only), Brooklet Hill (SOS Only), Kala'e Bay (SOS Only), Malie Garden, Melemele Sea (SOS Only), Paniola Town (SOS Only), Poni Breaker Coast (SOS Only), Poni Gauntlet (SOS Only), Poni Meadow (SOS Only), Seafolk Village (SOS Only), Seaward Cave (SOS Only), Vast Poni Canyon (SOS Only)
+Route 7 (SOS Only), Route 8 (SOS Only), Route 9 (SOS Only), Route 13 (SOS Only), Route 14 (SOS Only), Route 15 (SOS Only), Akala Outskirts (SOS Only), Brooklet Hill (SOS Only), Kala'e Bay (SOS Only), Malie Garden, Melemele Sea (SOS Only), Paniola Town (SOS Only), Poni Breaker Coast (SOS Only), Poni Gauntlet (SOS Only), Poni Meadow (SOS Only), Seafolk Village (SOS Only), Seaward Cave (SOS Only), Vast Poni Canyon (SOS Only)
 Intimidate
 Upon entering battle, the opponent’s Attack lowers one stage. In a Double Battle, both opponents’ Attack are lowered. Pokemon with the Clear Body, Hyper Cutter, or White Smoke ability are unaffected. In a link battle, if both sides switch on the same turn, and first player sends out a Pokemon with Intimidate, the opponent’s Attack will be lowered before the opponent’s Pokemon switches. Opponents in S.O.S. Battles are more likely to call for help.
 Moxie
@@ -2475,6 +2735,8 @@ Transport Pokemon
 Water
 Ice
 This intellectually advanced Pokémon is able to understand human speech. With its mild temperament, Lapras prefers to carry humans on its back than fight.
+Poni Breaker Coast
+Poni Breaker Coast
 Water Absorb
 The Pokemon heals up to 1/4 of its maximum Hit Points when hit with Water-type moves.
 Hydration
@@ -2494,6 +2756,8 @@ Transform Pokemon
 Normal
 Normal
 It is able to rearrange the cells of its body and assume any form. Its only attack is Transform.
+Mount Hokulani, Route 9, Konikoni City
+Mount Hokulani, Route 9, Konikoni City
 Limber
 The Pokemon cannot be Paralysed while having this ability.
 Imposter
@@ -2513,6 +2777,8 @@ Evolution Pokemon
 Normal
 Normal
 Eevee is a unique Pokémon that can adapt to its environment by changing its form and abilities when evolving.
+Route 4, Route 6
+Route 4, Route 6
 Run Away
 Except for trainer battles, can always run from battle. It still cannot switch during Mean Look or Block or when the opponent is trapping with the Arena Trap, Magnet Pull, or Shadow Tag ability.
 Anticipation
@@ -2532,6 +2798,8 @@ Bubble Jet Pokemon
 Water
 Water
 Vaporeon love fresh, clean water and can make their bodies melt away into water as well.
+Evolve Eevee
+Evolve Eevee
 Water Absorb
 The Pokemon heals up to 1/4 of its maximum Hit Points when hit with Water-type moves.
 Hydration
@@ -2552,6 +2820,8 @@ Lightning Pokemon
 Electric
 Electric
 When angered or frightened, the hairs on Jolteon's body become like needles that are fired at its opponents.
+Evolve Eevee
+Evolve Eevee
 Volt Absorb
 The Pokemon heals up to 1/4 of its maximum Hit Points when hit with Electric-type moves.
 Quick Feet
@@ -2571,6 +2841,8 @@ Flame Pokemon
 Fire
 Fire
 It stores some of the air it breathes in its internal flame sac, which heats its body to over three thousand degrees.
+Evolve Eevee
+Evolve Eevee
 Flash Fire
 Activates when user is hit by a damaging Fire-type move (including Fire-type Hidden Power). Once activated, user’s Fire-type moves deal 1.5 times damage. While this ability is in effect, this Pokemon is immune to damage from Fire-type attacks and Fire-type Hidden Power (accuracy and effect from these moves are ignored). For Fire-type Pokemon with this ability, Will-O-Wisp activates this ability without having an effect. If a non-Fire-type Pokemon has this ability, Will-O-Wisp will activate the ability and will have an effect.
 Guts
@@ -2590,6 +2862,8 @@ Virtual Pokemon
 Normal
 Normal
 A manmade Pokémon that came about as a result of research. It is programmed with only basic motions.
+Gift in Aether House
+Gift in Aether House
 Trace
 Ability becomes the same as that of the opponent. Switching this Pokemon out of battle restores its original ability. In a Double/Triple Battle, a random opponent's ability will be copied.
 Analytic
@@ -2609,6 +2883,8 @@ Spiral Pokemon
 Rock
 Water
 It is believed these Pokémon became extinct tens of thousands of years ago. The details of their behavior is shrouded in mystery.
+Route 8 Fossil Restoration Center
+Route 8 Fossil Restoration Center
 Swift Swim
 When rainy, The Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Heavy Rain.
 Weak Armor
@@ -2628,6 +2904,8 @@ Spiral Pokemon
 Rock
 Water
 This extinct Pokémon is believed to have used its sharp fangs to break through the shells of its prey in order to feed.
+Evolve Omanyte
+Evolve Omanyte
 Swift Swim
 When rainy, The Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Heavy Rain.
 Weak Armor
@@ -2647,6 +2925,8 @@ Shellfish Pokemon
 Rock
 Water
 Though this Pokémon is now believed to be extinct, it had a hard shell that protected its body and is believed to have been a powerful swimmer.
+Route 8 Fossil Restoration Center
+Route 8 Fossil Restoration Center
 Swift Swim
 When rainy, The Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Heavy Rain.
 Weak Armor
@@ -2666,6 +2946,8 @@ Shellfish Pokemon
 Rock
 Water
 It swims freely through water. It catches prey with its scythe-like arms and drains the victim's fluids.
+Evolve Kabuto
+Evolve Kabuto
 Swift Swim
 When rainy, The Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Heavy Rain.
 Weak Armor
@@ -2685,6 +2967,8 @@ Fossil Pokemon
 Rock
 Flying
 Its hard fangs suggest that it was a carnivore. Its sharp claws were probably used to capture prey.
+Route 8 Fossil Restoration Center
+Route 8 Fossil Restoration Center
 Rock Head
 Does not receive recoil damage from recoil-causing damages.
 Unnerve
@@ -2704,6 +2988,8 @@ Sleeping Pokmeon
 Normal
 Normal
 Snorlax isn't satisfied unless it eats at least 900 pounds of food per day. Once it is full, it promptly goes to sleep.
+Route 1 (SOS Only)
+Route 1 (SOS Only)
 Immunity
 The Pokemon cannot be Posioned while having this ability.
 Gluttony
@@ -2723,6 +3009,8 @@ Freeze Pokemon
 Ice
 Flying
 This Legendary Pokémon, with wings like thin sheets of ice, is believed to possess the ability to freeze water vapor and create snow.
+Ultra Space Wilds
+Ultra Space Wilds
 Pressure
 When this Pokemon is hit by a move, the opponent's PP lowers by 2 rather than 1. Opponents in S.O.S. Battles are more likely to call for help.
 Snow Cloak
@@ -2742,6 +3030,8 @@ Electric Pokemon
 Electric
 Flying
 A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts.
+Ultra Space Wilds
+Ultra Space Wilds
 Pressure
 When this Pokemon is hit by a move, the opponent's PP lowers by 2 rather than 1. Opponents in S.O.S. Battles are more likely to call for help.
 Static
@@ -2761,6 +3051,8 @@ Flame Pokemon
 Fire
 Flying
 A legendary bird Pokémon that has the ability to control fire. If this Pokémon is injured, it dips its body in the molten magma to heal itself.
+Ultra Space Wilds
+Ultra Space Wilds
 Pressure
 When this Pokemon is hit by a move, the opponent's PP lowers by 2 rather than 1. Opponents in S.O.S. Battles are more likely to call for help.
 Flame Body
@@ -2780,6 +3072,8 @@ Dragon Pokemon
 Dragon
 Dragon
 Dratini sheds its skin as it grows, often doing so while hidden behind large powerful waterfalls.
+Poni Gauntlet, Poni Meadow
+Poni Gauntlet, Poni Meadow
 Shed Skin
 Every turn, it has a 1 in 3 chance of healing from a status condition (BURN, PARALYZE, SLEEP, POISON, FREEZE).
 Marvel Scale
@@ -2799,6 +3093,8 @@ Dragon Pokemon
 Dragon
 Dragon
 A Legendary Pokémon that can freely make it rain or snow. It's said to be able to fly even though it doesn't have wings.
+Poni Gauntlet (SOS Only), Poni Meadow (SOS Only)
+Poni Gauntlet (SOS Only), Poni Meadow (SOS Only)
 Shed Skin
 Every turn, it has a 1 in 3 chance of healing from a status condition (BURN, PARALYZE, SLEEP, POISON, FREEZE).
 Marvel Scale
@@ -2818,6 +3114,8 @@ Dragon Pokemon
 Dragon
 Flying
 Dragonite is capable of circling the globe in just sixteen hours. It is a kindhearted Pokémon that leads lost ships in a storm to the safety of land.
+Poni Gauntlet (SOS Only)
+Poni Gauntlet (SOS Only)
 Inner Focus
 This Pokemon will not flinch. Does not prevent flinching with Focus Punch.
 Multiscale
@@ -2837,6 +3135,8 @@ Genetic Pokemon
 Psychic
 Psychic
 It was created by a scientist after years of horrific gene splicing and DNA engineering experiments.
+Ultra Space Wilds
+Ultra Space Wilds
 Pressure
 When this Pokemon is hit by a move, the opponent's PP lowers by 2 rather than 1. Opponents in S.O.S. Battles are more likely to call for help.
 Unnerve
@@ -2856,6 +3156,8 @@ New Species Pokemon
 Psychic
 Psychic
 Mew is said to possess the genetic composition of all Pokémon. It is capable of making itself invisible at will.
+Transfer required
+Transfer required
 Synchronize
 When this Pokemon becomes Poisoned, Paralyzed, or Burned, so does the opponent. However, Fire-type and Water Veil ability Pokemon cannot be Burned, Poison-type and Steel-type and Immunity ability Pokemon cannot be Poisoned, and Limber ability Pokemon cannot be Paralyzed.
 None

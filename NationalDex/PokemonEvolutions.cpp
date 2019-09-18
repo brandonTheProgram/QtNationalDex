@@ -32,24 +32,31 @@ PokemonEvolutions::PokemonEvolutions()
 PokemonEvolutions::PokemonEvolutions(const vector<Pokemon>& POKEDEX,
                                      const Pokemon        & CURRENT_POKEMON)
 {
-    pokedexCopy = POKEDEX;
-
     mainPokemon = CURRENT_POKEMON;
 
-    firstEvo  	= pokedexCopy[mainPokemon.GetFirstEvoNum() - 1];
+    //If the pokemon is a special branch evolution with more evolutions
+    if(mainPokemon.GetEvolutions() > 2)
+        pokedexCopy = POKEDEX;
+    else
+    {
+        firstEvo  	= POKEDEX[mainPokemon.GetFirstEvoNum() - 1];
 
-    //If the Pokemon has a second evolution, then store it
-    if(mainPokemon.GetEvolutions() == 2)
-        secondEvo 	= pokedexCopy[mainPokemon.GetSecondEvoNum() - 1];
+        //If the Pokemon has a second evolution, then store it
+        if(mainPokemon.GetEvolutions() == 2)
+        {
+            secondEvo 	= POKEDEX[mainPokemon.GetSecondEvoNum() - 1];
+            finalEvo  	= POKEDEX[mainPokemon.GetFinalEvoNum() - 1];
+        }
 
-    //If the Pokemon is not a special branch pokemon like Eevee which has
-    //multiple final evolution forms, then store it
-    if(mainPokemon.GetEvolutions() <= 2)
-        finalEvo  	= pokedexCopy[mainPokemon.GetFinalEvoNum() - 1];
+        //If the Pokemon is not a special branch pokemon like Eevee which has
+        //multiple final evolution forms, then store it
+        if(mainPokemon.GetEvolutions() == 1)
+            finalEvo  	= POKEDEX[mainPokemon.GetFinalEvoNum() - 1];
 
-    //If the Pokemon only has one branch evo, then store it
-    if(mainPokemon.GetBranchEvo() == true && mainPokemon.GetEvolutions() <= 2)
-        branchEvo 	= pokedexCopy[mainPokemon.GetBranchEvoNum() - 1];
+        //If the Pokemon only has one branch evo, then store it
+        if(mainPokemon.GetBranchEvo() == true && mainPokemon.GetEvolutions() <= 2)
+            branchEvo 	= POKEDEX[mainPokemon.GetBranchEvoNum() - 1];
+    }
 }
 
 /************************************************************************
@@ -88,24 +95,31 @@ PokemonEvolutions::~PokemonEvolutions()
 void PokemonEvolutions::SetInitialValues(const vector<Pokemon>& POKEDEX,
                                          const Pokemon        & CURRENT_POKEMON)
 {
-    pokedexCopy = POKEDEX;
-
     mainPokemon = CURRENT_POKEMON;
 
-    firstEvo  	= pokedexCopy[mainPokemon.GetFirstEvoNum() - 1];
+    //If the pokemon is a special branch evolution with more evolutions
+    if(mainPokemon.GetEvolutions() > 2)
+        pokedexCopy = POKEDEX;
+    else
+    {
+        firstEvo  	= POKEDEX[mainPokemon.GetFirstEvoNum() - 1];
 
-    //If the Pokemon has a second evolution, then store it
-    if(mainPokemon.GetEvolutions() == 2)
-        {secondEvo 	= pokedexCopy[mainPokemon.GetSecondEvoNum() - 1];}
+        //If the Pokemon has a second evolution, then store it
+        if(mainPokemon.GetEvolutions() == 2)
+        {
+            secondEvo 	= POKEDEX[mainPokemon.GetSecondEvoNum() - 1];
+            finalEvo  	= POKEDEX[mainPokemon.GetFinalEvoNum() - 1];
+        }
 
-    //If the Pokemon is not a special branch pokemon like Eevee which has
-    //multiple final evolution forms, then store it
-    if(mainPokemon.GetEvolutions() <= 2)
-        {finalEvo  	= pokedexCopy[mainPokemon.GetFinalEvoNum() - 1];}
+        //If the Pokemon is not a special branch pokemon like Eevee which has
+        //multiple final evolution forms, then store it
+        if(mainPokemon.GetEvolutions() == 1)
+            finalEvo  	= POKEDEX[mainPokemon.GetFinalEvoNum() - 1];
 
-    //If the Pokemon only has one branch evo, then store it
-    if(mainPokemon.GetBranchEvo() == true && mainPokemon.GetEvolutions() <= 2)
-        {branchEvo 	= pokedexCopy[mainPokemon.GetBranchEvoNum() - 1];}
+        //If the Pokemon only has one branch evo, then store it
+        if(mainPokemon.GetBranchEvo() == true && mainPokemon.GetEvolutions() <= 2)
+            branchEvo 	= POKEDEX[mainPokemon.GetBranchEvoNum() - 1];
+    }
 }
 
 /************************************************************************

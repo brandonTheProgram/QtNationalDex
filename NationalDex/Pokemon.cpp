@@ -27,6 +27,8 @@ Pokemon::Pokemon()
     basic.altAbilityDesc					.clear();
     basic.hiddenAbility						.clear();
     basic.hiddenAbilityDesc					.clear();
+    basic.versionOneLocation                .clear();
+    basic.versionTwoLocation                .clear();
     evol.evolutions 						= 0;
     evol.secondEvo							= false;
     evol.finalEvo							= false;
@@ -127,6 +129,10 @@ std::ifstream& operator >>(std::ifstream& isObject, Pokemon& cObject)
     getline(isObject, cObject.basic.secType);
 
     getline(isObject, cObject.basic.description);
+
+    getline(isObject, cObject.basic.versionOneLocation);
+
+    getline(isObject, cObject.basic.versionTwoLocation);
 
     getline(isObject, cObject.basic.ability);
 

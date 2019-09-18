@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include "region.h"
+#include "typeeffectchart.h"
+#include "natureeffectchart.h"
 #include <QMainWindow>
 
 /**************************************************************************
@@ -83,9 +85,9 @@ class MainWindow;
 
 /************************************************************************
 * MainWindow Class
-* 	This class represents the MainWindow. It manages 9 attributes:
+* 	This class represents the MainWindow. It manages 11 attributes:
 * 		ui, kantoUi, johtoUi, hoennUi, sinnohUi, unovaUi, kalosUi
-*       alolaUi, pokedex
+*       alolaUi, pokedex, typeChart, natureChart
 *************************************************************************/
 class MainWindow : public QMainWindow
 {
@@ -233,16 +235,22 @@ private slots:
      ***************************************************************/
     void CatchSignal(const int& POKEMON_NUMBER);
 
+    void on_actionType_Chart_triggered();
+
+    void on_actionNature_Chart_triggered();
+
 private:
-    Ui::MainWindow  *ui;        //The ui for the main window
-    Region          *kantoUi;   //The ui for the Kanto Region
-    Region          *johtoUi;   //The ui for the Johto Region
-    Region          *hoennUi;   //The ui for the Hoenn Region
-    Region          *sinnohUi;  //The ui for the Sinnoh Region
-    Region          *unovaUi;   //The ui for the Unova Region
-    Region          *kalosUi;   //The ui for the Kalos Region
-    Region          *alolaUi;   //The ui for the Alola Region
-    Pokedex         *pokedex;   //The Pokedex
+    Ui::MainWindow  *ui;            //The ui for the main window
+    Region          *kantoUi;       //The ui for the Kanto Region
+    Region          *johtoUi;       //The ui for the Johto Region
+    Region          *hoennUi;       //The ui for the Hoenn Region
+    Region          *sinnohUi;      //The ui for the Sinnoh Region
+    Region          *unovaUi;       //The ui for the Unova Region
+    Region          *kalosUi;       //The ui for the Kalos Region
+    Region          *alolaUi;       //The ui for the Alola Region
+    Pokedex         *pokedex;       //The Pokedex
+    TypeEffectChart *typeChart;     //The Type Weakness Chart
+    NatureEffectChart *natureChart;
 };
 
 #endif // MAINWINDOW_H

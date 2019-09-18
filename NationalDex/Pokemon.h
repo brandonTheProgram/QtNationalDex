@@ -39,6 +39,10 @@ struct basicInfo
     string altAbilityDesc;	  //The description of the alternative ability
     string hiddenAbility;	  //The name of the hidden ability
     string hiddenAbilityDesc; //The description of the hidden ability
+    string versionOneLocation;//The location of the pokemon in version one of
+                              //the current generation
+    string versionTwoLocation;//The location of the pokemon in version two of
+                              //the current generation
 };
 
 //The struct that holds the information pertaining to the Pokemon's evolutions
@@ -241,6 +245,30 @@ class Pokemon //Base Class
          *   Return: hiddenAbilityDesc
          ***************************************************************/
         string GetHiddenAbilityDesc()const{return basic.hiddenAbilityDesc;}
+
+        /****************************************************************
+         * string GetVersionOneLocation() const;
+         *
+         *   Accessor; This returns the Pokemon's location in version one of
+         *             the current generation
+         *-----------------------------------------------------------------
+         *   Parameters: none
+         *-----------------------------------------------------------------
+         *   Return: versionOneLocation
+         ***************************************************************/
+        string GetVersionOneLocation() const{return basic.versionOneLocation;}
+
+        /****************************************************************
+         * string GetVersionTwoLocation() const;
+         *
+         *   Accessor; This returns the Pokemon's location in version two of
+         *             the current generation
+         *-----------------------------------------------------------------
+         *   Parameters: none
+         *-----------------------------------------------------------------
+         *   Return: ultraMoonLoc
+         ***************************************************************/
+        string GetVersionTwoLocation() const{return basic.versionTwoLocation;}
 
         /****************************************************************
          * int GetEvolutions() const;

@@ -33,7 +33,9 @@ SOURCES += \
     Pokemon.cpp \
     PokemonEvolutions.cpp \
     PokemonWeakness.cpp \
-    region.cpp
+    region.cpp \
+    typeeffectchart.cpp \
+    natureeffectchart.cpp
 
 HEADERS += \
     dialog.h \
@@ -43,12 +45,16 @@ HEADERS += \
     Pokemon.h \
     PokemonEvolutions.h \
     PokemonWeakness.h \
-    region.h
+    region.h \
+    typeeffectchart.h \
+    natureeffectchart.h
 
 FORMS += \
         mainwindow.ui \
     dialog.ui \
-    region.ui
+    region.ui \
+    typeeffectchart.ui \
+    natureeffectchart.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

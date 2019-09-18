@@ -56,13 +56,15 @@ MainWindow::MainWindow(QWidget *parent) :
     alolaVect  = pokedex->GetRegion(   globalPDexConsts::KALOS_DEX,
                                        globalPDexConsts::ALOLA_DEX);
 
-    kantoUi  = new Region(this, KANTO_START, kantoVect);
-    johtoUi  = new Region(this, JOHTO_START, johtoVect);
-    hoennUi  = new Region(this, HOENN_START, hoennVect);
-    sinnohUi = new Region(this, SINNOH_START, sinnohVect);
-    unovaUi  = new Region(this, UNOVA_START, unovaVect);
-    kalosUi  = new Region(this, KALOS_START, kalosVect);
-    alolaUi  = new Region(this, ALOLA_START, alolaVect);
+    kantoUi     = new Region(this, KANTO_START, kantoVect);
+    johtoUi     = new Region(this, JOHTO_START, johtoVect);
+    hoennUi     = new Region(this, HOENN_START, hoennVect);
+    sinnohUi    = new Region(this, SINNOH_START, sinnohVect);
+    unovaUi     = new Region(this, UNOVA_START, unovaVect);
+    kalosUi     = new Region(this, KALOS_START, kalosVect);
+    alolaUi     = new Region(this, ALOLA_START, alolaVect);
+    typeChart   = new TypeEffectChart(this);
+    natureChart = new NatureEffectChart(this);
 
     //PROCESSING - Connect the objects with the signals
     connect(kantoUi, SIGNAL(evolutionNumberSig(int)),
@@ -112,6 +114,8 @@ MainWindow::~MainWindow()
     delete kalosUi;
     delete alolaUi;
     delete pokedex;
+    delete typeChart;
+    delete natureChart;
 }
 
 /************************************************************************
@@ -349,4 +353,14 @@ void MainWindow::CatchSignal(const int& POKEMON_NUMBER)
     {kalosUi->LoadSpecificPokemon((*pokedex)[POKEMON_NUMBER-1]);}
 
     else{alolaUi->LoadSpecificPokemon((*pokedex)[POKEMON_NUMBER-1]);}
+}
+
+void MainWindow::on_actionType_Chart_triggered()
+{
+    typeChart->showMaximized();
+}
+
+void MainWindow::on_actionNature_Chart_triggered()
+{
+    natureChart->showMaximized();
 }

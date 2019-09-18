@@ -129,10 +129,11 @@ void Region::CreateList()
         //PROCESSING - Connect the button with the Dialog
         connect(pokemonButton, SIGNAL(clicked()), this, SLOT(GoToDialog()));
 
-        //OUTPUT - put the name of the pokemon on the button
+        //OUTPUT - put the name of the pokemon and number on the button
         pokemonButton->setText
-        (QString::fromStdString
-         (regionVect[index].currentPkmn.GetName())
+        ( QString::number(regionVect[index].currentPkmn.GetPokedexNumber())
+          + " " +
+          QString::fromStdString(regionVect[index].currentPkmn.GetName())
         );
 
         list.push_back(pokemonButton);
