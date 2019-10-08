@@ -1,73 +1,27 @@
 #include "Pokedex.h"
 
-/************************************************************************
-* Method Pokedex: Class Pokedex
-*----------------------------------------------------------------------
-* 	 This method creates the Pokedex object
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-Pokedex::Pokedex()
-{
-    pokedex    .clear();
-    attackDex  .clear();
-    pokedexCopy.clear();
-    pokedex    .reserve(globalPDexConsts::AR_SIZE);
-    pokedexCopy.reserve(globalPDexConsts::AR_SIZE);
-    attackDex  .reserve(globalPDexConsts::MAX_ATTKS);
+Pokedex::Pokedex(){
+    this->pokedex    .reserve(globalPDexConsts::AR_SIZE);
+    this->pokedexCopy.reserve(globalPDexConsts::AR_SIZE);
+    this->attackDex  .reserve(globalPDexConsts::MAX_ATTKS);
 }
 
-/************************************************************************
-* Method ~Pokedex: Class Pokedex
-*----------------------------------------------------------------------
-* 	 This method deletes the Pokedex object
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-Pokedex::~Pokedex()
-{
-    pokedex           .clear();
-    attackDex         .clear();
-    pokedexCopy       .clear();
+Pokedex::~Pokedex(){
+    vector<Pkmn>()    .swap(this->pokedex);
+    vector<Attack>()  .swap(this->attackDex);
+    vector<Pokemon>() .swap(this->pokedexCopy);
 
-    vector<Pkmn>()    .swap(pokedex);
-    vector<Attack>()  .swap(attackDex);
-    vector<Pokemon>() .swap(pokedexCopy);
+    this->pokedex     .clear();
+    this->attackDex   .clear();
+    this->pokedexCopy .clear();
 }
 
-/************************************************************************
-* Method CreateAttackList: Class Pokedex
-*----------------------------------------------------------------------
-* 	 This method creates the attackdex
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-* 		INPUT_FILE (string) - the input file
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void Pokedex::CreateAttackList(const string& INPUT_FILE)
-{
+void Pokedex::CreateAttackList(const string& INPUT_FILE){
     std::ifstream fin(INPUT_FILE.c_str()); //PROC - Open the input file
 
-    int index;							   //PROC - the index in the array
+    int index = 0;						   //PROC - the index in the array
 
-    Attack *attack;                        //PROC - create a new attack
-
-    attack = new Attack;
-    index  = 0;
+    Attack *attack = new Attack;           //PROC - create a new attack
 
     //PROCESSING - While not at the end of the file and not out of space,
     //             load in every move and add it to the list
@@ -84,14 +38,14 @@ void Pokedex::CreateAttackList(const string& INPUT_FILE)
         fin >> attack->TM;
         fin >> attack->TMNum;
 
-        attackDex.push_back(*attack);
+        this->attackDex.push_back(*attack);
 
         fin.ignore(1000, '\n');
         fin.ignore(1000, '\n');
 
         attack = new Attack;
 
-        index++;
+        ++index;
     }
 
     delete attack;
@@ -100,40 +54,12 @@ void Pokedex::CreateAttackList(const string& INPUT_FILE)
     fin.close();
 }
 
-/************************************************************************
-* Method CreatePokedexCopy: Class Pokedex
-*----------------------------------------------------------------------
-* 	 This method creates a copy of the Pokedex with only a Pokemon and
-* 	 	not attacks or weaknesses
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void Pokedex::CreatePokedexCopy()
-{for(auto it: pokedex){pokedexCopy.push_back(it.currentPkmn);}}
+void Pokedex::CreatePokedexCopy(){
+    for(auto it: pokedex){pokedexCopy.push_back(it.currentPkmn);}
+}
 
-/************************************************************************
-* Method LoadRegion: Class Pokedex
-*----------------------------------------------------------------------
-* 	 This method loads in one region at a time and initializes the Pokedex
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-* 		INPUT_FILE  (string) - The name of the input file
-* 		REGION_MAX  (int)    - The max number of Pokemon available in the region
-* 		ATTACK_FILE (string) - The name of the attack file for the region
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
 void Pokedex::LoadRegion(const string& INPUT_FILE, const int& REGION_MAX,
-                         const string& ATTACK_FILE)
-{
+                         const string& ATTACK_FILE){
     static int     pokdexIndex = 0;                //PROC - the position in
                                                    //	    in vector
 
@@ -148,9 +74,7 @@ void Pokedex::LoadRegion(const string& INPUT_FILE, const int& REGION_MAX,
     vector<int>    attackLvls;				       //PROC - the levels of the
                                                    //       attacks
 
-    Pkmn *newPokemon;                              //PROC - Create a new Pokemon
-
-    newPokemon = new Pkmn;
+    Pkmn *newPokemon = new Pkmn;                   //PROC - Create a new Pokemon
 
     //While not at the end of the file and the index doesn't exceed the max
     //number of Pokemon available in the region
@@ -169,53 +93,35 @@ void Pokedex::LoadRegion(const string& INPUT_FILE, const int& REGION_MAX,
         //PROCESSING - Calculate the damage that the Pokemon would take
         newPokemon->pkmnWeakness.CalcDamageTaken();
 
-        //PROCESSING - Load in the Pokemon's moves
-        LoadPokemonMoves(attackFin, attackNames, attackLvls);
+        this->LoadPokemonMoves(attackFin, attackNames, attackLvls);
 
-        //PROCESSING - Initialize the Pokemon's moves
         newPokemon->pkmnMoves.InitializeMoveSets
-                                (attackDex, attackNames, attackLvls);
+                              (attackDex, attackNames, attackLvls);
 
-        //PROCESSING - Store the Pokemon in the vector
-        pokedex.push_back(*newPokemon);
+        this->pokedex.push_back(*newPokemon);
 
         //PROCESSING - Clear the arrays for reuse and deallocate memory
-        attackNames.clear();
-        attackLvls.clear();
-
         vector<string>().swap(attackNames);
         vector<int>   ().swap(attackLvls);
 
+        attackNames.clear();
+        attackLvls .clear();
+
         newPokemon = new Pkmn;
 
-        pokdexIndex++;
+        ++pokdexIndex;
     }
 
     delete newPokemon;
+    newPokemon = nullptr;
 
     //Close the input files
     fin      .close();
     attackFin.close();
 }
 
-/************************************************************************
-* Method LoadPokemonMoves: Class Pokedex
-*----------------------------------------------------------------------
-* 	 This method loads the Pokemon's moves
-* 	 ==> returns attackNames and attackLvls
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-* 		fin         (ifstream)       - the input file variable
-*   	attackNames (vector<string>) - the list of attack names
-*   	attackLvls  (vector<int>)    - the list of attack levels
-*
-* POST-CONDITIONS
-* 	==> returns attackNames and attackLvls
-*************************************************************************/
 void Pokedex::LoadPokemonMoves(std::ifstream& fin, vector<string>& attackNames,
-                               vector<int>& attackLvls)
-{
+                               vector<int>& attackLvls){
     string pokemonName;	 //PROC - The name of the Pokemon
     string attackName;   //PROC - The name of the attack
 
@@ -229,62 +135,33 @@ void Pokedex::LoadPokemonMoves(std::ifstream& fin, vector<string>& attackNames,
     attackNames.reserve(moveListSize);
     attackLvls .reserve(moveListSize);
 
-    for(int index = 0; index < moveListSize; index++)
-    {
+    for(int index = 0; index < moveListSize; ++index){
         fin >> attackLvl;
         fin.ignore(1000, ' ');
         getline(fin, attackName);
 
         attackNames.push_back(attackName);
-        attackLvls.push_back(attackLvl);
+        attackLvls .push_back(attackLvl);
     }
 
     fin.ignore(1000, '\n');
 }
 
-/************************************************************************
-* Method SetEvolutions: Class Pokedex
-*----------------------------------------------------------------------
-* 	 This method sets the evolutions to every Pokemon
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void Pokedex::SetEvolutions()
-{
-    for(auto& it: pokedex)
-    {
+void Pokedex::SetEvolutions(){
+    for(auto& it: pokedex){
         //If the pokemon has an evloution, then set it
-        if(it.currentPkmn.GetEvolutions() != 0)
-            {it.pkmnEvos.SetInitialValues(pokedexCopy, it.currentPkmn);}
+        if(it.currentPkmn.GetEvolutions() != 0){
+            it.pkmnEvos.SetInitialValues(pokedexCopy, it.currentPkmn);
+        }
     }
 }
 
-/************************************************************************
-* Method GetRegion: Class Pokedex
-*----------------------------------------------------------------------
-* 	 This gets a region range of Pokemon from the Pokedex
-* 	 ==> returns a vector of the Pokemon specified
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-* 		START  (int) - the starting index of the region
-*   	END    (int) - the ending index of the region
-*   	attackLvls  (vector<int>)    - the list of attack levels
-*
-* POST-CONDITIONS
-* 	==> returns a vector of the Pokemon specified
-*************************************************************************/
-vector<Pkmn> Pokedex::GetRegion(const int &START, const int &END) const
-{
+vector<Pkmn> Pokedex::GetRegion(const int &START, const int &END) const{
     vector<Pkmn> regionVec; //PROC - The vector that will be returned
 
-    for(int index = START; index < END;index++)
-        {regionVec.push_back(pokedex[index]);}
+    for(int index = START; index < END;index++){
+        regionVec.push_back(pokedex[index]);
+    }
 
     return regionVec;
 }

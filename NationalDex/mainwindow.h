@@ -85,172 +85,65 @@ class MainWindow;
 
 /************************************************************************
 * MainWindow Class
-* 	This class represents the MainWindow. It manages 11 attributes:
-* 		ui, kantoUi, johtoUi, hoennUi, sinnohUi, unovaUi, kalosUi
-*       alolaUi, pokedex, typeChart, natureChart
+* 	This class represents the MainWindow.
 *************************************************************************/
-class MainWindow : public QMainWindow
-{
+class MainWindow : public QMainWindow{
     Q_OBJECT
 
 public:
-    /******************************
-     ** CONSTRUCTOR & DESTRUCTOR **
-     ******************************/
-
-    /****************************************************************
-     * MainWindow (QWidget *parent = nullptr);
-     *
-     *   Constructor; this method initializes the QMainWindow object
-     * --------------------------------------------------------------
-     *   Parameters: parent (QWidget) - the invoking object
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
     explicit MainWindow(QWidget *parent = nullptr); //Constructor
 
-    /****************************************************************
-     * ~MainWindow ();
-     *
-     *   Deconstructor; does not perform any specific function
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
     ~MainWindow();//Deconstructor
 
-    /****************************************************************
-     * 	void CreatePokedex();
-     *
-     *   Mutator; this creates the Pokedex needed for all functions
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
     void CreatePokedex();
 
 private slots:
 
-    /****************************************************************
-     * 	void on_kantoButton_clicked();
-     *
-     *   Slots; this shows the Kanto region
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
+    //Show the Kanto region
     void on_kantoButton_clicked();
 
-    /****************************************************************
-     * 	void on_johtoButton_clicked();
-     *
-     *   Slots; this shows the Johto region
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
+    //Show the Johto region
     void on_johtoButton_clicked();
 
-    /****************************************************************
-     * 	void on_hoennButton_clicked();
-     *
-     *   Slots; this shows the Hoenn region
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
+    //Show the Hoenn region
     void on_hoennButton_clicked();
 
-    /****************************************************************
-     * 	void on_sinnohButton_clicked();
-     *
-     *   Slots; this shows the Sinnoh region
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
+    //Show the Sinnoh region
     void on_sinnohButton_clicked();
 
-    /****************************************************************
-     * 	void on_unovaButton_clicked();
-     *
-     *   Slots; this shows the Unova region
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
+    //Show the Unova region
     void on_unovaButton_clicked();
 
-    /****************************************************************
-     * 	void on_kalosButton_clicked();
-     *
-     *   Slots; this shows the Kalos region
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
+    //Show the Kalos region
     void on_kalosButton_clicked();
 
-    /****************************************************************
-     * 	void on_alolaButton_clicked();
-     *
-     *   Slots; this shows the Alola region
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
+    //Show the Alola region
     void on_alolaButton_clicked();
 
-    /****************************************************************
-     * 	void on_actionSearch_triggered();
-     *
-     *   Slots; this prompts the user to enter a pokemon name and then searches
-     *          for it. If found, the pokemon is displayed and if not,
-     *          an error message is displayed
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
+    //Ask the user for input to serach for a Pokemon by name and perform
     void on_actionSearch_triggered();
 
-    /****************************************************************
-     * 	void CatchSignal(const int& POKEMON_NUMBER);
-     *
-     *   Slots; this catches the signal that is thrown and displays the given
-     *          Pokemon that is found
-     * --------------------------------------------------------------
-     *   Parameters: POKEMON_NUMBER (int) - the pokedex number of the pokemon
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
+    //Catch a thrown signal holding the index of the Pokemon in the Pokedex
     void CatchSignal(const int& POKEMON_NUMBER);
 
+    //Show the type chart
     void on_actionType_Chart_triggered();
 
+    //Show the nature chart
     void on_actionNature_Chart_triggered();
 
 private:
-    Ui::MainWindow  *ui;            //The ui for the main window
-    Region          *kantoUi;       //The ui for the Kanto Region
-    Region          *johtoUi;       //The ui for the Johto Region
-    Region          *hoennUi;       //The ui for the Hoenn Region
-    Region          *sinnohUi;      //The ui for the Sinnoh Region
-    Region          *unovaUi;       //The ui for the Unova Region
-    Region          *kalosUi;       //The ui for the Kalos Region
-    Region          *alolaUi;       //The ui for the Alola Region
-    Pokedex         *pokedex;       //The Pokedex
-    TypeEffectChart *typeChart;     //The Type Weakness Chart
-    NatureEffectChart *natureChart;
+    Ui::MainWindow    *ui;            //The ui for the main window
+    Region            *kantoUi;       //The ui for the Kanto Region
+    Region            *johtoUi;       //The ui for the Johto Region
+    Region            *hoennUi;       //The ui for the Hoenn Region
+    Region            *sinnohUi;      //The ui for the Sinnoh Region
+    Region            *unovaUi;       //The ui for the Unova Region
+    Region            *kalosUi;       //The ui for the Kalos Region
+    Region            *alolaUi;       //The ui for the Alola Region
+    Pokedex           *pokedex;       //The Pokedex
+    TypeEffectChart   *typeChart;     //The Type Weakness Chart
+    NatureEffectChart *natureChart;   //The Nature Chart
 };
 
 #endif // MAINWINDOW_H

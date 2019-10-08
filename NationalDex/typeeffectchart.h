@@ -7,12 +7,12 @@ namespace Ui {
 class TypeEffectChart;
 }
 
-class TypeEffectChart : public QDialog
-{
+class TypeEffectChart : public QDialog{
     Q_OBJECT
 
 public:
     explicit TypeEffectChart(QWidget *parent = nullptr);
+
     ~TypeEffectChart();
 
 private:

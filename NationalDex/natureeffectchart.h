@@ -7,8 +7,7 @@ namespace Ui {
 class NatureEffectChart;
 }
 
-class NatureEffectChart : public QDialog
-{
+class NatureEffectChart : public QDialog{
     Q_OBJECT
 
 public:

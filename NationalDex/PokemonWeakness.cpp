@@ -1,215 +1,137 @@
 #include "PokemonWeakness.h"
 
-/************************************************************************
-* Method PokemonWeakness: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method creates the Pokemon Weakness object
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-PokemonWeakness::PokemonWeakness()
-{
-    priTypeEnum = NORMAL;
-    secTypeEnum = NORMAL;
+PokemonWeakness::PokemonWeakness(){
+    this->priTypeEnum = PokemonTypes::NORMAL;
+    this->secTypeEnum = PokemonTypes::NORMAL;
 
-    //PROCESSING - Initialize the array to 0
-    for(int index = 0; index < globalWeakConsts::MAX_TYPES; index++)
-        {damageAr[index] = 0.0;}
+    for(int index = 0; index < globalWeakConsts::MAX_TYPES; ++index){
+        damageAr[index] = 0.0;
+    }
 }
 
-/************************************************************************
-* Method PokemonWeakness: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method creates the Pokemon Weakness object with values
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-* 		PRI_TYPE (string) - the name of the Pokemon's
-*		   			        primary type
-*		SEC_TYPE (string) - the name of the Pokemon's
-*		    			    secondary type
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
 PokemonWeakness::PokemonWeakness(const string &PRI_TYPE,
-                                 const string &SEC_TYPE)
-{
-    InitializePriTypeEnum(PRI_TYPE);
-    InitializeSecTypeEnum(SEC_TYPE);
+                                 const string &SEC_TYPE){
+    this->InitializePriTypeEnum(PRI_TYPE);
+    this->InitializeSecTypeEnum(SEC_TYPE);
 }
 
-/************************************************************************
-* Method ~PokemonWeakness: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method deletes the Pokemon weakness object
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
 PokemonWeakness::~PokemonWeakness(){}
 
-/************************************************************************
-* Method InitializePriTypeEnum: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method will initialize the priTypeEnum using priType
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*  	 	PRI_TYPE (string) - the name of the Pokemon's primary type
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::InitializePriTypeEnum(const string &PRI_TYPE)
-{
-    if     (PRI_TYPE == "Normal")    {priTypeEnum = NORMAL;}
+void PokemonWeakness::InitializePriTypeEnum(const string &PRI_TYPE){
+    if(PRI_TYPE == "Normal"){
+        this->priTypeEnum = PokemonTypes::NORMAL;
+    }
+    else if(PRI_TYPE == "Fighting"){
+        this->priTypeEnum = PokemonTypes::FIGHTING;
+    }
+    else if(PRI_TYPE == "Flying"){
+        this->priTypeEnum = PokemonTypes::FLYING;
+    }
+    else if(PRI_TYPE == "Poison"){
+        this->priTypeEnum = PokemonTypes::POISON;
+    }
+    else if(PRI_TYPE == "Ground"){
+        this->priTypeEnum = PokemonTypes::GROUND;
+    }
+    else if(PRI_TYPE == "Rock"){
+        this->priTypeEnum = PokemonTypes::ROCK;
+    }
+    else if(PRI_TYPE == "Bug"){
+        this->priTypeEnum = PokemonTypes::BUG;
+    }
+    else if(PRI_TYPE == "Ghost"){
+        this->priTypeEnum = PokemonTypes::GHOST;
+    }
+    else if(PRI_TYPE == "Steel"){
+        this->priTypeEnum = PokemonTypes::STEEL;
+    }
+    else if(PRI_TYPE == "Fire"){
+        this->priTypeEnum = PokemonTypes::FIRE;
+    }
+    else if(PRI_TYPE == "Water"){
+        this->priTypeEnum = PokemonTypes::WATER;
+    }
+    else if(PRI_TYPE == "Grass"){
+        this->priTypeEnum = PokemonTypes::GRASS;
+    }
+    else if(PRI_TYPE == "Electric"){
+        this->priTypeEnum = PokemonTypes::ELECTRIC;
+    }
+    else if(PRI_TYPE == "Psychic"){
+        priTypeEnum = PokemonTypes::PSYCHIC;
+    }
+    else if(PRI_TYPE == "Ice"){
+        this->priTypeEnum = PokemonTypes::ICE;
+    }
 
-    else if(PRI_TYPE == "Fighting")  {priTypeEnum = FIGHTING;}
-
-    else if(PRI_TYPE == "Flying")    {priTypeEnum = FLYING;}
-
-    else if(PRI_TYPE == "Poison")    {priTypeEnum = POISON;}
-
-    else if(PRI_TYPE == "Ground")    {priTypeEnum = GROUND;}
-
-    else if(PRI_TYPE == "Rock")      {priTypeEnum = ROCK;}
-
-    else if(PRI_TYPE == "Bug")       {priTypeEnum = BUG;}
-
-    else if(PRI_TYPE == "Ghost")     {priTypeEnum = GHOST;}
-
-    else if(PRI_TYPE == "Steel")     {priTypeEnum = STEEL;}
-
-    else if(PRI_TYPE == "Fire")      {priTypeEnum = FIRE;}
-
-    else if(PRI_TYPE == "Water")     {priTypeEnum = WATER;}
-
-    else if(PRI_TYPE == "Grass")     {priTypeEnum = GRASS;}
-
-    else if(PRI_TYPE == "Electric")  {priTypeEnum = ELECTRIC;}
-
-    else if(PRI_TYPE == "Psychic")   {priTypeEnum = PSYCHIC;}
-
-    else if(PRI_TYPE == "Ice")       {priTypeEnum = ICE;}
-
-    else if(PRI_TYPE == "Dragon")    {priTypeEnum = DRAGON;}
-
-    else if(PRI_TYPE == "Dark")      {priTypeEnum = DARK;}
-
-    else if(PRI_TYPE == "Fairy")     {priTypeEnum = FAIRY;}
+    else if(PRI_TYPE == "Dragon"){
+        this->priTypeEnum = PokemonTypes::DRAGON;
+    }
+    else if(PRI_TYPE == "Dark"){
+        this->priTypeEnum = PokemonTypes::DARK;
+    }
+    else if(PRI_TYPE == "Fairy"){
+        this->priTypeEnum = PokemonTypes::FAIRY;
+    }
 }
 
-/************************************************************************
-* Method InitializeSecTypeEnum: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method will initialize the secTypeEnum using secType
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*  	 	SEC_TYPE (string) - the name of the Pokemon's secondary type
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::InitializeSecTypeEnum(const string &SEC_TYPE)
-{
-    if     (SEC_TYPE == "Normal")    {secTypeEnum = NORMAL;}
-
-    else if(SEC_TYPE == "Fighting")  {secTypeEnum = FIGHTING;}
-
-    else if(SEC_TYPE == "Flying")    {secTypeEnum = FLYING;}
-
-    else if(SEC_TYPE == "Poison")    {secTypeEnum = POISON;}
-
-    else if(SEC_TYPE == "Ground")    {secTypeEnum = GROUND;}
-
-    else if(SEC_TYPE == "Rock")      {secTypeEnum = ROCK;}
-
-    else if(SEC_TYPE == "Bug")       {secTypeEnum = BUG;}
-
-    else if(SEC_TYPE == "Ghost")     {secTypeEnum = GHOST;}
-
-    else if(SEC_TYPE == "Steel")     {secTypeEnum = STEEL;}
-
-    else if(SEC_TYPE == "Fire")      {secTypeEnum = FIRE;}
-
-    else if(SEC_TYPE == "Water")     {secTypeEnum = WATER;}
-
-    else if(SEC_TYPE == "Grass")     {secTypeEnum = GRASS;}
-
-    else if(SEC_TYPE == "Electric")  {secTypeEnum = ELECTRIC;}
-
-    else if(SEC_TYPE == "Psychic")   {secTypeEnum = PSYCHIC;}
-
-    else if(SEC_TYPE == "Ice")       {secTypeEnum = ICE;}
-
-    else if(SEC_TYPE == "Dragon")    {secTypeEnum = DRAGON;}
-
-    else if(SEC_TYPE == "Dark")      {secTypeEnum = DARK;}
-
-    else if(SEC_TYPE == "Fairy")     {secTypeEnum = FAIRY;}
+void PokemonWeakness::InitializeSecTypeEnum(const string &SEC_TYPE){
+    if(SEC_TYPE == "Normal"){
+        this->secTypeEnum = PokemonTypes::NORMAL;
+    }
+    else if(SEC_TYPE == "Fighting"){
+        this->secTypeEnum = PokemonTypes::FIGHTING;
+    }
+    else if(SEC_TYPE == "Flying"){
+        this->secTypeEnum = PokemonTypes::FLYING;
+    }
+    else if(SEC_TYPE == "Poison"){
+        this->secTypeEnum = PokemonTypes::POISON;
+    }
+    else if(SEC_TYPE == "Ground"){
+        this->secTypeEnum = PokemonTypes::GROUND;
+    }
+    else if(SEC_TYPE == "Rock"){
+        this->secTypeEnum = PokemonTypes::ROCK;
+    }
+    else if(SEC_TYPE == "Bug"){
+        this->secTypeEnum = PokemonTypes::BUG;
+    }
+    else if(SEC_TYPE == "Ghost"){
+        this->secTypeEnum = PokemonTypes::GHOST;
+    }
+    else if(SEC_TYPE == "Steel"){
+        this->secTypeEnum = PokemonTypes::STEEL;
+    }
+    else if(SEC_TYPE == "Fire"){
+        this->secTypeEnum = PokemonTypes::FIRE;
+    }
+    else if(SEC_TYPE == "Water"){
+        this->secTypeEnum = PokemonTypes::WATER;
+    }
+    else if(SEC_TYPE == "Grass"){
+        this->secTypeEnum = PokemonTypes::GRASS;
+    }
+    else if(SEC_TYPE == "Electric"){
+        this->secTypeEnum = PokemonTypes::ELECTRIC;
+    }
+    else if(SEC_TYPE == "Psychic"){
+        this->secTypeEnum = PokemonTypes::PSYCHIC;
+    }
+    else if(SEC_TYPE == "Ice"){
+        this->secTypeEnum = PokemonTypes::ICE;
+    }
+    else if(SEC_TYPE == "Dragon"){
+        this->secTypeEnum = PokemonTypes::DRAGON;
+    }
+    else if(SEC_TYPE == "Dark"){
+        this->secTypeEnum = PokemonTypes::DARK;
+    }
+    else if(SEC_TYPE == "Fairy"){
+        this->secTypeEnum = PokemonTypes::FAIRY;
+    }
 }
 
-/************************************************************************
-* Method SetDamageValues: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage array with the corresponding type values
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*  	 	NORMAL_DMG  (float) - the damage taken from a normal type move
-*
-*  	 	FIGHT_DMG   (float) - the damage taken from a fighting type move
-*
-*  	 	FLY_DMG     (float) - the damage taken from a flying type move
-*
-*   	POI_DMG     (float) - the damage taken from a poison type move
-*
-*   	GRD_DMG     (float) - the damage taken from a ground type move
-*
-*   	ROCK_DMG    (float) - the damage taken from a rock type move
-*
-*   	BUG_DMG     (float) - the damage taken from a bug type move
-*
-*   	GHOST_DMG   (float) - the damage taken from a ghost type move
-*
-*   	STEEL_DMG   (float) - the damage taken from a steel type move
-*
-*   	FIRE_DMG    (float) - the damage taken from a fire type move
-*
-*   	WATER_DMG   (float) - the damage taken from a water type move
-*
-*   	GRASS_DMG	(float) - the damage taken from a grass type move
-*
-*   	ELEC_DMG    (float) - the damage taken from a electric type move
-*
-*   	PSY_DMG     (float) - the damage taken from a psychic type move
-*
-*   	ICE_DMG     (float) - the damage taken from a ice type move
-*
-*   	DRGN_DMG    (float) - the damage taken from a dragon type move
-*
-*   	DARK_DMG    (float) - the damage taken from a dark type move
-*
-*   	FAIRY_DMG   (float) - the damage taken from a fairy type move
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
 void PokemonWeakness::SetDamageValues(const float &NORMAL_DMG,
                                       const float &FIGHT_DMG,
                                       const float &FLY_DMG,
@@ -227,3074 +149,2445 @@ void PokemonWeakness::SetDamageValues(const float &NORMAL_DMG,
                                       const float &ICE_DMG,
                                       const float &DRGN_DMG,
                                       const float &DARK_DMG,
-                                      const float &FAIRY_DMG)
-{
-    damageAr[NORMAL]   = NORMAL_DMG;
-    damageAr[FIGHTING] = FIGHT_DMG;
-    damageAr[FLYING]   = FLY_DMG;
-    damageAr[POISON]   = POI_DMG;
-    damageAr[GROUND]   = GRD_DMG;
-    damageAr[ROCK]     = ROCK_DMG;
-    damageAr[BUG]      = BUG_DMG;
-    damageAr[GHOST]    = GHOST_DMG;
-    damageAr[STEEL]    = STEEL_DMG;
-    damageAr[FIRE]     = FIRE_DMG;
-    damageAr[WATER]    = WATER_DMG;
-    damageAr[GRASS]    = GRASS_DMG;
-    damageAr[ELECTRIC] = ELEC_DMG;
-    damageAr[PSYCHIC]  = PSY_DMG;
-    damageAr[ICE]      = ICE_DMG;
-    damageAr[DRAGON]   = DRGN_DMG;
-    damageAr[DARK]     = DARK_DMG;
-    damageAr[FAIRY]    = FAIRY_DMG;
+                                      const float &FAIRY_DMG){
+    this->damageAr[PokemonTypes::NORMAL]   = NORMAL_DMG;
+    this->damageAr[PokemonTypes::FIGHTING] = FIGHT_DMG;
+    this->damageAr[PokemonTypes::FLYING]   = FLY_DMG;
+    this->damageAr[PokemonTypes::POISON]   = POI_DMG;
+    this->damageAr[PokemonTypes::GROUND]   = GRD_DMG;
+    this->damageAr[PokemonTypes::ROCK]     = ROCK_DMG;
+    this->damageAr[PokemonTypes::BUG]      = BUG_DMG;
+    this->damageAr[PokemonTypes::GHOST]    = GHOST_DMG;
+    this->damageAr[PokemonTypes::STEEL]    = STEEL_DMG;
+    this->damageAr[PokemonTypes::FIRE]     = FIRE_DMG;
+    this->damageAr[PokemonTypes::WATER]    = WATER_DMG;
+    this->damageAr[PokemonTypes::GRASS]    = GRASS_DMG;
+    this->damageAr[PokemonTypes::ELECTRIC] = ELEC_DMG;
+    this->damageAr[PokemonTypes::PSYCHIC]  = PSY_DMG;
+    this->damageAr[PokemonTypes::ICE]      = ICE_DMG;
+    this->damageAr[PokemonTypes::DRAGON]   = DRGN_DMG;
+    this->damageAr[PokemonTypes::DARK]     = DARK_DMG;
+    this->damageAr[PokemonTypes::FAIRY]    = FAIRY_DMG;
 }
 
-/************************************************************************
-* Method BugTypeDmg: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage if the Pokemon is a bug type
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::BugTypeDmg()
-{
-    switch(secTypeEnum)
-    {
-    case NORMAL:    SetDamageValues
-                    (
-                            1.0, 1.0, 2.0, 1.0, 0.5, 2.0,
-                            1.0, 0.0, 1.0, 2.0, 1.0, 0.5,
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+void PokemonWeakness::BugTypeDmg(){
+    switch(this->secTypeEnum){
+    case PokemonTypes::NORMAL:      this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 1.0, 0.5, 2.0,
+                                        1.0, 0.0, 1.0, 2.0, 1.0, 0.5,
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case FIGHTING:  SetDamageValues
-                    (
-                            1.0, 0.5, 4.0, 1.0, 0.5, 1.0,
-                            0.5, 1.0, 1.0, 2.0, 1.0, 0.5,
-                            1.0, 2.0, 1.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::FIGHTING:    this->SetDamageValues(
+                                        1.0, 0.5, 4.0, 1.0, 0.5, 1.0,
+                                        0.5, 1.0, 1.0, 2.0, 1.0, 0.5,
+                                        1.0, 2.0, 1.0, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case FLYING:    SetDamageValues
-                    (
-                            1.0, 0.25, 2.0, 1.0, 0.0, 4.0,
-                            0.5, 1.0, 1.0, 2.0, 1.0, 0.25,
-                            2.0, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::FLYING:      this->SetDamageValues(
+                                        1.0, 0.25, 2.0, 1.0, 0.0, 4.0,
+                                        0.5, 1.0, 1.0, 2.0, 1.0, 0.25,
+                                        2.0, 1.0, 2.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case POISON:    SetDamageValues
-                    (
-                            1.0, 0.25, 2.0, 0.5, 1.0, 2.0,
-                            0.5, 1.0, 1.0, 2.0, 1.0, 0.25,
-                            1.0, 2.0, 1.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::POISON:      this->SetDamageValues(
+                                        1.0, 0.25, 2.0, 0.5, 1.0, 2.0,
+                                        0.5, 1.0, 1.0, 2.0, 1.0, 0.25,
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 0.5
+                                    );
+                                    break;
 
-    case GROUND:    SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 0.5, 0.5, 1.0,
-                            1.0, 1.0, 1.0, 2.0, 2.0, 1.0,
-                            0.0, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GROUND:      this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 0.5, 0.5, 1.0,
+                                        1.0, 1.0, 1.0, 2.0, 2.0, 1.0,
+                                        0.0, 1.0, 2.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case ROCK:	    SetDamageValues
-                    (
-                            0.5, 1.0, 1.0, 0.5, 1.0, 2.0,
-                            1.0, 1.0, 2.0, 1.0, 2.0, 1.0,
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ROCK:	    this->SetDamageValues(
+                                        0.5, 1.0, 1.0, 0.5, 1.0, 2.0,
+                                        1.0, 1.0, 2.0, 1.0, 2.0, 1.0,
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case BUG:       SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 1.0, 0.5, 2.0,
-                            1.0, 1.0, 1.0, 2.0, 1.0, 0.5,
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::BUG:         this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 1.0, 0.5, 2.0,
+                                        1.0, 1.0, 1.0, 2.0, 1.0, 0.5,
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case GHOST:	    SetDamageValues
-                    (
-                            0.0, 0.0, 2.0, 0.5, 0.5, 2.0,
-                            0.5, 2.0, 1.0, 2.0, 1.0, 0.5,
-                            1.0, 1.0, 1.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GHOST:	    this->SetDamageValues(
+                                        0.0, 0.0, 2.0, 0.5, 0.5, 2.0,
+                                        0.5, 2.0, 1.0, 2.0, 1.0, 0.5,
+                                        1.0, 1.0, 1.0, 1.0, 2.0, 1.0
+                                    );
+                                    break;
 
-    case STEEL:		SetDamageValues
-                    (
-                            0.0, 0.0, 2.0, 0.5, 0.5, 2.0,
-                            0.5, 2.0, 1.0, 2.0, 1.0, 0.5,
-                            1.0, 1.0, 1.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::STEEL:		this->SetDamageValues(
+                                        0.0, 0.0, 2.0, 0.5, 0.5, 2.0,
+                                        0.5, 2.0, 1.0, 2.0, 1.0, 0.5,
+                                        1.0, 1.0, 1.0, 1.0, 2.0, 1.0
+                                    );
+                                    break;
 
-    case FIRE:		SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 1.0, 1.0, 4.0,
-                            0.5, 1.0, 0.5, 1.0, 2.0, 0.25,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::FIRE:		this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 1.0, 1.0, 4.0,
+                                        0.5, 1.0, 0.5, 1.0, 2.0, 0.25,
+                                        1.0, 1.0, 0.5, 1.0, 1.0, 0.5
+                                    );
+                                    break;
 
-    case WATER:		SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 1.0, 0.5, 2.0,
-                            1.0, 1.0, 0.5, 1.0, 0.5, 1.0,
-                            2.0, 1.0, 0.5, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::WATER:		this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 1.0, 0.5, 2.0,
+                                        1.0, 1.0, 0.5, 1.0, 0.5, 1.0,
+                                        2.0, 1.0, 0.5, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case GRASS:		SetDamageValues
-                    (
-                            1.0, 0.5, 4.0, 2.0, 0.25, 2.0,
-                            2.0, 1.0, 1.0, 4.0, 0.5, 0.25,
-                            0.5, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GRASS:		this->SetDamageValues(
+                                        1.0, 0.5, 4.0, 2.0, 0.25, 2.0,
+                                        2.0, 1.0, 1.0, 4.0, 0.5, 0.25,
+                                        0.5, 1.0, 2.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case ELECTRIC:  SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 1.0, 1.0, 2.0,
-                            1.0, 1.0, 0.5, 2.0, 1.0, 0.5,
-                            0.5, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ELECTRIC:    this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 1.0, 1.0, 2.0,
+                                        1.0, 1.0, 0.5, 2.0, 1.0, 0.5,
+                                        0.5, 1.0, 1.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case PSYCHIC:  SetDamageValues
-                   (
-                            1.0, 0.25, 2.0, 1.0, 0.5, 2.0,
-                            2.0, 2.0, 1.0, 2.0, 1.0, 0.5,
-                            1.0, 0.5, 1.0, 1.0, 2.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::PSYCHIC:    this->SetDamageValues(
+                                        1.0, 0.25, 2.0, 1.0, 0.5, 2.0,
+                                        2.0, 2.0, 1.0, 2.0, 1.0, 0.5,
+                                        1.0, 0.5, 1.0, 1.0, 2.0, 1.0
+                                   );
+                                   break;
 
-    case ICE:	   SetDamageValues
-                   (
-                            1.0, 1.0, 2.0, 1.0, 0.5, 4.0,
-                            1.0, 1.0, 2.0, 4.0, 1.0, 0.5,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::ICE:        this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 1.0, 0.5, 4.0,
+                                        1.0, 1.0, 2.0, 4.0, 1.0, 0.5,
+                                        1.0, 1.0, 0.5, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case DRAGON:   SetDamageValues
-                   (
-                            1.0, 0.5, 2.0, 1.0, 0.5, 2.0,
-                            1.0, 1.0, 1.0, 1.0, 0.5, 0.25,
-                            0.5, 1.0, 2.0, 2.0, 1.0, 2.0
-                   );
-                   break;
+    case PokemonTypes::DRAGON:     this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 1.0, 0.5, 2.0,
+                                        1.0, 1.0, 1.0, 1.0, 0.5, 0.25,
+                                        0.5, 1.0, 2.0, 2.0, 1.0, 2.0
+                                   );
+                                   break;
 
-    case DARK:	   SetDamageValues
-                   (
-                            1.0, 1.0, 2.0, 1.0, 0.5, 2.0,
-                            2.0, 0.5, 1.0, 2.0, 1.0, 0.5,
-                            1.0, 0.0, 1.0, 1.0, 0.5, 2.0
-                   );
-                   break;
+    case PokemonTypes::DARK:	   this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 1.0, 0.5, 2.0,
+                                        2.0, 0.5, 1.0, 2.0, 1.0, 0.5,
+                                        1.0, 0.0, 1.0, 1.0, 0.5, 2.0
+                                   );
+                                   break;
 
-    case FAIRY:	   SetDamageValues
-                   (
-                            1.0, 0.25, 2.0, 2.0, 0.5, 2.0,
-                            0.5, 1.0, 2.0, 2.0, 1.0, 0.5,
-                            1.0, 1.0, 1.0, 0.0, 0.5, 1.0
-                   );
-                   break;
-
-    default:	   break;
+    case PokemonTypes::FAIRY:	   this->SetDamageValues(
+                                        1.0, 0.25, 2.0, 2.0, 0.5, 2.0,
+                                        0.5, 1.0, 2.0, 2.0, 1.0, 0.5,
+                                        1.0, 1.0, 1.0, 0.0, 0.5, 1.0
+                                   );
+                                   break;
     }
 }
 
-/************************************************************************
-* Method DarkTypeDmg: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage if the Pokemon is a dark type
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::DarkTypeDmg()
-{
-    switch(secTypeEnum)
-    {
-    case NORMAL:    SetDamageValues
-                    (
-                            1.0, 4.0, 1.0, 1.0, 1.0, 2.0,
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 1.0, 1.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+void PokemonWeakness::DarkTypeDmg(){
+    switch(this->secTypeEnum){
+    case PokemonTypes::NORMAL:      this->SetDamageValues(
+                                        1.0, 4.0, 1.0, 1.0, 1.0, 2.0,
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 1.0, 1.0, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case FIGHTING:  SetDamageValues
-                    (
-                            1.0, 2.0, 2.0, 1.0, 1.0, 0.5,
-                            1.0, 0.5, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 0.0, 1.0, 1.0, 0.25, 4.0
-                    );
-                    break;
+    case PokemonTypes::FIGHTING:    this->SetDamageValues(
+                                        1.0, 2.0, 2.0, 1.0, 1.0, 0.5,
+                                        1.0, 0.5, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 0.0, 1.0, 1.0, 0.25, 4.0
+                                    );
+                                    break;
 
-    case FLYING:    SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 1.0, 0.0, 2.0,
-                            1.0, 0.5, 1.0, 1.0, 1.0, 0.5,
-                            2.0, 0.0, 2.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::FLYING:      this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 1.0, 0.0, 2.0,
+                                        1.0, 0.5, 1.0, 1.0, 1.0, 0.5,
+                                        2.0, 0.0, 2.0, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case POISON:    SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 0.5, 2.0, 1.0,
-                            1.0, 0.5, 1.0, 1.0, 1.0, 0.5,
-                            1.0, 0.0, 1.0, 1.0, 0.5, 1.0
-                    );
-                    break;
+    case PokemonTypes::POISON:      this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 0.5, 2.0, 1.0,
+                                        1.0, 0.5, 1.0, 1.0, 1.0, 0.5,
+                                        1.0, 0.0, 1.0, 1.0, 0.5, 1.0
+                                    );
+                                    break;
 
-    case GROUND:    SetDamageValues
-                    (
-                            1.0, 2.0, 1.0, 0.5, 1.0, 0.5,
-                            2.0, 0.5, 1.0, 1.0, 2.0, 2.0,
-                            0.0, 0.0, 2.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::GROUND:      this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 0.5, 1.0, 0.5,
+                                        2.0, 0.5, 1.0, 1.0, 2.0, 2.0,
+                                        0.0, 0.0, 2.0, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case ROCK:	    SetDamageValues
-                    (
-                            0.5, 4.0, 0.5, 0.5, 2.0, 1.0,
-                            2.0, 0.5, 2.0, 0.5, 2.0, 2.0,
-                            1.0, 0.0, 1.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::ROCK:        this->SetDamageValues(
+                                        0.5, 4.0, 0.5, 0.5, 2.0, 1.0,
+                                        2.0, 0.5, 2.0, 0.5, 2.0, 2.0,
+                                        1.0, 0.0, 1.0, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case BUG:       SetDamageValues
-                    (
-                            1.0, 1.0, 2.0, 1.0, 1.0, 2.0,
-                            2.0, 1.0, 1.0, 2.0, 1.0, 1.0,
-                            1.0, 0.0, 1.0, 1.0, 1.0, 2.0
-                    );
-                    break;
+    case PokemonTypes::BUG:         this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 1.0, 1.0, 2.0,
+                                        2.0, 1.0, 1.0, 2.0, 1.0, 1.0,
+                                        1.0, 0.0, 1.0, 1.0, 1.0, 2.0
+                                    );
+                                    break;
 
-    case GHOST:	    SetDamageValues
-                    (
-                            0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 0.0, 1.0, 1.0, 1.0, 2.0
-                    );
-                    break;
+    case PokemonTypes::GHOST:       this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 0.0, 1.0, 1.0, 1.0, 2.0
+                                    );
+                                    break;
 
-    case STEEL:		SetDamageValues
-                    (
-                            0.5, 4.0, 0.5, 0.0, 2.0, 0.5,
-                            1.0, 0.5, 0.5, 2.0, 1.0, 0.5,
-                            1.0, 0.0, 0.5, 0.5, 0.5, 1.0
-                    );
-                    break;
+    case PokemonTypes::STEEL:		this->SetDamageValues(
+                                        0.5, 4.0, 0.5, 0.0, 2.0, 0.5,
+                                        1.0, 0.5, 0.5, 2.0, 1.0, 0.5,
+                                        1.0, 0.0, 0.5, 0.5, 0.5, 1.0
+                                    );
+                                    break;
 
-    case FIRE:		SetDamageValues
-                    (
-                            1.0, 2.0, 1.0, 1.0, 2.0, 2.0,
-                            1.0, 0.5, 0.5, 0.5, 2.0, 0.5,
-                            1.0, 0.0, 0.5, 1.0, 0.5, 1.0
-                    );
-                    break;
+    case PokemonTypes::FIRE:		this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 2.0, 2.0,
+                                        1.0, 0.5, 0.5, 0.5, 2.0, 0.5,
+                                        1.0, 0.0, 0.5, 1.0, 0.5, 1.0
+                                    );
+                                    break;
 
-    case WATER:		SetDamageValues
-                    (
-                            1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            2.0, 0.5, 0.5, 0.5, 0.5, 2.0,
-                            2.0, 0.0, 0.5, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::WATER:		this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                        2.0, 0.5, 0.5, 0.5, 0.5, 2.0,
+                                        2.0, 0.0, 0.5, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case GRASS:		SetDamageValues
-                    (
-                            1.0, 2.0, 2.0, 2.0, 0.5, 1.0,
-                            4.0, 0.5, 1.0, 2.0, 0.5, 0.5,
-                            0.5, 0.0, 2.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::GRASS:		this->SetDamageValues(
+                                        1.0, 2.0, 2.0, 2.0, 0.5, 1.0,
+                                        4.0, 0.5, 1.0, 2.0, 0.5, 0.5,
+                                        0.5, 0.0, 2.0, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case ELECTRIC:  SetDamageValues
-                    (
-                            1.0, 2.0, 0.5, 1.0, 2.0, 1.0,
-                            2.0, 0.5, 0.5, 1.0, 1.0, 1.0,
-                            0.5, 0.0, 1.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::ELECTRIC:    this->SetDamageValues(
+                                        1.0, 2.0, 0.5, 1.0, 2.0, 1.0,
+                                        2.0, 0.5, 0.5, 1.0, 1.0, 1.0,
+                                        0.5, 0.0, 1.0, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case PSYCHIC:  SetDamageValues
-                   (
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
-                            4.0, 1.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 0.0, 1.0, 1.0, 1.0, 2.0
-                   );
-                   break;
+    case PokemonTypes::PSYCHIC:    this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                                        4.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 0.0, 1.0, 1.0, 1.0, 2.0
+                                   );
+                                   break;
 
-    case ICE:	   SetDamageValues
-                   (
-                            1.0, 4.0, 1.0, 1.0, 1.0, 2.0,
-                            2.0, 0.5, 2.0, 2.0, 1.0, 1.0,
-                            1.0, 0.0, 0.5, 1.0, 0.5, 2.0
-                   );
-                   break;
+    case PokemonTypes::ICE:        this->SetDamageValues(
+                                        1.0, 4.0, 1.0, 1.0, 1.0, 2.0,
+                                        2.0, 0.5, 2.0, 2.0, 1.0, 1.0,
+                                        1.0, 0.0, 0.5, 1.0, 0.5, 2.0
+                                   );
+                                   break;
 
-    case DRAGON:   SetDamageValues
-                   (
-                            1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            2.0, 0.5, 1.0, 0.5, 0.5, 0.5,
-                            0.5, 0.0, 2.0, 2.0, 0.5, 4.0
-                   );
-                   break;
+    case PokemonTypes::DRAGON:     this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                        2.0, 0.5, 1.0, 0.5, 0.5, 0.5,
+                                        0.5, 0.0, 2.0, 2.0, 0.5, 4.0
+                                   );
+                                   break;
 
-    case DARK:	   SetDamageValues
-                   (
-                            1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            2.0, 0.5, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 0.0, 1.0, 1.0, 0.5, 2.0
-                   );
-                   break;
+    case PokemonTypes::DARK:	   this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                        2.0, 0.5, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 0.0, 1.0, 1.0, 0.5, 2.0
+                                   );
+                                   break;
 
-    case FAIRY:	   SetDamageValues
-                   (
-                            1.0, 1.0, 1.0, 2.0, 1.0, 1.0,
-                            1.0, 0.5, 2.0, 1.0, 1.0, 1.0,
-                            1.0, 0.0, 1.0, 0.0, 0.25, 2.0
-                   );
-                   break;
-
-    default:	   break;
+    case PokemonTypes::FAIRY:      this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 2.0, 1.0, 1.0,
+                                        1.0, 0.5, 2.0, 1.0, 1.0, 1.0,
+                                        1.0, 0.0, 1.0, 0.0, 0.25, 2.0
+                                   );
+                                   break;
     }
 }
 
-/************************************************************************
-* Method DragonTypeDmg: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage if the Pokemon is a dragon type
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::DragonTypeDmg()
-{
-    switch(secTypeEnum)
-    {
-    case NORMAL:    SetDamageValues
-                    (
-                            1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 0.0, 1.0, 0.5, 0.5, 0.5,
-                            0.5, 1.0, 2.0, 2.0, 1.0, 2.0
-                    );
-                    break;
+void PokemonWeakness::DragonTypeDmg(){
+    switch(this->secTypeEnum){
+    case PokemonTypes::NORMAL:      this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 0.0, 1.0, 0.5, 0.5, 0.5,
+                                        0.5, 1.0, 2.0, 2.0, 1.0, 2.0
+                                    );
+                                    break;
 
-    case FIGHTING:  SetDamageValues
-                    (
-                            1.0, 1.0, 2.0, 1.0, 1.0, 0.5,
-                            0.5, 1.0, 1.0, 0.5, 0.5, 0.5,
-                            0.5, 2.0, 2.0, 2.0, 0.5, 4.0
-                    );
-                    break;
+    case PokemonTypes::FIGHTING:    this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 1.0, 1.0, 0.5,
+                                        0.5, 1.0, 1.0, 0.5, 0.5, 0.5,
+                                        0.5, 2.0, 2.0, 2.0, 0.5, 4.0
+                                    );
+                                    break;
 
-    case FLYING:    SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 1.0, 0.0, 2.0,
-                            0.5, 1.0, 1.0, 0.5, 0.5, 0.25,
-                            1.0, 1.0, 4.0, 2.0, 1.0, 2.0
-                    );
-                    break;
+    case PokemonTypes::FLYING:      this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 1.0, 0.0, 2.0,
+                                        0.5, 1.0, 1.0, 0.5, 0.5, 0.25,
+                                        1.0, 1.0, 4.0, 2.0, 1.0, 2.0
+                                    );
+                                    break;
 
-    case POISON:    SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 0.5, 2.0, 1.0,
-                            0.5, 1.0, 1.0, 0.5, 0.5, 0.25,
-                            0.5, 2.0, 2.0, 2.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::POISON:      this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 0.5, 2.0, 1.0,
+                                        0.5, 1.0, 1.0, 0.5, 0.5, 0.25,
+                                        0.5, 2.0, 2.0, 2.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case GROUND:    SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 0.5, 1.0, 0.5,
-                            1.0, 1.0, 1.0, 0.5, 1.0, 1.0,
-                            0.0, 1.0, 4.0, 2.0, 1.0, 2.0
-                    );
-                    break;
+    case PokemonTypes::GROUND:      this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 0.5, 1.0, 0.5,
+                                        1.0, 1.0, 1.0, 0.5, 1.0, 1.0,
+                                        0.0, 1.0, 4.0, 2.0, 1.0, 2.0
+                                    );
+                                    break;
 
-    case ROCK:	    SetDamageValues
-                    (
-                            0.5, 2.0, 0.5, 0.5, 2.0, 1.0,
-                            1.0, 1.0, 2.0, 0.25, 1.0, 1.0,
-                            0.5, 1.0, 2.0, 2.0, 1.0, 2.0
-                    );
-                    break;
+    case PokemonTypes::ROCK:        this->SetDamageValues(
+                                        0.5, 2.0, 0.5, 0.5, 2.0, 1.0,
+                                        1.0, 1.0, 2.0, 0.25, 1.0, 1.0,
+                                        0.5, 1.0, 2.0, 2.0, 1.0, 2.0
+                                    );
+                                    break;
 
-    case BUG:       SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 1.0, 0.5, 2.0,
-                            1.0, 1.0, 1.0, 1.0, 0.5, 0.25,
-                            0.5, 1.0, 2.0, 2.0, 1.0, 2.0
-                    );
-                    break;
+    case PokemonTypes::BUG:         this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 1.0, 0.5, 2.0,
+                                        1.0, 1.0, 1.0, 1.0, 0.5, 0.25,
+                                        0.5, 1.0, 2.0, 2.0, 1.0, 2.0
+                                    );
+                                    break;
 
-    case GHOST:	    SetDamageValues
-                    (
-                            0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
-                            0.5, 2.0, 1.0, 0.5, 0.5, 0.5,
-                            0.5, 1.0, 2.0, 2.0, 2.0, 2.0
-                    );
-                    break;
+    case PokemonTypes::GHOST:       this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
+                                        0.5, 2.0, 1.0, 0.5, 0.5, 0.5,
+                                        0.5, 1.0, 2.0, 2.0, 2.0, 2.0
+                                    );
+                                    break;
 
-    case STEEL:		SetDamageValues
-                    (
-                            0.5, 2.0, 0.5, 0.0, 2.0, 0.5,
-                            0.5, 1.0, 0.5, 1.0, 0.5, 0.25,
-                            0.5, 0.5, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::STEEL:		this->SetDamageValues(
+                                        0.5, 2.0, 0.5, 0.0, 2.0, 0.5,
+                                        0.5, 1.0, 0.5, 1.0, 0.5, 0.25,
+                                        0.5, 0.5, 1.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case FIRE:		SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 1.0, 2.0, 2.0,
-                            0.5, 1.0, 0.5, 0.25, 1.0, 0.25,
-                            0.5, 1.0, 1.0, 2.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::FIRE:		this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 1.0, 2.0, 2.0,
+                                        0.5, 1.0, 0.5, 0.25, 1.0, 0.25,
+                                        0.5, 1.0, 1.0, 2.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case WATER:		SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 1.0, 0.5, 0.25, 0.25, 1.0,
-                            1.0, 1.0, 1.0, 2.0, 1.0, 2.0
-                    );
-                    break;
+    case PokemonTypes::WATER:		this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 1.0, 0.5, 0.25, 0.25, 1.0,
+                                        1.0, 1.0, 1.0, 2.0, 1.0, 2.0
+                                    );
+                                    break;
 
-    case GRASS:		SetDamageValues
-                    (
-                            1.0, 1.0, 2.0, 2.0, 1.0, 1.0,
-                            2.0, 1.0, 1.0, 1.0, 0.5, 0.5,
-                            0.5, 1.0, 4.0, 2.0, 1.0, 2.0
-                    );
-                    break;
+    case PokemonTypes::GRASS:		this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 2.0, 1.0, 1.0,
+                                        2.0, 1.0, 1.0, 1.0, 0.5, 0.5,
+                                        0.5, 1.0, 4.0, 2.0, 1.0, 2.0
+                                    );
+                                    break;
 
-    case ELECTRIC:  SetDamageValues
-                    (
-                            1.0, 1.0, 0.5, 1.0, 21.0, 1.0,
-                            1.0, 1.0, 0.5, 0.5, 0.5, 0.5,
-                            0.25, 1.0, 2.0, 2.0, 1.0, 2.0
-                    );
-                    break;
+    case PokemonTypes::ELECTRIC:    this->SetDamageValues(
+                                        1.0, 1.0, 0.5, 1.0, 21.0, 1.0,
+                                        1.0, 1.0, 0.5, 0.5, 0.5, 0.5,
+                                        0.25, 1.0, 2.0, 2.0, 1.0, 2.0
+                                    );
+                                    break;
 
-    case PSYCHIC:  SetDamageValues
-                   (
-                            1.0, 0.5, 1.0, 1.0, 1.0, 1.0,
-                            2.0, 2.0, 1.0, 0.5, 0.5, 0.5,
-                            0.5, 0.5, 2.0, 1.0, 2.0, 2.0
-                   );
-                   break;
+    case PokemonTypes::PSYCHIC:     this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 1.0, 1.0, 1.0,
+                                        2.0, 2.0, 1.0, 0.5, 0.5, 0.5,
+                                        0.5, 0.5, 2.0, 1.0, 2.0, 2.0
+                                    );
+                                    break;
 
-    case ICE:	   SetDamageValues
-                   (
-                            1.0, 2.0, 1.0, 1.0, 1.0, 2.0,
-                            1.0, 1.0, 2.0, 1.0, 0.5, 0.5,
-                            0.5, 1.0, 1.0, 2.0, 1.0, 2.0
-                   );
-                   break;
+    case PokemonTypes::ICE:         this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 2.0,
+                                        1.0, 1.0, 2.0, 1.0, 0.5, 0.5,
+                                        0.5, 1.0, 1.0, 2.0, 1.0, 2.0
+                                    );
+                                    break;
 
-    case DRAGON:   SetDamageValues
-                   (
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 1.0, 1.0, 0.5, 0.5, 0.5,
-                            0.5, 1.0, 2.0, 2.0, 1.0, 2.0
-                   );
-                   break;
+    case PokemonTypes::DRAGON:      this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 1.0, 1.0, 0.5, 0.5, 0.5,
+                                        0.5, 1.0, 2.0, 2.0, 1.0, 2.0
+                                    );
+                                    break;
 
-    case DARK:	   SetDamageValues
-                   (
-                            1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            2.0, 0.5, 1.0, 0.5, 0.5, 0.5,
-                            0.5, 0.0, 2.0, 2.0, 0.5, 4.0
-                   );
-                   break;
+    case PokemonTypes::DARK:        this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                        2.0, 0.5, 1.0, 0.5, 0.5, 0.5,
+                                        0.5, 0.0, 2.0, 2.0, 0.5, 4.0
+                                    );
+                                    break;
 
-    case FAIRY:	   SetDamageValues
-                   (
-                            1.0, 0.5, 1.0, 2.0, 1.0, 1.0,
-                            0.5, 1.0, 2.0, 0.5, 0.5, 0.5,
-                            0.5, 1.0, 2.0, 0.0, 0.5, 2.0
-                   );
-                   break;
-
-    default:	   break;
+    case PokemonTypes::FAIRY:       this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 2.0, 1.0, 1.0,
+                                        0.5, 1.0, 2.0, 0.5, 0.5, 0.5,
+                                        0.5, 1.0, 2.0, 0.0, 0.5, 2.0
+                                    );
+                                   break;
     }
 }
 
-/************************************************************************
-* Method ElectricTypeDmg: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage if the Pokemon is an electric type
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::ElectricTypeDmg()
-{
-    switch(secTypeEnum)
-    {
-    case NORMAL:    SetDamageValues
-                    (
-                            1.0, 2.0, 0.5, 1.0, 2.0, 1.0,
-                            1.0, 0.0, 0.5, 1.0, 1.0, 1.0,
-                            0.5, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+void PokemonWeakness::ElectricTypeDmg(){
+    switch(this->secTypeEnum){
+    case PokemonTypes::NORMAL:      this->SetDamageValues(
+                                        1.0, 2.0, 0.5, 1.0, 2.0, 1.0,
+                                        1.0, 0.0, 0.5, 1.0, 1.0, 1.0,
+                                        0.5, 1.0, 1.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case FIGHTING:  SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 1.0, 2.0, 0.5,
-                            0.5, 1.0, 0.5, 1.0, 1.0, 1.0,
-                            0.5, 2.0, 1.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::FIGHTING:    this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 1.0, 2.0, 0.5,
+                                        0.5, 1.0, 0.5, 1.0, 1.0, 1.0,
+                                        0.5, 2.0, 1.0, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case FLYING:    SetDamageValues
-                    (
-                            1.0, 0.5, 0.5, 1.0, 0.0, 2.0,
-                            0.5, 1.0, 0.5, 1.0, 1.0, 0.5,
-                            1.0, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::FLYING:      this->SetDamageValues(
+                                        1.0, 0.5, 0.5, 1.0, 0.0, 2.0,
+                                        0.5, 1.0, 0.5, 1.0, 1.0, 0.5,
+                                        1.0, 1.0, 2.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case POISON:    SetDamageValues
-                    (
-                            1.0, 0.5, 0.5, 0.5, 4.0, 1.0,
-                            0.5, 1.0, 0.5, 1.0, 1.0, 0.5,
-                            0.5, 2.0, 1.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::POISON:      this->SetDamageValues(
+                                        1.0, 0.5, 0.5, 0.5, 4.0, 1.0,
+                                        0.5, 1.0, 0.5, 1.0, 1.0, 0.5,
+                                        0.5, 2.0, 1.0, 1.0, 1.0, 0.5
+                                    );
+                                    break;
 
-    case GROUND:    SetDamageValues
-                    (
-                            1.0, 1.0, 0.5, 0.5, 2.0, 0.5,
-                            1.0, 1.0, 0.5, 1.0, 2.0, 2.0,
-                            0.0, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GROUND:      this->SetDamageValues(
+                                        1.0, 1.0, 0.5, 0.5, 2.0, 0.5,
+                                        1.0, 1.0, 0.5, 1.0, 2.0, 2.0,
+                                        0.0, 1.0, 2.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case ROCK:	    SetDamageValues
-                    (
-                            0.5, 2.0, 0.25, 0.5, 4.0, 1.0,
-                            1.0, 1.0, 1.0, 0.5, 2.0, 2.0,
-                            0.5, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ROCK:	    this->SetDamageValues(
+                                        0.5, 2.0, 0.25, 0.5, 4.0, 1.0,
+                                        1.0, 1.0, 1.0, 0.5, 2.0, 2.0,
+                                        0.5, 1.0, 1.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case BUG:       SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 1.0, 1.0, 2.0,
-                            1.0, 1.0, 0.5, 2.0, 1.0, 0.5,
-                            0.5, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::BUG:         this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 1.0, 1.0, 2.0,
+                                        1.0, 1.0, 0.5, 2.0, 1.0, 0.5,
+                                        0.5, 1.0, 1.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case GHOST:	    SetDamageValues
-                    (
-                            0.0, 0.0, 0.5, 0.5, 2.0, 1.0,
-                            0.5, 2.0, 0.5, 1.0, 1.0, 1.0,
-                            0.5, 1.0, 1.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GHOST:       this->SetDamageValues(
+                                        0.0, 0.0, 0.5, 0.5, 2.0, 1.0,
+                                        0.5, 2.0, 0.5, 1.0, 1.0, 1.0,
+                                        0.5, 1.0, 1.0, 1.0, 2.0, 1.0
+                                    );
+                                    break;
 
-    case STEEL:		SetDamageValues
-                    (
-                            0.5, 2.0, 0.25, 0.0, 4.0, 0.5,
-                            0.5, 1.0, 0.25, 2.0, 1.0, 0.5,
-                            0.5, 0.5, 0.5, 0.5, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::STEEL:		this->SetDamageValues(
+                                        0.5, 2.0, 0.25, 0.0, 4.0, 0.5,
+                                        0.5, 1.0, 0.25, 2.0, 1.0, 0.5,
+                                        0.5, 0.5, 0.5, 0.5, 1.0, 0.5
+                                    );
+                                    break;
 
-    case FIRE:		SetDamageValues
-                    (
-                            1.0, 1.0, 0.5, 1.0, 4.0, 2.0,
-                            0.5, 1.0, 0.25, 0.5, 2.0, 0.5,
-                            0.5, 1.0, 0.5, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::FIRE:		this->SetDamageValues(
+                                        1.0, 1.0, 0.5, 1.0, 4.0, 2.0,
+                                        0.5, 1.0, 0.25, 0.5, 2.0, 0.5,
+                                        0.5, 1.0, 0.5, 1.0, 1.0, 0.5
+                                    );
+                                    break;
 
-    case WATER:		SetDamageValues
-                    (
-                            1.0, 1.0, 0.5, 1.0, 2.0, 1.0,
-                            1.0, 1.0, 0.25, 0.5, 0.5, 2.0,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::WATER:		this->SetDamageValues(
+                                        1.0, 1.0, 0.5, 1.0, 2.0, 1.0,
+                                        1.0, 1.0, 0.25, 0.5, 0.5, 2.0,
+                                        1.0, 1.0, 0.5, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case GRASS:		SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 2.0, 1.0, 1.0,
-                            2.0, 1.0, 0.5, 2.0, 0.5, 0.5,
-                            0.25, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GRASS:		this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 2.0, 1.0, 1.0,
+                                        2.0, 1.0, 0.5, 2.0, 0.5, 0.5,
+                                        0.25, 1.0, 2.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case ELECTRIC:  SetDamageValues
-                    (
-                            1.0, 1.0, 0.5, 1.0, 2.0, 1.0,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 1.0,
-                            0.5, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ELECTRIC:    this->SetDamageValues(
+                                        1.0, 1.0, 0.5, 1.0, 2.0, 1.0,
+                                        1.0, 1.0, 0.5, 1.0, 1.0, 1.0,
+                                        0.5, 1.0, 1.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case PSYCHIC:  SetDamageValues
-                   (
-                            1.0, 0.5, 0.5, 1.0, 2.0, 1.0,
-                            2.0, 2.0, 0.5, 1.0, 1.0, 1.0,
-                            0.5, 0.5, 1.0, 1.0, 2.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::PSYCHIC:     this->SetDamageValues(
+                                        1.0, 0.5, 0.5, 1.0, 2.0, 1.0,
+                                        2.0, 2.0, 0.5, 1.0, 1.0, 1.0,
+                                        0.5, 0.5, 1.0, 1.0, 2.0, 1.0
+                                    );
+                                    break;
 
-    case ICE:	   SetDamageValues
-                   (
-                            1.0, 2.0, 0.5, 1.0, 2.0, 2.0,
-                            1.0, 1.0, 1.0, 2.0, 1.0, 1.0,
-                            0.5, 1.0, 0.5, 1.0, 1.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::ICE:         this->SetDamageValues(
+                                        1.0, 2.0, 0.5, 1.0, 2.0, 2.0,
+                                        1.0, 1.0, 1.0, 2.0, 1.0, 1.0,
+                                        0.5, 1.0, 0.5, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case DRAGON:   SetDamageValues
-                   (
-                            1.0, 1.0, 0.5, 1.0, 2.0, 1.0,
-                            1.0, 1.0, 0.5, 0.5, 0.5, 0.5,
-                            0.25, 1.0, 2.0, 2.0, 1.0, 2.0
-                   );
-                   break;
+    case PokemonTypes::DRAGON:      this->SetDamageValues(
+                                        1.0, 1.0, 0.5, 1.0, 2.0, 1.0,
+                                        1.0, 1.0, 0.5, 0.5, 0.5, 0.5,
+                                        0.25, 1.0, 2.0, 2.0, 1.0, 2.0
+                                    );
+                                    break;
 
-    case DARK:	   SetDamageValues
-                   (
-                            1.0, 2.0, 0.5, 1.0, 2.0, 1.0,
-                            2.0, 0.5, 0.5, 1.0, 1.0, 1.0,
-                            0.5, 0.0, 1.0, 1.0, 0.5, 2.0
-                   );
-                   break;
+    case PokemonTypes::DARK:	   this->SetDamageValues(
+                                        1.0, 2.0, 0.5, 1.0, 2.0, 1.0,
+                                        2.0, 0.5, 0.5, 1.0, 1.0, 1.0,
+                                        0.5, 0.0, 1.0, 1.0, 0.5, 2.0
+                                   );
+                                   break;
 
-    case FAIRY:	   SetDamageValues
-                   (
-                            1.0, 0.5, 0.5, 2.0, 2.0, 1.0,
-                            0.5, 1.0, 1.0, 1.0, 1.0, 1.0,
-                            0.5, 1.0, 1.0, 0.0, 0.5, 1.0
-                   );
-                   break;
-
-    default:	   break;
+    case PokemonTypes::FAIRY:	   this->SetDamageValues(
+                                        1.0, 0.5, 0.5, 2.0, 2.0, 1.0,
+                                        0.5, 1.0, 1.0, 1.0, 1.0, 1.0,
+                                        0.5, 1.0, 1.0, 0.0, 0.5, 1.0
+                                   );
+                                   break;
     }
 }
 
-/************************************************************************
-* Method FairyTypeDmg: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage if the Pokemon is a fairy type
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::FairyTypeDmg()
-{
-    switch(secTypeEnum)
-    {
-    case NORMAL:    SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 2.0, 1.0, 1.0,
-                            0.5, 0.0, 2.0, 1.0, 1.0, 1.0,
-                            1.0, 1.0, 1.0, 0.0, 0.5, 1.0
-                    );
-                    break;
+void PokemonWeakness::FairyTypeDmg(){
+    switch(secTypeEnum){
+    case PokemonTypes::NORMAL:      this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 2.0, 1.0, 1.0,
+                                        0.5, 0.0, 2.0, 1.0, 1.0, 1.0,
+                                        1.0, 1.0, 1.0, 0.0, 0.5, 1.0
+                                    );
+                                    break;
 
-    case FIGHTING:  SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 2.0, 1.0, 0.5,
-                            0.25, 1.0, 2.0, 1.0, 1.0, 1.0,
-                            1.0, 2.0, 1.0, 0.0, 0.25, 2.0
-                    );
-                    break;
+    case PokemonTypes::FIGHTING:    this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 2.0, 1.0, 0.5,
+                                        0.25, 1.0, 2.0, 1.0, 1.0, 1.0,
+                                        1.0, 2.0, 1.0, 0.0, 0.25, 2.0
+                                    );
+                                    break;
 
-    case FLYING:    SetDamageValues
-                    (
-                            1.0, 0.25, 1.0, 2.0, 0.0, 2.0,
-                            0.25, 1.0, 2.0, 1.0, 1.0, 0.5,
-                            2.0, 1.0, 2.0, 0.0, 0.5, 1.0
-                    );
-                    break;
+    case PokemonTypes::FLYING:      this->SetDamageValues(
+                                        1.0, 0.25, 1.0, 2.0, 0.0, 2.0,
+                                        0.25, 1.0, 2.0, 1.0, 1.0, 0.5,
+                                        2.0, 1.0, 2.0, 0.0, 0.5, 1.0
+                                    );
+                                    break;
 
-    case POISON:    SetDamageValues
-                    (
-                            1.0, 0.25, 1.0, 1.0, 2.0, 1.0,
-                            0.25, 1.0, 2.0, 1.0, 1.0, 0.5,
-                            1.0, 2.0, 1.0, 0.0, 0.5, 0.5
-                    );
-                    break;
+    case PokemonTypes::POISON:      this->SetDamageValues(
+                                        1.0, 0.25, 1.0, 1.0, 2.0, 1.0,
+                                        0.25, 1.0, 2.0, 1.0, 1.0, 0.5,
+                                        1.0, 2.0, 1.0, 0.0, 0.5, 0.5
+                                    );
+                                    break;
 
-    case GROUND:    SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 1.0, 1.0, 0.5,
-                            0.5, 1.0, 2.0, 1.0, 2.0, 2.0,
-                            0.0, 1.0, 2.0, 0.0, 0.5, 1.0
-                    );
-                    break;
+    case PokemonTypes::GROUND:      this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 1.0, 1.0, 0.5,
+                                        0.5, 1.0, 2.0, 1.0, 2.0, 2.0,
+                                        0.0, 1.0, 2.0, 0.0, 0.5, 1.0
+                                    );
+                                    break;
 
-    case ROCK:	    SetDamageValues
-                    (
-                            0.5, 1.0, 0.5, 1.0, 2.0, 1.0,
-                            0.5, 1.0, 4.0, 0.5, 2.0, 2.0,
-                            1.0, 1.0, 1.0, 0.0, 0.5, 1.0
-                    );
-                    break;
+    case PokemonTypes::ROCK:        this->SetDamageValues(
+                                        0.5, 1.0, 0.5, 1.0, 2.0, 1.0,
+                                        0.5, 1.0, 4.0, 0.5, 2.0, 2.0,
+                                        1.0, 1.0, 1.0, 0.0, 0.5, 1.0
+                                    );
+                                    break;
 
-    case BUG:       SetDamageValues
-                    (
-                            1.0, 0.25, 2.0, 2.0, 0.5, 2.0,
-                            0.5, 1.0, 2.0, 2.0, 1.0, 0.5,
-                            1.0, 1.0, 1.0, 0.0, 0.5, 1.0
-                    );
-                    break;
+    case PokemonTypes::BUG:         this->SetDamageValues(
+                                        1.0, 0.25, 2.0, 2.0, 0.5, 2.0,
+                                        0.5, 1.0, 2.0, 2.0, 1.0, 0.5,
+                                        1.0, 1.0, 1.0, 0.0, 0.5, 1.0
+                                    );
+                                    break;
 
-    case GHOST:	    SetDamageValues
-                    (
-                            0.0, 0.0, 1.0, 1.0, 1.0, 1.0,
-                            0.25, 2.0, 2.0, 1.0, 1.0, 1.0,
-                            1.0, 1.0, 1.0, 0.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GHOST:       this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 1.0, 1.0, 1.0,
+                                        0.25, 2.0, 2.0, 1.0, 1.0, 1.0,
+                                        1.0, 1.0, 1.0, 0.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case STEEL:		SetDamageValues
-                    (
-                            0.5, 1.0, 0.5, 0.0, 2.0, 0.5,
-                            0.25, 1.0, 1.0, 2.0, 1.0, 0.5,
-                            1.0, 0.5, 0.5, 0.0, 0.5, 0.5
-                    );
-                    break;
+    case PokemonTypes::STEEL:		this->SetDamageValues(
+                                        0.5, 1.0, 0.5, 0.0, 2.0, 0.5,
+                                        0.25, 1.0, 1.0, 2.0, 1.0, 0.5,
+                                        1.0, 0.5, 0.5, 0.0, 0.5, 0.5
+                                    );
+                                    break;
 
-    case FIRE:		SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 2.0, 2.0, 2.0,
-                            0.25, 1.0, 1.0, 0.5, 2.0, 0.5,
-                            1.0, 1.0, 0.5, 0.0, 0.5, 0.5
-                    );
-                    break;
+    case PokemonTypes::FIRE:		this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 2.0, 2.0, 2.0,
+                                        0.25, 1.0, 1.0, 0.5, 2.0, 0.5,
+                                        1.0, 1.0, 0.5, 0.0, 0.5, 0.5
+                                    );
+                                    break;
 
-    case WATER:		SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 2.0, 1.0, 1.0,
-                            0.5, 1.0, 1.0, 0.5, 0.5, 2.0,
-                            2.0, 1.0, 0.5, 0.0, 0.5, 1.0
-                    );
-                    break;
+    case PokemonTypes::WATER:		this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 2.0, 1.0, 1.0,
+                                        0.5, 1.0, 1.0, 0.5, 0.5, 2.0,
+                                        2.0, 1.0, 0.5, 0.0, 0.5, 1.0
+                                    );
+                                    break;
 
-    case GRASS:		SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 4.0, 0.5, 1.0,
-                            1.0, 1.0, 2.0, 2.0, 0.5, 0.5,
-                            0.5, 1.0, 2.0, 0.0, 0.5, 1.0
-                    );
-                    break;
+    case PokemonTypes::GRASS:		this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 4.0, 0.5, 1.0,
+                                        1.0, 1.0, 2.0, 2.0, 0.5, 0.5,
+                                        0.5, 1.0, 2.0, 0.0, 0.5, 1.0
+                                    );
+                                    break;
 
-    case ELECTRIC:  SetDamageValues
-                    (
-                            1.0, 0.5, 0.5, 2.0, 2.0, 1.0,
-                            0.5, 1.0, 1.0, 1.0, 1.0, 1.0,
-                            0.5, 1.0, 1.0, 0.0, 0.5, 1.0
-                    );
-                    break;
+    case PokemonTypes::ELECTRIC:    this->SetDamageValues(
+                                        1.0, 0.5, 0.5, 2.0, 2.0, 1.0,
+                                        0.5, 1.0, 1.0, 1.0, 1.0, 1.0,
+                                        0.5, 1.0, 1.0, 0.0, 0.5, 1.0
+                                    );
+                                    break;
 
-    case PSYCHIC:  SetDamageValues
-                   (
-                            1.0, 0.25, 1.0, 2.0, 1.0, 1.0,
-                            1.0, 2.0, 2.0, 1.0, 1.0, 1.0,
-                            1.0, 0.5, 1.0, 0.0, 1.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::PSYCHIC:     this->SetDamageValues(
+                                        1.0, 0.25, 1.0, 2.0, 1.0, 1.0,
+                                        1.0, 2.0, 2.0, 1.0, 1.0, 1.0,
+                                        1.0, 0.5, 1.0, 0.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case ICE:	   SetDamageValues
-                   (
-                            1.0, 1.0, 1.0, 2.0, 1.0, 2.0,
-                            0.5, 1.0, 4.0, 2.0, 1.0, 1.0,
-                            1.0, 1.0, 0.5, 0.0, 0.5, 1.0
-                   );
-                   break;
+    case PokemonTypes::ICE:         this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 2.0, 1.0, 2.0,
+                                        0.5, 1.0, 4.0, 2.0, 1.0, 1.0,
+                                        1.0, 1.0, 0.5, 0.0, 0.5, 1.0
+                                    );
+                                    break;
 
-    case DRAGON:   SetDamageValues
-                   (
-                            1.0, 0.5, 1.0, 2.0, 1.0, 1.0,
-                            0.5, 1.0, 2.0, 0.5, 0.5, 0.5,
-                            0.5, 1.0, 2.0, 0.0, 0.5, 2.0
-                   );
-                   break;
+    case PokemonTypes::DRAGON:      this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 2.0, 1.0, 1.0,
+                                        0.5, 1.0, 2.0, 0.5, 0.5, 0.5,
+                                        0.5, 1.0, 2.0, 0.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case DARK:	   SetDamageValues
-                   (
-                            1.0, 1.0, 1.0, 2.0, 1.0, 1.0,
-                            1.0, 0.5, 2.0, 1.0, 1.0, 1.0,
-                            1.0, 0.0, 1.0, 0.0, 0.25, 2.0
-                   );
-                   break;
+    case PokemonTypes::DARK:        this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 2.0, 1.0, 1.0,
+                                        1.0, 0.5, 2.0, 1.0, 1.0, 1.0,
+                                        1.0, 0.0, 1.0, 0.0, 0.25, 2.0
+                                    );
+                                    break;
 
-    case FAIRY:	   SetDamageValues
-                   (
-                            1.0, 0.5, 1.0, 2.0, 1.0, 0.5,
-                            1.0, 1.0, 2.0, 1.0, 1.0, 1.0,
-                            1.0, 1.0, 1.0, 0.0, 0.5, 1.0
-                   );
-                   break;
-
-    default:	   break;
+    case PokemonTypes::FAIRY:       this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 2.0, 1.0, 0.5,
+                                        1.0, 1.0, 2.0, 1.0, 1.0, 1.0,
+                                        1.0, 1.0, 1.0, 0.0, 0.5, 1.0
+                                    );
+                                    break;
     }
 }
 
-/************************************************************************
-* Method FightingTypeDmg: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage if the Pokemon is a fighting type
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::FightingTypeDmg()
-{
-    switch(secTypeEnum)
-    {
-    case NORMAL:    SetDamageValues
-                    (
-                            1.0, 2.0, 2.0, 1.0, 1.0, 0.5,
-                            0.5, 0.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 2.0, 1.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+void PokemonWeakness::FightingTypeDmg(){
+    switch(this->secTypeEnum){
+    case PokemonTypes::NORMAL:      this->SetDamageValues(
+                                        1.0, 2.0, 2.0, 1.0, 1.0, 0.5,
+                                        0.5, 0.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 2.0, 1.0, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case FIGHTING:  SetDamageValues
-                    (
-                            1.0, 1.0, 2.0, 1.0, 1.0, 0.5,
-                            0.5, 1.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 2.0, 1.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::FIGHTING:    this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 1.0, 1.0, 0.5,
+                                        0.5, 1.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 2.0, 1.0, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case FLYING:    SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 1.0, 0.0, 1.0,
-                            0.25, 1.0, 1.0, 1.0, 1.0, 0.5,
-                            2.0, 2.0, 2.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::FLYING:      this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 1.0, 0.0, 1.0,
+                                        0.25, 1.0, 1.0, 1.0, 1.0, 0.5,
+                                        2.0, 2.0, 2.0, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case POISON:    SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 0.5, 2.0, 0.5,
-                            0.25, 1.0, 1.0, 1.0, 1.0, 0.5,
-                            1.0, 4.0, 1.0, 1.0, 0.5, 1.0
-                    );
-                    break;
+    case PokemonTypes::POISON:      this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 0.5, 2.0, 0.5,
+                                        0.25, 1.0, 1.0, 1.0, 1.0, 0.5,
+                                        1.0, 4.0, 1.0, 1.0, 0.5, 1.0
+                                    );
+                                    break;
 
-    case GROUND:    SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 0.5, 1.0, 0.25,
-                            0.5, 1.0, 1.0, 1.0, 2.0, 2.0,
-                            0.0, 2.0, 2.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::GROUND:      this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 0.5, 1.0, 0.25,
+                                        0.5, 1.0, 1.0, 1.0, 2.0, 2.0,
+                                        0.0, 2.0, 2.0, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case ROCK:	    SetDamageValues
-                    (
-                            0.5, 2.0, 1.0, 0.5, 2.0, 0.5,
-                            0.5, 1.0, 2.0, 0.5, 2.0, 2.0,
-                            1.0, 2.0, 1.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::ROCK:        this->SetDamageValues(
+                                        0.5, 2.0, 1.0, 0.5, 2.0, 0.5,
+                                        0.5, 1.0, 2.0, 0.5, 2.0, 2.0,
+                                        1.0, 2.0, 1.0, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case BUG:       SetDamageValues
-                    (
-                            1.0, 0.5, 4.0, 1.0, 0.5, 1.0,
-                            0.5, 1.0, 1.0, 2.0, 1.0, 0.5,
-                            1.0, 2.0, 1.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::BUG:         this->SetDamageValues(
+                                        1.0, 0.5, 4.0, 1.0, 0.5, 1.0,
+                                        0.5, 1.0, 1.0, 2.0, 1.0, 0.5,
+                                        1.0, 2.0, 1.0, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case GHOST:	    SetDamageValues
-                    (
-                            0.0, 0.0, 2.0, 0.5, 1.0, 0.5,
-                            0.25, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 2.0, 1.0, 1.0, 1.0, 2.0
-                    );
-                    break;
+    case PokemonTypes::GHOST:       this->SetDamageValues(
+                                        0.0, 0.0, 2.0, 0.5, 1.0, 0.5,
+                                        0.25, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 2.0
+                                    );
+                                    break;
 
-    case STEEL:		SetDamageValues
-                    (
-                            0.5, 2.0, 1.0, 0.0, 2.0, 0.25,
-                            0.25, 1.0, 0.5, 2.0, 1.0, 0.5,
-                            1.0, 1.0, 0.5, 0.5, 0.5, 1.0
-                    );
-                    break;
+    case PokemonTypes::STEEL:		this->SetDamageValues(
+                                        0.5, 2.0, 1.0, 0.0, 2.0, 0.25,
+                                        0.25, 1.0, 0.5, 2.0, 1.0, 0.5,
+                                        1.0, 1.0, 0.5, 0.5, 0.5, 1.0
+                                    );
+                                    break;
 
-    case FIRE:		SetDamageValues
-                    (
-                            1.0, 1.0, 2.0, 1.0, 2.0, 1.0,
-                            0.25, 1.0, 0.5, 0.5, 2.0, 0.5,
-                            1.0, 2.0, 0.5, 1.0, 0.5, 1.0
-                    );
-                    break;
+    case PokemonTypes::FIRE:		this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 1.0, 2.0, 1.0,
+                                        0.25, 1.0, 0.5, 0.5, 2.0, 0.5,
+                                        1.0, 2.0, 0.5, 1.0, 0.5, 1.0
+                                    );
+                                    break;
 
-    case WATER:		SetDamageValues
-                    (
-                            1.0, 1.0, 2.0, 1.0, 1.0, 0.5,
-                            0.5, 1.0, 0.5, 0.5, 0.5, 2.0,
-                            2.0, 2.0, 0.5, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::WATER:		this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 1.0, 1.0, 0.5,
+                                        0.5, 1.0, 0.5, 0.5, 0.5, 2.0,
+                                        2.0, 2.0, 0.5, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case GRASS:		SetDamageValues
-                    (
-                            1.0, 1.0, 4.0, 2.0, 0.5, 1.0,
-                            1.0, 1.0, 1.0, 2.0, 0.5, 0.5,
-                            0.5, 2.0, 2.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::GRASS:		this->SetDamageValues(
+                                        1.0, 1.0, 4.0, 2.0, 0.5, 1.0,
+                                        1.0, 1.0, 1.0, 2.0, 0.5, 0.5,
+                                        0.5, 2.0, 2.0, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case ELECTRIC:  SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 1.0, 2.0, 0.5,
-                            0.5, 1.0, 0.5, 1.0, 1.0, 1.0,
-                            0.5, 2.0, 1.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::ELECTRIC:    this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 1.0, 2.0, 0.5,
+                                        0.5, 1.0, 0.5, 1.0, 1.0, 1.0,
+                                        0.5, 2.0, 1.0, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case PSYCHIC:  SetDamageValues
-                   (
-                            1.0, 2.0, 2.0, 1.0, 1.0, 1.0,
-                            1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 1.0, 1.0, 1.0, 1.0, 2.0
-                   );
-                   break;
+    case PokemonTypes::PSYCHIC:     this->SetDamageValues(
+                                        1.0, 2.0, 2.0, 1.0, 1.0, 1.0,
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 2.0
+                                    );
+                                    break;
 
-    case ICE:	   SetDamageValues
-                   (
-                            1.0, 2.0, 2.0, 1.0, 1.0, 1.0,
-                            0.5, 1.0, 2.0, 2.0, 1.0, 1.0,
-                            1.0, 2.0, 0.5, 1.0, 0.5, 2.0
-                   );
-                   break;
+    case PokemonTypes::ICE:         this->SetDamageValues(
+                                        1.0, 2.0, 2.0, 1.0, 1.0, 1.0,
+                                        0.5, 1.0, 2.0, 2.0, 1.0, 1.0,
+                                        1.0, 2.0, 0.5, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case DRAGON:   SetDamageValues
-                   (
-                            1.0, 1.0, 2.0, 1.0, 1.0, 0.5,
-                            0.5, 1.0, 1.0, 0.5, 0.5, 0.5,
-                            0.5, 2.0, 2.0, 2.0, 0.5, 4.0
-                   );
-                   break;
+    case PokemonTypes::DRAGON:      this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 1.0, 1.0, 0.5,
+                                        0.5, 1.0, 1.0, 0.5, 0.5, 0.5,
+                                        0.5, 2.0, 2.0, 2.0, 0.5, 4.0
+                                    );
+                                    break;
 
-    case DARK:	   SetDamageValues
-                   (
-                            1.0, 2.0, 2.0, 1.0, 1.0, 0.5,
-                            1.0, 0.5, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 0.0, 1.0, 1.0, 0.25, 4.0
-                   );
-                   break;
+    case PokemonTypes::DARK:        this->SetDamageValues(
+                                        1.0, 2.0, 2.0, 1.0, 1.0, 0.5,
+                                        1.0, 0.5, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 0.0, 1.0, 1.0, 0.25, 4.0
+                                    );
+                                    break;
 
-    case FAIRY:	   SetDamageValues
-                   (
-                            1.0, 0.5, 2.0, 2.0, 1.0, 0.5,
-                            0.25, 1.0, 2.0, 1.0, 1.0, 1.0,
-                            1.0, 2.0, 1.0, 0.0, 0.25, 2.0
-                   );
-                   break;
-
-    default:	   break;
+    case PokemonTypes::FAIRY:       this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 2.0, 1.0, 0.5,
+                                        0.25, 1.0, 2.0, 1.0, 1.0, 1.0,
+                                        1.0, 2.0, 1.0, 0.0, 0.25, 2.0
+                                    );
+                                    break;
     }
 }
 
-/************************************************************************
-* Method FireTypeDmg: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage if the Pokemon is a fire type
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::FireTypeDmg()
-{
-    switch(secTypeEnum)
-    {
-    case NORMAL:    SetDamageValues
-                    (
-                            1.0, 2.0, 1.0, 1.0, 2.0, 2.0,
-                            0.5, 0.0, 0.5, 0.5, 2.0, 0.5,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 0.5
-                    );
-                    break;
+void PokemonWeakness::FireTypeDmg(){
+    switch(this->secTypeEnum){
+    case PokemonTypes::NORMAL:      this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 2.0, 2.0,
+                                        0.5, 0.0, 0.5, 0.5, 2.0, 0.5,
+                                        1.0, 1.0, 0.5, 1.0, 1.0, 0.5
+                                    );
+                                    break;
 
-    case FIGHTING:  SetDamageValues
-                    (
-                            1.0, 1.0, 2.0, 1.0, 2.0, 1.0,
-                            0.25, 1.0, 0.5, 0.5, 2.0, 0.5,
-                            1.0, 2.0, 0.5, 1.0, 0.5, 1.0
-                    );
-                    break;
+    case PokemonTypes::FIGHTING:    this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 1.0, 2.0, 1.0,
+                                        0.25, 1.0, 0.5, 0.5, 2.0, 0.5,
+                                        1.0, 2.0, 0.5, 1.0, 0.5, 1.0
+                                    );
+                                    break;
 
-    case FLYING:    SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 1.0, 0.0, 4.0,
-                            0.25, 1.0, 0.5, 0.5, 2.0, 0.25,
-                            2.0, 1.0, 1.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::FLYING:      this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 1.0, 0.0, 4.0,
+                                        0.25, 1.0, 0.5, 0.5, 2.0, 0.25,
+                                        2.0, 1.0, 1.0, 1.0, 1.0, 0.5
+                                    );
+                                    break;
 
-    case POISON:    SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 0.5, 4.0, 2.0,
-                            0.25, 1.0, 0.5, 0.5, 2.0, 0.25,
-                            1.0, 2.0, 0.5, 1.0, 1.0, 0.25
-                    );
-                    break;
+    case PokemonTypes::POISON:      this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 0.5, 4.0, 2.0,
+                                        0.25, 1.0, 0.5, 0.5, 2.0, 0.25,
+                                        1.0, 2.0, 0.5, 1.0, 1.0, 0.25
+                                    );
+                                    break;
 
-    case GROUND:    SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 0.5, 2.0, 1.0,
-                            0.5, 1.0, 0.5, 0.5, 4.0, 1.0,
-                            0.0, 1.0, 1.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::GROUND:      this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 0.5, 2.0, 1.0,
+                                        0.5, 1.0, 0.5, 0.5, 4.0, 1.0,
+                                        0.0, 1.0, 1.0, 1.0, 1.0, 0.5
+                                    );
+                                    break;
 
-    case ROCK:	    SetDamageValues
-                    (
-                            0.5, 2.0, 0.5, 0.5, 4.0, 2.0,
-                            0.5, 1.0, 1.0, 0.25, 4.0, 1.0,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::ROCK:        this->SetDamageValues(
+                                        0.5, 2.0, 0.5, 0.5, 4.0, 2.0,
+                                        0.5, 1.0, 1.0, 0.25, 4.0, 1.0,
+                                        1.0, 1.0, 0.5, 1.0, 1.0, 0.5
+                                    );
+                                    break;
 
-    case BUG:       SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 1.0, 1.0, 4.0,
-                            0.5, 1.0, 0.5, 1.0, 2.0, 0.25,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::BUG:         this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 1.0, 1.0, 4.0,
+                                        0.5, 1.0, 0.5, 1.0, 2.0, 0.25,
+                                        1.0, 1.0, 0.5, 1.0, 1.0, 0.5
+                                    );
+                                    break;
 
-    case GHOST:	    SetDamageValues
-                    (
-                            0.0, 0.0, 1.0, 0.5, 2.0, 2.0,
-                            0.25, 2.0, 0.5, 0.5, 2.0, 0.5,
-                            1.0, 1.0, 0.5, 1.0, 2.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::GHOST:       this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.5, 2.0, 2.0,
+                                        0.25, 2.0, 0.5, 0.5, 2.0, 0.5,
+                                        1.0, 1.0, 0.5, 1.0, 2.0, 0.5
+                                    );
+                                    break;
 
-    case STEEL:		SetDamageValues
-                    (
-                            0.5, 2.0, 0.5, 0.0, 4.0, 1.0,
-                            0.25, 1.0, 0.25, 1.0, 2.0, 0.25,
-                            1.0, 0.5, 0.25, 0.5, 1.0, 0.25
-                    );
-                    break;
+    case PokemonTypes::STEEL:	    this->SetDamageValues(
+                                        0.5, 2.0, 0.5, 0.0, 4.0, 1.0,
+                                        0.25, 1.0, 0.25, 1.0, 2.0, 0.25,
+                                        1.0, 0.5, 0.25, 0.5, 1.0, 0.25
+                                    );
+                                    break;
 
-    case FIRE:		SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 1.0, 2.0, 2.0,
-                            0.5, 1.0, 0.5, 0.5, 2.0, 0.5,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::FIRE:		this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 1.0, 2.0, 2.0,
+                                        0.5, 1.0, 0.5, 0.5, 2.0, 0.5,
+                                        1.0, 1.0, 0.5, 1.0, 1.0, 0.5
+                                    );
+                                    break;
 
-    case WATER:		SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 1.0, 2.0, 2.0,
-                            0.5, 1.0, 0.25, 0.25, 1.0, 1.0,
-                            2.0, 1.0, 0.25, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::WATER:		this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 1.0, 2.0, 2.0,
+                                        0.5, 1.0, 0.25, 0.25, 1.0, 1.0,
+                                        2.0, 1.0, 0.25, 1.0, 1.0, 0.5
+                                    );
+                                    break;
 
-    case GRASS:		SetDamageValues
-                    (
-                            1.0, 1.0, 2.0, 2.0, 1.0, 2.0,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 0.25,
-                            0.5, 1.0, 1.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::GRASS:		this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 2.0, 1.0, 2.0,
+                                        1.0, 1.0, 0.5, 1.0, 1.0, 0.25,
+                                        0.5, 1.0, 1.0, 1.0, 1.0, 0.5
+                                    );
+                                    break;
 
-    case ELECTRIC:  SetDamageValues
-                    (
-                            1.0, 1.0, 0.5, 1.0, 4.0, 2.0,
-                            0.5, 1.0, 0.25, 0.5, 2.0, 0.5,
-                            0.5, 1.0, 0.5, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::ELECTRIC:    this->SetDamageValues(
+                                        1.0, 1.0, 0.5, 1.0, 4.0, 2.0,
+                                        0.5, 1.0, 0.25, 0.5, 2.0, 0.5,
+                                        0.5, 1.0, 0.5, 1.0, 1.0, 0.5
+                                    );
+                                    break;
 
-    case PSYCHIC:  SetDamageValues
-                   (
-                            1.0, 0.5, 1.0, 1.0, 2.0, 2.0,
-                            1.0, 2.0, 0.5, 0.5, 2.0, 0.5,
-                            1.0, 0.5, 0.5, 1.0, 2.0, 0.5
-                   );
-                   break;
+    case PokemonTypes::PSYCHIC:     this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 1.0, 2.0, 2.0,
+                                        1.0, 2.0, 0.5, 0.5, 2.0, 0.5,
+                                        1.0, 0.5, 0.5, 1.0, 2.0, 0.5
+                                    );
+                                    break;
 
-    case ICE:	   SetDamageValues
-                   (
-                            1.0, 2.0, 1.0, 1.0, 2.0, 4.0,
-                            0.5, 1.0, 1.0, 1.0, 2.0, 0.5,
-                            1.0, 1.0, 0.25, 1.0, 1.0, 0.5
-                   );
-                   break;
+    case PokemonTypes::ICE:         this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 2.0, 4.0,
+                                        0.5, 1.0, 1.0, 1.0, 2.0, 0.5,
+                                        1.0, 1.0, 0.25, 1.0, 1.0, 0.5
+                                    );
+                                    break;
 
-    case DRAGON:   SetDamageValues
-                   (
-                            1.0, 1.0, 1.0, 1.0, 2.0, 2.0,
-                            0.5, 1.0, 0.5, 0.25, 1.0, 0.25,
-                            0.5, 1.0, 1.0, 2.0, 1.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::DRAGON:      this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 1.0, 2.0, 2.0,
+                                        0.5, 1.0, 0.5, 0.25, 1.0, 0.25,
+                                        0.5, 1.0, 1.0, 2.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case DARK:	   SetDamageValues
-                   (
-                            1.0, 2.0, 1.0, 1.0, 2.0, 2.0,
-                            1.0, 0.5, 0.5, 0.5, 2.0, 0.5,
-                            1.0, 0.0, 0.5, 1.0, 0.5, 1.0
-                   );
-                   break;
+    case PokemonTypes::DARK:        this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 2.0, 2.0,
+                                        1.0, 0.5, 0.5, 0.5, 2.0, 0.5,
+                                        1.0, 0.0, 0.5, 1.0, 0.5, 1.0
+                                    );
+                                    break;
 
-    case FAIRY:	   SetDamageValues
-                   (
-                            1.0, 0.5, 1.0, 2.0, 2.0, 2.0,
-                            0.25, 1.0, 1.0, 0.5, 2.0, 0.5,
-                            1.0, 1.0, 0.5, 0.0, 0.5, 0.5
-                   );
-                   break;
-
-    default:	   break;
+    case PokemonTypes::FAIRY:       this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 2.0, 2.0, 2.0,
+                                        0.25, 1.0, 1.0, 0.5, 2.0, 0.5,
+                                        1.0, 1.0, 0.5, 0.0, 0.5, 0.5
+                                    );
+                                    break;
     }
 }
 
-/************************************************************************
-* Method FlyingTypeDmg: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage if the Pokemon is a flying type
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::FlyingTypeDmg()
-{
-    switch(secTypeEnum)
-    {
-    case NORMAL:    SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 1.0, 0.0, 2.0,
-                            0.5, 0.0, 1.0, 1.0, 1.0, 0.5,
-                            2.0, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+void PokemonWeakness::FlyingTypeDmg(){
+    switch(this->secTypeEnum){
+    case PokemonTypes::NORMAL:      this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 1.0, 0.0, 2.0,
+                                        0.5, 0.0, 1.0, 1.0, 1.0, 0.5,
+                                        2.0, 1.0, 2.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case FIGHTING:  SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 1.0, 0.0, 1.0,
-                            0.25, 1.0, 1.0, 1.0, 1.0, 0.5,
-                            2.0, 2.0, 2.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::FIGHTING:    this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 1.0, 0.0, 1.0,
+                                        0.25, 1.0, 1.0, 1.0, 1.0, 0.5,
+                                        2.0, 2.0, 2.0, 1.0, 0.5, 2.0
+                                    );
+                                    break;
 
-    case FLYING:    SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 1.0, 0.0, 2.0,
-                            0.5, 1.0, 1.0, 1.0, 1.0, 0.5,
-                            2.0, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::FLYING:      this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 1.0, 0.0, 2.0,
+                                        0.5, 1.0, 1.0, 1.0, 1.0, 0.5,
+                                        2.0, 1.0, 2.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case POISON:    SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 1.0, 0.0, 2.0,
-                            0.5, 1.0, 1.0, 1.0, 1.0, 0,
-                            2.0, 2.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::POISON:      this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 1.0, 0.0, 2.0,
+                                        0.5, 1.0, 1.0, 1.0, 1.0, 0,
+                                        2.0, 2.0, 2.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case GROUND:    SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 0.5, 0.0, 1.0,
-                            0.5, 1.0, 1.0, 1.0, 2.0, 1.0,
-                            0.0, 1.0, 4.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GROUND:      this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 0.5, 0.0, 1.0,
+                                        0.5, 1.0, 1.0, 1.0, 2.0, 1.0,
+                                        0.0, 1.0, 4.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case ROCK:	    SetDamageValues
-                    (
-                            0.5, 1.0, 0.5, 0.5, 0.0, 2.0,
-                            0.5, 1.0, 2.0, 0.5, 2.0, 1.0,
-                            2.0, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ROCK:        this->SetDamageValues(
+                                        0.5, 1.0, 0.5, 0.5, 0.0, 2.0,
+                                        0.5, 1.0, 2.0, 0.5, 2.0, 1.0,
+                                        2.0, 1.0, 2.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case BUG:       SetDamageValues
-                    (
-                            1.0, 0.25, 2.0, 1.0, 0.0, 4.0,
-                            0.5, 1.0, 1.0, 2.0, 1.0, 0.25,
-                            2.0, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::BUG:         this->SetDamageValues(
+                                        1.0, 0.25, 2.0, 1.0, 0.0, 4.0,
+                                        0.5, 1.0, 1.0, 2.0, 1.0, 0.25,
+                                        2.0, 1.0, 2.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case GHOST:	    SetDamageValues
-                    (
-                            0.0, 0.0, 1.0, 0.5, 0.0, 2.0,
-                            0.25, 2.0, 1.0, 1.0, 1.0, 0.5,
-                            2.0, 1.0, 2.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GHOST:       this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.5, 0.0, 2.0,
+                                        0.25, 2.0, 1.0, 1.0, 1.0, 0.5,
+                                        2.0, 1.0, 2.0, 1.0, 2.0, 1.0
+                                    );
+                                    break;
 
-    case STEEL:		SetDamageValues
-                    (
-                            0.5, 1.0, 0.5, 0.0, 0.0, 1.0,
-                            0.25, 1.0, 0.5, 2.0, 1.0, 0.25,
-                            2.0, 0.5, 1.0, 0.5, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::STEEL:		this->SetDamageValues(
+                                        0.5, 1.0, 0.5, 0.0, 0.0, 1.0,
+                                        0.25, 1.0, 0.5, 2.0, 1.0, 0.25,
+                                        2.0, 0.5, 1.0, 0.5, 1.0, 0.5
+                                    );
+                                    break;
 
-    case FIRE:		SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 1.0, 0.0, 4.0,
-                            0.25, 1.0, 0.5, 0.5, 2.0, 0.25,
-                            2.0, 1.0, 1.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::FIRE:		this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 1.0, 0.0, 4.0,
+                                        0.25, 1.0, 0.5, 0.5, 2.0, 0.25,
+                                        2.0, 1.0, 1.0, 1.0, 1.0, 0.5
+                                    );
+                                    break;
 
-    case WATER:		SetDamageValues
-                    (
-                            1.0, 0.25, 1.0, 1.0, 0.0, 2.0,
-                            0.25, 1.0, 0.25, 0.25, 0.25, 1.0,
-                            4.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::WATER:		this->SetDamageValues(
+                                        1.0, 0.25, 1.0, 1.0, 0.0, 2.0,
+                                        0.25, 1.0, 0.25, 0.25, 0.25, 1.0,
+                                        4.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case GRASS:		SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 2.0, 0.0, 2.0,
-                            1.0, 1.0, 1.0, 2.0, 0.5, 0.25,
-                            1.0, 1.0, 4.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GRASS:		this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 2.0, 0.0, 2.0,
+                                        1.0, 1.0, 1.0, 2.0, 0.5, 0.25,
+                                        1.0, 1.0, 4.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case ELECTRIC:  SetDamageValues
-                    (
-                            1.0, 0.5, 0.5, 1.0, 0.0, 2.0,
-                            0.5, 1.0, 0.5, 1.0, 1.0, 0.5,
-                            1.0, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ELECTRIC:    this->SetDamageValues(
+                                        1.0, 0.5, 0.5, 1.0, 0.0, 2.0,
+                                        0.5, 1.0, 0.5, 1.0, 1.0, 0.5,
+                                        1.0, 1.0, 2.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case PSYCHIC:  SetDamageValues
-                   (
-                            1.0, 0.25, 1.0, 1.0, 0.0, 2.0,
-                            1.0, 2.0, 1.0, 1.0, 1.0, 0.5,
-                            2.0, 0.5, 2.0, 1.0, 2.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::PSYCHIC:     this->SetDamageValues(
+                                        1.0, 0.25, 1.0, 1.0, 0.0, 2.0,
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 0.5,
+                                        2.0, 0.5, 2.0, 1.0, 2.0, 1.0
+                                    );
+                                    break;
 
-    case ICE:	   SetDamageValues
-                   (
-                            1.0, 1.0, 1.0, 1.0, 0.0, 4.0,
-                            0.5, 1.0, 2.0, 2.0, 1.0, 0.5,
-                            2.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::ICE:         this->SetDamageValues
+                                    (
+                                        1.0, 1.0, 1.0, 1.0, 0.0, 4.0,
+                                        0.5, 1.0, 2.0, 2.0, 1.0, 0.5,
+                                        2.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                    );
+                                    break;
 
-    case DRAGON:   SetDamageValues
-                   (
-                            1.0, 0.5, 1.0, 1.0, 0.0, 2.0,
-                            0.5, 1.0, 1.0, 0.5, 0.5, 0.25,
-                            1.0, 1.0, 4.0, 2.0, 1.0, 2.0
-                   );
-                   break;
+    case PokemonTypes::DRAGON:      this->SetDamageValues
+                                    (
+                                        1.0, 0.5, 1.0, 1.0, 0.0, 2.0,
+                                        0.5, 1.0, 1.0, 0.5, 0.5, 0.25,
+                                        1.0, 1.0, 4.0, 2.0, 1.0, 2.0
+                                    );
+                                    break;
 
-    case DARK:	   SetDamageValues
-                   (
-                            1.0, 1.0, 1.0, 1.0, 0.0, 2.0,
-                            1.0, 0.5, 1.0, 1.0, 1.0, 0.5,
-                            2.0, 0.0, 2.0, 1.0, 0.5, 2.0
-                   );
-                   break;
+    case PokemonTypes::DARK:       this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 1.0, 0.0, 2.0,
+                                        1.0, 0.5, 1.0, 1.0, 1.0, 0.5,
+                                        2.0, 0.0, 2.0, 1.0, 0.5, 2.0
+                                   );
+                                   break;
 
-    case FAIRY:	   SetDamageValues
-                   (
-                            1.0, 0.25, 1.0, 2.0, 0.0, 2.0,
-                            0.25, 1.0, 2.0, 1.0, 1.0, 0.5,
-                            2.0, 1.0, 2.0, 0.0, 0.5, 1.0
-                   );
-                   break;
-
-    default:	   break;
+    case PokemonTypes::FAIRY:      this->SetDamageValues(
+                                        1.0, 0.25, 1.0, 2.0, 0.0, 2.0,
+                                        0.25, 1.0, 2.0, 1.0, 1.0, 0.5,
+                                        2.0, 1.0, 2.0, 0.0, 0.5, 1.0
+                                   );
+                                   break;
     }
 }
 
-/************************************************************************
-* Method GhostTypeDmg: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage if the Pokemon is a ghost type
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::GhostTypeDmg()
-{
-    switch(secTypeEnum)
-    {
-    case NORMAL:    SetDamageValues
-                    (
-                            0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
-                            0.5, 0.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 1.0, 1.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+void PokemonWeakness::GhostTypeDmg(){
+    switch(this->secTypeEnum){
+    case PokemonTypes::NORMAL:     this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
+                                        0.5, 0.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 1.0, 1.0, 1.0, 2.0, 1.0
+                                   );
+                                   break;
 
-    case FIGHTING:  SetDamageValues
-                    (
-                            0.0, 0.0, 2.0, 0.5, 1.0, 0.5,
-                            0.25, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 2.0, 1.0, 1.0, 1.0, 2.0
-                    );
-                    break;
+    case PokemonTypes::FIGHTING:   this->SetDamageValues(
+                                        0.0, 0.0, 2.0, 0.5, 1.0, 0.5,
+                                        0.25, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 2.0
+                                   );
+                                   break;
 
-    case FLYING:    SetDamageValues
-                    (
-                            0.0, 0.0, 1.0, 0.5, 0.0, 2.0,
-                            0.25, 2.0, 1.0, 1.0, 1.0, 0.5,
-                            2.0, 1.0, 2.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::FLYING:     this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.5, 0.0, 2.0,
+                                        0.25, 2.0, 1.0, 1.0, 1.0, 0.5,
+                                        2.0, 1.0, 2.0, 1.0, 2.0, 1.0
+                                   );
+                                   break;
 
-    case POISON:    SetDamageValues
-                    (
-                            0.0, 0.0, 1.0, 0.25, 2.0, 1.0,
-                            0.25, 2.0, 1.0, 1.0, 1.0, 0.5,
-                            1.0, 2.0, 1.0, 1.0, 2.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::POISON:     this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.25, 2.0, 1.0,
+                                        0.25, 2.0, 1.0, 1.0, 1.0, 0.5,
+                                        1.0, 2.0, 1.0, 1.0, 2.0, 0.5
+                                   );
+                                   break;
 
-    case GROUND:    SetDamageValues
-                    (
-                            0.0, 0.0, 1.0, 0.25, 1.0, 0.5,
-                            0.5, 2.0, 1.0, 1.0, 2.0, 2.0,
-                            0.0, 1.0, 2.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GROUND:     this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.25, 1.0, 0.5,
+                                        0.5, 2.0, 1.0, 1.0, 2.0, 2.0,
+                                        0.0, 1.0, 2.0, 1.0, 2.0, 1.0
+                                   );
+                                   break;
 
-    case ROCK:	    SetDamageValues
-                    (
-                            0.0, 0.0, 0.5, 0.25, 2.0, 1.0,
-                            0.5, 2.0, 2.0, 0.5, 2.0, 2.0,
-                            1.0, 1.0, 1.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ROCK:	   this->SetDamageValues(
+                                        0.0, 0.0, 0.5, 0.25, 2.0, 1.0,
+                                        0.5, 2.0, 2.0, 0.5, 2.0, 2.0,
+                                        1.0, 1.0, 1.0, 1.0, 2.0, 1.0
+                                   );
+                                   break;
 
-    case BUG:       SetDamageValues
-                    (
-                            0.0, 0.0, 2.0, 0.5, 0.5, 2.0,
-                            0.5, 2.0, 1.0, 2.0, 1.0, 0.5,
-                            1.0, 1.0, 1.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::BUG:        this->SetDamageValues(
+                                        0.0, 0.0, 2.0, 0.5, 0.5, 2.0,
+                                        0.5, 2.0, 1.0, 2.0, 1.0, 0.5,
+                                        1.0, 1.0, 1.0, 1.0, 2.0, 1.0
+                                   );
+                                   break;
 
-    case GHOST:	    SetDamageValues
-                    (
-                            0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
-                            0.5, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 1.0, 1.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GHOST:	   this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
+                                        0.5, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 1.0, 1.0, 1.0, 2.0, 1.0
+                                   );
+                                   break;
 
-    case STEEL:		SetDamageValues
-                    (
-                            0.0, 0.0, 0.5, 0.0, 2.0, 0.5,
-                            0.25, 2.0, 0.5, 2.0, 1.0, 0.5,
-                            1.0, 0.5, 0.5, 0.5, 2.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::STEEL:	   this->SetDamageValues(
+                                        0.0, 0.0, 0.5, 0.0, 2.0, 0.5,
+                                        0.25, 2.0, 0.5, 2.0, 1.0, 0.5,
+                                        1.0, 0.5, 0.5, 0.5, 2.0, 0.5
+                                   );
+                                   break;
 
-    case FIRE:		SetDamageValues
-                    (
-                            0.0, 0.0, 1.0, 0.5, 2.0, 2.0,
-                            0.25, 2.0, 0.5, 0.5, 2.0, 0.5,
-                            1.0, 1.0, 0.5, 1.0, 2.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::FIRE:	   this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.5, 2.0, 2.0,
+                                        0.25, 2.0, 0.5, 0.5, 2.0, 0.5,
+                                        1.0, 1.0, 0.5, 1.0, 2.0, 0.5
+                                   );
+                                   break;
 
-    case WATER:		SetDamageValues
-                    (
-                            0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
-                            0.5, 2.0, 0.5, 0.5, 0.5, 2.0,
-                            2.0, 1.0, 0.5, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::WATER:	   this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
+                                        0.5, 2.0, 0.5, 0.5, 0.5, 2.0,
+                                        2.0, 1.0, 0.5, 1.0, 2.0, 1.0
+                                   );
+                                   break;
 
-    case GRASS:		SetDamageValues
-                    (
-                            0.0, 0.0, 2.0, 1.0, 0.5, 1.0,
-                            1.0, 2.0, 1.0, 2.0, 0.5, 0.5,
-                            0.5, 1.0, 2.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GRASS:	   this->SetDamageValues(
+                                        0.0, 0.0, 2.0, 1.0, 0.5, 1.0,
+                                        1.0, 2.0, 1.0, 2.0, 0.5, 0.5,
+                                        0.5, 1.0, 2.0, 1.0, 2.0, 1.0
+                                   );
+                                   break;
 
-    case ELECTRIC:  SetDamageValues
-                    (
-                            0.0, 0.0, 0.5, 0.5, 2.0, 1.0,
-                            0.5, 2.0, 0.5, 1.0, 1.0, 1.0,
-                            0.5, 1.0, 1.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ELECTRIC:   this->SetDamageValues(
+                                        0.0, 0.0, 0.5, 0.5, 2.0, 1.0,
+                                        0.5, 2.0, 0.5, 1.0, 1.0, 1.0,
+                                        0.5, 1.0, 1.0, 1.0, 2.0, 1.0
+                                   );
+                                   break;
 
-    case PSYCHIC:  SetDamageValues
-                   (
-                            0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
-                            1.0, 4.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 0.5, 1.0, 1.0, 4.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::PSYCHIC:    this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
+                                        1.0, 4.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 0.5, 1.0, 1.0, 4.0, 1.0
+                                   );
+                                   break;
 
-    case ICE:	   SetDamageValues
-                   (
-                            0.0, 0.0, 1.0, 0.5, 1.0, 2.0,
-                            0.5, 2.0, 2.0, 2.0, 1.0, 1.0,
-                            1.0, 1.0, 0.5, 1.0, 2.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::ICE:        this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.5, 1.0, 2.0,
+                                        0.5, 2.0, 2.0, 2.0, 1.0, 1.0,
+                                        1.0, 1.0, 0.5, 1.0, 2.0, 1.0
+                                   );
+                                   break;
 
-    case DRAGON:   SetDamageValues
-                   (
-                            0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
-                            0.5, 2.0, 1.0, 0.5, 0.5, 0.5,
-                            0.5, 1.0, 2.0, 2.0, 2.0, 2.0
-                   );
-                   break;
+    case PokemonTypes::DRAGON:     this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
+                                        0.5, 2.0, 1.0, 0.5, 0.5, 0.5,
+                                        0.5, 1.0, 2.0, 2.0, 2.0, 2.0
+                                   );
+                                   break;
 
-    case DARK:	   SetDamageValues
-                   (
-                            0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 0.0, 1.0, 1.0, 1.0, 2.0
-                   );
-                   break;
+    case PokemonTypes::DARK:	   this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 0.0, 1.0, 1.0, 1.0, 2.0
+                                   );
+                                   break;
 
-    case FAIRY:	   SetDamageValues
-                   (
-                            0.0, 0.0, 1.0, 1.0, 1.0, 1.0,
-                            0.25, 2.0, 2.0, 1.0, 1.0, 1.0,
-                            1.0, 1.0, 1.0, 0.0, 1.0, 1.0
-                   );
-                   break;
-
-    default:	   break;
+    case PokemonTypes::FAIRY:	   this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 1.0, 1.0, 1.0,
+                                        0.25, 2.0, 2.0, 1.0, 1.0, 1.0,
+                                        1.0, 1.0, 1.0, 0.0, 1.0, 1.0
+                                   );
+                                   break;
     }
 }
 
-/************************************************************************
-* Method GrassTypeDmg: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage if the Pokemon is a grass type
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::GrassTypeDmg()
-{
-    switch(secTypeEnum)
-    {
-    case NORMAL:    SetDamageValues
-                    (
-                            1.0, 2.0, 2.0, 2.0, 0.5, 1.0,
-                            2.0, 0.0, 1.0, 2.0, 0.5, 0.5,
-                            0.5, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+void PokemonWeakness::GrassTypeDmg(){
+    switch(this->secTypeEnum){
+    case PokemonTypes::NORMAL:     this->SetDamageValues(
+                                        1.0, 2.0, 2.0, 2.0, 0.5, 1.0,
+                                        2.0, 0.0, 1.0, 2.0, 0.5, 0.5,
+                                        0.5, 1.0, 2.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case FIGHTING:  SetDamageValues
-                    (
-                            1.0, 1.0, 4.0, 2.0, 0.5, 0.5,
-                            1.0, 1.0, 1.0, 2.0, 0.5, 0.5,
-                            0.5, 2.0, 2.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::FIGHTING:   this->SetDamageValues(
+                                        1.0, 1.0, 4.0, 2.0, 0.5, 0.5,
+                                        1.0, 1.0, 1.0, 2.0, 0.5, 0.5,
+                                        0.5, 2.0, 2.0, 1.0, 0.5, 2.0
+                                   );
+                                   break;
 
-    case FLYING:    SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 2.0, 0.0, 2.0,
-                            1.0, 1.0, 1.0, 2.0, 0.5, 0.25,
-                            1.0, 1.0, 4.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::FLYING:     this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 2.0, 0.0, 2.0,
+                                        1.0, 1.0, 1.0, 2.0, 0.5, 0.25,
+                                        1.0, 1.0, 4.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case POISON:    SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 1.0, 1.0, 1.0,
-                            1.0, 1.0, 1.0, 2.0, 0.5, 0.25,
-                            0.5, 2.0, 2.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::POISON:     this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 1.0, 1.0, 1.0,
+                                        1.0, 1.0, 1.0, 2.0, 0.5, 0.25,
+                                        0.5, 2.0, 2.0, 1.0, 1.0, 0.5
+                                   );
+                                   break;
 
-    case GROUND:    SetDamageValues
-                    (
-                            1.0, 1.0, 2.0, 1.0, 0.5, 0.5,
-                            2.0, 1.0, 1.0, 2.0, 1.0, 1.0,
-                            0.0, 1.0, 4.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GROUND:     this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 1.0, 0.5, 0.5,
+                                        2.0, 1.0, 1.0, 2.0, 1.0, 1.0,
+                                        0.0, 1.0, 4.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case ROCK:	    SetDamageValues
-                    (
-                            0.5, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            2.0, 1.0, 2.0, 1.0, 1.0, 1.0,
-                            0.5, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ROCK:	   this->SetDamageValues(
+                                        0.5, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                        2.0, 1.0, 2.0, 1.0, 1.0, 1.0,
+                                        0.5, 1.0, 2.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case BUG:       SetDamageValues
-                    (
-                            1.0, 0.5, 4.0, 2.0, 0.25, 2.0,
-                            2.0, 1.0, 1.0, 4.0, 0.5, 0.25,
-                            0.5, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::BUG:        this->SetDamageValues(
+                                        1.0, 0.5, 4.0, 2.0, 0.25, 2.0,
+                                        2.0, 1.0, 1.0, 4.0, 0.5, 0.25,
+                                        0.5, 1.0, 2.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case GHOST:	    SetDamageValues
-                    (
-                            0.0, 0.0, 2.0, 1.0, 0.5, 1.0,
-                            1.0, 2.0, 1.0, 2.0, 0.5, 0.5,
-                            0.5, 1.0, 2.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GHOST:	   this->SetDamageValues(
+                                        0.0, 0.0, 2.0, 1.0, 0.5, 1.0,
+                                        1.0, 2.0, 1.0, 2.0, 0.5, 0.5,
+                                        0.5, 1.0, 2.0, 1.0, 2.0, 1.0
+                                   );
+                                   break;
 
-    case STEEL:		SetDamageValues
-                    (
-                            0.5, 2.0, 1.0, 0.0, 1.0, 0.5,
-                            1.0, 1.0, 0.5, 4.0, 0.5, 0.25,
-                            0.5, 0.5, 1.0, 0.5, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::STEEL:	   this->SetDamageValues(
+                                        0.5, 2.0, 1.0, 0.0, 1.0, 0.5,
+                                        1.0, 1.0, 0.5, 4.0, 0.5, 0.25,
+                                        0.5, 0.5, 1.0, 0.5, 1.0, 0.5
+                                   );
+                                   break;
 
-    case FIRE:		SetDamageValues
-                    (
-                            1.0, 1.0, 2.0, 2.0, 1.0, 2.0,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 0.25,
-                            0.5, 1.0, 1.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::FIRE:	   this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 2.0, 1.0, 2.0,
+                                        1.0, 1.0, 0.5, 1.0, 1.0, 0.25,
+                                        0.5, 1.0, 1.0, 1.0, 1.0, 0.5
+                                   );
+                                   break;
 
-    case WATER:		SetDamageValues
-                    (
-                            1.0, 1.0, 2.0, 2.0, 0.5, 1.0,
-                            2.0, 1.0, 0.5, 1.0, 0.25, 1.0,
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::WATER:	   this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 2.0, 0.5, 1.0,
+                                        2.0, 1.0, 0.5, 1.0, 0.25, 1.0,
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case GRASS:		SetDamageValues
-                    (
-                            1.0, 1.0, 2.0, 2.0, 0.5, 1.0,
-                            2.0, 1.0, 1.0, 2.0, 0.5, 0.5,
-                            0.5, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GRASS:	   this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 2.0, 0.5, 1.0,
+                                        2.0, 1.0, 1.0, 2.0, 0.5, 0.5,
+                                        0.5, 1.0, 2.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case ELECTRIC:  SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 2.0, 1.0, 1.0,
-                            2.0, 1.0, 0.5, 2.0, 0.5, 0.5,
-                            0.25, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ELECTRIC:   this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 2.0, 1.0, 1.0,
+                                        2.0, 1.0, 0.5, 2.0, 0.5, 0.5,
+                                        0.25, 1.0, 2.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case PSYCHIC:  SetDamageValues
-                   (
-                            1.0, 0.5, 2.0, 2.0, 0.5, 1.0,
-                            4.0, 2.0, 1.0, 2.0, 0.5, 0.5,
-                            0.5, 0.5, 2.0, 1.0, 2.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::PSYCHIC:    this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 2.0, 0.5, 1.0,
+                                        4.0, 2.0, 1.0, 2.0, 0.5, 0.5,
+                                        0.5, 0.5, 2.0, 1.0, 2.0, 1.0
+                                   );
+                                   break;
 
-    case ICE:	   SetDamageValues
-                   (
-                            1.0, 2.0, 2.0, 2.0, 0.5, 2.0,
-                            2.0, 1.0, 2.0, 4.0, 0.5, 0.5,
-                            0.5, 1.0, 1.0, 1.0, 1.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::ICE:        this->SetDamageValues(
+                                        1.0, 2.0, 2.0, 2.0, 0.5, 2.0,
+                                        2.0, 1.0, 2.0, 4.0, 0.5, 0.5,
+                                        0.5, 1.0, 1.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case DRAGON:   SetDamageValues
-                   (
-                            1.0, 1.0, 2.0, 2.0, 0.5, 1.0,
-                            2.0, 1.0, 1.0, 1.0, 0.25, 0.25,
-                            0.25, 1.0, 4.0, 2.0, 1.0, 2.0
-                   );
-                   break;
+    case PokemonTypes::DRAGON:     this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 2.0, 0.5, 1.0,
+                                        2.0, 1.0, 1.0, 1.0, 0.25, 0.25,
+                                        0.25, 1.0, 4.0, 2.0, 1.0, 2.0
+                                   );
+                                   break;
 
-    case DARK:	   SetDamageValues
-                   (
-                            1.0, 2.0, 2.0, 2.0, 0.5, 1.0,
-                            4.0, 0.5, 1.0, 2.0, 0.5, 0.5,
-                            0.5, 0.0, 2.0, 1.0, 0.5, 2.0
-                   );
-                   break;
+    case PokemonTypes::DARK:	   this->SetDamageValues(
+                                        1.0, 2.0, 2.0, 2.0, 0.5, 1.0,
+                                        4.0, 0.5, 1.0, 2.0, 0.5, 0.5,
+                                        0.5, 0.0, 2.0, 1.0, 0.5, 2.0
+                                   );
+                                   break;
 
-    case FAIRY:	   SetDamageValues
-                   (
-                            1.0, 0.5, 2.0, 4.0, 0.5, 1.0,
-                            1.0, 1.0, 2.0, 2.0, 0.5, 0.5,
-                            0.5, 1.0, 2.0, 0.0, 0.5, 1.0
-                   );
-                   break;
-
-    default:	   break;
+    case PokemonTypes::FAIRY:	   this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 4.0, 0.5, 1.0,
+                                        1.0, 1.0, 2.0, 2.0, 0.5, 0.5,
+                                        0.5, 1.0, 2.0, 0.0, 0.5, 1.0
+                                   );
+                                   break;
     }
 }
 
-/************************************************************************
-* Method GroundTypeDmg: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage if the Pokemon is a ground type
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::GroundTypeDmg()
-{
-    switch(secTypeEnum)
-    {
-    case NORMAL:    SetDamageValues
-                    (
-                            1.0, 2.0, 1.0, 0.5, 1.0, 0.5,
-                            1.0, 0.0, 1.0, 1.0, 2.0, 2.0,
-                            0.0, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+void PokemonWeakness::GroundTypeDmg(){
+    switch(this->secTypeEnum){
+    case PokemonTypes::NORMAL:     this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 0.5, 1.0, 0.5,
+                                        1.0, 0.0, 1.0, 1.0, 2.0, 2.0,
+                                        0.0, 1.0, 2.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case FIGHTING:  SetDamageValues
-                    (
-                            1.0, 1.0, 2.0, 0.5, 1.0, 0.25,
-                            0.5, 1.0, 1.0, 1.0, 2.0, 2.0,
-                            0.0, 2.0, 2.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::FIGHTING:   this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 0.5, 1.0, 0.25,
+                                        0.5, 1.0, 1.0, 1.0, 2.0, 2.0,
+                                        0.0, 2.0, 2.0, 1.0, 0.5, 2.0
+                                   );
+                                   break;
 
-    case FLYING:    SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 0.5, 0.0, 1.0,
-                            0.5, 1.0, 1.0, 1.0, 2.0, 1.0,
-                            0.0, 1.0, 4.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::FLYING:     this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 0.5, 0.0, 1.0,
+                                        0.5, 1.0, 1.0, 1.0, 2.0, 1.0,
+                                        0.0, 1.0, 4.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case POISON:    SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 0.25, 2.0, 0.5,
-                            0.5, 1.0, 1.0, 1.0, 2.0, 1.0,
-                            0.0, 2.0, 2.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::POISON:     this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 0.25, 2.0, 0.5,
+                                        0.5, 1.0, 1.0, 1.0, 2.0, 1.0,
+                                        0.0, 2.0, 2.0, 1.0, 1.0, 0.5
+                                   );
+                                   break;
 
-    case GROUND:    SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 0.5, 1.0, 0.5,
-                            1.0, 1.0, 1.0, 1.0, 2.0, 2.0,
-                            0.0, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GROUND:     this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 0.5, 1.0, 0.5,
+                                        1.0, 1.0, 1.0, 1.0, 2.0, 2.0,
+                                        0.0, 1.0, 2.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case ROCK:	    SetDamageValues
-                    (
-                            0.5, 2.0, 0.5, 0.25, 2.0, 0.5,
-                            1.0, 1.0, 2.0, 0.5, 4.0, 4.0,
-                            0.0, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ROCK:	   this->SetDamageValues(
+                                        0.5, 2.0, 0.5, 0.25, 2.0, 0.5,
+                                        1.0, 1.0, 2.0, 0.5, 4.0, 4.0,
+                                        0.0, 1.0, 2.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case BUG:       SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 0.5, 0.5, 1.0,
-                            1.0, 1.0, 1.0, 2.0, 2.0, 1.0,
-                            0.0, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::BUG:        this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 0.5, 0.5, 1.0,
+                                        1.0, 1.0, 1.0, 2.0, 2.0, 1.0,
+                                        0.0, 1.0, 2.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case GHOST:	    SetDamageValues
-                    (
-                            0.0, 0.0, 1.0, 0.25, 1.0, 0.5,
-                            0.5, 2.0, 1.0, 1.0, 2.0, 2.0,
-                            0.0, 1.0, 2.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GHOST:	   this->SetDamageValues
+                                   (
+                                        0.0, 0.0, 1.0, 0.25, 1.0, 0.5,
+                                        0.5, 2.0, 1.0, 1.0, 2.0, 2.0,
+                                        0.0, 1.0, 2.0, 1.0, 2.0, 1.0
+                                   );
+                                   break;
 
-    case STEEL:		SetDamageValues
-                    (
-                            0.5, 2.0, 0.5, 0.0, 2.0, 0.25,
-                            0.5, 1.0, 0.5, 2.0, 2.0, 1.0,
-                            0.0, 0.5, 1.0, 0.5, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::STEEL:	   this->SetDamageValues(
+                                        0.5, 2.0, 0.5, 0.0, 2.0, 0.25,
+                                        0.5, 1.0, 0.5, 2.0, 2.0, 1.0,
+                                        0.0, 0.5, 1.0, 0.5, 1.0, 0.5
+                                   );
+                                   break;
 
-    case FIRE:		SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 0.5, 2.0, 1.0,
-                            0.5, 1.0, 0.5, 0.5, 4.0, 1.0,
-                            0.0, 1.0, 1.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::FIRE:	   this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 0.5, 2.0, 1.0,
+                                        0.5, 1.0, 0.5, 0.5, 4.0, 1.0,
+                                        0.0, 1.0, 1.0, 1.0, 1.0, 0.5
+                                   );
+                                   break;
 
-    case WATER:		SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 0.5, 1.0, 0.5,
-                            1.0, 1.0, 0.5, 0.5, 1.0, 4.0,
-                            0.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::WATER:	   this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 0.5, 1.0, 0.5,
+                                        1.0, 1.0, 0.5, 0.5, 1.0, 4.0,
+                                        0.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case GRASS:		SetDamageValues
-                    (
-                            1.0, 1.0, 2.0, 1.0, 0.5, 0.5,
-                            2.0, 1.0, 1.0, 2.0, 1.0, 1.0,
-                            0.0, 1.0, 4.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GRASS:	   this->SetDamageValues(
+                                        1.0, 1.0, 2.0, 1.0, 0.5, 0.5,
+                                        2.0, 1.0, 1.0, 2.0, 1.0, 1.0,
+                                        0.0, 1.0, 4.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case ELECTRIC:  SetDamageValues
-                    (
-                            1.0, 1.0, 0.5, 0.5, 2.0, 0.5,
-                            1.0, 1.0, 0.5, 1.0, 2.0, 2.0,
-                            0.0, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ELECTRIC:   this->SetDamageValues(
+                                        1.0, 1.0, 0.5, 0.5, 2.0, 0.5,
+                                        1.0, 1.0, 0.5, 1.0, 2.0, 2.0,
+                                        0.0, 1.0, 2.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case PSYCHIC:  SetDamageValues
-                   (
-                            1.0, 0.5, 1.0, 0.5, 1.0, 0.5,
-                            2.0, 2.0, 1.0, 1.0, 2.0, 2.0,
-                            0.0, 0.5, 2.0, 1.0, 2.0, 1.0
-                   );
+    case PokemonTypes::PSYCHIC:    this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 0.5, 1.0, 0.5,
+                                        2.0, 2.0, 1.0, 1.0, 2.0, 2.0,
+                                        0.0, 0.5, 2.0, 1.0, 2.0, 1.0
+                                   );
+                                   break;
+
+    case PokemonTypes::ICE:        this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 0.5, 1.0, 1.0,
+                                        1.0, 1.0, 2.0, 2.0, 2.0, 2.0,
+                                        0.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
+
+    case PokemonTypes::DRAGON:     this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 0.5, 1.0, 0.5,
+                                        1.0, 1.0, 1.0, 0.5, 1.0, 1.0,
+                                        0.0, 1.0, 4.0, 2.0, 1.0, 2.0
+                                   );
+                                   break;
+
+    case PokemonTypes::DARK:	   this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 0.5, 1.0, 0.5,
+                                        2.0, 0.5, 1.0, 1.0, 2.0, 2.0,
+                                        0.0, 0.0, 2.0, 1.0, 0.5, 2.0
+                                   );
+                                   break;
+
+    case PokemonTypes::FAIRY:	   this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 1.0, 1.0, 0.5,
+                                        0.5, 1.0, 2.0, 1.0, 2.0, 2.0,
+                                        0.0, 1.0, 2.0, 0.0, 0.5, 1.0
+                                   );
                    break;
-
-    case ICE:	   SetDamageValues
-                   (
-                            1.0, 2.0, 1.0, 0.5, 1.0, 1.0,
-                            1.0, 1.0, 2.0, 2.0, 2.0, 2.0,
-                            0.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                   );
-                   break;
-
-    case DRAGON:   SetDamageValues
-                   (
-                            1.0, 1.0, 1.0, 0.5, 1.0, 0.5,
-                            1.0, 1.0, 1.0, 0.5, 1.0, 1.0,
-                            0.0, 1.0, 4.0, 2.0, 1.0, 2.0
-                   );
-                   break;
-
-    case DARK:	   SetDamageValues
-                   (
-                            1.0, 2.0, 1.0, 0.5, 1.0, 0.5,
-                            2.0, 0.5, 1.0, 1.0, 2.0, 2.0,
-                            0.0, 0.0, 2.0, 1.0, 0.5, 2.0
-                   );
-                   break;
-
-    case FAIRY:	   SetDamageValues
-                   (
-                            1.0, 0.5, 1.0, 1.0, 1.0, 0.5,
-                            0.5, 1.0, 2.0, 1.0, 2.0, 2.0,
-                            0.0, 1.0, 2.0, 0.0, 0.5, 1.0
-                   );
-                   break;
-
-    default:	   break;
     }
 }
 
-/************************************************************************
-* Method IceTypeDmg: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage if the Pokemon is an ice type
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::IceTypeDmg()
-{
-    switch(secTypeEnum)
-    {
-    case NORMAL:    SetDamageValues
-                    (
-                            1.0, 4.0, 1.0, 1.0, 1.0, 2.0,
-                            1.0, 0.0, 2.0, 2.0, 1.0, 1.0,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 1.0
-                    );
-                    break;
+void PokemonWeakness::IceTypeDmg(){
+    switch(this->secTypeEnum){
+    case PokemonTypes::NORMAL:     this->SetDamageValues(
+                                        1.0, 4.0, 1.0, 1.0, 1.0, 2.0,
+                                        1.0, 0.0, 2.0, 2.0, 1.0, 1.0,
+                                        1.0, 1.0, 0.5, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case FIGHTING:  SetDamageValues
-                    (
-                            1.0, 2.0, 2.0, 1.0, 1.0, 1.0,
-                            0.5, 1.0, 2.0, 2.0, 1.0, 1.0,
-                            1.0, 2.0, 0.5, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::FIGHTING:   this->SetDamageValues(
+                                        1.0, 2.0, 2.0, 1.0, 1.0, 1.0,
+                                        0.5, 1.0, 2.0, 2.0, 1.0, 1.0,
+                                        1.0, 2.0, 0.5, 1.0, 0.5, 2.0
+                                   );
+                                   break;
 
-    case FLYING:    SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 1.0, 0.0, 4.0,
-                            0.5, 1.0, 2.0, 2.0, 1.0, 0.5,
-                            2.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::FLYING:     this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 1.0, 0.0, 4.0,
+                                        0.5, 1.0, 2.0, 2.0, 1.0, 0.5,
+                                        2.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case POISON:    SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 0.5, 2.0, 2.0,
-                            0.5, 1.0, 2.0, 2.0, 1.0, 0.5,
-                            1.0, 2.0, 0.5, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::POISON:     this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 0.5, 2.0, 2.0,
+                                        0.5, 1.0, 2.0, 2.0, 1.0, 0.5,
+                                        1.0, 2.0, 0.5, 1.0, 1.0, 0.5
+                                   );
+                                   break;
 
-    case GROUND:    SetDamageValues
-                    (
-                            1.0, 2.0, 1.0, 0.5, 1.0, 1.0,
-                            1.0, 1.0, 2.0, 2.0, 2.0, 2.0,
-                            0.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GROUND:     this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 0.5, 1.0, 1.0,
+                                        1.0, 1.0, 2.0, 2.0, 2.0, 2.0,
+                                        0.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case ROCK:	    SetDamageValues
-                    (
-                            0.5, 4.0, 0.5, 0.5, 2.0, 2.0,
-                            1.0, 1.0, 4.0, 1.0, 2.0, 2.0,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ROCK:	   this->SetDamageValues(
+                                        0.5, 4.0, 0.5, 0.5, 2.0, 2.0,
+                                        1.0, 1.0, 4.0, 1.0, 2.0, 2.0,
+                                        1.0, 1.0, 0.5, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case BUG:       SetDamageValues
-                    (
-                            1.0, 2.0, 1.0, 1.0, 0.5, 4.0,
-                            1.0, 1.0, 2.0, 4.0, 1.0, 0.5,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::BUG:        this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 0.5, 4.0,
+                                        1.0, 1.0, 2.0, 4.0, 1.0, 0.5,
+                                        1.0, 1.0, 0.5, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case GHOST:	    SetDamageValues
-                    (
-                            0.0, 0.0, 1.0, 0.5, 1.0, 2.0,
-                            0.5, 2.0, 2.0, 2.0, 1.0, 1.0,
-                            1.0, 1.0, 0.5, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GHOST:	   this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.5, 1.0, 2.0,
+                                        0.5, 2.0, 2.0, 2.0, 1.0, 1.0,
+                                        1.0, 1.0, 0.5, 1.0, 2.0, 1.0
+                                   );
+                                   break;
 
-    case STEEL:		SetDamageValues
-                    (
-                            0.5, 4.0, 0.5, 0.0, 2.0, 1.0,
-                            0.5, 1.0, 1.0, 4.0, 1.0, 0.5,
-                            1.0, 0.5, 0.25, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::STEEL:	   this->SetDamageValues(
+                                        0.5, 4.0, 0.5, 0.0, 2.0, 1.0,
+                                        0.5, 1.0, 1.0, 4.0, 1.0, 0.5,
+                                        1.0, 0.5, 0.25, 1.0, 1.0, 0.5
+                                   );
+                                   break;
 
-    case FIRE:		SetDamageValues
-                    (
-                            1.0, 2.0, 1.0, 1.0, 2.0, 4.0,
-                            0.5, 1.0, 1.0, 1.0, 2.0, 0.5,
-                            1.0, 1.0, 0.25, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::FIRE:	   this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 2.0, 4.0,
+                                        0.5, 1.0, 1.0, 1.0, 2.0, 0.5,
+                                        1.0, 1.0, 0.25, 1.0, 1.0, 0.5
+                                   );
+                                   break;
 
-    case WATER:		SetDamageValues
-                    (
-                            1.0, 2.0, 1.0, 1.0, 1.0, 2.0,
-                            1.0, 1.0, 1.0, 1.0, 0.5, 2.0,
-                            2.0, 1.0, 0.25, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::WATER:	   this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 2.0,
+                                        1.0, 1.0, 1.0, 1.0, 0.5, 2.0,
+                                        2.0, 1.0, 0.25, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case GRASS:		SetDamageValues
-                    (
-                            1.0, 2.0, 2.0, 2.0, 0.5, 2.0,
-                            2.0, 1.0, 2.0, 4.0, 0.5, 0.5,
-                            0.5, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GRASS:	   this->SetDamageValues(
+                                        1.0, 2.0, 2.0, 2.0, 0.5, 2.0,
+                                        2.0, 1.0, 2.0, 4.0, 0.5, 0.5,
+                                        0.5, 1.0, 1.0, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case ELECTRIC:  SetDamageValues
-                    (
-                            1.0, 2.0, 0.5, 1.0, 2.0, 2.0,
-                            1.0, 1.0, 1.0, 2.0, 1.0, 1.0,
-                            0.5, 1.0, 0.5, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ELECTRIC:   this->SetDamageValues(
+                                        1.0, 2.0, 0.5, 1.0, 2.0, 2.0,
+                                        1.0, 1.0, 1.0, 2.0, 1.0, 1.0,
+                                        0.5, 1.0, 0.5, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case PSYCHIC:  SetDamageValues
-                   (
-                            1.0, 1.0, 1.0, 1.0, 1.0, 2.0,
-                            2.0, 2.0, 2.0, 2.0, 1.0, 1.0,
-                            1.0, 0.5, 0.5, 1.0, 2.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::PSYCHIC:    this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 2.0,
+                                        2.0, 2.0, 2.0, 2.0, 1.0, 1.0,
+                                        1.0, 0.5, 0.5, 1.0, 2.0, 1.0
+                                   );
+                                   break;
 
-    case ICE:	   SetDamageValues
-                   (
-                            1.0, 2.0, 1.0, 1.0, 1.0, 2.0,
-                            1.0, 1.0, 2.0, 2.0, 1.0, 1.0,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::ICE:        this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 2.0,
+                                        1.0, 1.0, 2.0, 2.0, 1.0, 1.0,
+                                        1.0, 1.0, 0.5, 1.0, 1.0, 1.0
+                                   );
+                                   break;
 
-    case DRAGON:   SetDamageValues
-                   (
-                            1.0, 2.0, 1.0, 1.0, 1.0, 2.0,
-                            1.0, 1.0, 2.0, 1.0, 0.5, 0.5,
-                            0.5, 1.0, 1.0, 2.0, 1.0, 2.0
-                   );
-                   break;
+    case PokemonTypes::DRAGON:     this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 2.0,
+                                        1.0, 1.0, 2.0, 1.0, 0.5, 0.5,
+                                        0.5, 1.0, 1.0, 2.0, 1.0, 2.0
+                                   );
+                                   break;
 
-    case DARK:	   SetDamageValues
-                   (
-                            1.0, 4.0, 1.0, 1.0, 1.0, 2.0,
-                            2.0, 0.5, 2.0, 2.0, 1.0, 1.0,
-                            1.0, 0.0, 0.5, 1.0, 0.5, 2.0
-                   );
-                   break;
+    case PokemonTypes::DARK:	  this->SetDamageValues(
+                                        1.0, 4.0, 1.0, 1.0, 1.0, 2.0,
+                                        2.0, 0.5, 2.0, 2.0, 1.0, 1.0,
+                                        1.0, 0.0, 0.5, 1.0, 0.5, 2.0
+                                  );
+                                  break;
 
-    case FAIRY:	   SetDamageValues
-                   (
-                            1.0, 1.0, 1.0, 2.0, 1.0, 2.0,
-                            0.5, 1.0, 4.0, 2.0, 1.0, 1.0,
-                            1.0, 1.0, 0.5, 0.0, 0.5, 1.0
-                   );
-                   break;
-
-    default:	   break;
+    case PokemonTypes::FAIRY:	  this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 2.0, 1.0, 2.0,
+                                        0.5, 1.0, 4.0, 2.0, 1.0, 1.0,
+                                        1.0, 1.0, 0.5, 0.0, 0.5, 1.0
+                                  );
+                                  break;
     }
 }
 
-/************************************************************************
-* Method NormalTypeDmg: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage if the Pokemon is a normal type
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::NormalTypeDmg()
-{
-    switch(secTypeEnum)
-    {
-    case NORMAL:    SetDamageValues
-                    (
-                            1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 0.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+void PokemonWeakness::NormalTypeDmg(){
+    switch(this->secTypeEnum){
+    case PokemonTypes::NORMAL:    this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 0.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                  );
+                                  break;
 
-    case FIGHTING:  SetDamageValues
-                    (
-                            1.0, 2.0, 2.0, 1.0, 1.0, 0.5,
-                            0.5, 0.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 2.0, 1.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::FIGHTING:  this->SetDamageValues(
+                                        1.0, 2.0, 2.0, 1.0, 1.0, 0.5,
+                                        0.5, 0.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 2.0, 1.0, 1.0, 0.5, 2.0
+                                  );
+                                  break;
 
-    case FLYING:    SetDamageValues
-                    (
-                            1.0, 2.0, 1.0, 1.0, 0.0, 2.0,
-                            0.5, 0.0, 1.0, 1.0, 1.0, 0.5,
-                            2.0, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::FLYING:    this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 0.0, 2.0,
+                                        0.5, 0.0, 1.0, 1.0, 1.0, 0.5,
+                                        2.0, 1.0, 2.0, 1.0, 1.0, 1.0
+                                  );
+                                  break;
 
-    case POISON:    SetDamageValues
-                    (
-                            1.0, 2.0, 1.0, 0.5, 2.0, 1.0,
-                            0.5, 0.0, 1.0, 1.0, 1.0, 0.5,
-                            1.0, 2.0, 1.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::POISON:    this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 0.5, 2.0, 1.0,
+                                        0.5, 0.0, 1.0, 1.0, 1.0, 0.5,
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 0.5
+                                  );
+                                  break;
 
-    case GROUND:    SetDamageValues
-                    (
-                            1.0, 2.0, 1.0, 0.5, 1.0, 0.5,
-                            1.0, 0.0, 1.0, 1.0, 2.0, 2.0,
-                            0.5, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GROUND:    this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 0.5, 1.0, 0.5,
+                                        1.0, 0.0, 1.0, 1.0, 2.0, 2.0,
+                                        0.5, 1.0, 2.0, 1.0, 1.0, 1.0
+                                  );
+                                  break;
 
-    case ROCK:	    SetDamageValues
-                    (
-                            0.5, 4.0, 0.5, 0.5, 2.0, 1.0,
-                            1.0, 0.0, 2.0, 0.5, 2.0, 2.0,
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ROCK:	  this->SetDamageValues(
+                                        0.5, 4.0, 0.5, 0.5, 2.0, 1.0,
+                                        1.0, 0.0, 2.0, 0.5, 2.0, 2.0,
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                  );
+                                  break;
 
-    case BUG:       SetDamageValues
-                    (
-                            1.0, 1.0, 2.0, 1.0, 0.5, 2.0,
-                            1.0, 0.0, 1.0, 2.0, 1.0, 0.5,
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::BUG:       this->SetDamageValues
+                                  (
+                                        1.0, 1.0, 2.0, 1.0, 0.5, 2.0,
+                                        1.0, 0.0, 1.0, 2.0, 1.0, 0.5,
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                  );
+                                  break;
 
-    case GHOST:	    SetDamageValues
-                    (
-                            0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
-                            0.5, 0.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 1.0, 1.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GHOST:	  this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
+                                        0.5, 0.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 1.0, 1.0, 1.0, 2.0, 1.0
+                                  );
+                                  break;
 
-    case STEEL:		SetDamageValues
-                    (
-                            1.0, 4.0, 0.5, 0.0, 2.0, 0.5,
-                            0.5, 0.0, 0.5, 2.0, 1.0, 0.5,
-                            1.0, 0.5, 0.5, 0.5, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::STEEL:     this->SetDamageValues
+                                  (
+                                        1.0, 4.0, 0.5, 0.0, 2.0, 0.5,
+                                        0.5, 0.0, 0.5, 2.0, 1.0, 0.5,
+                                        1.0, 0.5, 0.5, 0.5, 1.0, 0.5
+                                  );
+                                  break;
 
-    case FIRE:		SetDamageValues
-                    (
-                            1.0, 2.0, 1.0, 1.0, 2.0, 2.0,
-                            0.5, 0.0, 0.5, 0.5, 2.0, 2.0,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::FIRE:	  this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 2.0, 2.0,
+                                        0.5, 0.0, 0.5, 0.5, 2.0, 2.0,
+                                        1.0, 1.0, 0.5, 1.0, 1.0, 0.5
+                                  );
+                                  break;
 
-    case WATER:		SetDamageValues
-                    (
-                            1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 0.0, 0.5, 0.5, 0.5, 2.0,
-                            2.0, 1.0, 0.5, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::WATER:     this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 0.0, 0.5, 0.5, 0.5, 2.0,
+                                        2.0, 1.0, 0.5, 1.0, 1.0, 1.0
+                                  );
+                                  break;
 
-    case GRASS:		SetDamageValues
-                    (
-                            1.0, 2.0, 2.0, 2.0, 0.5, 1.0,
-                            2.0, 0.0, 1.0, 2.0, 0.5, 0.5,
-                            0.5, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GRASS:	  this->SetDamageValues(
+                                        1.0, 2.0, 2.0, 2.0, 0.5, 1.0,
+                                        2.0, 0.0, 1.0, 2.0, 0.5, 0.5,
+                                        0.5, 1.0, 2.0, 1.0, 1.0, 1.0
+                                  );
+                                  break;
 
-    case ELECTRIC:  SetDamageValues
-                    (
-                            1.0, 2.0, 0.5, 1.0, 2.0, 1.0,
-                            1.0, 0.0, 0.5, 1.0, 1.0, 1.0,
-                            0.5, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ELECTRIC:  this->SetDamageValues(
+                                        1.0, 2.0, 0.5, 1.0, 2.0, 1.0,
+                                        1.0, 0.0, 0.5, 1.0, 1.0, 1.0,
+                                        0.5, 1.0, 1.0, 1.0, 1.0, 1.0
+                                  );
+                                  break;
 
-    case PSYCHIC:  SetDamageValues
-                   (
-                            1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            2.0, 0.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 0.5, 1.0, 1.0, 2.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::PSYCHIC:   this->SetDamageValues
+                                  (
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                        2.0, 0.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 0.5, 1.0, 1.0, 2.0, 1.0
+                                  );
+                                  break;
 
-    case ICE:	   SetDamageValues
-                   (
-                            1.0, 4.0, 1.0, 1.0, 1.0, 2.0,
-                            1.0, 0.0, 2.0, 2.0, 1.0, 1.0,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::ICE:	      this->SetDamageValues(
+                                        1.0, 4.0, 1.0, 1.0, 1.0, 2.0,
+                                        1.0, 0.0, 2.0, 2.0, 1.0, 1.0,
+                                        1.0, 1.0, 0.5, 1.0, 1.0, 1.0
+                                  );
+                                  break;
 
-    case DRAGON:   SetDamageValues
-                   (
-                            1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 0.0, 1.0, 0.5, 0.5, 0.5,
-                            0.5, 1.0, 2.0, 2.0, 1.0, 2.0
-                   );
-                   break;
+    case PokemonTypes::DRAGON:    this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 0.0, 1.0, 0.5, 0.5, 0.5,
+                                        0.5, 1.0, 2.0, 2.0, 1.0, 2.0
+                                  );
+                                  break;
 
-    case DARK:	   SetDamageValues
-                   (
-                            1.0, 4.0, 1.0, 1.0, 1.0, 1.0,
-                            2.0, 0.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 0.0, 1.0, 1.0, 0.5, 2.0
-                   );
-                   break;
+    case PokemonTypes::DARK:	  this->SetDamageValues(
+                                        1.0, 4.0, 1.0, 1.0, 1.0, 1.0,
+                                        2.0, 0.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 0.0, 1.0, 1.0, 0.5, 2.0
+                                  );
+                                  break;
 
-    case FAIRY:	   SetDamageValues
-                   (
-                            1.0, 2.0, 1.0, 2.0, 1.0, 1.0,
-                            0.5, 0.0, 2.0, 1.0, 1.0, 1.0,
-                            1.0, 1.0, 1.0, 0.0, 0.5, 1.0
-                   );
-                   break;
-
-    default:	   break;
+    case PokemonTypes::FAIRY:	  this->SetDamageValues(
+                                        1.0, 2.0, 1.0, 2.0, 1.0, 1.0,
+                                        0.5, 0.0, 2.0, 1.0, 1.0, 1.0,
+                                        1.0, 1.0, 1.0, 0.0, 0.5, 1.0
+                                  );
+                                  break;
     }
 }
 
-/************************************************************************
-* Method PoisonTypeDmg: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage if the Pokemon is a poison type
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::PoisonTypeDmg()
-{
-    switch(secTypeEnum)
-    {
-    case NORMAL:    SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 0.5, 2.0, 1.0,
-                            0.5, 0.0, 1.0, 1.0, 1.0, 0.5,
-                            1.0, 2.0, 1.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+void PokemonWeakness::PoisonTypeDmg(){
+    switch(this->secTypeEnum){
+    case PokemonTypes::NORMAL:    this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 0.5, 2.0, 1.0,
+                                        0.5, 0.0, 1.0, 1.0, 1.0, 0.5,
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 0.5
+                                  );
+                                  break;
 
-    case FIGHTING:  SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 0.5, 2.0, 0.5,
-                            0.25, 1.0, 1.0, 1.0, 1.0, 0.5,
-                            1.0, 4.0, 1.0, 1.0, 0.5, 1.0
-                    );
-                    break;
+    case PokemonTypes::FIGHTING:  this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 0.5, 2.0, 0.5,
+                                        0.25, 1.0, 1.0, 1.0, 1.0, 0.5,
+                                        1.0, 4.0, 1.0, 1.0, 0.5, 1.0
+                                  );
+                                  break;
 
-    case FLYING:    SetDamageValues
-                    (
-                            1.0, 0.25, 1.0, 0.5, 0.0, 2.0,
-                            0.25, 1.0, 1.0, 1.0, 1.0, 0.25,
-                            2.0, 2.0, 2.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::FLYING:    this->SetDamageValues(
+                                        1.0, 0.25, 1.0, 0.5, 0.0, 2.0,
+                                        0.25, 1.0, 1.0, 1.0, 1.0, 0.25,
+                                        2.0, 2.0, 2.0, 1.0, 1.0, 0.5
+                                  );
+                                  break;
 
-    case POISON:    SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 0.5, 2.0, 1.0,
-                            0.5, 1.0, 1.0, 1.0, 1.0, 0.5,
-                            1.0, 2.0, 1.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::POISON:    this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 0.5, 2.0, 1.0,
+                                        0.5, 1.0, 1.0, 1.0, 1.0, 0.5,
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 0.5
+                                  );
+                                  break;
 
-    case GROUND:    SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 0.25, 2.0, 0.5,
-                            0.5, 1.0, 1.0, 1.0, 2.0, 1.0,
-                            0.0, 2.0, 2.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::GROUND:    this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 0.25, 2.0, 0.5,
+                                        0.5, 1.0, 1.0, 1.0, 2.0, 1.0,
+                                        0.0, 2.0, 2.0, 1.0, 1.0, 0.5
+                                  );
+                                  break;
 
-    case ROCK:	    SetDamageValues
-                    (
-                            0.5, 1.0, 0.5, 0.25, 2.0, 1.0,
-                            0.5, 1.0, 2.0, 0.5, 2.0, 1.0,
-                            1.0, 2.0, 1.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::ROCK:	  this->SetDamageValues(
+                                        0.5, 1.0, 0.5, 0.25, 2.0, 1.0,
+                                        0.5, 1.0, 2.0, 0.5, 2.0, 1.0,
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 0.5
+                                  );
+                                  break;
 
-    case BUG:       SetDamageValues
-                    (
-                            1.0, 0.25, 2.0, 0.5, 1.0, 2.0,
-                            0.5, 1.0, 1.0, 2.0, 1.0, 0.25,
-                            1.0, 2.0, 1.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::BUG:       this->SetDamageValues(
+                                        1.0, 0.25, 2.0, 0.5, 1.0, 2.0,
+                                        0.5, 1.0, 1.0, 2.0, 1.0, 0.25,
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 0.5
+                                  );
+                                  break;
 
-    case GHOST:	    SetDamageValues
-                    (
-                            0.0, 0.0, 1.0, 0.25, 2.0, 1.0,
-                            0.25, 2.0, 1.0, 1.0, 1.0, 0.5,
-                            1.0, 2.0, 1.0, 1.0, 2.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::GHOST:	  this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.25, 2.0, 1.0,
+                                        0.25, 2.0, 1.0, 1.0, 1.0, 0.5,
+                                        1.0, 2.0, 1.0, 1.0, 2.0, 0.5
+                                  );
+                                  break;
 
-    case STEEL:		SetDamageValues
-                    (
-                            0.5, 1.0, 0.5, 0.0, 4.0, 0.5,
-                            0.25, 1.0, 0.5, 2.0, 1.0, 0.25,
-                            1.0, 1.0, 0.5, 0.5, 1.0, 0.25
-                    );
-                    break;
+    case PokemonTypes::STEEL:     this->SetDamageValues(
+                                        0.5, 1.0, 0.5, 0.0, 4.0, 0.5,
+                                        0.25, 1.0, 0.5, 2.0, 1.0, 0.25,
+                                        1.0, 1.0, 0.5, 0.5, 1.0, 0.25
+                                  );
+                                  break;
 
-    case FIRE:		SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 0.5, 4.0, 2.0,
-                            0.25, 1.0, 0.5, 0.5, 2.0, 0.25,
-                            1.0, 2.0, 0.5, 1.0, 1.0, 0.25
-                    );
-                    break;
+    case PokemonTypes::FIRE:	  this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 0.5, 4.0, 2.0,
+                                        0.25, 1.0, 0.5, 0.5, 2.0, 0.25,
+                                        1.0, 2.0, 0.5, 1.0, 1.0, 0.25
+                                  );
+                                  break;
 
-    case WATER:		SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 0.5, 2.0, 1.0,
-                            0.5, 1.0, 0.5, 0.5, 0.5, 1.0,
-                            2.0, 2.0, 0.5, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::WATER:	  this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 0.5, 2.0, 1.0,
+                                        0.5, 1.0, 0.5, 0.5, 0.5, 1.0,
+                                        2.0, 2.0, 0.5, 1.0, 1.0, 0.5
+                                  );
+                                  break;
 
-    case GRASS:		SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 1.0, 1.0, 1.0,
-                            1.0, 1.0, 1.0, 2.0, 0.5, 0.25,
-                            0.5, 2.0, 2.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::GRASS:	  this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 1.0, 1.0, 1.0,
+                                        1.0, 1.0, 1.0, 2.0, 0.5, 0.25,
+                                        0.5, 2.0, 2.0, 1.0, 1.0, 0.5
+                                  );
+                                  break;
 
-    case ELECTRIC:  SetDamageValues
-                    (
-                            1.0, 0.5, 0.5, 0.5, 4.0, 1.0,
-                            0.5, 1.0, 0.5, 1.0, 1.0, 0.5,
-                            0.5, 2.0, 1.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::ELECTRIC:  this->SetDamageValues(
+                                        1.0, 0.5, 0.5, 0.5, 4.0, 1.0,
+                                        0.5, 1.0, 0.5, 1.0, 1.0, 0.5,
+                                        0.5, 2.0, 1.0, 1.0, 1.0, 0.5
+                                  );
+                                  break;
 
-    case PSYCHIC:  SetDamageValues
-                   (
-                            1.0, 0.25, 1.0, 0.5, 2.0, 1.0,
-                            1.0, 2.0, 1.0, 1.0, 1.0, 0.5,
-                            1.0, 1.0, 1.0, 1.0, 2.0, 0.5
-                   );
-                   break;
+    case PokemonTypes::PSYCHIC:   this->SetDamageValues(
+                                        1.0, 0.25, 1.0, 0.5, 2.0, 1.0,
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 0.5,
+                                        1.0, 1.0, 1.0, 1.0, 2.0, 0.5
+                                  );
+                                  break;
 
-    case ICE:	   SetDamageValues
-                   (
-                            1.0, 1.0, 1.0, 0.5, 2.0, 2.0,
-                            0.5, 1.0, 2.0, 2.0, 1.0, 0.5,
-                            1.0, 2.0, 0.5, 1.0, 1.0, 0.5
-                   );
-                   break;
+    case PokemonTypes::ICE:	      this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 0.5, 2.0, 2.0,
+                                        0.5, 1.0, 2.0, 2.0, 1.0, 0.5,
+                                        1.0, 2.0, 0.5, 1.0, 1.0, 0.5
+                                  );
+                                  break;
 
-    case DRAGON:   SetDamageValues
-                   (
-                            1.0, 0.5, 1.0, 0.5, 2.0, 1.0,
-                            0.5, 1.0, 1.0, 0.5, 0.5, 0.25,
-                            0.5, 2.0, 2.0, 2.0, 1.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::DRAGON:    this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 0.5, 2.0, 1.0,
+                                        0.5, 1.0, 1.0, 0.5, 0.5, 0.25,
+                                        0.5, 2.0, 2.0, 2.0, 1.0, 1.0
+                                  );
+                                  break;
 
-    case DARK:	   SetDamageValues
-                   (
-                            1.0, 1.0, 1.0, 0.5, 2.0, 1.0,
-                            1.0, 0.5, 1.0, 1.0, 1.0, 0.5,
-                            1.0, 0.0, 1.0, 1.0, 0.5, 1.0
-                   );
-                   break;
+    case PokemonTypes::DARK:	  this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 0.5, 2.0, 1.0,
+                                        1.0, 0.5, 1.0, 1.0, 1.0, 0.5,
+                                        1.0, 0.0, 1.0, 1.0, 0.5, 1.0
+                                  );
+                                  break;
 
-    case FAIRY:	   SetDamageValues
-                   (
-                            1.0, 0.25, 1.0, 1.0, 2.0, 1.0,
-                            0.25, 1.0, 2.0, 1.0, 1.0, 0.5,
-                            1.0, 2.0, 1.0, 0.0, 0.5, 0.5
-                   );
-                   break;
-
-    default:	   break;
+    case PokemonTypes::FAIRY:	  this->SetDamageValues(
+                                        1.0, 0.25, 1.0, 1.0, 2.0, 1.0,
+                                        0.25, 1.0, 2.0, 1.0, 1.0, 0.5,
+                                        1.0, 2.0, 1.0, 0.0, 0.5, 0.5
+                                  );
+                                  break;
     }
 }
 
-/************************************************************************
-* Method PsychicTypeDmg: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage if the Pokemon is a psychic type
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::PsychicTypeDmg()
-{
-    switch(secTypeEnum)
-    {
-    case NORMAL:    SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
-                            2.0, 0.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 0.5, 1.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+void PokemonWeakness::PsychicTypeDmg(){
+    switch(this->secTypeEnum){
+    case PokemonTypes::NORMAL:    this->SetDamageValues(
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                                        2.0, 0.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 0.5, 1.0, 1.0, 2.0, 1.0
+                                  );
+                                  break;
 
-    case FIGHTING:  SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 1.0, 1.0, 0.5,
-                            1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 1.0, 1.0, 1.0, 1.0, 2.0
-                    );
-                    break;
+    case PokemonTypes::FIGHTING:  this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 1.0, 1.0, 0.5,
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 2.0
+                                  );
+                                  break;
 
-    case FLYING:    SetDamageValues
-                    (
-                            1.0, 0.25, 1.0, 1.0, 0.0, 2.0,
-                            1.0, 2.0, 1.0, 1.0, 1.0, 0.5,
-                            2.0, 0.5, 2.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::FLYING:    this->SetDamageValues(
+                                        1.0, 0.25, 1.0, 1.0, 0.0, 2.0,
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 0.5,
+                                        2.0, 0.5, 2.0, 1.0, 2.0, 1.0
+                                  );
+                                  break;
 
-    case POISON:    SetDamageValues
-                    (
-                            1.0, 0.25, 1.0, 0.5, 2.0, 1.0,
-                            1.0, 2.0, 1.0, 1.0, 1.0, 0.5,
-                            1.0, 1.0, 1.0, 1.0, 2.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::POISON:    this->SetDamageValues(
+                                        1.0, 0.25, 1.0, 0.5, 2.0, 1.0,
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 0.5,
+                                        1.0, 1.0, 1.0, 1.0, 2.0, 0.5
+                                  );
+                                  break;
 
-    case GROUND:    SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 0.5, 1.0, 0.5,
-                            2.0, 2.0, 1.0, 1.0, 2.0, 2.0,
-                            0.0, 0.5, 2.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GROUND:    this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 0.5, 1.0, 0.5,
+                                        2.0, 2.0, 1.0, 1.0, 2.0, 2.0,
+                                        0.0, 0.5, 2.0, 1.0, 2.0, 1.0
+                                  );
+                                  break;
 
-    case ROCK:	    SetDamageValues
-                    (
-                            0.5, 1.0, 0.5, 0.5, 2.0, 1.0,
-                            2.0, 2.0, 2.0, 0.5, 2.0, 2.0,
-                            1.0, 0.5, 1.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ROCK:	  this->SetDamageValues(
+                                        0.5, 1.0, 0.5, 0.5, 2.0, 1.0,
+                                        2.0, 2.0, 2.0, 0.5, 2.0, 2.0,
+                                        1.0, 0.5, 1.0, 1.0, 2.0, 1.0
+                                  );
+                                  break;
 
-    case BUG:       SetDamageValues
-                    (
-                            1.0, 0.25, 2.0, 1.0, 0.5, 2.0,
-                            2.0, 2.0, 1.0, 2.0, 1.0, 0.5,
-                            1.0, 0.5, 1.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::BUG:       this->SetDamageValues(
+                                        1.0, 0.25, 2.0, 1.0, 0.5, 2.0,
+                                        2.0, 2.0, 1.0, 2.0, 1.0, 0.5,
+                                        1.0, 0.5, 1.0, 1.0, 2.0, 1.0
+                                  );
+                                  break;
 
-    case GHOST:	    SetDamageValues
-                    (
-                            0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
-                            1.0, 4.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 0.5, 1.0, 1.0, 4.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GHOST:	  this->SetDamageValues(
+                                        0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
+                                        1.0, 4.0, 1.0, 1.0, 1.0, 1.0,
+                                        1.0, 0.5, 1.0, 1.0, 4.0, 1.0
+                                  );
+                                  break;
 
-    case STEEL:		SetDamageValues
-                    (
-                            0.5, 1.0, 0.5, 0.0, 2.0, 0.5,
-                            1.0, 2.0, 0.5, 2.0, 1.0, 0.5,
-                            1.0, 0.25, 0.5, 0.5, 2.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::STEEL:	  this->SetDamageValues(
+                                        0.5, 1.0, 0.5, 0.0, 2.0, 0.5,
+                                        1.0, 2.0, 0.5, 2.0, 1.0, 0.5,
+                                        1.0, 0.25, 0.5, 0.5, 2.0, 0.5
+                                  );
+                                  break;
 
-    case FIRE:		SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 1.0, 2.0, 2.0,
-                            1.0, 2.0, 0.5, 0.5, 2.0, 0.5,
-                            1.0, 0.5, 0.5, 1.0, 2.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::FIRE:      this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 1.0, 2.0, 2.0,
+                                        1.0, 2.0, 0.5, 0.5, 2.0, 0.5,
+                                        1.0, 0.5, 0.5, 1.0, 2.0, 0.5
+                                  );
+                                  break;
 
-    case WATER:		SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 1.0, 1.0, 1.0,
-                            2.0, 2.0, 0.5, 0.5, 0.5, 2.0,
-                            2.0, 0.5, 0.5, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::WATER:	  this->SetDamageValues(
+                                        1.0, 0.5, 1.0, 1.0, 1.0, 1.0,
+                                        2.0, 2.0, 0.5, 0.5, 0.5, 2.0,
+                                        2.0, 0.5, 0.5, 1.0, 2.0, 1.0
+                                  );
+                                  break;
 
-    case GRASS:		SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 2.0, 0.5, 1.0,
-                            4.0, 2.0, 1.0, 2.0, 0.5, 1.0,
-                            0.5, 0.5, 2.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GRASS:	  this->SetDamageValues(
+                                        1.0, 0.5, 2.0, 2.0, 0.5, 1.0,
+                                        4.0, 2.0, 1.0, 2.0, 0.5, 1.0,
+                                        0.5, 0.5, 2.0, 1.0, 2.0, 1.0
+                                  );
+                                  break;
 
-    case ELECTRIC:  SetDamageValues
-                    (
-                            1.0, 0.5, 0.5, 1.0, 2.0, 1.0,
-                            2.0, 2.0, 0.5, 1.0, 1.0, 1.0,
-                            0.5, 0.5, 1.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ELECTRIC: this->SetDamageValues(
+                                    1.0, 0.5, 0.5, 1.0, 2.0, 1.0,
+                                    2.0, 2.0, 0.5, 1.0, 1.0, 1.0,
+                                    0.5, 0.5, 1.0, 1.0, 2.0, 1.0
+                                 );
+                                 break;
 
-    case PSYCHIC:  SetDamageValues
-                   (
-                            1.0, 0.5, 1.0, 1.0, 1.0, 1.0,
-                            2.0, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 0.5, 1.0, 1.0, 2.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::PSYCHIC:  this->SetDamageValues(
+                                    1.0, 0.5, 1.0, 1.0, 1.0, 1.0,
+                                    2.0, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                    1.0, 0.5, 1.0, 1.0, 2.0, 1.0
+                                 );
+                                 break;
 
-    case ICE:	   SetDamageValues
-                   (
-                            1.0, 1.0, 1.0, 1.0, 1.0, 2.0,
-                            2.0, 2.0, 2.0, 2.0, 1.0, 1.0,
-                            1.0, 0.5, 0.5, 1.0, 2.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::ICE:	     this->SetDamageValues(
+                                    1.0, 1.0, 1.0, 1.0, 1.0, 2.0,
+                                    2.0, 2.0, 2.0, 2.0, 1.0, 1.0,
+                                    1.0, 0.5, 0.5, 1.0, 2.0, 1.0
+                                 );
+                                 break;
 
-    case DRAGON:   SetDamageValues
-                   (
-                            1.0, 0.5, 1.0, 1.0, 1.0, 1.0,
-                            2.0, 2.0, 1.0, 0.5, 0.5, 0.5,
-                            0.5, 0.5, 2.0, 2.0, 2.0, 2.0
-                   );
-                   break;
+    case PokemonTypes::DRAGON:   this->SetDamageValues(
+                                    1.0, 0.5, 1.0, 1.0, 1.0, 1.0,
+                                    2.0, 2.0, 1.0, 0.5, 0.5, 0.5,
+                                    0.5, 0.5, 2.0, 2.0, 2.0, 2.0
+                                 );
+                                 break;
 
-    case DARK:	   SetDamageValues
-                   (
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
-                            4.0, 1.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 0.0, 1.0, 1.0, 1.0, 2.0
-                   );
-                   break;
+    case PokemonTypes::DARK:	 this->SetDamageValues(
+                                    1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                                    4.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                                    1.0, 0.0, 1.0, 1.0, 1.0, 2.0
+                                 );
+                                 break;
 
-    case FAIRY:	   SetDamageValues
-                   (
-                            1.0, 0.25, 1.0, 2.0, 1.0, 1.0,
-                            1.0, 2.0, 2.0, 1.0, 1.0, 1.0,
-                            1.0, 0.5, 1.0, 0.0, 1.0, 1.0
-                   );
-                   break;
-
-    default:	   break;
+    case PokemonTypes::FAIRY:	 this->SetDamageValues(
+                                    1.0, 0.25, 1.0, 2.0, 1.0, 1.0,
+                                    1.0, 2.0, 2.0, 1.0, 1.0, 1.0,
+                                    1.0, 0.5, 1.0, 0.0, 1.0, 1.0
+                                 );
+                                 break;
     }
 }
 
-/************************************************************************
-* Method RockTypeDmg: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage if the Pokemon is a rock type
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::RockTypeDmg()
-{
-    switch(secTypeEnum)
-    {
-    case NORMAL:    SetDamageValues
-                    (
-                            0.5, 4.0, 0.5, 0.5, 2.0, 1.0,
-                            1.0, 0.0, 2.0, 0.5, 2.0, 2.0,
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+void PokemonWeakness::RockTypeDmg(){
+    switch(this->secTypeEnum){
+    case PokemonTypes::NORMAL:   this->SetDamageValues(
+                                        0.5, 4.0, 0.5, 0.5, 2.0, 1.0,
+                                        1.0, 0.0, 2.0, 0.5, 2.0, 2.0,
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case FIGHTING:  SetDamageValues
-                    (
-                            0.5, 2.0, 1.0, 0.5, 2.0, 0.5,
-                            0.5, 1.0, 2.0, 0.5, 2.0, 2.0,
-                            1.0, 2.0, 1.0, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::FIGHTING: this->SetDamageValues(
+                                        0.5, 2.0, 1.0, 0.5, 2.0, 0.5,
+                                        0.5, 1.0, 2.0, 0.5, 2.0, 2.0,
+                                        1.0, 2.0, 1.0, 1.0, 0.5, 2.0
+                                 );
+                                 break;
 
-    case FLYING:    SetDamageValues
-                    (
-                            0.5, 1.0, 0.5, 0.5, 0.0, 2.0,
-                            0.5, 1.0, 2.0, 0.5, 2.0, 1.0,
-                            2.0, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::FLYING:   this->SetDamageValues(
+                                        0.5, 1.0, 0.5, 0.5, 0.0, 2.0,
+                                        0.5, 1.0, 2.0, 0.5, 2.0, 1.0,
+                                        2.0, 1.0, 2.0, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case POISON:    SetDamageValues
-                    (
-                            0.5, 1.0, 0.5, 0.25, 4.0, 1.0,
-                            0.5, 1.0, 2.0, 0.5, 2.0, 1.0,
-                            1.0, 2.0, 1.0, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::POISON:   this->SetDamageValues(
+                                        0.5, 1.0, 0.5, 0.25, 4.0, 1.0,
+                                        0.5, 1.0, 2.0, 0.5, 2.0, 1.0,
+                                        1.0, 2.0, 1.0, 1.0, 1.0, 0.5
+                                 );
+                                 break;
 
-    case GROUND:    SetDamageValues
-                    (
-                            0.5, 2.0, 0.5, 0.25, 2.0, 0.5,
-                            1.0, 1.0, 2.0, 0.5, 4.0, 4.0,
-                            0.0, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GROUND:   this->SetDamageValues(
+                                        0.5, 2.0, 0.5, 0.25, 2.0, 0.5,
+                                        1.0, 1.0, 2.0, 0.5, 4.0, 4.0,
+                                        0.0, 1.0, 2.0, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case ROCK:	    SetDamageValues
-                    (
-                            0.5, 2.0, 0.5, 0.5, 2.0, 1.0,
-                            1.0, 1.0, 2.0, 0.5, 2.0, 2.0,
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ROCK:	 this->SetDamageValues(
+                                        0.5, 2.0, 0.5, 0.5, 2.0, 1.0,
+                                        1.0, 1.0, 2.0, 0.5, 2.0, 2.0,
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case BUG:       SetDamageValues
-                    (
-                            0.5, 1.0, 1.0, 0.5, 1.0, 2.0,
-                            1.0, 1.0, 2.0, 1.0, 2.0, 1.0,
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::BUG:      this->SetDamageValues(
+                                        0.5, 1.0, 1.0, 0.5, 1.0, 2.0,
+                                        1.0, 1.0, 2.0, 1.0, 2.0, 1.0,
+                                        1.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case GHOST:	    SetDamageValues
-                    (
-                            0.0, 0.0, 0.5, 0.25, 2.0, 1.0,
-                            0.5, 2.0, 2.0, 0.5, 2.0, 2.0,
-                            1.0, 1.0, 1.0, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GHOST:	 this->SetDamageValues(
+                                        0.0, 0.0, 0.5, 0.25, 2.0, 1.0,
+                                        0.5, 2.0, 2.0, 0.5, 2.0, 2.0,
+                                        1.0, 1.0, 1.0, 1.0, 2.0, 1.0
+                                 );
+                                 break;
 
-    case STEEL:		SetDamageValues
-                    (
-                            0.25, 4.0, 0.25, 0.0, 4.0, 0.5,
-                            0.5, 1.0, 1.0, 1.0, 2.0, 1.0,
-                            1.0, 0.5, 0.5, 0.5, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::STEEL:    this->SetDamageValues(
+                                        0.25, 4.0, 0.25, 0.0, 4.0, 0.5,
+                                        0.5, 1.0, 1.0, 1.0, 2.0, 1.0,
+                                        1.0, 0.5, 0.5, 0.5, 1.0, 0.5
+                                 );
+                                 break;
 
-    case FIRE:		SetDamageValues
-                    (
-                            0.5, 2.0, 0.5, 0.5, 4.0, 2.0,
-                            0.5, 1.0, 1.0, 0.25, 4.0, 1.0,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::FIRE:	 this->SetDamageValues(
+                                        0.5, 2.0, 0.5, 0.5, 4.0, 2.0,
+                                        0.5, 1.0, 1.0, 0.25, 4.0, 1.0,
+                                        1.0, 1.0, 0.5, 1.0, 1.0, 0.5
+                                 );
+                                 break;
 
-    case WATER:		SetDamageValues
-                    (
-                            0.5, 2.0, 0.5, 0.5, 2.0, 1.0,
-                            1.0, 1.0, 1.0, 0.25, 1.0, 4.0,
-                            2.0, 1.0, 0.5, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::WATER:	 this->SetDamageValues(
+                                        0.5, 2.0, 0.5, 0.5, 2.0, 1.0,
+                                        1.0, 1.0, 1.0, 0.25, 1.0, 4.0,
+                                        2.0, 1.0, 0.5, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case GRASS:		SetDamageValues
-                    (
-                            0.5, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            2.0, 1.0, 2.0, 1.0, 1.0, 1.0,
-                            0.5, 1.0, 2.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GRASS:	 this->SetDamageValues(
+                                        0.5, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                        2.0, 1.0, 2.0, 1.0, 1.0, 1.0,
+                                        0.5, 1.0, 2.0, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case ELECTRIC:  SetDamageValues
-                    (
-                            0.5, 2.0, 0.25, 0.5, 4.0, 1.0,
-                            1.0, 1.0, 1.0, 0.5, 2.0, 2.0,
-                            0.5, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ELECTRIC: this->SetDamageValues(
+                                        0.5, 2.0, 0.25, 0.5, 4.0, 1.0,
+                                        1.0, 1.0, 1.0, 0.5, 2.0, 2.0,
+                                        0.5, 1.0, 1.0, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case PSYCHIC:  SetDamageValues
-                   (
-                            0.5, 1.0, 0.5, 0.5, 2.0, 1.0,
-                            2.0, 2.0, 2.0, 0.5, 2.0, 2.0,
-                            1.0, 0.5, 1.0, 1.0, 2.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::PSYCHIC:  this->SetDamageValues(
+                                        0.5, 1.0, 0.5, 0.5, 2.0, 1.0,
+                                        2.0, 2.0, 2.0, 0.5, 2.0, 2.0,
+                                        1.0, 0.5, 1.0, 1.0, 2.0, 1.0
+                                 );
+                                 break;
 
-    case ICE:	   SetDamageValues
-                   (
-                            0.5, 4.0, 0.5, 0.5, 2.0, 2.0,
-                            1.0, 1.0, 4.0, 1.0, 2.0, 2.0,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::ICE:	     this->SetDamageValues(
+                                        0.5, 4.0, 0.5, 0.5, 2.0, 2.0,
+                                        1.0, 1.0, 4.0, 1.0, 2.0, 2.0,
+                                        1.0, 1.0, 0.5, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case DRAGON:   SetDamageValues
-                   (
-                            0.5, 2.0, 0.5, 0.5, 2.0, 1.0,
-                            1.0, 1.0, 2.0, 0.25, 1.0, 1.0,
-                            0.5, 1.0, 2.0, 2.0, 1.0, 2.0
-                   );
-                   break;
+    case PokemonTypes::DRAGON:   this->SetDamageValues(
+                                        0.5, 2.0, 0.5, 0.5, 2.0, 1.0,
+                                        1.0, 1.0, 2.0, 0.25, 1.0, 1.0,
+                                        0.5, 1.0, 2.0, 2.0, 1.0, 2.0
+                                 );
+                                 break;
 
-    case DARK:	   SetDamageValues
-                   (
-                            0.5, 4.0, 0.5, 0.5, 2.0, 1.0,
-                            2.0, 0.5, 2.0, 0.5, 2.0, 2.0,
-                            1.0, 1.0, 1.0, 1.0, 0.5, 2.0
-                   );
-                   break;
+    case PokemonTypes::DARK:	 this->SetDamageValues(
+                                        0.5, 4.0, 0.5, 0.5, 2.0, 1.0,
+                                        2.0, 0.5, 2.0, 0.5, 2.0, 2.0,
+                                        1.0, 1.0, 1.0, 1.0, 0.5, 2.0
+                                 );
+                                 break;
 
-    case FAIRY:	   SetDamageValues
-                   (
-                            0.5, 1.0, 0.5, 1.0, 2.0, 1.0,
-                            0.5, 1.0, 4.0, 0.5, 2.0, 2.0,
-                            1.0, 1.0, 1.0, 0.0, 0.5, 1.0
-                   );
-                   break;
-
-    default:	   break;
+    case PokemonTypes::FAIRY:	 this->SetDamageValues(
+                                        0.5, 1.0, 0.5, 1.0, 2.0, 1.0,
+                                        0.5, 1.0, 4.0, 0.5, 2.0, 2.0,
+                                        1.0, 1.0, 1.0, 0.0, 0.5, 1.0
+                                 );
+                                 break;
     }
 }
 
-/************************************************************************
-* Method SteelTypeDmg: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage if the Pokemon is a steel type
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::SteelTypeDmg()
-{
-    switch(secTypeEnum)
-    {
-    case NORMAL:    SetDamageValues
-                    (
-                            0.5, 4.0, 0.5, 0.0, 2.0, 0.5,
-                            0.5, 0.0, 1.0, 2.0, 1.0, 0.5,
-                            1.0, 0.5, 0.5, 0.5, 1.0, 0.5
-                    );
-                    break;
+void PokemonWeakness::SteelTypeDmg(){
+    switch(this->secTypeEnum){
+    case PokemonTypes::NORMAL:   this->SetDamageValues(
+                                        0.5, 4.0, 0.5, 0.0, 2.0, 0.5,
+                                        0.5, 0.0, 1.0, 2.0, 1.0, 0.5,
+                                        1.0, 0.5, 0.5, 0.5, 1.0, 0.5
+                                 );
+                                 break;
 
-    case FIGHTING:  SetDamageValues
-                    (
-                            0.5, 2.0, 1.0, 0.0, 2.0, 0.25,
-                            0.25, 1.0, 0.5, 2.0, 1.0, 0.5,
-                            1.0, 1.0, 0.5, 0.5, 0.5, 1.0
-                    );
-                    break;
+    case PokemonTypes::FIGHTING: this->SetDamageValues(
+                                        0.5, 2.0, 1.0, 0.0, 2.0, 0.25,
+                                        0.25, 1.0, 0.5, 2.0, 1.0, 0.5,
+                                        1.0, 1.0, 0.5, 0.5, 0.5, 1.0
+                                 );
+                                 break;
 
-    case FLYING:    SetDamageValues
-                    (
-                            0.5, 1.0, 0.5, 0.0, 0.0, 1.0,
-                            0.5, 1.0, 0.5, 2.0, 1.0, 0.5,
-                            2.0, 0.5, 1.0, 0.5, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::FLYING:   this->SetDamageValues(
+                                        0.5, 1.0, 0.5, 0.0, 0.0, 1.0,
+                                        0.5, 1.0, 0.5, 2.0, 1.0, 0.5,
+                                        2.0, 0.5, 1.0, 0.5, 1.0, 0.5
+                                 );
+                                 break;
 
-    case POISON:    SetDamageValues
-                    (
-                            0.5, 1.0, 0.5, 0.0, 4.0, 0.5,
-                            1.0, 1.0, 0.5, 2.0, 1.0, 1.0,
-                            1.0, 1.0, 0.5, 0.5, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::POISON:   this->SetDamageValues(
+                                        0.5, 1.0, 0.5, 0.0, 4.0, 0.5,
+                                        1.0, 1.0, 0.5, 2.0, 1.0, 1.0,
+                                        1.0, 1.0, 0.5, 0.5, 1.0, 1.0
+                                 );
+                                 break;
 
-    case GROUND:    SetDamageValues
-                    (
-                            0.5, 2.0, 0.5, 0.0, 2.0, 0.25,
-                            0.5, 1.0, 0.5, 2.0, 2.0, 1.0,
-                            0.0, 0.5, 1.0, 0.5, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::GROUND:   this->SetDamageValues(
+                                        0.5, 2.0, 0.5, 0.0, 2.0, 0.25,
+                                        0.5, 1.0, 0.5, 2.0, 2.0, 1.0,
+                                        0.0, 0.5, 1.0, 0.5, 1.0, 0.5
+                                 );
+                                 break;
 
-    case ROCK:	    SetDamageValues
-                    (
-                            0.25, 4.0, 0.25, 0.0, 4.0, 0.5,
-                            0.5, 1.0, 1.0, 1.0, 2.0, 1.0,
-                            1.0, 0.5, 0.5, 0.5, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::ROCK:	 this->SetDamageValues(
+                                    0.25, 4.0, 0.25, 0.0, 4.0, 0.5,
+                                    0.5, 1.0, 1.0, 1.0, 2.0, 1.0,
+                                    1.0, 0.5, 0.5, 0.5, 1.0, 0.5
+                                 );
+                                 break;
 
-    case BUG:       SetDamageValues
-                    (
-                            0.5, 1.0, 1.0, 0.0, 1.0, 1.0,
-                            0.5, 1.0, 0.5, 4.0, 1.0, 0.25,
-                            1.0, 0.5, 0.5, 0.5, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::BUG:      this->SetDamageValues(
+                                    0.5, 1.0, 1.0, 0.0, 1.0, 1.0,
+                                    0.5, 1.0, 0.5, 4.0, 1.0, 0.25,
+                                    1.0, 0.5, 0.5, 0.5, 1.0, 0.5
+                                 );
+                                 break;
 
-    case GHOST:	    SetDamageValues
-                    (
-                            0.0, 0.0, 0.5, 0.0, 2.0, 0.5,
-                            0.25, 2.0, 0.5, 2.0, 1.0, 0.5,
-                            1.0, 0.5, 0.5, 0.5, 2.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::GHOST:	 this->SetDamageValues(
+                                    0.0, 0.0, 0.5, 0.0, 2.0, 0.5,
+                                    0.25, 2.0, 0.5, 2.0, 1.0, 0.5,
+                                    1.0, 0.5, 0.5, 0.5, 2.0, 0.5
+                                 );
+                                 break;
 
-    case STEEL:		SetDamageValues
-                    (
-                            0.5, 2.0, 0.5, 0.0, 2.0, 0.5,
-                            0.5, 1.0, 0.5, 2.0, 1.0, 0.5,
-                            1.0, 0.5, 0.5, 0.5, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::STEEL:	 this->SetDamageValues(
+                                    0.5, 2.0, 0.5, 0.0, 2.0, 0.5,
+                                    0.5, 1.0, 0.5, 2.0, 1.0, 0.5,
+                                    1.0, 0.5, 0.5, 0.5, 1.0, 0.5
+                                 );
+                                 break;
 
-    case FIRE:		SetDamageValues
-                    (
-                            0.5, 2.0, 0.5, 0.0, 4.0, 1.0,
-                            0.25, 1.0, 0.25, 1.0, 2.0, 0.25,
-                            1.0, 0.5, 0.25, 0.5, 1.0, 0.25
-                    );
-                    break;
+    case PokemonTypes::FIRE:     this->SetDamageValues(
+                                    0.5, 2.0, 0.5, 0.0, 4.0, 1.0,
+                                    0.25, 1.0, 0.25, 1.0, 2.0, 0.25,
+                                    1.0, 0.5, 0.25, 0.5, 1.0, 0.25
+                                 );
+                                 break;
 
-    case WATER:		SetDamageValues
-                    (
-                            0.5, 1.0, 0.5, 0.0, 1.0, 0.5,
-                            0.5, 1.0, 0.25, 1.0, 0.5, 1.0,
-                            1.0, 0.5, 0.25, 0.5, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::WATER:	 this->SetDamageValues(
+                                    0.5, 1.0, 0.5, 0.0, 1.0, 0.5,
+                                    0.5, 1.0, 0.25, 1.0, 0.5, 1.0,
+                                    1.0, 0.5, 0.25, 0.5, 1.0, 0.5
+                                 );
+                                 break;
 
-    case GRASS:		SetDamageValues
-                    (
-                            0.5, 2.0, 1.0, 0.0, 1.0, 0.5,
-                            1.0, 1.0, 0.5, 4.0, 0.5, 0.25,
-                            0.5, 1.0, 0.5, 0.5, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::GRASS:    this->SetDamageValues(
+                                    0.5, 2.0, 1.0, 0.0, 1.0, 0.5,
+                                    1.0, 1.0, 0.5, 4.0, 0.5, 0.25,
+                                    0.5, 1.0, 0.5, 0.5, 1.0, 0.5
+                                 );
+                                 break;
 
-    case ELECTRIC:  SetDamageValues
-                    (
-                            0.5, 2.0, 0.25, 0.0, 1.0, 0.5,
-                            0.5, 1.0, 0.25, 2.0, 1.0, 0.5,
-                            0.5, 0.5, 0.5, 0.5, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::ELECTRIC: this->SetDamageValues(
+                                    0.5, 2.0, 0.25, 0.0, 1.0, 0.5,
+                                    0.5, 1.0, 0.25, 2.0, 1.0, 0.5,
+                                    0.5, 0.5, 0.5, 0.5, 1.0, 0.5
+                                 );
+                                 break;
 
-    case PSYCHIC:  SetDamageValues
-                   (
-                            0.5, 1.0, 0.5, 0.0, 2.0, 0.5,
-                            1.0, 2.0, 0.5, 2.0, 1.0, 0.5,
-                            1.0, 1.0, 0.5, 0.5, 2.0, 0.5
-                   );
-                   break;
+    case PokemonTypes::PSYCHIC:  this->SetDamageValues(
+                                    0.5, 1.0, 0.5, 0.0, 2.0, 0.5,
+                                    1.0, 2.0, 0.5, 2.0, 1.0, 0.5,
+                                    1.0, 1.0, 0.5, 0.5, 2.0, 0.5
+                                 );
+                                 break;
 
-    case ICE:	   SetDamageValues
-                   (
-                            0.5, 4.0, 0.5, 0.0, 2.0, 1.0,
-                            0.5, 1.0, 1.0, 4.0, 1.0, 0.5,
-                            1.0, 0.5, 0.25, 0.5, 1.0, 0.5
-                   );
-                   break;
+    case PokemonTypes::ICE:	     this->SetDamageValues(
+                                    0.5, 4.0, 0.5, 0.0, 2.0, 1.0,
+                                    0.5, 1.0, 1.0, 4.0, 1.0, 0.5,
+                                    1.0, 0.5, 0.25, 0.5, 1.0, 0.5
+                                 );
+                                 break;
 
-    case DRAGON:   SetDamageValues
-                   (
-                            0.5, 2.0, 0.5, 0.0, 2.0, 0.5,
-                            0.5, 1.0, 0.5, 1.0, 0.5, 0.25,
-                            0.5, 0.5, 1.0, 1.0, 1.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::DRAGON:   this->SetDamageValues(
+                                    0.5, 2.0, 0.5, 0.0, 2.0, 0.5,
+                                    0.5, 1.0, 0.5, 1.0, 0.5, 0.25,
+                                    0.5, 0.5, 1.0, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case DARK:	   SetDamageValues
-                   (
-                            0.5, 4.0, 0.5, 0.0, 2.0, 0.5,
-                            1.0, 0.5, 0.5, 2.0, 1.0, 0.5,
-                            1.0, 0.0, 0.5, 0.5, 0.5, 1.0
-                   );
-                   break;
+    case PokemonTypes::DARK:	 this->SetDamageValues(
+                                    0.5, 4.0, 0.5, 0.0, 2.0, 0.5,
+                                    1.0, 0.5, 0.5, 2.0, 1.0, 0.5,
+                                    1.0, 0.0, 0.5, 0.5, 0.5, 1.0
+                                 );
+                                 break;
 
-    case FAIRY:	   SetDamageValues
-                   (
-                            0.5, 1.0, 0.5, 0.0, 2.0, 0.5,
-                            0.25, 1.0, 1.0, 2.0, 1.0, 0.5,
-                            1.0, 0.5, 0.5, 0.0, 0.5, 0.5
-                   );
-                   break;
-
-    default:	   break;
+    case PokemonTypes::FAIRY:	 this->SetDamageValues(
+                                    0.5, 1.0, 0.5, 0.0, 2.0, 0.5,
+                                    0.25, 1.0, 1.0, 2.0, 1.0, 0.5,
+                                    1.0, 0.5, 0.5, 0.0, 0.5, 0.5
+                                 );
+                                 break;
     }
 }
 
-/************************************************************************
-* Method WaterTypeDmg: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method initializes the damage if the Pokemon is a water type
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::WaterTypeDmg()
-{
-    switch(secTypeEnum)
-    {
-    case NORMAL:    SetDamageValues
-                    (
-                            1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 0.0, 0.5, 0.5, 0.5, 2.0,
-                            2.0, 1.0, 0.5, 1.0, 1.0, 1.0
-                    );
-                    break;
+void PokemonWeakness::WaterTypeDmg(){
+    switch(this->secTypeEnum){
+    case PokemonTypes::NORMAL:   this->SetDamageValues(
+                                    1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                    1.0, 0.0, 0.5, 0.5, 0.5, 2.0,
+                                    2.0, 1.0, 0.5, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case FIGHTING:  SetDamageValues
-                    (
-                            1.0, 1.0, 2.0, 1.0, 1.0, 0.5,
-                            0.5, 1.0, 0.5, 0.5, 0.5, 2.0,
-                            2.0, 2.0, 0.5, 1.0, 0.5, 2.0
-                    );
-                    break;
+    case PokemonTypes::FIGHTING: this->SetDamageValues(
+                                    1.0, 1.0, 2.0, 1.0, 1.0, 0.5,
+                                    0.5, 1.0, 0.5, 0.5, 0.5, 2.0,
+                                    2.0, 2.0, 0.5, 1.0, 0.5, 2.0
+                                 );
+                                 break;
 
-    case FLYING:    SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 1.0, 0.0, 2.0,
-                            0.5, 1.0, 0.5, 0.5, 0.5, 1.0,
-                            4.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::FLYING:   this->SetDamageValues(
+                                    1.0, 0.5, 1.0, 1.0, 0.0, 2.0,
+                                    0.5, 1.0, 0.5, 0.5, 0.5, 1.0,
+                                    4.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case POISON:    SetDamageValues
-                    (
-                            1.0, 0.5, 1.0, 0.5, 2.0, 1.0,
-                            0.5, 1.0, 0.5, 0.5, 0.5, 1.0,
-                            2.0, 2.0, 0.5, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::POISON:   this->SetDamageValues(
+                                    1.0, 0.5, 1.0, 0.5, 2.0, 1.0,
+                                    0.5, 1.0, 0.5, 0.5, 0.5, 1.0,
+                                    2.0, 2.0, 0.5, 1.0, 1.0, 0.5
+                                 );
+                                 break;
 
-    case GROUND:    SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 0.5, 1.0, 0.5,
-                            1.0, 1.0, 0.5, 0.5, 1.0, 4.0,
-                            0.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GROUND:   this->SetDamageValues(
+                                    1.0, 1.0, 1.0, 0.5, 1.0, 0.5,
+                                    1.0, 1.0, 0.5, 0.5, 1.0, 4.0,
+                                    0.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case ROCK:	    SetDamageValues
-                    (
-                            0.5, 2.0, 0.5, 0.5, 2.0, 1.0,
-                            1.0, 1.0, 1.0, 0.25, 1.0, 4.0,
-                            2.0, 1.0, 0.5, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ROCK:	 this->SetDamageValues(
+                                    0.5, 2.0, 0.5, 0.5, 2.0, 1.0,
+                                    1.0, 1.0, 1.0, 0.25, 1.0, 4.0,
+                                    2.0, 1.0, 0.5, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case BUG:       SetDamageValues
-                    (
-                            1.0, 0.5, 2.0, 1.0, 0.5, 2.0,
-                            1.0, 1.0, 0.5, 1.0, 0.5, 1.0,
-                            2.0, 1.0, 0.5, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::BUG:      this->SetDamageValues(
+                                    1.0, 0.5, 2.0, 1.0, 0.5, 2.0,
+                                    1.0, 1.0, 0.5, 1.0, 0.5, 1.0,
+                                    2.0, 1.0, 0.5, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case GHOST:	    SetDamageValues
-                    (
-                            0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
-                            0.5, 2.0, 0.5, 0.5, 0.5, 2.0,
-                            2.0, 1.0, 0.5, 1.0, 2.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GHOST:	 this->SetDamageValues(
+                                    0.0, 0.0, 1.0, 0.5, 1.0, 1.0,
+                                    0.5, 2.0, 0.5, 0.5, 0.5, 2.0,
+                                    2.0, 1.0, 0.5, 1.0, 2.0, 1.0
+                                 );
+                                 break;
 
-    case STEEL:		SetDamageValues
-                    (
-                            0.5, 2.0, 0.5, 1.0, 2.0, 0.5,
-                            0.5, 1.0, 1.0, 1.0, 0.5, 1.0,
-                            2.0, 0.5, 1.0, 0.5, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::STEEL:	 this->SetDamageValues(
+                                    0.5, 2.0, 0.5, 1.0, 2.0, 0.5,
+                                    0.5, 1.0, 1.0, 1.0, 0.5, 1.0,
+                                    2.0, 0.5, 1.0, 0.5, 1.0, 0.5
+                                 );
+                                 break;
 
-    case FIRE:		SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 1.0, 2.0, 2.0,
-                            0.5, 1.0, 0.25, 0.25, 1.0, 1.0,
-                            2.0, 1.0, 0.25, 1.0, 1.0, 0.5
-                    );
-                    break;
+    case PokemonTypes::FIRE:	 this->SetDamageValues(
+                                    1.0, 1.0, 1.0, 1.0, 2.0, 2.0,
+                                    0.5, 1.0, 0.25, 0.25, 1.0, 1.0,
+                                    2.0, 1.0, 0.25, 1.0, 1.0, 0.5
+                                 );
+                                 break;
 
-    case WATER:		SetDamageValues
-                    (
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 1.0, 0.5, 0.5, 0.5, 2.0,
-                            2.0, 1.0, 0.5, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::WATER:	 this->SetDamageValues(
+                                    1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                                    1.0, 1.0, 0.5, 0.5, 0.5, 2.0,
+                                    2.0, 1.0, 0.5, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case GRASS:		SetDamageValues
-                    (
-                            1.0, 1.0, 2.0, 2.0, 0.5, 1.0,
-                            2.0, 1.0, 0.5, 1.0, 0.25, 1.0,
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::GRASS:	 this->SetDamageValues(
+                                    1.0, 1.0, 2.0, 2.0, 0.5, 1.0,
+                                    2.0, 1.0, 0.5, 1.0, 0.25, 1.0,
+                                    1.0, 1.0, 1.0, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case ELECTRIC:  SetDamageValues
-                    (
-                            1.0, 1.0, 0.5, 1.0, 2.0, 1.0,
-                            1.0, 1.0, 0.25, 0.5, 0.5, 2.0,
-                            1.0, 1.0, 0.5, 1.0, 1.0, 1.0
-                    );
-                    break;
+    case PokemonTypes::ELECTRIC: this->SetDamageValues(
+                                    1.0, 1.0, 0.5, 1.0, 2.0, 1.0,
+                                    1.0, 1.0, 0.25, 0.5, 0.5, 2.0,
+                                    1.0, 1.0, 0.5, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case PSYCHIC:  SetDamageValues
-                   (
-                            1.0, 0.5, 1.0, 1.0, 1.0, 1.0,
-                            2.0, 2.0, 0.5, 0.5, 0.5, 2.0,
-                            2.0, 0.5, 0.5, 1.0, 1.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::PSYCHIC:  this->SetDamageValues(
+                                    1.0, 0.5, 1.0, 1.0, 1.0, 1.0,
+                                    2.0, 2.0, 0.5, 0.5, 0.5, 2.0,
+                                    2.0, 0.5, 0.5, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case ICE:	   SetDamageValues
-                   (
-                            1.0, 2.0, 1.0, 1.0, 1.0, 2.0,
-                            1.0, 1.0, 1.0, 1.0, 0.5, 2.0,
-                            2.0, 1.0, 0.25, 1.0, 1.0, 1.0
-                   );
-                   break;
+    case PokemonTypes::ICE:	     this->SetDamageValues(
+                                    1.0, 2.0, 1.0, 1.0, 1.0, 2.0,
+                                    1.0, 1.0, 1.0, 1.0, 0.5, 2.0,
+                                    2.0, 1.0, 0.25, 1.0, 1.0, 1.0
+                                 );
+                                 break;
 
-    case DRAGON:   SetDamageValues
-                   (
-                            1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
-                            1.0, 1.0, 0.5, 0.25, 0.25, 1.0,
-                            1.0, 1.0, 1.0, 2.0, 1.0, 2.0
-                   );
-                   break;
+    case PokemonTypes::DRAGON:   this->SetDamageValues(
+                                    1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                                    1.0, 1.0, 0.5, 0.25, 0.25, 1.0,
+                                    1.0, 1.0, 1.0, 2.0, 1.0, 2.0
+                                 );
+                                 break;
 
-    case DARK:	   SetDamageValues
-                   (
-                            1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
-                            2.0, 0.5, 0.5, 0.5, 0.5, 2.0,
-                            2.0, 0.0, 0.5, 1.0, 0.5, 2.0
-                   );
-                   break;
+    case PokemonTypes::DARK:	 this->SetDamageValues(
+                                    1.0, 2.0, 1.0, 1.0, 1.0, 1.0,
+                                    2.0, 0.5, 0.5, 0.5, 0.5, 2.0,
+                                    2.0, 0.0, 0.5, 1.0, 0.5, 2.0
+                                 );
+                                 break;
 
-    case FAIRY:	   SetDamageValues
-                   (
-                            1.0, 0.5, 1.0, 2.0, 1.0, 1.0,
-                            0.5, 1.0, 1.0, 0.5, 0.5, 2.0,
-                            2.0, 1.0, 0.5, 0.0, 0.5, 1.0
-                   );
-                   break;
-
-    default:	   break;
+    case PokemonTypes::FAIRY:	 this->SetDamageValues(
+                                    1.0, 0.5, 1.0, 2.0, 1.0, 1.0,
+                                    0.5, 1.0, 1.0, 0.5, 0.5, 2.0,
+                                    2.0, 1.0, 0.5, 0.0, 0.5, 1.0
+                                 );
+                                 break;
     }
 }
 
-/************************************************************************
-* Method CalcDamageTaken: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This method calculate the damage based on the Pokemon's primary type
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void PokemonWeakness::CalcDamageTaken()
-{
-    switch(priTypeEnum)
-    {
-    case NORMAL:	NormalTypeDmg();
-                    break;
+void PokemonWeakness::CalcDamageTaken(){
+    switch(this->priTypeEnum){
+    case PokemonTypes::NORMAL:      this->NormalTypeDmg();
+                                    break;
 
-    case FIGHTING:	FightingTypeDmg();
-                    break;
+    case PokemonTypes::FIGHTING:    this->FightingTypeDmg();
+                                    break;
 
-    case FLYING:	FlyingTypeDmg();
-                    break;
+    case PokemonTypes::FLYING:      this->FlyingTypeDmg();
+                                    break;
 
-    case POISON:	PoisonTypeDmg();
-                    break;
+    case PokemonTypes::POISON:      this->PoisonTypeDmg();
+                                    break;
 
-    case GROUND:	GroundTypeDmg();
-                    break;
+    case PokemonTypes::GROUND:      this->GroundTypeDmg();
+                                    break;
 
-    case ROCK:		RockTypeDmg();
-                    break;
+    case PokemonTypes::ROCK:		this->RockTypeDmg();
+                                    break;
 
-    case BUG:		BugTypeDmg();
-                    break;
+    case PokemonTypes::BUG:         this->BugTypeDmg();
+                                    break;
 
-    case GHOST:		GhostTypeDmg();
-                    break;
+    case PokemonTypes::GHOST:		this->GhostTypeDmg();
+                                    break;
 
-    case STEEL:		SteelTypeDmg();
-                    break;
+    case PokemonTypes::STEEL:		this->SteelTypeDmg();
+                                    break;
 
-    case FIRE:		FireTypeDmg();
-                    break;
+    case PokemonTypes::FIRE:		this->FireTypeDmg();
+                                    break;
 
-    case WATER:		WaterTypeDmg();
-                    break;
+    case PokemonTypes::WATER:		this->WaterTypeDmg();
+                                    break;
 
-    case GRASS:		GrassTypeDmg();
-                    break;
+    case PokemonTypes::GRASS:		this->GrassTypeDmg();
+                                    break;
 
-    case ELECTRIC:	ElectricTypeDmg();
-                    break;
+    case PokemonTypes::ELECTRIC:	this->ElectricTypeDmg();
+                                    break;
 
-    case PSYCHIC:	PsychicTypeDmg();
-                    break;
+    case PokemonTypes::PSYCHIC:     this->PsychicTypeDmg();
+                                    break;
 
-    case ICE:		IceTypeDmg();
-                    break;
+    case PokemonTypes::ICE:         this->IceTypeDmg();
+                                    break;
 
-    case DRAGON:	DragonTypeDmg();
-                    break;
+    case PokemonTypes::DRAGON:      this->DragonTypeDmg();
+                                    break;
 
-    case DARK:		DarkTypeDmg();
-                    break;
+    case PokemonTypes::DARK:		this->DarkTypeDmg();
+                                    break;
 
-    case FAIRY:		FairyTypeDmg();
-                    break;
+    case PokemonTypes::FAIRY:		this->FairyTypeDmg();
+                                    break;
     }
 }
 
-/************************************************************************
-* Method PrintWeaknesses: Class PokemonWeakness
-*----------------------------------------------------------------------
-* 	 This prints the weakness format then returns it
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns the weakness format
-*************************************************************************/
+//Return the weakness as a string
 string PokemonWeakness::PrintWeaknesses() const
 {
-    std::ostringstream weaknesses;        //OUT
+    std::ostringstream weaknesses;              //OUT  - the weaknesses
 
-    int index;							  //PROC - The index in the array
+    int index;							        //PROC - The index in the array
+    int stopIndex = globalWeakConsts::MAX_TYPES;//PROC - the stoppping condition
 
     weaknesses << "\nDamage Taken:\n";
 
     weaknesses << std::left;
 
     //OUTPUT - Print the damage the pokemon would take
-    for(index = NORMAL; index < globalWeakConsts::MAX_TYPES; index++)
+    for(index = PokemonTypes::NORMAL; index < stopIndex; ++index)
     {
         weaknesses << std::setw(globalWeakConsts::TYPE_COL)
                    << globalWeakConsts::TYPES[index] << ": *"

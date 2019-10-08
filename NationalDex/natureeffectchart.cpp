@@ -1,9 +1,8 @@
 #include "natureeffectchart.h"
 #include "ui_natureeffectchart.h"
 
-NatureEffectChart::NatureEffectChart(QWidget *parent) :
-    QDialog(parent),
-    ui(new Ui::NatureEffectChart)
+NatureEffectChart::NatureEffectChart(QWidget *parent)
+    :QDialog(parent), ui(new Ui::NatureEffectChart)
 {
     ui->setupUi(this);
 
@@ -11,7 +10,6 @@ NatureEffectChart::NatureEffectChart(QWidget *parent) :
     setWindowModality(Qt::ApplicationModal);
 }
 
-NatureEffectChart::~NatureEffectChart()
-{
+NatureEffectChart::~NatureEffectChart(){
     delete ui;
 }

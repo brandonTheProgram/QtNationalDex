@@ -6,7 +6,6 @@
 #include "PokemonWeakness.h"   /** PokemonWeakness            **/
 #include "Moveset.h"           /** Moveset                    **/
 
-//Namespace for the global constants in the class
 /**************************************************************************
  * CONSTANTS
  * ------------------------------------------------------------------------
@@ -24,8 +23,7 @@
  * KALOS_DEX	: The size of the Kalos Pokedex
  * ALOLA_DEX	: The size of the Alola Pokedex
  *************************************************************************/
-namespace globalPDexConsts
-{
+namespace globalPDexConsts{
     const int AR_SIZE          = 807;
     const int MAX_ATTKS        = 724;
     const int KANTO_DEX        = 151;
@@ -48,111 +46,36 @@ struct Pkmn
 
 /************************************************************************
 * Pokedex Class
-* 	This class represents a Pokedex object. It manages 4 attributes:
-* 		pokedex, attackDex, pokedexCopy, and currentPokemon
+* 	This class represents a Pokedex object
 *************************************************************************/
-class Pokedex //Base class
-{
+class Pokedex{
     public:
-        /******************************
-         **      OVERLOADERS         **
-         ******************************/
-        //Overloading the array operator
         Pkmn& operator[] (const int& INDEX){return pokedex[INDEX];}
 
-        /******************************
-         ** CONSTRUCTOR & DESTRUCTOR **
-         ******************************/
-
-        /****************************************************************
-         * Pokedex ();
-         *   Constructor; this method initializes the Pokdex object
-         *   Parameters: none
-         *   Return: none
-         ***************************************************************/
         Pokedex(); //Default Constructor
 
-        /****************************************************************
-         * ~Pokedex ();
-         *   Deconstructor; does not perform any specific function
-         *   Parameters: none
-         *   Return: none
-         ***************************************************************/
         virtual ~Pokedex(); //Deconstructor
 
         /******************
          **** MUTATORS ****
          ******************/
 
-        /****************************************************************
-         * 	void CreateAttackList(const string& INPUT_FILE);
-         *
-         *   Mutator; this method creates the attackdex for the program
-         *   Parameters: INPUT_FILE (string) - the name of the input file
-         *   Return: none
-         ***************************************************************/
         void CreateAttackList(const string& INPUT_FILE);
 
-        /****************************************************************
-         * 	void CreatePokedexCopy();
-         *
-         *   Mutator; this method creates a copy of the Pokedex with only a
-         *   		  Pokemon and not attacks or weaknesses
-         *   Parameters:
-         *   Return: none
-         ***************************************************************/
+        //Creates a copy of the Pokedex with only a Pokemon and not attacks
         void CreatePokedexCopy();
 
-        /****************************************************************
-         * 	void LoadRegion(const string& INPUT_FILE, const int& REGION_MAX,
-         * 					const string& ATTACK_FILE);
-         *
-         *   Mutator; this method initializes the pokedex by loading in a region
-         *   Parameters: INPUT_FILE (string) - the name of the input file
-         *   			 REGION_MAX (int)    - the regional max in the pokedex
-         *   			 ATTACK_FILE(string) - the attacks for that region
-         *   Return: none
-         ***************************************************************/
         void LoadRegion(const string& INPUT_FILE, const int& REGION_MAX,
                         const string& ATTACK_FILE);
 
-        /****************************************************************
-         * 	void LoadPokemonMoves(std::ifstream & fin,
-         * 						  vector<string>& attackNames,
-         *		   	   	   	      vector<int>   & attackLvls);
-         *
-         *   Mutator; this method loads the moves of a pokemon from the
-         *   		  input file
-         *   Parameters: fin         (ifstream)       - the input file variable
-         *   			 attackNames (vector<string>) - the list of attack names
-         *   			 attackLvls  (vector<int>)    - the list of attack
-         *   			 								levels
-         *   Return: attackNames and attackLvls
-         ***************************************************************/
         void LoadPokemonMoves(std::ifstream& fin, vector<string>& attackNames,
                               vector<int>& attackLvls);
 
-        /****************************************************************
-         * 	void SetEvolutions();
-         *
-         *   Mutator; this method sets the evolutions to every Pokemon
-         *   Parameters:
-         *   Return: none
-         ***************************************************************/
         void SetEvolutions();
 
         /*******************
          **** ACCESSORS ****
          *******************/
-
-        /****************************************************************
-         * 	vector<Pkmn> GetRegion(const int& START, const int& END);
-         *
-         *   Accessor; this gets a region range of Pokemon from the Pokedex
-         *   Parameters: START  (int) - the starting index of the region
-         *   			 END    (int) - the ending index of the region
-         *   Return: a vector of the Pokemon specified
-         ***************************************************************/
         vector<Pkmn> GetRegion(const int& START, const int& END) const;
 
     private:

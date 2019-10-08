@@ -3,33 +3,24 @@
 
 using namespace PokemonDialog;
 
-/************************************************************************
-* Method Dialog: Class Dialog
-*----------------------------------------------------------------------
-* 	 This method creates the Dialog object
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*       parent (QWidget) - the invoking object
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-Dialog::Dialog(QWidget *parent) :
-    QDialog(parent),
-    ui(new Ui::Dialog)
-{
+//Construct the UI for the program and create all the necessary variables
+Dialog::Dialog(QWidget *parent)
+    :QDialog(parent), ui(new Ui::Dialog){
     ui->setupUi(this);
+
+    //Create voice bot
+    voice = new QTextToSpeech(this);
+    voice->setVolume(VOICE_VOLUME);
+    voice->setPitch (VOICE_PITCH);
+    voice->setRate  (VOICE_RATE);
 
     //Create the layout
     mainLayout      = new QVBoxLayout;
 
     topLayout       = new QHBoxLayout;
-
-    middleLayout    = new QGridLayout;
-
     midBtmLayout    = new QHBoxLayout;
 
+    middleLayout    = new QGridLayout;
     bottomLayout    = new QGridLayout;
 
     topBox          = new QGroupBox;
@@ -44,8 +35,8 @@ Dialog::Dialog(QWidget *parent) :
     secType         = new QLabel;
     image           = new QLabel;
     description     = new QLabel;
-    versionOneLoc     = new QLabel;
-    versionTwoLoc    = new QLabel;
+    versionOneLoc   = new QLabel;
+    versionTwoLoc   = new QLabel;
 
     firstEvoBut     = new QPushButton;
     secEvoBut       = new QPushButton;
@@ -58,15 +49,15 @@ Dialog::Dialog(QWidget *parent) :
 
     movie           = new QMovie;
 
-    //Set the Fonts/Alignment
+    //Set the Fonts and Alignment
     idNumber        ->setFont(PokemonDialog::FONT);
     name            ->setFont(PokemonDialog::FONT);
     classification  ->setFont(PokemonDialog::FONT);
     priType         ->setFont(PokemonDialog::FONT);
     secType         ->setFont(PokemonDialog::FONT);
     description     ->setFont(PokemonDialog::FONT);
-    versionOneLoc     ->setFont(PokemonDialog::FONT);
-    versionTwoLoc    ->setFont(PokemonDialog::FONT);
+    versionOneLoc   ->setFont(PokemonDialog::FONT);
+    versionTwoLoc   ->setFont(PokemonDialog::FONT);
     options         ->setFont(PokemonDialog::FONT);
     comboBox        ->setFont(PokemonDialog::FONT);
 
@@ -122,21 +113,9 @@ Dialog::Dialog(QWidget *parent) :
     setWindowModality(Qt::ApplicationModal);
 }
 
-/************************************************************************
-* Method ~Dialog: Class Dialog
-*----------------------------------------------------------------------
-* 	 This method deletes the Dialog object
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-Dialog::~Dialog()
-{
+Dialog::~Dialog(){
     delete ui;
+    delete voice;
     delete image;
     delete topBox;
     delete middleBox;
@@ -163,49 +142,22 @@ Dialog::~Dialog()
     delete branchEvoBut;
     delete movie;
 
+    //Delete every evolution button created
     for(auto it: evoList){delete (it);}
 
-    evoList.clear();
-
     QVector<QPushButton*>().swap(evoList);
+    evoList.clear();
 }
 
-/************************************************************************
-* Method SetPokemon: Class Dialog
-*----------------------------------------------------------------------
-* 	 This method inititalizes the Pokemon for the Dialog
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-* 		POKEMON (Pkmn) - the current Pokemon
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void Dialog::SetPokemon(const Pkmn &POKEMON)
-{
-    currentPokemon = POKEMON;
+void Dialog::SetPokemon(const Pkmn &POKEMON){
+    this->currentPokemon = POKEMON;
 
     //PROCESSING - Set the values of the Pokemon for the Dialog
-    SetPokemonValues();
+    this->SetPokemonValues();
 }
 
-/************************************************************************
-* Method SetPokemonValues: Class Dialog
-*----------------------------------------------------------------------
-* 	 This method set the values of the Pokemon in the corresponding
-*    places in the Dialog
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void Dialog::SetPokemonValues()
-{
+//Put the values of the Pokemon into the matching Dialog variables
+void Dialog::SetPokemonValues(){
     QString gifPath;        //PROC - the path to the gif of the Pokemon
     QString firstEvoPath;   //PROC - the path of the first evo image
     QString secEvoPath;     //PROC - the path of the second evo image
@@ -246,17 +198,18 @@ void Dialog::SetPokemonValues()
     classification->setText(QString::fromStdString(pokemon.GetSpecies()));
 
     //OUTPUT - If the Pokemon has different Types, than display both
-    if(pokemon.GetPriType().compare(pokemon.GetSecType()))
-    {
+    if(pokemon.GetPriType().compare(pokemon.GetSecType())){
         priType->setText(QString::fromStdString(pokemon.GetPriType()));
         secType->setText(QString::fromStdString(pokemon.GetSecType()));
     }
-    else{priType->setText(QString::fromStdString(pokemon.GetPriType()));}
+    else{
+        priType->setText(QString::fromStdString(pokemon.GetPriType()));}
 
     description->setText(QString::fromStdString(pokemon.GetDescription()));
 
     this->versionOneLoc->setText(GAME_VER_ONE + "   : "  + versionOneLoc);
     this->versionTwoLoc->setText(GAME_VER_TWO + ": "     + versionTwoLoc);
+
     //Set up and start playing the gif
     movie->setFileName(gifPath);
     movie->start();
@@ -267,8 +220,7 @@ void Dialog::SetPokemonValues()
 
     //If the pokemon is not a special branch evo with more than 2 seperate
     //evolutions like Eevee, than prepare the ui for that
-    if(pokemon.GetEvolutions() <= 2)
-    {
+    if(pokemon.GetEvolutions() <= 2){
         firstEvoNum   = QString::number(pokemon.GetFirstEvoNum());
         secEvoNum     = QString::number(pokemon.GetSecondEvoNum());
         finalEvoNum   = QString::number(pokemon.GetFinalEvoNum());
@@ -304,8 +256,7 @@ void Dialog::SetPokemonValues()
         firstEvoBut  ->setIconSize(firstEvoPixmap.rect().size());
 
         //Based on how many evolutions, hide or present the buttons
-        switch(pokemon.GetEvolutions())
-        {
+        switch(pokemon.GetEvolutions()){
         case 0:     secEvoBut   ->hide();
                     finalEvoBut ->hide();
 
@@ -345,8 +296,7 @@ void Dialog::SetPokemonValues()
         }
 
         //If the pokemon has a branch evolution, than set it up
-        if(pokemon.GetBranchEvo())
-        {
+        if(pokemon.GetBranchEvo()){
            branchEvoPath = (PokemonDialog::IMAGE_PATH +
                             branchEvoNum + ".png");
 
@@ -355,12 +305,20 @@ void Dialog::SetPokemonValues()
            branchEvoBut->setIcon(branchEvoIcon);
            branchEvoBut->setIconSize(branchEvoPixmap.rect().size());
         }
-        else{branchEvoBut->hide();}
+        else{
+            branchEvoBut->hide();}
     }
-    else{this->CreateBranchEvolutionButtons();}
+    else{
+        this->CreateBranchEvolutionButtons();}
 
     //Set the layout with all the necessary buttons
     midBtmBox->setLayout(midBtmLayout);
+
+    voiceDialog = (QString::fromStdString(pokemon.GetName() + ", the " +
+                   pokemon.GetSpecies() + ", "
+                   + pokemon.GetDescription() + "."));
+
+    voice->say(voiceDialog);
 }
 
 /************************************************************************
@@ -375,8 +333,8 @@ void Dialog::SetPokemonValues()
 * POST-CONDITIONS
 * 	==> returns nothing
 *************************************************************************/
-void Dialog::CreateBranchEvolutionButtons()
-{
+//Create branch evolution buttons  for pokemon with more than 1 branch evolution
+void Dialog::CreateBranchEvolutionButtons(){
     using namespace globalPkmEvoConsts; /**WURPLE_EVOLUTIONS,TYROGUE_EVOLUTIONS,
                                            EEVEELUTIONS**/
 
@@ -388,44 +346,36 @@ void Dialog::CreateBranchEvolutionButtons()
 
     QIcon   branchEvoIcon;              //PROC - the icon for the branch evo
 
-    int pokemonNum;
+    int pokemonNum;                     //PROC - pokedex number of the pokemon
 
-    bool wurmpleEvo;
-    bool tyrougeEvo;
-    bool eeveeEvo;
+    bool wurmpleEvo = false;            //PROC - the condition if the pokemon
+                                        //       is a wurmple evolution
+    bool tyrougeEvo = false;            //PROC - the condition if the pokemon
+                                        //       is a tyrouge evolution
+    bool eeveeEvo   = false;            //PROC - the condition if the pokemon
+                                        //       is a eevee evolution
 
-    //PROCESSING - Set inital values
-    pokemonNum = currentPokemon.currentPkmn.GetPokedexNumber();
-    wurmpleEvo = false;
-    tyrougeEvo = false;
-    eeveeEvo   = false;
+    pokemonNum = this->currentPokemon.currentPkmn.GetPokedexNumber();
 
-    for(auto wurmpleIt: WURPLE_EVOLUTIONS)
-    {
-        if(wurmpleIt == pokemonNum)
-        {
+    for(auto wurmpleIt: WURPLE_EVOLUTIONS){
+        if(wurmpleIt == pokemonNum){
             wurmpleEvo = true;
             evoList.reserve(WURPLE_EVOLUTIONS.size());
         }
     }
 
-    if(!wurmpleEvo)
-    {
-        for(auto tyrougeIt: TYROGUE_EVOLUTIONS)
-        {
-            if(tyrougeIt == pokemonNum)
-            {
+    if(!wurmpleEvo){
+        for(auto tyrougeIt: TYROGUE_EVOLUTIONS){
+            if(tyrougeIt == pokemonNum){
                 tyrougeEvo = true;
                 evoList.reserve(TYROGUE_EVOLUTIONS.size());
             }
         }
     }
-    if(!tyrougeEvo)
-    {
-        for(auto eeveeIt: EEVEELUTIONS)
-        {
-            if(eeveeIt == pokemonNum)
-            {
+
+    if(!tyrougeEvo){
+        for(auto eeveeIt: EEVEELUTIONS){
+            if(eeveeIt == pokemonNum){
                 eeveeEvo = true;
                 evoList.reserve(EEVEELUTIONS.size());
             }
@@ -433,10 +383,8 @@ void Dialog::CreateBranchEvolutionButtons()
     }
 
     //PROCESSING - depending on the special evos, create buttons for them
-    if(wurmpleEvo)
-    {
-        for(auto branchIt: WURPLE_EVOLUTIONS)
-        {
+    if(wurmpleEvo){
+        for(auto branchIt: WURPLE_EVOLUTIONS){
             newButton     = new QPushButton;
 
             branchEvoPath = (PokemonDialog::IMAGE_PATH +
@@ -456,11 +404,9 @@ void Dialog::CreateBranchEvolutionButtons()
             evoList.push_back(newButton);
         }
     }
-    else if(tyrougeEvo)
-    {
-        for(auto branchIt: TYROGUE_EVOLUTIONS)
-        {
-            newButton = new QPushButton;
+    else if(tyrougeEvo){
+        for(auto branchIt: TYROGUE_EVOLUTIONS){
+            newButton     = new QPushButton;
 
             branchEvoPath = (PokemonDialog::IMAGE_PATH +
                              QString::number(branchIt) + ".png");
@@ -479,11 +425,9 @@ void Dialog::CreateBranchEvolutionButtons()
             evoList.push_back(newButton);
         }
     }
-    else if(eeveeEvo)
-    {
-        for(auto branchIt: EEVEELUTIONS)
-        {
-            newButton = new QPushButton;
+    else if(eeveeEvo){
+        for(auto branchIt: EEVEELUTIONS){
+            newButton     = new QPushButton;
 
             branchEvoPath = (PokemonDialog::IMAGE_PATH +
                              QString::number(branchIt) + ".png");
@@ -507,125 +451,55 @@ void Dialog::CreateBranchEvolutionButtons()
     for(auto evoIt: evoList){midBtmLayout->addWidget(evoIt);}
 }
 
-/************************************************************************
-* Method DisplayAbilities: Class Dialog
-*----------------------------------------------------------------------
-* 	 This method displays the abilities in the options area
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void Dialog::DisplayAbilities() const
-{
+void Dialog::DisplayAbilities() const{
     options->setPlainText(QString::fromStdString
                           (currentPokemon.currentPkmn.PrintAbility()));
 }
 
-/************************************************************************
-* Method DisplayEvolutions: Class Dialog
-*----------------------------------------------------------------------
-* 	 This method displays the evolutions in the options area
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void Dialog::DisplayEvolutions() const
-{
+void Dialog::DisplayEvolutions() const{
     //PROCESSING - If the Pokemon has evolutions, then display them
-    if(currentPokemon.currentPkmn.GetEvolutions() != 0)
-    {
+    if(currentPokemon.currentPkmn.GetEvolutions() != 0){
         options->setPlainText(QString::fromStdString
                               (currentPokemon.pkmnEvos.PrintEvoTree()));
     }
-    else{options->setPlainText(tr("This Pokemon has no known evolutions"));}
+    else{
+        options->setPlainText(tr("This Pokemon has no known evolutions"));}
 }
 
-/************************************************************************
-* Method DisplayWeakness: Class Dialog
-*----------------------------------------------------------------------
-* 	 This method displays the weaknesses in the options area
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void Dialog::DisplayWeakness() const
-{
+void Dialog::DisplayWeakness() const{
     options->setPlainText(QString::fromStdString
                           (currentPokemon.pkmnWeakness.PrintWeaknesses()));
 }
 
-/************************************************************************
-* Method DisplayLvlMoveset: Class Dialog
-*----------------------------------------------------------------------
-* 	 This method displays the level moveset in the options area
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void Dialog::DisplayLvlMoveset() const
-{
+void Dialog::DisplayLvlMoveset() const{
     options->setPlainText(QString::fromStdString
                           (currentPokemon.pkmnMoves.PrintLvl()));
 }
 
-/************************************************************************
-* Method DisplayTMMoveset: Class Dialog
-*----------------------------------------------------------------------
-* 	 This method displays the TM/HM moveset in the options area
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void Dialog::DisplayTMMoveset() const
-{
+void Dialog::DisplayTMMoveset() const{
     options->setPlainText(QString::fromStdString(
                               currentPokemon.pkmnMoves.PrintTM()));
 }
 
-QString Dialog::WordWrap(const string &SEN, const int &LENGTH) const
-{
+QString Dialog::WordWrap(const string &SEN, const int &LENGTH) const{
     std::istringstream words(SEN); //PROC - the words in the sentence
 
-    std::ostringstream wrapped;			//PROC - the wrapped text
+    std::ostringstream wrapped;	   //PROC - the wrapped text
 
-    string        word;					//PROC - the word
+    string        word;			   //PROC - the word
 
-    if (words >> word)
-    {
+    if (words >> word){
         wrapped << word;
 
         size_t space_left = LENGTH - word.length();
 
-        while (words >> word)
-        {
-            if (space_left < word.length() + 1)
-            {
+        while (words >> word){
+            if (space_left < word.length() + 1){
                 wrapped << '\n' << word;
 
                 space_left = LENGTH - word.length();
             }
-            else
-            {
+            else{
                 wrapped << ' ' << word;
 
                 space_left -= word.length() + 1;
@@ -636,93 +510,65 @@ QString Dialog::WordWrap(const string &SEN, const int &LENGTH) const
     return QString::fromStdString(wrapped.str());
 }
 
-/************************************************************************
-* Method ComboBoxOptions: Class Dialog
-*----------------------------------------------------------------------
-* 	 This method displays the option selected based on
-*       the index in the QComboBox
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*       ARGUMENT (int) - the current index of the QComboBox
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void Dialog::ComboBoxOptions(const int& ARGUMENT)
-{
-    using namespace PokemonDialog; /** enum::options **/
+//chooses the option based on which QComboBox option was chosen and display it
+void Dialog::ComboBoxOptions(const int& ARGUMENT){
+    switch (ARGUMENT){
+    case PokemonDialog::DISPLAY:    this->DisplayDefault();
+                                    break;
 
-    switch (ARGUMENT)
-    {
-    case DISPLAY  :     DisplayDefault();
-                        break;
+    case PokemonDialog::ABILITIES:  this->DisplayAbilities();
+                                    break;
 
-    case ABILITIES:     DisplayAbilities();
-                        break;
+    case PokemonDialog::EVOLUTIONS: this->DisplayEvolutions();
+                                    break;
 
-    case EVOLUTIONS:    DisplayEvolutions();
-                        break;
+    case PokemonDialog::WEAKNESS:   this->DisplayWeakness();
+                                    break;
 
-    case WEAKNESS:      DisplayWeakness();
-                        break;
+    case PokemonDialog::LVL_MOVESET:this->DisplayLvlMoveset();
+                                    break;
 
-    case LVL_MOVESET:   DisplayLvlMoveset();
-                        break;
+    case PokemonDialog::TM_MOVESET: this->DisplayTMMoveset();
+                                    break;
 
-    case TM_MOVESET:    DisplayTMMoveset();
-                        break;
-
-    default:            break;
+    default:                        break;
     }
 }
 
-/************************************************************************
-* Method EvolutionClicked: Class Dialog
-*----------------------------------------------------------------------
-* 	 This method finds the button that was pressed and emits a signal holding a
-*    pokedex number of the pokemon that was chosen from the evolution tree
-*       the index in the QComboBox
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-void Dialog::EvolutionClicked()
-{
-    bool found;     //PROC - the condition if search is found
-    int  index;     //PROC - the index in the array
+//Find the evolution button that was clicked and emits a index signal
+void Dialog::EvolutionClicked(){
+    bool found = false;     //PROC - the condition if search is found
+    int  index = 0;         //PROC - the index in the array
 
-    index = 0;
-    found = false;
+    if(firstEvoBut->isChecked()){
+        emit evolutionNumber(currentPokemon.currentPkmn.GetFirstEvoNum());}
 
-    if(firstEvoBut->isChecked())
-        {emit evolutionNumber(currentPokemon.currentPkmn.GetFirstEvoNum());}
+    else if(secEvoBut->isChecked()){
+        emit evolutionNumber(currentPokemon.currentPkmn.GetSecondEvoNum());}
 
-    else if(secEvoBut->isChecked())
-    {emit evolutionNumber(currentPokemon.currentPkmn.GetSecondEvoNum());}
+    else if(finalEvoBut->isChecked()){
+        emit evolutionNumber(currentPokemon.currentPkmn.GetFinalEvoNum());}
 
-    else if(finalEvoBut->isChecked())
-    {emit evolutionNumber(currentPokemon.currentPkmn.GetFinalEvoNum());}
+    else if(branchEvoBut->isChecked()){
+        emit evolutionNumber(currentPokemon.currentPkmn.GetBranchEvoNum());}
 
-    else if(branchEvoBut->isChecked())
-    {emit evolutionNumber(currentPokemon.currentPkmn.GetBranchEvoNum());}
-
-    else
-    {
+    else{
         //PROCESSING - Loop through the buttons to find which one was clicked
-        while(!found && index < evoList.size())
-        {
-            if(evoList[index]->isChecked()){found = true;}
-            else                           {index++;}
+        while(!found && index < evoList.size()){
+            if(evoList[index]->isChecked()){
+                found = true;}
+            else{
+                index++;}
         }
 
         emit evolutionNumber(evoList[index]->text().toInt());
     }
 
     close();
+}
+
+//Stop the voice if the dialog is closed while the bot is still talking
+void Dialog::reject(){
+    this->voice->stop();
+    QDialog::reject();
 }

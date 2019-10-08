@@ -1,84 +1,31 @@
 #include "Pokemon.h"
 
-/************************************************************************
-* Method Pokemon: Class Pokemon
-*----------------------------------------------------------------------
-* 	 This method creates the Pokemon object
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
-Pokemon::Pokemon()
-{
-    basic.pokedexNumber 				    = 0;
-    basic.name								.clear();
-    basic.species							.clear();
-    basic.priType							.clear();
-    basic.secType							.clear();
-    basic.description						.clear();
-    basic.abilites 							= 0;
-    basic.ability							.clear();
-    basic.abilityDesc						.clear();
-    basic.altAbility						.clear();
-    basic.altAbilityDesc					.clear();
-    basic.hiddenAbility						.clear();
-    basic.hiddenAbilityDesc					.clear();
-    basic.versionOneLocation                .clear();
-    basic.versionTwoLocation                .clear();
-    evol.evolutions 						= 0;
-    evol.secondEvo							= false;
-    evol.finalEvo							= false;
-    evol.branchEvo							= false;
-    evol.evoThroughLvl 						= false;
-    evol.evoThroughCond 					= false;
-    evol.evoLvl 							= 0;
-    evol.finalEvoLvl 						= 0;
-    evol.firstEvoNum 						= 0;
-    evol.secondEvoNum 						= 0;
-    evol.finalEvoNum 						= 0;
-    evol.branchEvoNum 						= 0;
-    evol.secondEvoCond						.clear();
-    evol.finalEvoCond						.clear();
+Pokemon::Pokemon(){
+    this->basic.pokedexNumber   = 0;
+    this->basic.abilites 		= 0;
+    this->evol.evolutions 		= 0;
+    this->evol.secondEvo		= false;
+    this->evol.finalEvo			= false;
+    this->evol.branchEvo		= false;
+    this->evol.evoThroughLvl 	= false;
+    this->evol.evoThroughCond 	= false;
+    this->evol.evoLvl 			= 0;
+    this->evol.finalEvoLvl 		= 0;
+    this->evol.firstEvoNum 		= 0;
+    this->evol.secondEvoNum 	= 0;
+    this-> evol.finalEvoNum 	= 0;
+    this->evol.branchEvoNum 	= 0;
 }
 
-/************************************************************************
-* Method ~Pokemon: Class Pokemon
-*----------------------------------------------------------------------
-* 	 This method deletes the Pokemon object
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
 Pokemon::~Pokemon(){}
 
-/************************************************************************
-* Method PrintAbility: Class Pokemon
-*----------------------------------------------------------------------
-* 	 This method prints the abilities of the Pokemon
-* 	 ==> returns nothing
-*-----------------------------------------------------------------------
-* PRE-CONDITIONS
-* 	The following need to be passed in
-* 		fout (ostream) - the output variable
-*
-* POST-CONDITIONS
-* 	==> returns nothing
-*************************************************************************/
+//Return the abilty as a string
 string Pokemon::PrintAbility() const
 {
     std::ostringstream out; //OUT - the output stream variable
 
     //PROCESSING - Based on how many abilities the pokemon has, print their info
-    switch(basic.abilites)
-    {
+    switch(basic.abilites){
     case 1: out << "Ability: " << basic.ability << endl << endl;
 
             out << basic.ability << ": " << basic.abilityDesc << endl;
@@ -114,8 +61,7 @@ string Pokemon::PrintAbility() const
 }
 
 //Overloading the extraction operator to get input from the file
-std::ifstream& operator >>(std::ifstream& isObject, Pokemon& cObject)
-{
+std::ifstream& operator >>(std::ifstream& isObject, Pokemon& cObject){
     isObject >> cObject.basic.pokedexNumber;
 
     isObject.ignore(10000, '\n');

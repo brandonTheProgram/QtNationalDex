@@ -10,6 +10,8 @@
 #include <QGroupBox>
 #include <QPushButton>
 #include <QMovie>
+#include <QTextToSpeech>
+
 #include "Pokedex.h"    /** Pkmn **/
 
 /**************************************************************************
@@ -21,23 +23,27 @@
  * IMAGE_PATH       : The path to the pokemon image
  * GAME_VER_ONE     : The first version of the game in the current generation
  * GAME_VER_TWO     : The second version of the game in the current generation
- * FONT             : The font of the text
- * IMAGE_SIZE       : The size of the image
+ * FONT             : The font for the text
+ * IMAGE_SIZE       : The size for the image
  * WORD_WRAP_LIMIT  : The size of the work wrap limit
+ * VOICE_PITCH		: The pitch for the voice bot
+ * VOICE_VOLUME		: The volume for the voice bot
+ * VOICE_RATE		: The rate for the voice bot
  *************************************************************************/
-namespace PokemonDialog
-{
-    const QString GIF_PATH   = ":/pokemonGifs/pokemonGifs/";
-    const QString IMAGE_PATH = ":/pokemonImages/pokemonImages/";
-    const QString GAME_VER_ONE = "Ultra Sun";
-    const QString GAME_VER_TWO = "Ultra Moon";
-    const QFont   FONT("Times", 10, QFont::Bold);
-    const QSize   IMAGE_SIZE(250, 250);
+namespace PokemonDialog{
+    const QString GIF_PATH        = ":/pokemonGifs/pokemonGifs/";
+    const QString IMAGE_PATH      = ":/pokemonImages/pokemonImages/";
+    const QString GAME_VER_ONE    = "Ultra Sun";
+    const QString GAME_VER_TWO    = "Ultra Moon";
+    const QFont   FONT            ("Times", 10, QFont::Bold);
+    const QSize   IMAGE_SIZE      (250, 250);
     const int     WORD_WRAP_LIMIT = 150;
+    const double  VOICE_PITCH     = 0.7;
+    const double  VOICE_VOLUME    = 1.0;
+    const double  VOICE_RATE      = 0.2;
 
     //The enum of the menu options
-    enum options
-    {
+    enum options{
         DISPLAY,
         ABILITIES,
         EVOLUTIONS,
@@ -54,194 +60,68 @@ class Dialog;
 /************************************************************************
 * Dialog Class
 * 	This class represents a Dialog screen that will display a Pokemon's
-*   information. It manages 26 attributes: ui, mainLayout, topLayout,
-*   middleLayout, midBtmLayout, bottomLayout, topBox, middleBox, midBtmBox,
-*   bottomBox, image, idNumber, name, classification, priType, secType,
-*   firstEvoBut, secEvoBut, finalEvoBut, branchEvoBut, comboBox, description,
-*   options, movie, evoList and currentPokemon
+*   information.
 *************************************************************************/
-class Dialog : public QDialog
-{
+class Dialog : public QDialog{
     Q_OBJECT
 
 public:
-    /******************************
-     ** CONSTRUCTOR & DESTRUCTOR **
-     ******************************/
 
-    /****************************************************************
-     * Dialog (QWidget *parent = nullptr);
-     *
-     *   Constructor; this method initializes the QDialog object
-     * --------------------------------------------------------------
-     *   Parameters: parent (QWidget) - the invoking object
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
     explicit Dialog(QWidget *parent = nullptr);//Constructor
 
-    /****************************************************************
-     * ~Dialog ();
-     *
-     *   Deconstructor; does not perform any specific function
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
     ~Dialog();//Deconstructor
 
     /******************
      **** MUTATORS ****
      ******************/
 
-    /****************************************************************
-     * 	void SetPokemon(const Pkmn& POKEMON);
-     *
-     *   Mutator; this initializes the Dialog with the Pokemon
-     * --------------------------------------------------------------
-     *   Parameters: POKEMON (Pkmn) - The Pokemon for the Dialog
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
+	//Initialize the Dialog Pokemon
     void SetPokemon(const Pkmn& POKEMON);
 
-    /****************************************************************
-     * 	void SetPokemonValues();
-     *
-     *   Mutator; this initializes the Dialog with the Pokemon's info
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
+	//Set Dialog Pokemon values using pokemon's information
     void SetPokemonValues();
 
-    /****************************************************************
-     * 	void CreateBranchEvolutionButtons();
-     *
-     *   Mutator; this create the buttons for the special pokemon Evos
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
+    //Create the buttons for Pokemon with more than 1 branch evolutions
     void CreateBranchEvolutionButtons();
 
     /*******************
      **** ACCESSORS ****
      *******************/
 
-    /****************************************************************
-     * 	void DisplayDefault() const;
-     *
-     *   Accessor; this display's the default message for the QComboBox
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
-    void DisplayDefault() const
-        {options->setPlainText(tr("Pick an option below!"));}
+    void DisplayDefault() const{
+        options->setPlainText(tr("Pick an option below!"));}
 
-    /****************************************************************
-     * 	void DisplayAbilities() const;
-     *
-     *   Accessor; this display's the Pokemon's abilities in the QComboBox
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
     void DisplayAbilities() const;
 
-    /****************************************************************
-     * 	void DisplayEvolutions() const;
-     *
-     *   Accessor; this display's the Pokemon's evolutions in the QComboBox
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
     void DisplayEvolutions() const;
 
-    /****************************************************************
-     * 	void DisplayWeakness() const;
-     *
-     *   Accessor; this display's the Pokemon's weakness in the QComboBox
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
     void DisplayWeakness() const;
 
-    /****************************************************************
-     * 	void DisplayLvlMoveset() const;
-     *
-     *   Accessor; this display's the Pokemon's level moveset in the QComboBox
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
     void DisplayLvlMoveset() const;
 
-    /****************************************************************
-     * 	void DisplayTMMoveset() const;
-     *
-     *   Accessor; this display's the Pokemon's TM moveset in the QComboBox
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
     void DisplayTMMoveset() const;
 
     QString WordWrap(const string& SEN, const int& LENGTH) const;
 
 public slots:
-    /****************************************************************
-     * 	void ComboBoxOptions(const int& ARGUMENT);
-     *
-     *   Slots; this chooses the option based on which QComboBox option
-     *          was chosen
-     * --------------------------------------------------------------
-     *   Parameters: ARGUMENT (int) - the index in the QComboBox
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
+
+    //chooses the option based on which QComboBox option was chosen
     void ComboBoxOptions(const int& ARGUMENT);
 
-    /****************************************************************
-     * 	void EvolutionClicked();
-     *
-     *   Slots; this finds the button that was pressed and emits a signal
-     *          holding a pokedex number of the pokemon that was chosen from
-     *          the evolution tree
-     * --------------------------------------------------------------
-     *   Parameters: none
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
+    //Find the evolution button that was clicked and emits a index signal
     void EvolutionClicked();
 
+    //Stop the voice if the dialog is closed while the bot is still talking
+    void reject();
+
 signals:
-    /****************************************************************
-     * 	void evolutionNumber(const int& POKEMON_NUMBER);
-     *
-     *   Signals; this emits a signal holding a pokedex number of the pokemon
-     *            that was chosen from the evolution tree
-     * --------------------------------------------------------------
-     *   Parameters: POKEMON_NUMBER (int) - the pokedex number
-     * --------------------------------------------------------------
-     *   Return: none
-     ***************************************************************/
+    //Emits a signal of the index of the Pokemon in the pokedex
     void evolutionNumber(const int& POKEMON_NUMBER);
 
 private:
     Ui::Dialog           *ui;             //The UI for the Dialog
+    QTextToSpeech        *voice;		  //The UI voice bot
+    QString               voiceDialog;	  //The message that the voice will say
     QVBoxLayout          *mainLayout;     //The mainlayout for the Dialog
     QHBoxLayout          *topLayout;      //The Layout for the top half
     QGridLayout          *middleLayout;   //The Layout for the middle half

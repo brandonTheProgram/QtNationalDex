@@ -10,7 +10,6 @@
 using std::string;
 using std::vector;
 
-//Namespace for the global constants in the class
 /**************************************************************************
  * CONSTANTS
  * ------------------------------------------------------------------------
@@ -33,8 +32,7 @@ using std::vector;
  * ------------------------------------------------------------------------
  * GENERATION     : The name of the current generation
  *************************************************************************/
-namespace movesetGlobalConsts
-{
+namespace movesetGlobalConsts{
     const string GENERATION = "Generation VII";
     const int LVL_COL       = 5;
     const int NAME_COL      = 30;
@@ -50,8 +48,7 @@ namespace movesetGlobalConsts
 }
 
 //The basic information for a Pokemon attack
-struct Attack
-{
+struct Attack{
     string name;
     string desc;
     string type;
@@ -65,74 +62,29 @@ struct Attack
 };
 
 //A Pokemon move that it learns through leveling
-struct LvlAttack
-{
+struct LvlAttack{
     int    lvl;
     Attack attack;
 };
 
 /************************************************************************
-* Pokedex Class
-* 	This class represents a Pokedex object. It manages 2 attributes:
-* 		lvlMoveset and TMMoveset
+* Moveset Class
+* 	This class represents a moveset that a Pokemon can learn object.
 *************************************************************************/
-class Moveset //Base Class
-{
+class Moveset{
     public:
-
-        /******************************
-         ** CONSTRUCTOR & DESTRUCTOR **
-         ******************************/
-
-        /****************************************************************
-         * Moveset ();
-         *   Constructor; this method initializes the Moveset of the Pokemon
-         *   			  object
-         *   Parameters: none
-         *   Return: none
-         ***************************************************************/
         Moveset(); //Default Constructor
 
-        /****************************************************************
-         * Moveset ();
-         *   Constructor; this method initializes the Moveset of the Pokemon
-         *   			  object with values
-         *   Parameters: ATTACK_DEX (vector<Attack>) - the attackdex
-         *   			 MOVES      (vector<string>) - the moves the Pokemon
-         *   			 							   learns
-         *   			 LVLS       (vector<int>)    - the levels when the
-         *   			 							   Pokemon learns the move
-         *   Return: none
-         ***************************************************************/
         Moveset(const vector<Attack>& ATTACK_DEX,
                 const vector<string>& MOVES,
                 const vector<int>   & LVLS);//Non-Deafult Constructor
 
-        /****************************************************************
-         * ~Pokedex ();
-         *   Deconstructor; does not perform any specific function
-         *   Parameters: none
-         *   Return: none
-         ***************************************************************/
         virtual ~Moveset(); //Deconstructor
 
         /******************
          **** MUTATORS ****
          ******************/
 
-        /****************************************************************
-         * 	void InitializeMoveSets(const vector<Attack>& attackDex,
-         *							const vector<string>& moves,
-         *							const vector<int>   & lvls);
-         *
-         *   Mutator; this method initializes the pokemon's moves
-         *   Parameters: ATTACK_DEX (vector<Attack>) - the attackdex
-         *   			 MOVES      (vector<string>) - the moves the Pokemon
-         *   			 							   learns
-         *   			 LVLS       (vector<int>)    - the levels the Pokemon
-         *   			 							   learns the move
-         *   Return: none
-         ***************************************************************/
         void InitializeMoveSets(const vector<Attack>& ATTACK_DEX,
                                 const vector<string>& MOVES,
                                 const vector<int>   & LVLS);
@@ -140,42 +92,14 @@ class Moveset //Base Class
         /*******************
          **** ACCESSORS ****
          *******************/
+        vector<LvlAttack> GetLvlMoveSet() const {return this->lvlMoveset;}
 
-        /****************************************************************
-         * 	vector<LvlAttack> GetLvlMoveSet() const;
-         *
-         *   Accessor; this method returns the level moveset
-         *   Parameters: none
-         *   Return: the level moveset
-         ***************************************************************/
-        vector<LvlAttack> GetLvlMoveSet() const {return lvlMoveset;}
+        vector<Attack> GetTMMoveset() const {return this->TMMoveset;}
 
-        /****************************************************************
-         * 	vector<Attack> GetTMMoveset() const;
-         *
-         *   Accessor; this method returns the TM moveset
-         *   Parameters: none
-         *   Return: TM moveset
-         ***************************************************************/
-        vector<Attack> GetTMMoveset() const {return TMMoveset;}
-
-        /****************************************************************
-         * 	string PrintTM() const;
-         *
-         *   Accessor; this method returns the printed format of the TM moveset
-         *   Parameters: none
-         *   Return: TM Moveset format
-         ***************************************************************/
+        //Return the TM moveset as a string
         string PrintTM() const;
 
-        /****************************************************************
-         * 	string PrintLvl() const;
-         *
-         *   Accessor; this method returns the printed format of the
-         *             level moveset
-         *   Parameters: none
-         *   Return: Level Moveset format
-         ***************************************************************/
+        //Return the Level moveset as a string
         string PrintLvl() const;
 
     private:
