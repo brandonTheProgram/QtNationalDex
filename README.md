@@ -1,6 +1,6 @@
 # QtNationalDex
 
-This is an update of the NationalDex project to include images to make the program better. This program is capable of producing data for the regions starting with Kanto and ending with the current region of the current generation. The following is an example of what the program would look like if the user picked Gengar.
+This is an update of the NationalDex project to include images to make the program better. If you choose the Generation 7 NationalDex, then it will contains every Pokemon from Kanto to Alola. If you choose the Generation 8 NationalDex, then it will contain the data for Pokemon only found in the Galar region(401) at the moment. As more Pokemon get added to the games, I will update the program. This program is capable of producing data for the regions starting with Kanto and ending with the current region of the current generation. The following is an example of what the program would look like if the user picked Gengar.
 
 The information and images are © Nintendo/Creatures Inc./GAME FREAK Inc. I do not own anything used in this program, just a fan of Pokemon
 
