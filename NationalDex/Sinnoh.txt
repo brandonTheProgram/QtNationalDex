@@ -1,0 +1,1925 @@
+387
+Turtwig
+Tiny Leaf Pokemon
+Grass
+Grass
+Photosynthesis occurs across its body under the sun. The shell on its back is actually hardened soil.
+None
+None
+Overgrow
+When HP is below 1/3rd its maximum, power of Grass-type moves is increased by 50%.
+Shell Armor
+Opponent’s moves cannot Critical Hit.
+None
+None
+None
+None
+2 2 0 1 0 18 387 388 0 32 389 0 0
+
+388
+Grotle
+Grove Pokemon
+Grass
+Grass
+It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.
+None
+None
+Overgrow
+When HP is below 1/3rd its maximum, power of Grass-type moves is increased by 50%.
+Shell Armor
+Opponent’s moves cannot Critical Hit.
+None
+None
+None
+None
+2 2 1 1 0 32 387 388 0 32 389 0 0
+
+389
+Torterra
+Continent Pokemon
+Grass
+Ground
+Small Pokemon occasionally gather on its unmoving back to begin building their nests.
+None
+None
+Overgrow
+When HP is below 1/3rd its maximum, power of Grass-type moves is increased by 50%.
+Shell Armor
+Opponent’s moves cannot Critical Hit.
+None
+None
+None
+None
+2 2 0 1 0 0 387 388 1 32 389 0 0
+
+390
+Chimchar
+Chimp Pokemon
+Fire
+Fire
+The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.
+None
+None
+Blaze
+When HP is below 1/3rd its maximum, power of Fire-type moves is increased by 50%.
+Iron Fist
+The power of punching moves is increased by 20%.
+None
+None
+None
+None
+2 2 0 1 0 14 390 391 0 36 392 0 0
+
+391
+Monferno
+Playful Pokemon
+Fire
+Fighting
+It uses ceilings and walls to launch aerial attacks. Its fiery tail is but one weapon.
+None
+None
+Blaze
+When HP is below 1/3rd its maximum, power of Fire-type moves is increased by 50%.
+Iron Fist
+The power of punching moves is increased by 20%.
+None
+None
+None
+None
+2 2 1 1 0 36 390 391 0 36 392 0 0
+
+392
+Infernape
+Flame Pokemon
+Fire
+Fighting
+It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style.
+None
+None
+Blaze
+When HP is below 1/3rd its maximum, power of Fire-type moves is increased by 50%.
+Iron Fist
+The power of punching moves is increased by 20%.
+None
+None
+None
+None
+2 2 0 1 0 0 390 391 1 36 392 0 0
+
+393
+Piplup
+Penguin Pokemon
+Water
+Water
+A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.
+None
+None
+Torrent
+When HP is below 1/3rd its maximum, power of Water-type moves is increased by 50%.
+Defiant
+Attack is raised by two stages when the Pokemon has its stats lowered. Doesn't work on self-inflicted stat drops or drops from allies.
+None
+None
+None
+None
+2 2 0 1 0 16 393 394 0 36 395 0 0
+
+394
+Prinplup
+Penguin Pokemon
+Water
+Water
+Because every Prinplup considers itself to be the most important, they can never form a group.
+None
+None
+Torrent
+When HP is below 1/3rd its maximum, power of Water-type moves is increased by 50%.
+Defiant
+Attack is raised by two stages when the Pokemon has its stats lowered. Doesn't work on self-inflicted stat drops or drops from allies.
+None
+None
+None
+None
+2 2 1 1 0 36 393 394 0 36 395 0 0
+
+395
+Empoleon
+Emperor Pokemon
+Water
+Steel
+If anyone were to hurt its pride, it would slash them with wings that can cleave through an ice floe.
+None
+None
+Torrent
+When HP is below 1/3rd its maximum, power of Water-type moves is increased by 50%.
+Defiant
+Attack is raised by two stages when the Pokemon has its stats lowered. Doesn't work on self-inflicted stat drops or drops from allies.
+None
+None
+None
+None
+2 2 0 1 0 0 393 394 1 36 395 0 0
+
+396
+Starly
+Starling Pokemon
+Normal
+Flying
+Because they are weak individually, they form groups. However, they bicker if the group grows too big.
+None
+None
+Keen Eye
+Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
+Reckless
+The power of moves that have recoil damage is increaed by 20%.
+None
+None
+None
+None
+2 2 0 1 0 14 396 397 0 34 398 0 0
+
+397
+Staravia
+Starling Pokemon
+Normal
+Flying
+Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily.
+None
+None
+Intimidate
+Upon entering battle, the opponent’s Attack lowers one stage. In a Double Battle, both opponents’ Attack are lowered. Pokemon with the Clear Body, Hyper Cutter, or White Smoke ability are unaffected. In a link battle, if both sides switch on the same turn, and first player sends out a Pokemon with Intimidate, the opponent’s Attack will be lowered before the opponent’s Pokemon switches. Opponents in S.O.S. Battles are more likely to call for help.
+Reckless
+The power of moves that have recoil damage is increaed by 20%.
+None
+None
+None
+None
+2 2 1 1 0 34 396 397 0 34 398 0 0
+
+398
+Staraptor
+Predator Pokemon
+Normal
+Flying
+When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.
+None
+None
+Intimidate
+Upon entering battle, the opponent’s Attack lowers one stage. In a Double Battle, both opponents’ Attack are lowered. Pokemon with the Clear Body, Hyper Cutter, or White Smoke ability are unaffected. In a link battle, if both sides switch on the same turn, and first player sends out a Pokemon with Intimidate, the opponent’s Attack will be lowered before the opponent’s Pokemon switches. Opponents in S.O.S. Battles are more likely to call for help.
+Reckless
+The power of moves that have recoil damage is increaed by 20%.
+None
+None
+None
+None
+2 2 0 1 0 0 396 397 1 34 398 0 0
+
+399
+Bidoof
+Plump Mouse Pokemon
+Normal
+Normal
+It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.
+None
+None
+Simple
+The effectiveness of all stat modifications is doubled.
+Moody
+At the end of every turn, a random stat is raised by two stages while another is lowered by one stage.
+Unaware
+Foe's stat modifications are ignored.
+None
+None
+3 1 0 1 0 15 399 0 0 15 400 0 0
+
+400
+Bibarel
+Beaver Pokemon
+Normal
+Water
+It makes its nest by damming streams with bark and mud. It is known as an industrious worker.
+None
+None
+Simple
+The effectiveness of all stat modifications is doubled.
+Moody
+At the end of every turn, a random stat is raised by two stages while another is lowered by one stage.
+Unaware
+Foe's stat modifications are ignored.
+None
+None
+3 1 0 1 0 0 399 0 1 15 400 0 0
+
+401
+Kricketot
+Cricket Pokemon
+Bug
+Bug
+Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound.
+None
+None
+Shed Skin
+Every turn, it has a 1 in 3 chance of healing from a status condition(BURN, PARALYZE, SLEEP, POISON, FREEZE).
+Run Away
+Except for trainer battles, can always run from battle. It still cannot switch during Mean Look or Block or when the opponent is trapping with the Arena Trap, Magnet Pull, or Shadow Tag ability.
+None
+None
+None
+None
+2 1 0 1 0 10 401 0 0 10 402 0 0
+
+402
+Kricketune
+Cricket Pokemon
+Bug
+Bug
+It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.
+None
+None
+Swarm
+When HP is below 1/3rd its maximum, power of Bug-type moves is increased by 50%.
+Technician
+Moves with a base power of 60 or less are boosted in power by 50%.
+None
+None
+None
+None
+2 1 0 1 0 0 401 0 1 10 402 0 0
+
+403
+Shinx
+Flash Pokemon
+Electric
+Electric
+This Pokemon generates electricity by contracting its muscles. Excited trembling is a sign that Shinx is generating a tremendous amount of electricity.
+Challenge Beach, Challenge Road, Training Lowlands, Potbottom Desert, Max Raid Battles: Fields of Honor, Forest of Focus, Challenge Beach, Honeycalm Sea
+Challenge Beach, Challenge Road, Training Lowlands, Potbottom Desert, Max Raid Battles: Fields of Honor, Forest of Focus, Challenge Beach, Honeycalm Sea
+Rivalry
+Attack & Special Attack is increased by 25% if the foe is of the same gender; Attack & Special Attack is decreased by 25% if the foe is of the opposite gender.
+Guts
+Attack is increased by 50% when induced with a status (BURN, PARALYZE, SLEEP, POISON, FREEZE). Burn's effect of lowering Attack is not applied.
+Intimidate
+Upon entering battle, the opponent’s Attack lowers one stage. In a Double Battle, both opponents’ Attack are lowered. Pokemon with the Clear Body, Hyper Cutter, or White Smoke ability are unaffected. In a link battle, if both sides switch on the same turn, and first player sends out a Pokemon with Intimidate, the opponent’s Attack will be lowered before the opponent’s Pokemon switches. Opponents in S.O.S. Battles are more likely to call for help.
+None
+None
+3 2 0 1 0 15 403 404 0 30 405 0 0
+
+404
+Luxio
+Spark Pokemon
+Electric
+Electric
+Upon encountering an opponent, this Pokemon prepares for battle by extending its claws, which can put out 1,000,000 volts of electricity.
+Fields of Honor, Soothing Wetlands, Loop Lagoon, Training Lowlands, Max Raid Battles: Fields of Honor, Forest of Focus, Challenge Beach, Honeycalm Sea
+Fields of Honor, Soothing Wetlands, Loop Lagoon, Training Lowlands, Max Raid Battles: Fields of Honor, Forest of Focus, Challenge Beach, Honeycalm Sea
+Rivalry
+Attack & Special Attack is increased by 25% if the foe is of the same gender; Attack & Special Attack is decreased by 25% if the foe is of the opposite gender.
+Guts
+Attack is increased by 50% when induced with a status (BURN, PARALYZE, SLEEP, POISON, FREEZE). Burn's effect of lowering Attack is not applied.
+Intimidate
+Upon entering battle, the opponent’s Attack lowers one stage. In a Double Battle, both opponents’ Attack are lowered. Pokemon with the Clear Body, Hyper Cutter, or White Smoke ability are unaffected. In a link battle, if both sides switch on the same turn, and first player sends out a Pokemon with Intimidate, the opponent’s Attack will be lowered before the opponent’s Pokemon switches. Opponents in S.O.S. Battles are more likely to call for help.
+None
+None
+3 2 1 1 0 30 403 404 0 30 405 0 0
+
+405
+Luxray
+Gleam Eye Pokemon
+Electric
+Electric
+Luxray can see through solid objects. It will instantly spot prey trying to hide behind walls, even if the walls are thick.
+Soothing Wetlands, Forest of Focus, Challenge Beach, Loop Lagoon, Training Lowlands, Max Raid Battles: Fields of Honor, Forest of Focus, Challenge Beach, Honeycalm Sea
+Soothing Wetlands, Forest of Focus, Challenge Beach, Loop Lagoon, Training Lowlands, Max Raid Battles: Fields of Honor, Forest of Focus, Challenge Beach, Honeycalm Sea
+Rivalry
+Attack & Special Attack is increased by 25% if the foe is of the same gender; Attack & Special Attack is decreased by 25% if the foe is of the opposite gender.
+Guts
+Attack is increased by 50% when induced with a status (BURN, PARALYZE, SLEEP, POISON, FREEZE). Burn's effect of lowering Attack is not applied.
+Intimidate
+Upon entering battle, the opponent’s Attack lowers one stage. In a Double Battle, both opponents’ Attack are lowered. Pokemon with the Clear Body, Hyper Cutter, or White Smoke ability are unaffected. In a link battle, if both sides switch on the same turn, and first player sends out a Pokemon with Intimidate, the opponent’s Attack will be lowered before the opponent’s Pokemon switches. Opponents in S.O.S. Battles are more likely to call for help.
+None
+None
+3 2 0 1 0 0 403 404 1 30 405 0 0
+
+406
+Budew
+Bud Pokemon
+Grass
+Poison
+The pollen it releases contains poison. If this Pokemon is raised on clean water, the poison's toxicity is increased.
+Route 4, Dappled Grove, East Lake Axewell, Giant's Mirror, Rolling Fields, West Lake Axewell, Max Raid Battles: Bridge Field, Dappled Grove, Giant's Mirror, Stony Wilderness
+Route 4, Dappled Grove, East Lake Axewell, Giant's Mirror, Rolling Fields, West Lake Axewell, Max Raid Battles: Bridge Field, Dappled Grove, Giant's Mirror, Stony Wilderness
+Natural Cure
+The Pokemon's status (BURN, PARALYZE, SLEEP, POISON, FREEZE) is healed when withdrawn from battle.
+Leaf Guard
+Prevents the Pokemon from being afflicted by status conditions during strong sunlight.
+Poison Point
+The opponent has a 30% chance of being induced with Poison when using an attack, that requires physical contact, against this Pokemon.
+leveling up with Happiness value at 220 During the Day
+using a Shiny Stone
+3 2 0 1 1 1 406 315 0 0 407 0 0
+
+407
+Roserade
+Bouquet Pokemon
+Grass
+Poison
+The poison in its right hand is quick acting. The poison in its left hand is slow acting. Both are life threatening.
+Hammerlocke Hills, Max Raid Battles: Dappled Grove
+Hammerlocke Hills, Max Raid Battles: Dappled Grove
+Natural Cure
+The Pokemon's status (BURN, PARALYZE, SLEEP, POISON, FREEZE) is healed when withdrawn from battle.
+Technician
+Moves with a base power of 60 or less are boosted in power by 50%.
+Poison Point
+The opponent has a 30% chance of being induced with Poison when using an attack, that requires physical contact, against this Pokemon.
+leveling up with Happiness value at 220 During the Day
+using a Shiny Stone
+3 2 0 0 1 0 406 315 1 0 407 0 0
+
+408
+Cranidos
+Head Butt Pokemon
+Rock
+Rock
+Its hard skull is its distinguishing feature. It snapped trees by headbutting them, and then it fed on their ripe berries.
+None
+None
+Mold Breaker
+The Pokemon's moves are not affected by foe's abilities during battle.
+Sheer Force
+Moves with a secondary effect are increased in power by 30% but lose their secondary effect.
+None
+None
+None
+None
+2 1 0 1 0 30 408 0 0 30 409 0 0
+
+409
+Rampardos
+Head Butt Pokemon
+Rock
+Rock
+This ancient Pokemon used headbutts skillfully. Its brain was really small, so some theories suggest that its stupidity led to its extinction.
+None
+None
+Mold Breaker
+The Pokemon's moves are not affected by foe's abilities during battle.
+Sheer Force
+Moves with a secondary effect are increased in power by 30% but lose their secondary effect.
+None
+None
+None
+None
+2 1 0 1 0 0 408 0 1 30 409 0 0
+
+410
+Shieldon
+Shield Pokemon
+Rock
+Steel
+A mild-mannered, herbivorous Pokemon, it used its face to dig up tree roots to eat. The skin on its face was plenty tough.
+None
+None
+Sturdy
+The Pokemon will remain with 1 HP if it was going to be knocked out by a move when at full Hit Points, and it is immune to One Hit KO moves.
+Soundproof
+Unaffected by sound moves. If this Pokemon switches out with Baton Pass, Perish Song against the switched out will not be nullified.
+None
+None
+None
+None
+2 1 0 1 0 30 410 0 0 30 411 0 0
+
+411
+Bastiodon
+Shield Pokemon
+Rock
+Steel
+The bones of its face are huge and hard, so they were mistaken for its spine until after this Pokemon was successfully restored.
+None
+None
+Sturdy
+The Pokemon will remain with 1 HP if it was going to be knocked out by a move when at full Hit Points, and it is immune to One Hit KO moves.
+Soundproof
+Unaffected by sound moves. If this Pokemon switches out with Baton Pass, Perish Song against the switched out will not be nullified.
+None
+None
+None
+None
+2 1 0 1 0 0 410 0 1 30 411 0 0
+
+412
+Burmy
+Bagworm Pokemon
+Grass
+Grass
+If its cloak is broken in battle, it quickly remakes the cloak with materials nearby.
+None
+None
+Shed Skin
+Every turn, it has a 1 in 3 chance of healing from a status condition(BURN, PARALYZE, SLEEP, POISON, FREEZE).
+Overcoat
+Protects Pokemon from Weather Effects and Powder moves such as Sleep Powder, Poison Powder etc.
+None
+None
+None
+Female at level 20
+2 1 0 1 1 20 412 0 0 20 413 1 414
+
+413
+Wormadam
+Bagworm Pokemon
+Grass
+Grass
+When evolving, its body takes in surrounding materials. As a result, there are many body variations.
+None
+None
+Anticipation
+Warns when the foe knows 1-hit KO or super-effective moves.
+Overcoat
+Protects Pokemon from Weather Effects and Powder moves such as Sleep Powder, Poison Powder etc.
+None
+None
+None
+Female at level 20
+2 1 0 1 1 20 412 0 1 20 413 1 414
+
+414
+Mothim
+Moth Pokemon
+Bug
+Flying
+While it loves floral honey, it won't gather any itself. Instead, it plots to steal some from Combee.
+None
+None
+Swarm
+When HP is below 1/3rd its maximum, power of Bug-type moves is increased by 50%.
+Tinted Lens
+The power of “not very effective” moves is doubled.
+None
+None
+None
+Male at level 20
+2 1 0 1 1 20 412 0 1 20 413 1 414
+
+415
+Combee
+Tiny Bee Pokemon
+Bug
+Flying
+It ceaselessly gathers nectar from sunrise to sundown, all for the sake of Vespiquen and the swarm.
+Rolling Fields, Max Raid Battles: Bridge Field, South Lake Miloch
+Rolling Fields, Max Raid Battles: Bridge Field, South Lake Miloch
+Honey Gather
+May pick up a Honey after battle; the higher the level, the higher the chance.
+Hustle
+Damage from physical attacks is increased by 50%, but average accuracy is only 80%.
+None
+None
+None
+Female at level 21
+2 1 0 1 1 21 415 0 0 21 416 0 0
+
+416
+Vespiquen
+Beehive Pokemon
+Bug
+Flying
+It skillfully commands its grubs in battles with its enemies. The grubs are willing to risk their lives to defend Vespiquen.
+Rolling Fields, Max Raid Battles: Bridge Field, South Lake Miloch
+Rolling Fields, Max Raid Battles: Bridge Field, South Lake Miloch
+Pressure
+When this Pokemon is hit by a move, the opponent's PP lowers by 2 rather than 1. Opponents in S.O.S. Battles are more likely to call for help.
+Unnerve
+The opponent Pokemon will never use their held Berry while the Pokemon is in battle. Opponents in S.O.S. Battles are more likely to call for help.
+None
+None
+None
+Female at level 21
+2 1 0 1 1 0 415 0 1 21 416 0 0
+
+417
+Pachirisu
+EleSquirrel Pokemon
+Electric
+Electric
+A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.
+None
+None
+Run Away
+Except for trainer battles, can always run from battle. It still cannot switch during Mean Look or Block or when the opponent is trapping with the Arena Trap, Magnet Pull, or Shadow Tag ability.
+Volt Absorb
+The Pokemon heals up to 1/4 of its maximum Hit Points when hit with Electric-type moves.
+Pickup
+Has a 10% chance of finding and holding an item after battle. Will not work if this Pokemon is already holding an item. From Black & White, it allows for the user to pick up the item of its opponent or ally if they used up the item in battle.
+None
+None
+3 0 0 0 0 0 417 0 0 0 0 0 0
+
+418
+Buziel
+Sea Weasel Pokemon
+Water
+Water
+It swims by rotating its two tails like a screw. When it dives, its flotation sac collapses.
+None
+None
+Swift Swim
+When rainy, The Pokemon’s Speed doubles. However, Speed will not double on the turn weather becomes Heavy Rain.
+Water Veil
+This Pokemon cannot be Burned while having this ability.
+None
+None
+None
+None
+2 1 0 1 0 26 418 0 0 26 419 0 0
+
+419
+Floatzel
+Sea Weasel Pokemon
+Water
+Water
+It floats using its well-developed flotation sac. It assists in the rescues of drowning people.
+None
+None
+Swift Swim
+When rainy, The Pokemon’s Speed doubles. However, Speed will not double on the turn weather becomes Heavy Rain.
+Water Veil
+This Pokemon cannot be Burned while having this ability.
+None
+None
+None
+None
+2 1 0 1 0 0 418 0 1 26 419 0 0
+
+420
+Cherubi
+Cherry Pokemon
+Grass
+Grass
+The deeper a Cherubi's red, the more nutrients it has stockpiled in its body. And the sweeter and tastier its small ball!
+Route 3, Axew's Eye, Bridge Field, Giant's Cap, Giant's Mirror, Giant's Seat, Hammerlocke Hills, Lake of Outrage, Motostoke Riverbank, North Lake Miloch, Rolling Fields, Watchtower Ruins, Max Raid Battles: Bridge Field, Dappled Grove, Giant's Mirror, Stony Wilderness
+Route 3, Axew's Eye, Bridge Field, Dappled Grove, Giant's Cap, Giant's Mirror, Giant's Seat, Hammerlocke Hills, Lake of Outrage, Motostoke Riverbank, North Lake Miloch, Rolling Fields, Watchtower Ruins, Max Raid Battles: Bridge Field, Dappled Grove, Giant's Mirror, Stony Wilderness
+Chlorophyll
+When sunny, the Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Strong Sunlight.
+None
+None
+None
+None
+None
+None
+1 1 0 1 0 25 420 0 0 25 421 0 0
+
+421
+Cherrim
+Blossom Pokemon
+Grass
+Grass
+As a bud, it barely moves. It sits still, placidly waiting for sunlight to appear.
+Max Raid Battles: Bridge Field, Dappled Grove, Giant's Mirror, Stony Wilderness
+Max Raid Battles: Bridge Field, Dappled Grove, Giant's Mirror, Stony Wilderness
+Flower Gift
+Ally’s Attack and Special Defence are multiplied by 1.5 during strong sunlight.
+None
+None
+None
+None
+None
+None
+1 1 0 1 0 0 420 0 1 25 421 0 0
+
+422
+Shellos
+Sea Slug Pokemon
+Water
+Water
+Its appearance changes depending on the environment. One theory suggests that living in cold seas causes Shellos to take on this form.
+Bridge Field, Galar Mine No. 2, Giant's Cap, Giant's Mirror, Motostoke Riverbank, Stony Wilderness (East Sea), Transfer from Pokemon HOME (West Sea), Max Raid Battles: Bridge Field, Giant's Mirror, Lake of Outrage, South Lake Miloch, West Lake Axewell
+Bridge Field, Galar Mine No. 2, Giant's Cap, Giant's Mirror, Motostoke Riverbank, Stony Wilderness (East Sea), Transfer from Pokemon HOME (West Sea), Max Raid Battles: Bridge Field, Giant's Mirror, Lake of Outrage, South Lake Miloch, West Lake Axewell
+Sticky Hold
+This Pokemon's item cannot be taken.
+Sand Force
+Ground-type, Rock-type & Steel-type moves have their power increased by 33% in a Sandstorm.
+Storm Drain
+Water-type moves are drawn to this Pokemon. Water-type moves will do no damage and the Pokemon's SP ATK is raised one stage.
+None
+None
+3 1 0 1 0 30 422 0 0 30 423 0 0
+
+423
+Gastrodon
+Sea Slug Pokemon
+Water
+Ground
+It secretes a purple fluid to deter enemies. This fluid isn't poisonous—instead, it's super sticky, and once it sticks, it's very hard to unstick.
+Route 9, Dusty Bowl, Galar Mine No. 2, Giant's Mirror (East Sea), Transfer from Pokemon HOME (West Sea), Max Raid Battles: Bridge Field, Dusty Bowl, Giant's Cap, Giant's Mirror, Lake of Outrage, Rolling Fields, South Lake Miloch, West Lake Axewell
+Route 9, Dusty Bowl, Galar Mine No. 2, Giant's Mirror (East Sea), Transfer from Pokemon HOME (West Sea), Max Raid Battles: Bridge Field, Dusty Bowl, Giant's Cap, Giant's Mirror, Lake of Outrage, Rolling Fields, South Lake Miloch, West Lake Axewell
+Sticky Hold
+This Pokemon's item cannot be taken.
+Sand Force
+Ground-type, Rock-type & Steel-type moves have their power increased by 33% in a Sandstorm.
+Storm Drain
+Water-type moves are drawn to this Pokemon. Water-type moves will do no damage and the Pokemon's SP ATK is raised one stage.
+None
+None
+3 1 0 1 0 0 422 0 1 30 423 0 0
+
+424
+Ambipom
+Long Tail Pokemon
+Normal
+Normal
+It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that's proof it really likes you.
+None
+None
+Technician
+Moves with a base power of 60 or less are boosted in power by 50%.
+Skill Link
+Moves that attack 2-5 times always hit 5 times.
+Pickup
+Has a 10% chance of finding and holding an item after battle. Will not work if this Pokemon is already holding an item. From Black & White, it allows for the user to pick up the item of its opponent or ally if they used up the item in battle.
+None
+leveling up while knowing Double Hit
+3 1 0 1 1 0 190 0 1 0 424 0 0
+
+425
+Drifloon
+Balloon Pokemon
+Ghost
+Flying
+Stories go that it grabs the hands of small children and drags them away to the afterlife. It dislikes heavy children.
+Route 5, North Lake Miloch, South Lake Miloch, Watchtower Ruins, Max Raid Battles: Giant's Cap, Hammerlocke Hills, Stony Wilderness, Watchtower Ruins
+Route 5, North Lake Miloch, South Lake Miloch, Watchtower Ruins, Max Raid Battles: Giant's Cap, Hammerlocke Hills, Stony Wilderness, Watchtower Ruins
+Aftermath
+The foe that dealt the final hit loses 1/4 of its maximum HP if the move made physical contact.
+Flare Boost
+Special Attack stat increased by 50% when burned.
+Unburden
+Speed is doubled once the held item is consumed.
+None
+None
+3 1 0 1 0 28 425 0 0 28 426 0 0
+
+426
+Drifblim
+Blimp Pokemon
+Ghost
+Flying
+Some say this Pokemon is a collection of souls burdened with regrets, silently drifting through the dusk.
+Axew's Eye, South Lake Miloch, Watchtower Ruins, Max Raid Battles: Giant's Cap, Hammerlocke Hills, Stony Wilderness, Watchtower Ruins
+Axew's Eye, South Lake Miloch, Watchtower Ruins, Max Raid Battles: Giant's Cap, Hammerlocke Hills, Stony Wilderness, Watchtower Ruins
+Aftermath
+The foe that dealt the final hit loses 1/4 of its maximum HP if the move made physical contact.
+Flare Boost
+Special Attack stat increased by 50% when burned.
+Unburden
+Speed is doubled once the held item is consumed.
+None
+None
+3 1 0 1 0 0 425 0 1 28 426 0 0
+
+427
+Buneary
+Rabbit Pokemon
+Normal
+Normal
+Buneary can attack by rolling up their ears and then striking with the force created by unrolling them. This attack becomes stronger with training.
+Fields of Honor, Max Raid Battles: Fields of Honor, Soothing Wetlands, Stepping-Stone Sea, Insular Sea
+Fields of Honor, Max Raid Battles: Fields of Honor, Soothing Wetlands, Stepping-Stone Sea, Insular Sea
+Run Away
+Except for trainer battles, can always run from battle. It still cannot switch during Mean Look or Block or when the opponent is trapping with the Arena Trap, Magnet Pull, or Shadow Tag ability.
+Limber
+The Pokemon cannot be Paralysed while having this ability.
+Klutz
+The Pokemon cannot receive any effect of hold items except those that affect experience such as Exp.Share or Macho Brace.
+None
+leveling up with Happiness value at 220
+3 1 0 1 1 1 427 0 0 0 428 0 0
+
+428
+Lopunny
+Rabbit Pokemon
+Normal
+Normal
+It's notably wary and has a dislike of fighting, but at the same time, it can deliver powerful kicks with its lithe legs.
+Fields of Honor, Soothing Wetlands, Challenge Beach, Max Raid Battles: Fields of Honor, Soothing Wetlands, Stepping-Stone Sea, Insular Sea
+Fields of Honor, Soothing Wetlands, Challenge Beach, Max Raid Battles: Fields of Honor, Soothing Wetlands, Stepping-Stone Sea, Insular Sea
+Cute Charm
+The opponent has a 30% chance of being induced with Attract when using an attack, that requires physical contact, against this Pokemon.
+Limber
+The Pokemon cannot be Paralysed while having this ability.
+Klutz
+The Pokemon cannot receive any effect of hold items except those that affect experience such as Exp.Share or Macho Brace.
+None
+leveling up with Happiness value at 220
+3 1 0 1 1 0 427 0 1 0 428 0 0
+
+429
+Mismagius
+Magical Pokemon
+Ghost
+Ghost
+Its muttered curses can cause awful headaches or terrifying visions that torment others.
+None
+None
+Levitate
+Damage dealing Ground-type moves have no effect on this Pokemon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes.
+None
+None
+None
+None
+None
+using a Dusk Stone
+1 1 0 0 1 0 200 0 1 0 429 0 0
+
+430
+Honchkrow
+Big Boss Pokemon
+Dark
+Flying
+Its goons take care of most of the fighting for it. The only time it dirties its own hands is in delivering a final blow to finish off an opponent.
+None
+None
+Insomnia
+The Pokemon cannot be put to Sleep while having this ability.
+Moxie
+Attack is raised by one stage when the Pokemon knocks out another Pokemon.
+Super Luck
+Raises the critical-hit ratio of moves by one level.
+None
+using a Dusk Stone
+3 1 0 0 1 0 198 0 1 0 430 0 0
+
+431
+Glameow
+Catty Pokemon
+Normal
+Normal
+When it's happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon.
+None
+None
+Limber
+The Pokemon cannot be Paralysed while having this ability.
+Keen Eye
+Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
+Own Tempo
+The Pokemon cannot be Confused while having this ability.
+None
+None
+3 1 0 1 0 38 431 0 0 38 432 0 0
+
+432
+Purugly
+Tiger Cat Pokemon
+Normal
+Normal
+To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails.
+None
+None
+Thick Fat
+Fire and Ice-type moves deal 50% damage.
+Defiant
+Attack is raised by two stages when the Pokemon has its stats lowered. Doesn't work on self inflicted stat drops or drops from allies.
+Own Tempo
+The Pokemon cannot be Confused while having this ability.
+None
+None
+3 1 0 1 0 0 431 0 1 38 432 0 0
+
+433
+Chingling
+Bell Pokemon
+Psychic
+Psychic
+Each time it hops, it makes a ringing sound. It deafens foes by emitting high-frequency cries.
+None
+None
+Levitate
+Damage dealing Ground-type moves have no effect on this Pokemon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes.
+None
+None
+None
+None
+None
+leveling up with Happiness value at 220 During the Night
+1 1 0 0 1 0 433 0 0 0 358 0 0
+
+434
+Stunky
+Skunk Pokemon
+Poison
+Dark
+From its rear, it sprays a foul-smelling liquid at opponents. It aims for their faces, and it can hit them from over 16 feet away.
+Route 3, Dappled Grove, Giant's Cap, North Lake Miloch, South Lake Miloch, Max Raid Battles: East Lake Axewell, Giant's Cap, Motostoke Riverbank, North Lake Miloch, Stony Wilderness, West Lake Axewell
+Route 3, Dappled Grove, Giant's Cap, North Lake Miloch, South Lake Miloch, Max Raid Battles: East Lake Axewell, Giant's Cap, Motostoke Riverbank, North Lake Miloch, Stony Wilderness, West Lake Axewell
+Stench
+If the Pokemon uses a move that deals damage on the opponent, there is a chance the opponent flinches.
+Keen Eye
+Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
+Aftermath
+The foe that dealt the final hit loses 1/4 of its maximum HP if the move made physical contact.
+None
+None
+3 1 0 1 0 34 434 0 0 34 435 0 0
+
+435
+Skuntank
+Skunk Pokemon
+Poison
+Dark
+It digs holes in the ground to make its nest. The stench of the fluid it lets fly from the tip of its tail is extremely potent.
+Dusty Bowl, Lake of Outrage, North Lake Miloch, South Lake Miloch, Max Raid Battles: East Lake Axewell, Giant's Cap, Motostoke Riverbank, North Lake Miloch, Stony Wilderness, West Lake Axewell
+Dusty Bowl, Lake of Outrage, North Lake Miloch, South Lake Miloch, Max Raid Battles: East Lake Axewell, Giant's Cap, Motostoke Riverbank, North Lake Miloch, Stony Wilderness, West Lake Axewell
+Stench
+If the Pokemon uses a move that deals damage on the opponent, there is a chance the opponent flinches.
+Keen Eye
+Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
+Aftermath
+The foe that dealt the final hit loses 1/4 of its maximum HP if the move made physical contact.
+None
+None
+3 1 0 1 0 0 434 0 1 34 435 0 0
+
+436
+Bronzor
+Bronze Pokemon
+Steel
+Psychic
+Polishing Bronzor to a shine makes its surface reflect the truth, according to common lore. Be that as it may, Bronzor hates being polished.
+Bridge Field, Giant's Seat, South Lake Miloch, Max Raid Battles: Dusty Bowl, Giant's Seat, Hammerlocke Hills, Motostoke Riverbank, Stony Wilderness
+Bridge Field, Giant's Seat, South Lake Miloch, Max Raid Battles: Dusty Bowl, Giant's Seat, Hammerlocke Hills, Motostoke Riverbank, Stony Wilderness
+Levitate
+Damage dealing Ground-type moves have no effect on this Pokemon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes.
+Heavy Metal
+Doubles the Pokemon's weight.
+Heatproof
+Damage from Fire-type moves and the Burn status is halved.
+None
+None
+3 1 0 1 0 33 436 0 0 33 437 0 0
+
+437
+Bronzong
+Bronze Bell Pokemon
+Steel
+Psychic
+Some believe it to be a deity that summons rain clouds. When angered, it lets out a warning cry that rings out like the tolling of a bell.
+Route 8, Axew's Eye, Bridge Field, Dusty Bowl, Giant's Seat, Lake of Outrage, Stony Wilderness, Max Raid Battles: Dusty Bowl, Giant's Seat, Hammerlocke Hills, Stony Wilderness
+Route 8, Axew's Eye, Bridge Field, Dusty Bowl, Giant's Seat, Lake of Outrage, Stony Wilderness, Max Raid Battles: Dusty Bowl, Giant's Seat, Hammerlocke Hills, Stony Wilderness
+Levitate
+Damage dealing Ground-type moves have no effect on this Pokemon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes.
+Heavy Metal
+Doubles the Pokemon's weight.
+Heatproof
+Damage from Fire-type moves and the Burn status is halved.
+None
+None
+3 1 0 1 0 0 436 0 1 33 437 0 0
+
+438
+Bonsly
+Bonsai Pokemon
+Rock
+Rock
+It expels both sweat and tears from its eyes. The sweat is a little salty, while the tears have a slight bitterness.
+Bridge Field, Stony Wilderness, Max Raid Battles: Giant's Seat, Rolling Fields, Stony Wilderness
+Bridge Field, Stony Wilderness, Max Raid Battles: Giant's Seat, Rolling Fields, Stony Wilderness
+Sturdy
+The Pokemon will remain with 1 HP if it was going to be knocked out by a move when at full Hit Points, and it is immune to One Hit KO moves.
+Rattled
+Speed is raised by one stage when the Pokemon is hit by a Bug-type, Ghost-type, or Dark-type move.
+Rock Head
+Does not recieve recoil damage from recoil-causing damages.
+None
+leveling Up while knowing Mimic
+3 1 0 1 1 1 438 0 0 0 185 0 0
+
+439
+Mime Jr.
+Mime Pokemon
+Psychic
+Fairy
+It mimics everyone it sees, but it puts extra effort into copying the graceful dance steps of Mr. Rime as practice.
+Rolling Fields, Max Raid Battles: Bridge Field, Hammerlocke Hills, Lake of Outrage, Motostoke Riverbank, Stony Wilderness
+Rolling Fields, Max Raid Battles: Bridge Field, Hammerlocke Hills, Lake of Outrage, Motostoke Riverbank, Stony Wilderness
+Soundproof
+Unaffected by sound moves. If this Pokemon swithces out with Baton Pass, Perish Song against the switched out will not be nullified.
+Technician
+Moves with a base power of 60 or less are boosted in power by 50%.
+Filter
+Damage by super-effective moves is reduced by 25%.
+leveling Up while knowing Mimic
+None
+3 2 0 1 1 1 439 122 0 42 866 0 0
+
+440
+Happiny
+Playhouse Pokemon
+Normal
+Normal
+Happiny's willing to lend its precious round stone to those it's friendly with, but if the stone isn't returned, Happiny will cry and throw a tantrum.
+Fields of Honor, Soothing Wetlands, Forest of Focus, Challenge Road, Loop Lagoon, Training Lowlands, Workout Sea, Stepping-Stone Sea, Insular Sea, Honeycalm Island
+Fields of Honor, Soothing Wetlands, Forest of Focus, Challenge Road, Loop Lagoon, Training Lowlands, Workout Sea, Stepping-Stone Sea, Insular Sea, Honeycalm Island
+Natural Cure
+The Pokemon's status (BURN, PARALYZE, SLEEP, POISON, FREEZE) is healed when withdrawn from battle.
+Friend Guard
+In Double & Triple battles, the damage that ally Pokemon receive from attacks is reduced by 25%.
+Serene Grace
+The chances of a move having a secondary effect is doubled.
+leveling up during the day while holding Oval Stone
+leveling up with Happiness value at 220
+3 2 0 1 1 1 440 113 0 0 242 0 0
+
+441
+Chatot
+Music Note Pokemon
+Normal
+Flying
+It mimics the cries of other Pokemon to trick them into thinking it's one of them. This way they won't attack it.
+None
+None
+Keen Eye
+Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
+Big Pecks
+Protects the Pokemon from Defense-lowering effects.
+Tangled Feet
+Pokemon's evasion raises one level when Confused.
+None
+None
+3 0 0 0 0 0 441 0 0 0 0 0 0
+
+442
+Spiritomb
+Forbidden Pokemon
+Ghost
+Dark
+All Spiritomb’s mischief and misdeeds compelled a traveler to use a mysterious spell to bind Spiritomb to an odd keystone.
+Ballimere Lake
+Ballimere Lake
+Pressure
+When this Pokemon is hit by a move, the opponent's PP lowers by 2 rather than 1. Opponents in S.O.S. Battles are more likely to call for help.
+Infiltrator
+The protections and stat boosts caused by the moves Substitute, Reflect, Light Screen and Safeguard by the opponent are ignored.
+None
+None
+None
+None
+2 0 0 0 0 0 442 0 0 0 0 0 0
+
+443
+Gible
+Land Shark Pokemon
+Dragon
+Ground
+Gible prefers to stay in narrow holes in the sides of caves heated by geothermal energy. This way, Gible can stay warm even during a blizzard.
+Trade from Pokemon Shield
+Tunnel to the Top, Max Raid Battles: Giant's Bed, Path to the Peak, Frigid Sea, Three-Point Pass, Ballimere Lake
+Sand Veil
+Raises the Pokemon’s evasion during a sandstorm by one level.
+Rough Skin
+The opponent is hurt by 1/8th of his maxium Hit Points of recoil when using an attack, that requires physical contact, against this Pokemon.
+None
+None
+None
+None
+2 2 0 1 0 24 443 444 0 48 445 0 0
+
+444
+Gabite
+Cave Pokemon
+Dragon
+Ground
+This Pokemon emits ultrasonic waves from a protrusion on either side of its head to probe pitch-dark caves.
+Trade from Pokemon Shield
+Evolve Gible, Max Raid Battles: Giant's Bed, Path to the Peak, Frigid Sea, Three-Point Pass, Ballimere Lake
+Sand Veil
+Raises the Pokemon’s evasion during a sandstorm by one level.
+Rough Skin
+The opponent is hurt by 1/8th of his maxium Hit Points of recoil when using an attack, that requires physical contact, against this Pokemon.
+None
+None
+None
+None
+2 2 1 1 0 48 443 444 0 48 445 0 0
+
+445
+Garchomp
+Mach Pokemon
+Dragon
+Ground
+Garchomp makes its home in volcanic mountains. It flies through the sky as fast as a jet airplane, hunting down as much prey as it can.
+Trade from Pokemon Shield
+Tunnel to the Top, Path to the Peak, Max Raid Battles: Giant's Bed, Path to the Peak, Frigid Sea, Three-Point Pass, Ballimere Lake
+Sand Veil
+Raises the Pokemon’s evasion during a sandstorm by one level.
+Rough Skin
+The opponent is hurt by 1/8th of his maxium Hit Points of recoil when using an attack, that requires physical contact, against this Pokemon.
+None
+None
+None
+None
+2 2 0 1 0 0 443 444 1 48 445 0 0
+
+446
+Munchlax
+Big Eater Pokemon
+Normal
+Normal
+It stores food beneath its fur. It might share just one bite, but only if it really trusts you.
+Motostoke Riverbank, Max Raid Battles: Bridge Field, Motostoke Riverbank, Stony Wilderness
+Motostoke Riverbank, Max Raid Battles: Bridge Field, Motostoke Riverbank, Stony Wilderness
+Pickup
+Has a 10% chance of finding and holding an item after battle. Will not work if this Pokemon is already holding an item. From Black & White, it allows for the user to pick up the item of its opponent or ally if they used up the item in battle.
+Gluttony
+The Pokemon will use a berry when Hit Points are below 50%.
+Thick Fat
+Fire and Ice-Type moves deals 50% damage.
+None
+leveling up with Happiness value at 220
+3 1 0 1 1 1 446 0 0 0 143 0 0
+
+447
+Riolu
+Emanation Pokemon
+Fighting
+Fighting
+It's exceedingly energetic, with enough stamina to keep running all through the night. Taking it for walks can be a challenging experience.
+Giant's Cap, Max Raid Battles: Dusty Bowl, Giant's Seat, Hammerlocke Hills, North Lake Miloch, Rolling Fields, Stony Wilderness
+Giant's Cap, Max Raid Battles: Dusty Bowl, Giant's Seat, Hammerlocke Hills, North Lake Miloch, Rolling Fields
+Steadfast
+Speed raises by one level every time the Pokemon flinches.
+Prankster
+Status category moves have their Speed Priority increased by 1. Moves increased by this that are used on Dark-type opponents will fail.
+Inner Focus
+This Pokemon will not flinch. Does not prevent flinching with Focus Punch.
+None
+leveling up with Happiness value at 220 During the Day
+3 1 0 1 1 1 447 0 0 0 448 0 0
+
+448
+Lucario
+Aura Pokemon
+Fighting
+Steel
+It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey.
+North Lake Miloch, Max Raid Battles: Dusty Bowl, Giant's Seat, Hammerlocke Hills, North Lake Miloch, Rolling Fields, Stony Wilderness
+North Lake Miloch, Max Raid Battles: Dusty Bowl, Giant's Seat, Hammerlocke Hills, North Lake Miloch, Rolling Fields
+Steadfast
+Speed raises by one level every time the Pokemon flinches.
+Justified
+Attack is raised by one stage when the Pokemon is hit by a Dark-type move.
+Inner Focus
+This Pokemon will not flinch. Does not prevent flinching with Focus Punch.
+None
+leveling up with Happiness value at 220 During the Day
+3 1 0 1 1 0 447 0 1 0 448 0 0
+
+449
+Hippopotas
+Hippo Pokemon
+Ground
+Ground
+It moves through the sands with its mouth open, swallowing sand along with its prey. It gets rid of the sand by spouting it from its nose.
+Route 6, Dusty Bowl, Max Raid Battles: Dusty Bowl
+Route 6, Dusty Bowl, Max Raid Battles: Dusty Bowl
+Sand Stream
+Sandstorm blows when the Pokemon enters the battle. As of X & Y, this lasts 5 turns.
+Sand Force
+Ground-type, Rock-type & Steel-type moves have their power increased by 33% in a Sandstorm.
+None
+None
+None
+None
+2 1 0 1 0 34 449 0 0 34 450 0 0
+
+450
+Hippowdon
+Heavyweight Pokemon
+Ground
+Ground
+Stones can get stuck in the ports on their bodies. Dwebble help dislodge such stones, so Hippowdon look after these Pokemon.
+Route 8, Giant's Mirror, Lake of Outrage, Max Raid Battles: Dusty Bowl
+Route 8, Giant's Mirror, Lake of Outrage, Max Raid Battles: Dusty Bowl
+Sand Stream
+Sandstorm blows when the Pokemon enters the battle. As of X & Y, this lasts 5 turns.
+Sand Force
+Ground-type, Rock-type & Steel-type moves have their power increased by 33% in a Sandstorm.
+None
+None
+None
+None
+2 1 0 1 0 0 449 0 1 34 450 0 0
+
+451
+Skorupi
+Scorpion Pokemon
+Poison
+Ground
+It attacks using the claws on its tail. Once locked in its grip, its prey is unable to move as this Pokemon's poison seeps in.
+Route 6, Giant's Mirror, Motostoke Riverbank, Max Raid Battles: East Lake Axewell, Giant's Cap, Hammerlocke Hills, Motostoke Riverbank, North Lake Miloch
+Route 6, Giant's Mirror, Motostoke Riverbank, Max Raid Battles: East Lake Axewell, Giant's Cap, Hammerlocke Hills, Motostoke Riverbank, North Lake Miloch
+Battle Armor
+Opponent’s moves cannot Critical Hit.
+Keen Eye
+Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
+Sniper
+Power of critical-hit moves is increased to 225% rather than 150%.
+None
+None
+3 1 0 1 0 40 451 0 0 40 452 0 0
+
+452
+Drapion
+Ogre Scorp Pokemon
+Poison
+Ground
+It's so vicious that it's called the Sand Demon. Yet when confronted by Hippowdon, Drapion keeps a low profile and will never pick a fight.
+Route 8, Bridge Field, Lake of Outrage, Motostoke Riverbank, Max Raid Battles: East Lake Axewell, Giant's Cap, Motostoke Riverbank, North Lake Miloch
+Route 8, Bridge Field, Lake of Outrage, Motostoke Riverbank, Max Raid Battles: East Lake Axewell, Giant's Cap, Motostoke Riverbank, North Lake Miloch
+Battle Armor
+Opponent’s moves cannot Critical Hit.
+Keen Eye
+Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost of the opponent.
+Sniper
+Power of critical-hit moves is increased to 225% rather than 150%.
+None
+None
+3 1 0 1 0 0 451 0 1 40 452 0 0
+
+453
+Croagunk
+Toxic Mouth Pokemon
+Poison
+Fighting
+It makes frightening noises with its poison-filled cheek sacs. When opponents flinch, Croagunk hits them with a poison jab.
+Trade from Shield
+Bridge Field, Dusty Bowl, Galar Mine No. 2, Giant's Cap, Motostoke Outskirts, Stony Wilderness, Max Raid Battles: Dusty Bowl, North Lake Miloch, Rolling Fields, South Lake Miloch, Stony Wilderness
+Anticipation
+Warns when the foe knows 1-hit KO or super-effective moves.
+Poison Touch
+When the Pokemon attacks its opponents with a move that causes Physical Contact, there is a 30% chance that the target is Poisoned.
+Dry Skin
+HP is restored when hit by Water-type moves or when it is raining but also makes the Pokemon weak to Fire-type moves and reduces HP during strong sunlight.
+None
+None
+3 1 0 1 0 37 453 0 0 37 454 0 0
+
+454
+Toxicroak
+Toxic Mouth Pokemon
+Poison
+Fighting
+It bounces toward opponents and gouges them with poisonous claws. No more than a scratch is needed to knock out its adversaries.
+Trade from Shield
+Stony Wilderness, Max Raid Battles: Dusty Bowl, North Lake Miloch, Rolling Fields, South Lake Miloch, Stony Wilderness
+Anticipation
+Warns when the foe knows 1-hit KO or super-effective moves.
+Poison Touch
+When the Pokemon attacks its opponents with a move that causes Physical Contact, there is a 30% chance that the target is Poisoned.
+Dry Skin
+HP is restored when hit by Water-type moves or when it is raining but also makes the Pokemon weak to Fire-type moves and reduces HP during strong sunlight.
+None
+None
+3 1 0 1 0 0 453 0 1 37 454 0 0
+
+455
+Carnivine
+Bug Catcher Pokemon
+Grass
+Grass
+It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down.
+None
+None
+Levitate
+Damage dealing Ground-type moves have no effect on this Pokemon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes.
+None
+None
+None
+None
+None
+None
+1 0 0 0 0 0 455 0 0 0 0 0 0
+
+456
+Finneon
+Wing Fish Pokemon
+Water
+Water
+It lures in prey with its shining tail fins. It stays near the surface during the day and moves to the depths when night falls.
+None
+None
+Swift Swim
+When rainy, The Pokemon’s Speed doubles. However, Speed will not double on the turn weather becomes Heavy Rain.
+Water Veil
+This Pokemon cannot be Burned while having this ability.
+Storm Drain
+Water-type moves are drawn to this Pokemon. Water-type moves will do no damage and the Pokemon's SP ATK is raised one stage.
+None
+None
+3 1 0 1 0 31 456 0 0 31 457 0 0
+
+457
+Lumineon
+Neon Pokemon
+Water
+Water
+This deep-sea Pokemon lives at the bottom of the sea. Its fins haul it over the seabed in search of its favorite food—Starmie.
+None
+None
+Swift Swim
+When rainy, The Pokemon’s Speed doubles. However, Speed will not double on the turn weather becomes Heavy Rain.
+Water Veil
+This Pokemon cannot be Burned while having this ability.
+Storm Drain
+Water-type moves are drawn to this Pokemon. Water-type moves will do no damage and the Pokemon's SP ATK is raised one stage.
+None
+None
+3 1 0 1 0 0 456 0 1 31 457 0 0
+
+458
+Mantyke
+Kite Pokemon
+Water
+Flying
+Mantyke living in Galar seem to be somewhat sluggish. The colder waters of the seas in this region may be the cause.
+Route 9, Lake of Outrage, Motostoke Riverbank, Max Raid Battles: East Lake Axewell, Giant's Mirror, North Lake Miloch, South Lake Miloch, West Lake Axewell
+Route 9, Lake of Outrage, Motostoke Riverbank, Max Raid Battles: East Lake Axewell, Giant's Mirror, North Lake Miloch, South Lake Miloch, West Lake Axewell
+Swift Swim
+When rainy, The Pokemon’s Speed doubles. However, Speed will not double on the turn weather becomes Heavy Rain.
+Water Veil
+This Pokemon cannot be Burned while having this ability.
+Water Absorb
+The Pokemon heals up to 1/4 of its maximum Hit Points when hit with Water-type moves.
+None
+leveling up with Remoraid in the Party
+3 1 0 1 1 1 458 0 0 0 226 0 0
+
+459
+Snover
+Frosted Tree Pokemon
+Grass
+Ice
+It lives on snowy mountains. It sinks its legs into the snow to absorb water and keep its own temperature down.
+Route 8, Route 10, Axew's Eye, Dappled Grove, Dusty Bowl, East Lake Axewell, Giant's Cap, Giant's Mirror, Giant's Seat, North Lake Miloch, South Lake Miloch, Watchtower Ruins, Max Raid Battles: Dusty Bowl, Giant's Cap, Hammerlocke Hills
+Route 8, Route 10, Axew's Eye, Dappled Grove, Dusty Bowl, East Lake Axewell, Giant's Cap, Giant's Mirror, Giant's Seat, North Lake Miloch, South Lake Miloch, Watchtower Ruins, Max Raid Battles: Dusty Bowl, Giant's Cap, Hammerlocke Hills
+Snow Warning
+Hailstorm blows when the Pokemon enters battle. As of X & Y, this lasts 5 turns.
+Soundproof
+Unaffected by sound moves. If this Pokemon switches out with Baton Pass, Perish Song against the switched out will not be nullified.
+None
+None
+None
+None
+2 1 0 1 0 40 459 0 0 40 460 0 0
+
+460
+Abomasnow
+Frosted Tree Pokemon
+Grass
+Ice
+This Pokemon is known to bring blizzards. A shake of its massive body is enough to cause whiteout conditions.
+Route 10, Axew's Eye, Dusty Bowl, Giant's Mirror, Giant's Seat, Hammerlocke Hills, Lake of Outrage, Max Raid Battles: Dusty Bowl, Giant's Cap, Hammerlocke Hills
+Route 10, Axew's Eye, Dusty Bowl, Giant's Mirror, Giant's Seat, Hammerlocke Hills, Lake of Outrage, Max Raid Battles: Dusty Bowl, Giant's Cap, Hammerlocke Hills
+Snow Warning
+Hailstorm blows when the Pokemon enters battle. As of X & Y, this lasts 5 turns.
+Soundproof
+Unaffected by sound moves. If this Pokemon switches out with Baton Pass, Perish Song against the switched out will not be nullified.
+None
+None
+None
+None
+2 1 0 1 0 0 459 0 1 40 460 0 0
+
+461
+Weavile
+Sharp Claw Pokemon
+Dark
+Ice
+They attack their quarry in packs. Prey as large as Mamoswine easily fall to the teamwork of a group of Weavile.
+Bridge Field, Max Raid Battles: Bridge Field, Stony Wilderness, West Lake Axewell
+Bridge Field, Max Raid Battles: Bridge Field, Stony Wilderness, West Lake Axewell
+Pressure
+When this Pokemon is hit by a move, the opponent's PP lowers by 2 rather than 1. Opponents in S.O.S. Battles are more likely to call for help.
+Pickpocket
+When a Pokemon makes physical contact with the Pokemon, the item of the opponent is stolen.
+None
+None
+None
+leveling up during the night while holding Razor Claw
+2 1 0 1 1 0 215 0 1 0 461 0 0
+
+462
+Magnezone
+Magnet Area Pokemon
+Electric
+Steel
+Some say that Magnezone receives signals from space via the antenna on its head and that it's being controlled by some mysterious being.
+Challenge Beach, Loop Lagoon, Insular Sea, Max Raid Battles: Fields of Honor, Forest of Focus, Challenge Beach, Brawlers' Cave, Courageous Cavern, Stepping-Stone Sea, Honeycalm Sea
+Challenge Beach, Loop Lagoon, Insular Sea, Max Raid Battles: Fields of Honor, Forest of Focus, Challenge Beach, Brawlers' Cave, Courageous Cavern, Stepping-Stone Sea, Honeycalm Sea
+Magnet Pull
+Steel types cannot run nor switch while this Pokemon is in battle. Because the opponent's switching is blocked, the opponent cannot switch on the turn this Pokemon switches out of battle. The opponent may still switch with Baton Pass.
+Analytic
+Attack power increases by 30% if the Pokemon is the last Pokemon to attack this turn.
+Sturdy
+The Pokemon will remain with 1 HP if it was going to be knocked out by a move when at full Hit Points, and it is immune to One Hit KO moves.
+None
+using a Thunder Stone
+3 2 0 1 1 0 81 82 1 0 462 0 0
+
+463
+Lickilicky
+Licking Pokemon
+Normal
+Normal
+Lickilicky's strange tongue can stretch to many times the length of its body. No one has figured out how Lickilicky's tongue can stretch so far.
+Soothing Wetlands, Max Raid Battles: Soothing Wetlands, Courageous Cavern, Training Lowlands
+Soothing Wetlands, Max Raid Battles: Soothing Wetlands, Courageous Cavern, Training Lowlands
+Own Tempo
+The Pokemon cannot be Confused while having this ability.
+Cloud Nine
+All weather effects are negated while the Pokemon is on the field.
+Oblivious
+The Pokemon cannot be under the Attract condition, or be taunted, while having this ability.
+None
+leveling up while knowing Rollout
+3 1 0 1 1 0 108 0 1 0 463 0 0
+
+464
+Rhyperior
+Drill Pokemon
+Ground
+Rock
+It can load up to three projectiles per arm into the holes in its hands. What launches out of those holes could be either rocks or Roggenrola.
+Max Raid Battles: Bridge Field, Dusty Bowl, Giant's Seat, Rolling Fields
+Max Raid Battles: Bridge Field, Dusty Bowl, Giant's Seat, Rolling Fields
+Lightningrod
+Electric-type moves are drawn to this Pokemon. Electric-type moves will do no damage and the Pokemon's SP ATK is raised one stage.
+Reckless
+The power of moves that have recoil damage is increased by 20%.
+Solid Rock
+Damage by super-effective moves is reduced by 25%.
+None
+Trade with Protector
+3 2 0 0 1 0 111 112 1 0 464 0 0
+
+465
+Tangrowth
+Vine Pokemon
+Grass
+Grass
+Tangrowth has two arms that it can extend as it pleases. Recent research has shown that these arms are, in fact, bundles of vines.
+Forest of Focus, Max Raid Battles: Fields of Honor, Soothing Wetlands, Forest of Focus, Training Lowlands, Insular Sea
+Forest of Focus, Max Raid Battles: Fields of Honor, Soothing Wetlands, Forest of Focus, Training Lowlands, Insular Sea
+Chlorophyll
+When sunny, the Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Strong Sunlight.
+Regenerator
+When the Pokemon swithces out of battle, up to 33.3% of its maximum Hit Points are restored.
+Leaf Guard
+Prevents the Pokemon from being afflicted by status conditions during strong sunlight.
+None
+leveling up while knowing Acient Power
+3 1 0 1 1 0 114 0 1 0 465 0 0
+
+466
+Electivire
+Thunderbolt Pokemon
+Electric
+Electric
+The amount of electrical energy this Pokemon produces is proportional to the rate of its pulse. The voltage jumps while Electivire is battling.
+Giant's Bed, Frigid Sea, Three-Point Pass, Ballimere Lake, Max Raid Battles: Frostpoint Field, Giant's Bed, Frigid Sea, Three-Point Pass, Ballimere Lake
+Giant's Bed, Frigid Sea, Three-Point Pass, Ballimere Lake, Max Raid Battles: Frostpoint Field, Giant's Bed, Frigid Sea, Three-Point Pass, Ballimere Lake
+Motor Drive
+The Pokemon takes no damage from Electric-type attacks and Speed raises by one level.
+Vital Spirit
+The Pokemon cannot be Asleep while having this ability.
+None
+None
+None
+Trade with Electirizer
+2 2 0 0 1 0 239 125 1 0 466 0 0
+
+467
+Magmortar
+Blast Pokemon
+Fire
+Fire
+When Magmortar inhales deeply, the fire burning in its belly intensifies, rising in temperature to over 3,600 degrees Fahrenheit.
+Slippery Slope, Giant's Bed, Snowslide Slope, Frigid Sea, Ballimere Lake, Max Raid Battles: Giant's Bed, Snowslide Slope, Ballimere Lake
+Slippery Slope, Giant's Bed, Snowslide Slope, Frigid Sea, Ballimere Lake, Max Raid Battles: Giant's Bed, Snowslide Slope, Ballimere Lake
+Flame Body
+The opponent has a 30% chance of being induced with Burn when using an attack, that requires physical contact, against this Pokemon.
+Vital Spirit
+The Pokemon cannot be Asleep while having this ability.
+None
+None
+None
+Trade with Magmarizer
+2 2 0 0 1 0 240 126 1 0 467 0 0
+
+468
+Togekiss
+Jubilee Pokemon
+Fairy
+Flying
+Known as a bringer of blessings, it's been depicted on good-luck charms since ancient times.
+Dusty Bowl, Max Raid Battles: Bridge Field, Hammerlocke Hills, Lake of Outrage, Rolling Fields
+Dusty Bowl, Max Raid Battles: Bridge Field, Hammerlocke Hills, Lake of Outrage, Rolling Fields
+Hustle
+Damage from physical attacks is increased by 50%, but average accuracy is only 80%.
+Super Luck
+Raises the critical-hit ratio of moves by one level.
+Serene Grace
+The chances of a move having a secondary effect is doubled.
+leveling up with Happiness value at 220
+using a Shiny Stone
+3 2 0 0 1 0 175 176 1 0 468 0 0
+
+469
+Yanmega
+Ogre Darner Pokemon
+Bug
+Flying
+This six-legged Pokemon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced.
+None
+None
+Speed Boost
+Speed increases by one stage at the end of each turn.
+Frisk
+Reveals the foe’s held item.
+Tinted Lens
+The power of “not very effective” moves is doubled.
+None
+leveling up while knowing Ancient Power
+3 1 0 1 1 0 193 0 1 0 469 0 0
+
+470
+Leafeon
+Verdant Pokemon
+Grass
+Grass
+This Pokemon's tail is blade sharp, with a fantastic cutting edge that can slice right though large trees.
+Lake of Outrage, Max Raid Battles: Giant's Mirror
+Lake of Outrage, Max Raid Battles: Giant's Mirror
+Leaf Guard
+Prevents the Pokemon from being afflicted by status conditions during strong sunlight.
+Chlorophyll
+When sunny, the Pokemon's Speed doubles. However, Speed will not double on the turn weather becomes Strong Sunlight.
+None
+None
+None
+using a Leaf Stone
+2 7 0 1 1 0 133 0 1 0 470 1 0
+
+471
+Glaceon
+Fresh Snow Pokemon
+Ice
+Ice
+The coldness emanating from Glaceon causes powdery snow to form, making it quite a popular Pokemon at ski resorts.
+Lake of Outrage, Max Raid Battles: Hammerlocke Hills
+Lake of Outrage, Max Raid Battles: Hammerlocke Hills
+Snow Cloak
+Raises the Pokemon's evasion during a hailstorm by one level.
+Ice Body
+HP is restored by 1/16th of maximum HP when its hailing.
+None
+None
+None
+using a Ice Stone
+2 7 0 1 1 0 133 0 1 0 471 1 0
+
+472
+Gliscor
+Fang Scorp Pokemon
+Ground
+Flying
+Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest.
+None
+None
+Hyper Cutter
+Opponent cannot lower this Pokemon's Attack value. This Pokemon may still lower its own Attack value using a move of by itself.
+Poison Heal
+HP is restored by 1/8th the maximum HP every turn while the Pokemon has the Poison condition.
+Sand Veil
+Raises the Pokemon’s evasion during a sandstorm by one level.
+None
+leveling up during the night while holding Razor Fang
+3 1 0 1 1 0 207 0 1 0 472 0 0
+
+473
+Mamoswine
+Twin Tusk Pokemon
+Ice
+Ground
+It looks strong, and that's exactly what it is. As the weather grows colder, its ice tusks grow longer, thicker, and more impressive.
+Max Raid Battles: Stony Wilderness
+Max Raid Battles: Stony Wilderness
+Oblivious
+The Pokemon cannot be under the Attract condition, or be taunted, while having this ability.
+Thick Fat
+Fire and Ice-type moves deal 50% damage.
+Snow Cloak
+Raises the Pokemon's evasion during a hailstorm by one level.
+None
+leveling uping while knowing Acient Power
+3 2 0 1 1 0 220 221 1 0 473 0 0
+
+474
+Porygon-Z
+Virtual Pokemon
+Normal
+Normal
+Porygon-Z had a program installed to allow it to move between dimensions, but the program also caused instability in Porygon-Z's behavior.
+Evolve Porygon2
+Evolve Porygon2
+Adaptability
+Increases the Same Type Attack Bonus from *1.5 to *2.
+Analytic
+Attack power increases by 30% if the Pokemon is the last Pokemon to attack this turn.
+Download
+Attack is increased when the foe's Defense is lower than its Special Defense or increases Special Attack when the foe's Special Defense is lower than its Defense.
+Trade with Up-Grade
+Trade with Dubious Disc
+3 2 0 0 1 0 137 233 1 0 474 0 0
+
+475
+Gallade
+Blade Pokemon
+Psychic
+Fighting
+True to its honorable-warrior image, it uses the blades on its elbows only in defense of something or someone.
+Bridge Field, Max Raid Battles: Dusty Bowl, North Lake Miloch, Rolling Fields, Stony Wilderness
+Bridge Field, Max Raid Battles: Dusty Bowl, North Lake Miloch, Rolling Fields, Stony Wilderness
+Steadfast
+Speed raises by one level every time the Pokemon flinches.
+Justified
+Attack is raised by one stage when the Pokemon is hit by a Dark-type move.
+None
+None
+None
+using a Dawn Stone on a male Kirlia
+2 2 0 0 1 0 280 281 1 0 282 1 475
+
+476
+Probopass
+Compass Pokemon
+Rock
+Steel
+It uses three small units to catch prey and battle enemies. The main body mostly just gives orders.
+None
+None
+Sturdy
+The Pokemon will remain with 1 HP if it was going to be knocked out by a move when at full Hit Points, and it is immune to One Hit KO moves.
+Sand Force
+Ground-type, Rock-type & Steel-type moves have their power increased by 33% in a Sandstorm.
+Magnet Pull
+Steel types cannot run nor switch while this Pokemon is in battle. Because the opponent's switching is blocked, the opponent cannot switch on the turn this Pokemon switches out of battle. The opponent may still switch with Baton Pass.
+None
+leveling up at Electric Rock/Area
+3 1 0 1 1 0 299 0 1 0 476 0 0
+
+477
+Dusknoir
+Gripper Pokemon
+Ghost
+Ghost
+With the mouth on its belly, Dusknoir swallows its target whole. The soul is the only thing eaten— Dusknoir disgorges the body before departing.
+Stony Wilderness, Max Raid Battles: Giant's Mirror, South Lake Miloch, Stony Wilderness
+Stony Wilderness, Max Raid Battles: Giant's Mirror, South Lake Miloch, Stony Wilderness
+Pressure
+When this Pokemon is hit by a move, the opponent's PP lowers by 2 rather than 1. Opponents in S.O.S. Battles are more likely to call for help.
+Frisk
+Reveals the foe’s held item.
+None
+None
+None
+Trade with Reaper Cloth
+2 2 0 0 1 0 355 356 1 0 477 0 0
+
+478
+Froslass
+Snow Land Pokemon
+Ice
+Ghost
+After a woman met her end on a snowy mountain, her regrets lingered on. From them, this Pokemon was born. Its favorite food is frozen souls.
+Max Raid Battles: Giant's Cap, Hammerlocke Hills
+Max Raid Battles: Giant's Cap, Hammerlocke Hills
+Snow Cloak
+Raises the Pokemon's evasion during a hailstorm by one level.
+Cursed Body
+When a move hits the Pokemon, the move has a 30% chance of getting disabled.
+None
+None
+None
+using a Dawn Stone on a female Snorunt
+2 1 0 0 1 0 361 0 1 0 362 1 478
+
+479
+Rotom
+Plasma Pokemon
+Electric
+Ghost
+With a body made of plasma, it can inhabit all sorts of machines. It loves to surprise others.
+Lake of Outrage, Max Raid Battles: Hammerlocke Hills
+Lake of Outrage, Max Raid Battles: Hammerlocke Hills
+Levitate
+Damage dealing Ground-type moves have no effect on this Pokemon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes.
+None
+None
+None
+None
+None
+None
+1 0 0 0 0 0 479 0 0 0 0 0 0
+
+480
+Uxie
+Knowledge Pokemon
+Psychic
+Psychic
+Known as "The Being of Knowledge." It is said that it can wipe out the memory of those who see its eyes.
+Dynamax Adventures
+Dynamax Adventures
+Levitate
+Damage dealing Ground-type moves have no effect on this Pokemon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes.
+None
+None
+None
+None
+None
+None
+1 0 0 0 0 0 480 0 0 0 0 0 0
+
+481
+Mesprit
+Emotion Pokemon
+Psychic
+Psychic
+Known as "The Being of Emotion." It taught humans the nobility of sorrow, pain, and joy.
+Dynamax Adventures
+Dynamax Adventures
+Levitate
+Damage dealing Ground-type moves have no effect on this Pokemon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes.
+None
+None
+None
+None
+None
+None
+1 0 0 0 0 0 481 0 0 0 0 0 0
+
+482
+Azelf
+Willpower Pokemon
+Psychic
+Psychic
+Known as "The Being of Willpower." It sleeps at the bottom of a lake to keep the world in balance.
+Dynamax Adventures
+Dynamax Adventures
+Levitate
+Damage dealing Ground-type moves have no effect on this Pokemon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes.
+None
+None
+None
+None
+None
+None
+1 0 0 0 0 0 482 0 0 0 0 0 0
+
+483
+Dialga
+Temporal Pokemon
+Steel
+Dragon
+It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.
+Dynamax Adventures
+Trade from Pokemon Sword
+Pressure
+When this Pokemon is hit by a move, the opponent's PP lowers by 2 rather than 1. Opponents in S.O.S. Battles are more likely to call for help.
+Telepathy
+Prevents damage from team-mates during Double and Triple battles.
+None
+None
+None
+None
+2 0 0 0 0 0 483 0 0 0 0 0 0
+
+484
+Palkia
+Spatial Pokemon
+Water
+Dragon
+It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.
+Trade from Pokemon Shield
+Dynamax Adventures
+Pressure
+When this Pokemon is hit by a move, the opponent's PP lowers by 2 rather than 1. Opponents in S.O.S. Battles are more likely to call for help.
+Telepathy
+Prevents damage from team-mates during Double and Triple battles.
+None
+None
+None
+None
+2 0 0 0 0 0 484 0 0 0 0 0 0
+
+485
+Heatran
+Lava Dome Pokemon
+Fire
+Steel
+Boiling blood, like magma, circulates through its body. It makes its dwelling place in volcanic caves.
+Dynamax Adventures
+Dynamax Adventures
+Flash Fire
+Activates when user is hit by a damaging Fire-type move (including Fire-type Hidden Power). Once activated, user’s Fire-type moves deal 1.5 times damage. While this ability is in effect, this Pokemon is immune to damage from Fire-type attacks and Fire-type Hidden Power (accuracy and effect from these moves are ignored). For Fire-type Pokemon with this ability, Will-O-Wisp activates this ability without having an effect. If a non-Fire-type Pokemon has this ability, Will-O-Wisp will activate the ability and will have an effect.
+Flame Body
+The opponent has a 30% chance of being induced with Burn when using an attack, that requires physical contact, against this Pokemon.
+None
+None
+None
+None
+2 0 0 0 0 0 485 0 0 0 0 0 0
+
+486
+Regigigas
+Colossal Pokemon
+Normal
+Normal
+It is said to have made Pokemon that look like itself from a special ice mountain, rocks, and magma.
+Giant's Bed
+Giant's Bed
+Slow Start
+Attack and Speed is halved during the first five turns since sent out.
+None
+None
+None
+None
+None
+None
+1 0 0 0 0 0 486 0 0 0 0 0 0
+
+487
+Giratina
+Renegade Pokemon
+Ghost
+Dragon
+This Pokemon is said to live in a world on the reverse side of ours, where common knowledge is distorted and strange.
+Dynamax Adventures
+Dynamax Adventures
+Pressure
+When this Pokemon is hit by a move, the opponent's PP lowers by 2 rather than 1. Opponents in S.O.S. Battles are more likely to call for help.
+Telepathy
+Prevents damage from team-mates during Double and Triple battles.
+None
+None
+None
+None
+2 0 0 0 0 0 487 0 0 0 0 0 0
+
+488
+Cresselia
+Lunar Pokemon
+Psychic
+Psychic
+Those who sleep holding Cresselia's feather are assured of joyful dreams. It is said to represent the crescent moon.
+Dynamax Adventures
+Dynamax Adventures
+Levitate
+Damage dealing Ground-type moves have no effect on this Pokemon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes.
+None
+None
+None
+None
+None
+None
+1 0 0 0 0 0 488 0 0 0 0 0 0
+
+489
+Phione
+Sea Drifter Pokemon
+Water
+Water
+It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted.
+None
+None
+Hydration
+All status problems: Burn, Paralysis, Sleep, Frozen and Poison, are healed when raining.
+None
+None
+None
+None
+None
+None
+1 0 0 0 0 0 489 0 0 0 0 0 0
+
+490
+Manaphy
+Seafaring Pokemon
+Water
+Water
+It starts its life with a wondrous power that permits it to bond with any kind of Pokemon.
+None
+None
+Hydration
+All status problems: Burn, Paralysis, Sleep, Frozen and Poison, are healed when raining.
+None
+None
+None
+None
+None
+None
+1 0 0 0 0 0 490 0 0 0 0 0 0
+
+491
+Darkrai
+Pitch-Black Pokemon
+Dark
+Dark
+It chases people and Pokemon from its territory by causing them to experience deep, nightmarish slumbers.
+None
+None
+Bad Dreams
+Reduces the HP of sleeping opposing Pokemon.
+None
+None
+None
+None
+None
+None
+1 0 0 0 0 0 491 0 0 0 0 0 0
+
+492
+Shaymin
+Gratitude Pokemon
+Grass
+Grass
+The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers.
+None
+None
+Natural Cure
+The Pokemon's status (BURN, PARALYZE, SLEEP, POISON, FREEZE) is healed when withdrawn from battle.
+None
+None
+Serene Grace(Sky Forme)
+The chances of a move having a secondary effect is doubled.
+None
+None
+3 0 0 0 0 0 492 0 0 0 0 0 0
+
+493
+Arceus
+Alpha Pokemon
+Normal
+Normal
+It is told in mythology that this Pokemon was born before the universe even existed.
+None
+None
+Multitype
+Changes the Pokemon's type to match the Plate or Z-Crystal it holds.
+None
+None
+None
+None
+None
+None
+1 0 0 0 0 0 493 0 0 0 0 0 0

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>952</width>
+    <height>735</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="regionBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>871</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tahoma</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>REGIONS</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="allPokemonButton">
+       <property name="font">
+        <font>
+         <family>Impact</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>ALL POKEMON: 000 - 898</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="kantoButton">
+       <property name="font">
+        <font>
+         <family>Impact</family>
+         <pointsize>15</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>KANTO: 001 - 151</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="johtoButton">
+       <property name="font">
+        <font>
+         <family>Impact</family>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>JOHTO: 152 - 251</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="hoennButton">
+       <property name="font">
+        <font>
+         <family>Impact</family>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>HOENN: 252 - 386</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sinnohButton">
+       <property name="font">
+        <font>
+         <family>Impact</family>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>SINNOH: 387 - 493</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="unovaButton">
+       <property name="font">
+        <font>
+         <family>Impact</family>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>UNOVA: 494 - 649</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="kalosButton">
+       <property name="font">
+        <font>
+         <family>Impact</family>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>KALOS: 650 - 721</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="alolaButton">
+       <property name="font">
+        <font>
+         <family>Impact</family>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>ALOLA: 722 - 809</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="galarButton">
+       <property name="font">
+        <font>
+         <family>Impact</family>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>GALAR: 810 - 898</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>952</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSearch">
+    <property name="title">
+     <string>Search</string>
+    </property>
+    <addaction name="actionSearch"/>
+   </widget>
+   <widget class="QMenu" name="menuType_Chart">
+    <property name="title">
+     <string>Type Chart</string>
+    </property>
+    <addaction name="actionType_Chart"/>
+   </widget>
+   <widget class="QMenu" name="menuNature_Chart">
+    <property name="title">
+     <string>Nature Chart</string>
+    </property>
+    <addaction name="actionNature_Chart"/>
+   </widget>
+   <addaction name="menuSearch"/>
+   <addaction name="menuType_Chart"/>
+   <addaction name="menuNature_Chart"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionSearch">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/images/icons/Search Icon.png</normaloff>:/images/icons/Search Icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Search</string>
+   </property>
+  </action>
+  <action name="actionType_Chart">
+   <property name="text">
+    <string>Type Chart</string>
+   </property>
+  </action>
+  <action name="actionNature_Chart">
+   <property name="text">
+    <string>Nature Chart</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

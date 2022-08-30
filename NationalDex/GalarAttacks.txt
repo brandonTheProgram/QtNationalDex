@@ -1,0 +1,4517 @@
+Grookey
+43
+1 Scratch
+1 Growl
+6 Branch Poke
+8 Taunt
+12 Razor Leaf
+17 Screech
+20 Knock Off
+24 Slam
+28 Uproar
+32 Wood Hammer
+36 Endeavor
+0 Mega Punch
+0 Mega Kick
+0 Magical Leaf
+0 Solar Beam
+0 Solar Blade
+0 Screech
+0 Rest
+0 Snore
+0 Protect
+0 Giga Drain
+0 Attract
+0 Sunny Day
+0 Facade
+0 Swift
+0 U-turn
+0 Assurance
+0 Fling
+0 Drain Punch
+0 Round
+0 Acrobatics
+0 False Swipe
+0 Swords Dance
+0 Low Kick
+0 Focus Energy
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Uproar
+0 Taunt
+0 Energy Ball
+0 Grass Knot
+0 Work Up
+
+Thwackey
+44
+1 Double Hit
+1 Scratch
+1 Growl
+1 Branch Poke
+1 Taunt
+12 Razor Leaf
+19 Screech
+24 Knock Off
+30 Slam
+36 Uproar
+42 Wood Hammer
+48 Endeavor
+0 Mega Punch
+0 Mega Kick
+0 Magical Leaf
+0 Solar Beam
+0 Solar Blade
+0 Screech
+0 Rest
+0 Snore
+0 Protect
+0 Giga Drain
+0 Attract
+0 Sunny Day
+0 Facade
+0 Swift
+0 U-turn
+0 Assurance
+0 Fling
+0 Drain Punch
+0 Round
+0 Acrobatics
+0 False Swipe
+0 Swords Dance
+0 Low Kick
+0 Focus Energy
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Uproar
+0 Taunt
+0 Energy Ball
+0 Grass Knot
+0 Work Up
+
+Rillaboom
+70
+1 Drum Beating
+1 Double Hit
+1 Grassy Terrain
+1 Noble Roar
+1 Scratch
+1 Growl
+1 Branch Poke
+1 Taunt
+12 Razor Leaf
+19 Screech
+24 Knock Off
+30 Slam
+38 Uproar
+46 Wood Hammer
+54 Endeavor
+62 Boomburst
+0 Mega Punch
+0 Mega Kick
+0 Hyper Beam
+0 Giga Impact
+0 Magical Leaf
+0 Solar Beam
+0 Solar Blade
+0 Screech
+0 Rest
+0 Snore
+0 Protect
+0 Scary Face
+0 Giga Drain
+0 Attract
+0 Sunny Day
+0 Facade
+0 Swift
+0 Brick Break
+0 Bullet Seed
+0 Mud Shot
+0 U-turn
+0 Assurance
+0 Fling
+0 Drain Punch
+0 Round
+0 Acrobatics
+0 Bulldoze
+0 Snarl
+0 Grassy Terrain
+0 False Swipe
+0 Brutal Swing
+0 Stomping Tantrum
+0 Swords Dance
+0 Body Slam
+0 Low Kick
+0 Earthquake
+0 Focus Energy
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Uproar
+0 Taunt
+0 Superpower
+0 Hyper Voice
+0 Bulk Up
+0 Focus Blast
+0 Energy Ball
+0 Earth Power
+0 Leaf Storm
+0 Grass Knot
+0 Work Up
+0 Darkest Lariat
+0 High Horsepower
+0 Body Press
+
+Scorbunny
+45
+1 Tackle
+1 Growl
+6 Ember
+8 Quick Attack
+12 Double Kick
+17 Flame Charge
+20 Agility
+24 Headbutt
+28 Counter
+32 Bounce
+36 Double-Edge
+0 Mega Kick
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Sunny Day
+0 Facade
+0 Swift
+0 Bounce
+0 Mud Shot
+0 U-turn
+0 Assurance
+0 Fire Fang
+0 Low Sweep
+0 Round
+0 Acrobatics
+0 Flamethrower
+0 Low Kick
+0 Agility
+0 Focus Energy
+0 Fire Blast
+0 Substitute
+0 Reversal
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Heat Wave
+0 Taunt
+0 Blaze Kick
+0 Overheat
+0 Gunk Shot
+0 Electro Ball
+0 Ally Switch
+0 Work Up
+
+Raboot
+47
+1 Tackle
+1 Growl
+1 Ember
+1 Quick Attack
+12 Double Kick
+19 Flame Charge
+24 Agility
+30 Headbutt
+36 Counter
+42 Bounce
+48 Double-Edge
+0 Mega Kick
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Sunny Day
+0 Facade
+0 Swift
+0 Bounce
+0 Mud Shot
+0 U-turn
+0 Assurance
+0 Fire Fang
+0 Low Sweep
+0 Round
+0 Acrobatics
+0 Flamethrower
+0 Low Kick
+0 Agility
+0 Focus Energy
+0 Fire Blast
+0 Substitute
+0 Reversal
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Heat Wave
+0 Taunt
+0 Blaze Kick
+0 Overheat
+0 Bulk Up
+0 Flare Blitz
+0 Gunk Shot
+0 Electro Ball
+0 Ally Switch
+0 Work Up
+
+Cinderace
+61
+1 Pyro Ball
+1 Feint
+1 Tackle
+1 Growl
+1 Ember
+1 Quick Attack
+12 Double Kick
+19 Flame Charge
+24 Agility
+30 Headbutt
+38 Counter
+46 Bounce
+54 Double-Edge
+62 Court Change
+0 Mega Kick
+0 Fire Punch
+0 Hyper Beam
+0 Giga Impact
+0 Fire Spin
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Sunny Day
+0 Facade
+0 Swift
+0 Helping Hand
+0 Revenge
+0 Bounce
+0 Mud Shot
+0 U-turn
+0 Assurance
+0 Fire Fang
+0 Low Sweep
+0 Round
+0 Acrobatics
+0 Snarl
+0 Flamethrower
+0 Low Kick
+0 Agility
+0 Focus Energy
+0 Fire Blast
+0 Substitute
+0 Reversal
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Shadow Ball
+0 Heat Wave
+0 Taunt
+0 Blaze Kick
+0 Overheat
+0 Bulk Up
+0 Flare Blitz
+0 Focus Blast
+0 Zen Headbutt
+0 Gunk Shot
+0 Iron Head
+0 Electro Ball
+0 Ally Switch
+0 Work Up
+
+Sobble
+36
+1 Pound
+1 Growl
+6 Water Gun
+8 Bind
+12 Water Pulse
+17 Tearful Look
+20 Sucker Punch
+24 U-turn
+28 Liquidation
+32 Soak
+36 Rain Dance
+0 Light Screen
+0 Reflect
+0 Safeguard
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Rain Dance
+0 Whirlpool
+0 Facade
+0 Swift
+0 Dive
+0 Weather Ball
+0 Bounce
+0 Mud Shot
+0 U-turn
+0 Round
+0 Surf
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Muddy Water
+0 Work Up
+0 Liquidation
+
+Drizzile
+37
+1 Pound
+1 Growl
+1 Water Gun
+1 Bind
+12 Water Pulse
+19 Tearful Look
+24 Sucker Punch
+30 U-turn
+36 Liquidation
+42 Soak
+48 Rain Dance
+0 Light Screen
+0 Reflect
+0 Safeguard
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Rain Dance
+0 Whirlpool
+0 Facade
+0 Swift
+0 Dive
+0 Weather Ball
+0 Bounce
+0 Mud Shot
+0 U-turn
+0 Fling
+0 Round
+0 Surf
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Muddy Water
+0 Work Up
+0 Liquidation
+
+Inteleon
+58
+1 Snipe Shot
+1 Acrobatics
+1 Pound
+1 Growl
+1 Water Gun
+1 Bind
+12 Water Pulse
+19 Tearful Look
+24 Sucker Punch
+30 U-turn
+38 Liquidation
+46 Soak
+54 Rain Dance
+62 Hydro Pump
+0 Hyper Beam
+0 Giga Impact
+0 Light Screen
+0 Reflect
+0 Safeguard
+0 Rest
+0 Snore
+0 Protect
+0 Icy Wind
+0 Attract
+0 Rain Dance
+0 Whirlpool
+0 Facade
+0 Swift
+0 Dive
+0 Weather Ball
+0 Icicle Spear
+0 Bounce
+0 Mud Shot
+0 U-turn
+0 Fling
+0 Round
+0 Acrobatics
+0 Air Slash
+0 Breaking Swipe
+0 Swords Dance
+0 Hydro Pump
+0 Surf
+0 Ice Beam
+0 Blizzard
+0 Agility
+0 Focus Energy
+0 Metronome
+0 Waterfall
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Shadow Ball
+0 Muddy Water
+0 Dark Pulse
+0 Scald
+0 Work Up
+0 Liquidation
+
+Skwovet
+38
+1 Tackle
+1 Tail Whip
+5 Bite
+10 Stuff Cheeks
+15 Stockpile
+15 Spit Up
+20 Body Slam
+25 Rest
+30 Counter
+35 Bullet Seed
+40 Super Fang
+45 Belch
+0 Dig
+0 Rest
+0 Thief
+0 Snore
+0 Protect
+0 Attract
+0 Facade
+0 Bullet Seed
+0 Mud Shot
+0 Payback
+0 Assurance
+0 Fling
+0 Round
+0 Tail Slap
+0 Brutal Swing
+0 Body Slam
+0 Amnesia
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Iron Tail
+0 Crunch
+0 Uproar
+0 Hyper Voice
+0 Gyro Ball
+0 Seed Bomb
+
+Greedent
+51
+1 Covet
+1 Tackle
+1 Tail Whip
+1 Bite
+1 Stuff Cheeks
+15 Stockpile
+15 Spit Up
+20 Body Slam
+27 Rest
+34 Counter
+41 Bullet Seed
+48 Super Fang
+55 Belch
+0 Hyper Beam
+0 Giga Impact
+0 Dig
+0 Rest
+0 Thief
+0 Snore
+0 Protect
+0 Attract
+0 Facade
+0 Bullet Seed
+0 Mud Shot
+0 Payback
+0 Assurance
+0 Fling
+0 Thunder Fang
+0 Ice Fang
+0 Fire Fang
+0 Round
+0 Tail Slap
+0 Brutal Swing
+0 Stomping Tantrum
+0 Swords Dance
+0 Body Slam
+0 Earthquake
+0 Amnesia
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Iron Tail
+0 Crunch
+0 Uproar
+0 Superpower
+0 Hyper Voice
+0 Gyro Ball
+0 Seed Bomb
+0 Wild Charge
+0 Psychic Fangs
+0 Body Press
+
+Rookidee
+38
+1 Peck
+1 Leer
+4 Power Trip
+8 Hone Claws
+12 Fury Attack
+16 Pluck
+20 Taunt
+24 Scary Face
+28 Drill Peck
+32 Swagger
+36 Brave Bird
+0 Fly
+0 Rest
+0 Thief
+0 Snore
+0 Protect
+0 Scary Face
+0 Attract
+0 Facade
+0 Swift
+0 Revenge
+0 Fake Tears
+0 U-turn
+0 Payback
+0 Assurance
+0 Round
+0 Retaliate
+0 Air Slash
+0 Agility
+0 Focus Energy
+0 Substitute
+0 Reversal
+0 Endure
+0 Sleep Talk
+0 Taunt
+0 Brave Bird
+0 Nasty Plot
+0 Work Up
+
+Corvisquire
+38
+1 Peck
+1 Leer
+1 Power Trip
+1 Hone Claws
+12 Fury Attack
+16 Pluck
+22 Taunt
+28 Scary Face
+34 Drill Peck
+40 Swagger
+46 Brave Bird
+0 Fly
+0 Rest
+0 Thief
+0 Snore
+0 Protect
+0 Scary Face
+0 Attract
+0 Facade
+0 Swift
+0 Revenge
+0 Fake Tears
+0 U-turn
+0 Payback
+0 Assurance
+0 Round
+0 Retaliate
+0 Air Slash
+0 Agility
+0 Focus Energy
+0 Substitute
+0 Reversal
+0 Endure
+0 Sleep Talk
+0 Taunt
+0 Brave Bird
+0 Nasty Plot
+0 Work Up
+
+Corviknight
+55
+1 Steel Wing
+1 Iron Defense
+1 Metal Sound
+1 Peck
+1 Leer
+1 Power Trip
+1 Hone Claws
+12 Fury Attack
+16 Pluck
+22 Taunt
+28 Scary Face
+34 Drill Peck
+42 Swagger
+50 Brave Bird
+0 Fly
+0 Hyper Beam
+0 Giga Impact
+0 Screech
+0 Light Screen
+0 Reflect
+0 Rest
+0 Thief
+0 Snore
+0 Protect
+0 Scary Face
+0 Steel Wing
+0 Attract
+0 Facade
+0 Swift
+0 Revenge
+0 Fake Tears
+0 U-turn
+0 Payback
+0 Assurance
+0 Round
+0 Retaliate
+0 Air Slash
+0 Body Slam
+0 Agility
+0 Focus Energy
+0 Substitute
+0 Reversal
+0 Endure
+0 Sleep Talk
+0 Taunt
+0 Iron Defense
+0 Bulk Up
+0 Brave Bird
+0 Nasty Plot
+0 Flash Cannon
+0 Iron Head
+0 Heavy Slam
+0 Work Up
+0 Hurricane
+0 Body Press
+
+Blipbug
+1
+1 Struggle Bug
+
+Dottler
+41
+1 Reflect
+1 Light Screen
+1 Confusion
+1 Struggle Bug
+0 Solar Beam
+0 Light Screen
+0 Reflect
+0 Safeguard
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Facade
+0 Helping Hand
+0 Imprison
+0 Payback
+0 Power Swap
+0 Guard Swap
+0 Trick Room
+0 Wonder Room
+0 Magic Room
+0 Round
+0 Psychic Terrain
+0 Psychic
+0 Leech Life
+0 Substitute
+0 Psyshock
+0 Endure
+0 Sleep Talk
+0 Shadow Ball
+0 Future Sight
+0 Trick
+0 Skill Swap
+0 Iron Defense
+0 Calm Mind
+0 Bug Buzz
+0 Energy Ball
+0 Zen Headbutt
+0 Stored Power
+0 Ally Switch
+0 Body Press
+
+Orbeetle
+60
+1 Reflect
+1 Light Screen
+1 Confusion
+1 Struggle Bug
+4 Confuse Ray
+8 Magic Coat
+12 Agility
+16 Psybeam
+20 Hypnosis
+24 Ally Switch
+28 Bug Buzz
+32 Mirror Coat
+36 Psychic
+40 After You
+44 Calm Mind
+48 Psychic Terrain
+0 Hyper Beam
+0 Giga Impact
+0 Solar Beam
+0 Light Screen
+0 Reflect
+0 Safeguard
+0 Rest
+0 Snore
+0 Protect
+0 Giga Drain
+0 Attract
+0 Facade
+0 Helping Hand
+0 Imprison
+0 U-turn
+0 Payback
+0 Power Swap
+0 Guard Swap
+0 Psycho Cut
+0 Trick Room
+0 Wonder Room
+0 Magic Room
+0 Round
+0 Psychic Terrain
+0 Psychic
+0 Agility
+0 Leech Life
+0 Substitute
+0 Psyshock
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Shadow Ball
+0 Future Sight
+0 Trick
+0 Skill Swap
+0 Iron Defense
+0 Calm Mind
+0 Bug Buzz
+0 Energy Ball
+0 Zen Headbutt
+0 Stored Power
+0 Ally Switch
+0 Body Press
+
+Nickit
+36
+1 Quick Attack
+1 Tail Whip
+4 Beat Up
+8 Hone Claws
+12 Snarl
+16 Assurance
+20 Nasty Plot
+24 Sucker Punch
+28 Night Slash
+32 Tail Slap
+36 Foul Play
+0 Dig
+0 Screech
+0 Rest
+0 Thief
+0 Snore
+0 Protect
+0 Attract
+0 Beat Up
+0 Facade
+0 Swift
+0 Fake Tears
+0 Mud Shot
+0 Assurance
+0 Round
+0 Tail Slap
+0 Snarl
+0 Agility
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Taunt
+0 Nasty Plot
+0 Foul Play
+0 Play Rough
+
+Thievul
+51
+1 Thief
+1 Quick Attack
+1 Tail Whip
+1 Beat Up
+1 Hone Claws
+12 Snarl
+16 Assurance
+22 Nasty Plot
+28 Sucker Punch
+34 Night Slash
+40 Tail Slap
+46 Foul Play
+52 Parting Shot
+0 Hyper Beam
+0 Giga Impact
+0 Dig
+0 Screech
+0 Rest
+0 Thief
+0 Snore
+0 Protect
+0 Attract
+0 Beat Up
+0 Facade
+0 Swift
+0 Fake Tears
+0 Mud Shot
+0 U-turn
+0 Assurance
+0 Shadow Claw
+0 Thunder Fang
+0 Ice Fang
+0 Fire Fang
+0 Round
+0 Acrobatics
+0 Tail Slap
+0 Snarl
+0 Psychic
+0 Agility
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Crunch
+0 Shadow Ball
+0 Taunt
+0 Dark Pulse
+0 Nasty Plot
+0 Grass Knot
+0 Foul Play
+0 Play Rough
+
+Gossifleur
+34
+1 Leafage
+1 Sing
+4 Rapid Spin
+8 Sweet Scent
+12 Razor Leaf
+16 Round
+21 Leaf Tornado
+24 Synthesis
+28 Hyper Voice
+32 Aromatherapy
+36 Leaf Storm
+0 Magical Leaf
+0 Solar Beam
+0 Light Screen
+0 Rest
+0 Snore
+0 Protect
+0 Giga Drain
+0 Charm
+0 Attract
+0 Sunny Day
+0 Facade
+0 Helping Hand
+0 Bullet Seed
+0 Round
+0 Grassy Terrain
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Hyper Voice
+0 Energy Ball
+0 Leaf Storm
+0 Grass Knot
+0 Pollen Puff
+
+Eldegoss
+40
+1 Cotton Spore
+1 Leafage
+1 Sing
+1 Rapid Spin
+1 Sweet Scent
+12 Razor Leaf
+16 Round
+23 Leaf Tornado
+28 Synthesis
+34 Hyper Voice
+40 Aromatherapy
+46 Leaf Storm
+52 Cotton Guard
+0 Hyper Beam
+0 Giga Impact
+0 Magical Leaf
+0 Solar Beam
+0 Light Screen
+0 Rest
+0 Snore
+0 Protect
+0 Giga Drain
+0 Charm
+0 Attract
+0 Sunny Day
+0 Facade
+0 Helping Hand
+0 Weather Ball
+0 Bullet Seed
+0 Round
+0 Grassy Terrain
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Hyper Voice
+0 Seed Bomb
+0 Energy Ball
+0 Leaf Storm
+0 Grass Knot
+0 Pollen Puff
+
+Wooloo
+28
+1 Tackle
+1 Growl
+4 Defense Curl
+8 Copycat
+12 Guard Split
+16 Double Kick
+21 Headbutt
+25 Take Down
+28 Guard Swap
+32 Reversal
+36 Cotton Guard
+40 Double-Edge
+0 Thunder Wave
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Facade
+0 Payback
+0 Guard Swap
+0 Round
+0 Agility
+0 Substitute
+0 Reversal
+0 Endure
+0 Sleep Talk
+0 Electro Ball
+0 Wild Charge
+
+Dubwool
+39
+1 Tackle
+1 Growl
+1 Defense Curl
+1 Copycat
+12 Guard Split
+16 Double Kick
+21 Headbutt
+27 Take Down
+32 Guard Swap
+38 Reversal
+44 Cotton Guard
+50 Double-Edge
+56 Last Resort
+0 Mega Kick
+0 Hyper Beam
+0 Giga Impact
+0 Thunder Wave
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Facade
+0 Bounce
+0 Payback
+0 Guard Swap
+0 Round
+0 Retaliate
+0 Swords Dance
+0 Body Slam
+0 Agility
+0 Substitute
+0 Reversal
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Zen Headbutt
+0 Electro Ball
+0 Wild Charge
+0 Body Press
+
+Chewtle
+30
+1 Tackle
+1 Water Gun
+7 Bite
+14 Protect
+21 Headbutt
+28 Counter
+35 Jaw Lock
+42 Liquidation
+49 Body Slam
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Rain Dance
+0 Whirlpool
+0 Facade
+0 Revenge
+0 Dive
+0 Mud Shot
+0 Payback
+0 Assurance
+0 Ice Fang
+0 Round
+0 Body Slam
+0 Hydro Pump
+0 Surf
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Liquidation
+
+Drednaw
+67
+1 Rock Tomb
+1 Razor Shell
+1 Crunch
+1 Rock Polish
+1 Tackle
+1 Water Gun
+1 Bite
+1 Protect
+21 Headbutt
+30 Counter
+39 Jaw Lock
+48 Liquidation
+57 Body Slam
+66 Head Smash
+0 Hyper Beam
+0 Giga Impact
+0 Dig
+0 Rest
+0 Rock Slide
+0 Snore
+0 Protect
+0 Scary Face
+0 Attract
+0 Sandstorm
+0 Rain Dance
+0 Whirlpool
+0 Facade
+0 Revenge
+0 Dive
+0 Rock Tomb
+0 Sand Tomb
+0 Mud Shot
+0 Rock Blast
+0 Payback
+0 Assurance
+0 Ice Fang
+0 Round
+0 Bulldoze
+0 Razor Shell
+0 Smart Strike
+0 Stomping Tantrum
+0 Swords Dance
+0 Body Slam
+0 Hydro Pump
+0 Surf
+0 Ice Beam
+0 Blizzard
+0 Earthquake
+0 Waterfall
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Megahorn
+0 Iron Tail
+0 Crunch
+0 Superpower
+0 Muddy Water
+0 Iron Defense
+0 Poison Jab
+0 Earth Power
+0 Stone Edge
+0 Stealth Rock
+0 Scald
+0 High Horsepower
+0 Throat Chop
+0 Liquidation
+0 Body Press
+
+Yamper
+36
+1 Tackle
+1 Tail Whip
+5 Nuzzle
+10 Bite
+15 Roar
+20 Spark
+26 Charm
+30 Crunch
+35 Charge
+40 Wild Charge
+45 Play Rough
+0 Thunder Wave
+0 Dig
+0 Rest
+0 Snore
+0 Protect
+0 Charm
+0 Attract
+0 Facade
+0 Swift
+0 Helping Hand
+0 Thunder Fang
+0 Fire Fang
+0 Round
+0 Volt Switch
+0 Snarl
+0 Thunderbolt
+0 Thunder
+0 Substitute
+0 Endure
+9 Sleep Talk
+0 Crunch
+0 Uproar
+0 Electro Ball
+0 Wild Charge
+0 Play Rough
+
+Boltund
+47
+1 Electrify
+1 Tackle
+1 Tail Whip
+1 Nuzzle
+1 Bite
+15 Roar
+20 Spark
+28 Charm
+34 Crunch
+41 Charge
+48 Wild Charge
+55 Play Rough
+62 Electric Terrain
+0 Hyper Beam
+0 Giga Impact
+0 Thunder Wave
+0 Dig
+0 Rest
+0 Snore
+0 Protect
+0 Charm
+0 Attract
+0 Facade
+0 Swift
+0 Helping Hand
+0 Thunder Fang
+0 Fire Fang
+0 Round
+0 Volt Switch
+0 Snarl
+0 Electric Terrain
+0 Eerie Impulse
+0 Thunderbolt
+0 Thunder
+0 Agility
+0 Focus Energy
+0 Substitute
+0 Endure
+9 Sleep Talk
+0 Crunch
+0 Uproar
+0 Hyper Voice
+0 Bulk Up
+0 Electro Ball
+0 Wild Charge
+0 Play Rough
+0 Psychic Fangs
+
+Rolycoly
+35
+1 Tackle
+1 Smokescreen
+5 Rapid Spin
+10 Smack Down
+15 Rock Polish
+20 Ancient Power
+25 Incinerate
+30 Stealth Rock
+35 Heat Crash
+40 Rock Blast
+0 Dig
+0 Reflect
+0 Self-Destruct
+0 Rest
+0 Rock Slide
+0 Snore
+0 Protect
+0 Attract
+0 Sandstorm
+0 Will-O-Wisp
+0 Facade
+0 Rock Tomb
+0 Sand Tomb
+0 Rock Blast
+0 Round
+0 Substitute
+0 Spikes
+0 Endure
+0 Sleep Talk
+0 Iron Defense
+0 Gyro Ball
+0 Iron Head
+0 Stone Edge
+0 Stealth Rock
+0 Heat Crash
+
+Carkol
+47
+1 Flame Charge
+1 Tackle
+1 Smokescreen
+1 Rapid Spin
+1 Smack Down
+15 Rock Polish
+20 Ancient Power
+27 Incinerate
+35 Stealth Rock
+41 Heat Crash
+48 Rock Blast
+55 Burn Up
+0 Fire Spin
+0 Dig
+0 Reflect
+0 Self-Destruct
+0 Rest
+0 Rock Slide
+0 Snore
+0 Protect
+0 Attract
+0 Sandstorm
+0 Will-O-Wisp
+0 Facade
+0 Rock Tomb
+0 Sand Tomb
+0 Rock Blast
+0 Round
+0 Flamethrower
+0 Fire Blast
+0 Substitute
+0 Spikes
+0 Endure
+0 Sleep Talk
+0 Heat Wave
+0 Overheat
+0 Iron Defense
+0 Gyro Ball
+0 Flare Blitz
+0 Iron Head
+0 Stone Edge
+0 Stealth Rock
+0 Heavy Slam
+0 Scald
+0 Heat Crash
+0 High Horsepower
+0 Body Press
+
+Coalossal
+58
+1 Tar Shot
+1 Flame Charge
+1 Tackle
+1 Smokescreen
+1 Rapid Spin
+1 Smack Down
+15 Rock Polish
+20 Ancient Power
+27 Incinerate
+37 Stealth Rock
+45 Heat Crash
+54 Rock Blast
+63 Burn Up
+0 Mega Punch
+0 Mega Kick
+0 Fire Punch
+0 Hyper Beam
+0 Giga Impact
+0 Solar Beam
+0 Fire Spin
+0 Dig
+0 Reflect
+0 Self-Destruct
+0 Rest
+0 Rock Slide
+0 Snore
+0 Protect
+0 Attract
+0 Sandstorm
+0 Will-O-Wisp
+0 Facade
+0 Rock Tomb
+0 Sand Tomb
+0 Rock Blast
+0 Round
+0 Bulldoze
+0 Body Slam
+0 Flamethrower
+0 Earthquake
+0 Fire Blast
+0 Substitute
+0 Spikes
+0 Endure
+0 Sleep Talk
+0 Heat Wave
+0 Overheat
+0 Iron Defense
+0 Gyro Ball
+0 Flare Blitz
+0 Earth Power
+0 Iron Head
+0 Stone Edge
+0 Stealth Rock
+0 Heavy Slam
+0 Scald
+0 Heat Crash
+0 High Horsepower
+0 Body Press
+
+Applin
+3
+1 Withdraw
+1 Astonish
+0 Attract
+
+Flapple
+46
+1 Wing Attack
+1 Recycle
+1 Withdraw
+1 Astonish
+1 Growth
+1 Twister
+4 Acid Spray
+8 Acrobatics
+12 Leech Seed
+16 Protect
+20 Dragon Breath
+24 Dragon Dance
+28 Dragon Pulse
+32 Grav Apple
+36 Iron Defense
+40 Fly
+44 Dragon Rush
+0 Fly
+0 Hyper Beam
+0 Giga Impact
+0 Solar Beam
+0 Rest
+0 Snore
+0 Protect
+0 Scary Face
+0 Giga Drain
+0 Attract
+0 Sunny Day
+0 Facade
+0 Bullet Seed
+0 U-turn
+0 Round
+0 Acrobatics
+0 Air Slash
+0 Focus Energy
+0 Substitute
+0 Outrage
+0 Endure
+0 Sleep Talk
+0 Iron Defense
+0 Dragon Dance
+0 Seed Bomb
+0 Dragon Pulse
+0 Energy Ball
+0 Grass Knot
+0 Heavy Slam
+
+Appletun
+51
+1 Headbutt
+1 Recycle
+1 Withdraw
+1 Astonish
+1 Growth
+1 Sweet Scent
+4 Curse
+8 Stomp
+12 Leech Seed
+16 Protect
+20 Bullet Seed
+24 Recover
+28 Apple Acid
+32 Body Slam
+36 Iron Defense
+40 Dragon Pulse
+44 Energy Ball
+0 Hyper Beam
+0 Giga Impact
+0 Solar Beam
+0 Light Screen
+0 Reflect
+0 Safeguard
+0 Rest
+0 Snore
+0 Protect
+0 Giga Drain
+0 Attract
+0 Sunny Day
+0 Facade
+0 Bullet Seed
+0 Payback
+0 Round
+0 Bulldoze
+0 Body Slam
+0 Earthquake
+0 Amnesia
+0 Substitute
+0 Outrage
+0 Endure
+0 Sleep Talk
+0 Superpower
+0 Iron Defense
+0 Gyro Ball
+0 Seed Bomb
+0 Dragon Pulse
+0 Energy Ball
+0 Grass Knot
+0 Heavy Slam
+0 High Horsepower
+0 Body Press
+
+Silicobra
+31
+1 Wrap
+1 Sand Attack
+5 Minimize
+10 Brutal Swing
+15 Bulldoze
+20 Headbutt
+25 Glare
+30 Dig
+35 Sandstorm
+40 Slam
+45 Coil
+50 Sand Tomb
+0 Dig
+0 Screech
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Sandstorm
+0 Facade
+0 Sand Tomb
+0 Mud Shot
+0 Round
+0 Bulldoze
+0 Brutal Swing
+0 Earthquake
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Earth Power
+0 Drill Run
+
+Sandaconda
+47
+1 Skull Bash
+1 Wrap
+1 Sand Attack
+1 Minimize
+1 Brutal Swing
+15 Bulldoze
+20 Headbutt
+25 Glare
+30 Dig
+35 Sandstorm
+42 Slam
+49 Coil
+51 Sand Tomb
+0 Hyper Beam
+0 Giga Impact
+0 Dig
+0 Screech
+0 Rest
+0 Rock Slide
+0 Snore
+0 Protect
+0 Attract
+0 Sandstorm
+0 Facade
+0 Rock Tomb
+0 Sand Tomb
+0 Mud Shot
+0 Rock Blast
+0 Fire Fang
+0 Round
+0 Bulldoze
+0 Brutal Swing
+0 Earthquake
+0 Substitute
+0 Outrage
+0 Endure
+0 Sleep Talk
+0 Iron Defense
+0 Earth Power
+0 Zen Headbutt
+0 Iron Head
+0 Stone Edge
+0 Stealth Rock
+0 Drill Run
+0 Hurricane
+0 High Horsepower
+0 Body Press
+
+Cramorant
+48
+1 Belch
+1 Peck
+1 Stockpile
+1 Swallow
+1 Spit Up
+7 Water Gun
+14 Fury Attack
+21 Pluck
+28 Dive
+35 Drill Peck
+42 Amnesia
+49 Thrash
+56 Hydro Pump
+0 Fly
+0 Hyper Beam
+0 Giga Impact
+0 Rest
+0 Thief
+0 Snore
+0 Protect
+0 Icy Wind
+0 Steel Wing
+0 Attract
+0 Rain Dance
+0 Whirlpool
+0 Facade
+0 Dive
+0 Weather Ball
+0 Assurance
+0 Round
+0 Air Slash
+0 Hydro Pump
+0 Surf
+0 Ice Beam
+0 Blizzard
+0 Agility
+0 Amnesia
+0 Substitute
+0 Reversal
+0 Endure
+0 Sleep Talk
+0 Uproar
+0 Superpower
+0 Brave Bird
+0 Scald
+0 Hurricane
+0 Throat Chop
+0 Liquidation
+
+Arrokuda
+38
+1 Peck
+1 Aqua Jet
+6 Fury Attack
+12 Bite
+18 Agility
+24 Dive
+30 Laser Focus
+36 Crunch
+42 Liquidation
+48 Double-Edge
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Rain Dance
+0 Whirlpool
+0 Facade
+0 Swift
+0 Brick Break
+0 Dive
+0 Bounce
+0 Assurance
+0 Ice Fang
+0 Round
+0 Agility
+0 Focus Energy
+0 Waterfall
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Crunch
+0 Close Combat
+0 Poison Jab
+0 Scald
+0 Drill Run
+0 Throat Chop
+0 Psychic Fangs
+0 Liquidation
+
+Barraskewda
+43
+1 Throat Chop
+1 Peck
+1 Aqua Jet
+1 Fury Attack
+1 Bite
+18 Agility
+24 Dive
+32 Laser Focus
+40 Crunch
+48 Liquidation
+56 Double-Edge
+0 Hyper Beam
+0 Giga Impact
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Rain Dance
+0 Whirlpool
+0 Facade
+0 Swift
+0 Brick Break
+0 Dive
+0 Bounce
+0 Assurance
+0 Ice Fang
+0 Round
+0 Hydro Pump
+0 Surf
+0 Agility
+0 Focus Energy
+0 Waterfall
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Crunch
+0 Close Combat
+0 Poison Jab
+0 Scald
+0 Drill Run
+0 Throat Chop
+0 Psychic Fangs
+0 Liquidation
+
+Toxel
+16
+1 Belch
+1 Tearful Look
+1 Nuzzle
+1 Growl
+1 Flail
+1 Acid
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Facade
+0 Round
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Encore
+
+Toxtricity
+67
+1 Spark
+1 Eerie Impulse
+1 Belch
+1 Tearful Look
+1 Nuzzle
+1 Growl
+1 Flail
+1 Acid
+1 Thunder Shock
+1 Acid Spray
+1 Leer
+1 Noble Roar
+4 Charge
+8 Shock Wave
+12 Scary Face
+16 Taunt
+20 Venoshock
+24 Screech
+28 Swagger
+32 Toxic
+36 Discharge
+40 Poison Jab
+44 Overdrive
+48 Boomburst
+52 Shift Gear
+0 Mega Punch
+0 Mega Kick
+0 Fire Punch
+0 Thunder Punch
+0 Hyper Beam
+0 Giga Impact
+0 Thunder Wave
+0 Screech
+0 Rest
+0 Snore
+0 Protect
+0 Scary Face
+0 Attract
+0 Facade
+0 Swift
+0 Payback
+0 Fling
+0 Drain Punch
+0 Venoshock
+0 Round
+0 Hex
+0 Volt Switch
+0 Snarl
+0 Eerie Impulse
+0 Thunderbolt
+0 Thunder
+0 Substitute
+0 Sludge Bomb
+0 Endure
+0 Sleep Talk
+0 Encore
+0 Uproar
+0 Taunt
+0 Hyper Voice
+0 Poison Jab
+0 Gunk Shot
+0 Sludge Wave
+0 Electro Ball
+0 Stored Power
+0 Wild Charge
+0 Venom Drench
+0 Throat Chop
+
+Sizzlipede
+33
+1 Ember
+1 Smokescreen
+5 Wrap
+10 Bite
+15 Flame Wheel
+20 Bug Bite
+25 Coil
+30 Slam
+35 Fire Spin
+40 Crunch
+45 Fire Lash
+50 Lunge
+55 Burn Up
+0 Fire Spin
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Sunny Day
+0 Facade
+0 Venoshock
+0 Round
+0 Brutal Swing
+0 Leech Life
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Crunch
+0 Heat Wave
+0 Bug Buzz
+0 Power Whip
+0 Scald
+0 Heat Crash
+
+Centiskorch
+46
+1 Inferno
+1 Ember
+1 Smokescreen
+1 Wrap
+1 Bite
+15 Flame Wheel
+20 Bug Bite
+25 Coil
+32 Slam
+39 Fire Spin
+46 Crunch
+53 Fire Lash
+60 Lunge
+67 Burn Up
+0 Hyper Beam
+0 Giga Impact
+0 Solar Beam
+0 Fire Spin
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Sunny Day
+0 Will-O-Wisp
+0 Facade
+0 Thunder Fang
+0 Fire Fang
+0 Venoshock
+0 Round
+0 Mystical Fire
+0 Brutal Swing
+0 Flamethrower
+0 Fire Blast
+0 Leech Life
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Crunch
+0 Heat Wave
+0 Overheat
+0 Flare Blitz
+0 X-Scissor
+0 Bug Buzz
+0 Power Whip
+0 Scald
+0 Heat Crash
+
+Clobbopus
+40
+1 Rock Smash
+1 Leer
+5 Feint
+10 Bind
+15 Detect
+20 Brick Break
+25 Bulk Up
+30 Submission
+35 Taunt
+40 Reversal
+45 Superpower
+0 Mega Punch
+0 Ice Punch
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Facade
+0 Revenge
+0 Brick Break
+0 Dive
+0 Mud Shot
+0 Brine
+0 Payback
+0 Round
+0 Retaliate
+0 Body Slam
+0 Waterfall
+0 Substitute
+0 Reversal
+0 Endure
+0 Sleep Talk
+0 Taunt
+0 Superpower
+0 Muddy Water
+0 Bulk Up
+0 Close Combat
+0 Focus Blast
+0 Work Up
+0 Liquidation
+
+Grapploct
+53
+1 Octolock
+1 Octazooka
+1 Rock Smash
+1 Leer
+1 Feint
+1 Bind
+15 Detect
+20 Brick Break
+25 Bulk Up
+30 Submission
+35 Taunt
+40 Reversal
+45 Superpower
+50 Topsy-Turvy
+0 Mega Punch
+0 Ice Punch
+0 Hyper Beam
+0 Giga Impact
+0 Dig
+0 Rest
+0 Snore
+0 Protect
+0 Scary Face
+0 Attract
+0 Whirlpool
+0 Facade
+0 Revenge
+0 Brick Break
+0 Dive
+0 Mud Shot
+0 Brine
+0 Payback
+0 Drain Punch
+0 Round
+0 Retaliate
+0 Brutal Swing
+0 Stomping Tantrum
+0 Body Slam
+0 Hydro Pump
+0 Surf
+0 Waterfall
+0 Substitute
+0 Reversal
+0 Endure
+0 Sleep Talk
+0 Taunt
+0 Superpower
+0 Muddy Water
+0 Bulk Up
+0 Close Combat
+0 Focus Blast
+0 Work Up
+0 Liquidation
+
+Sinistea
+38
+1 Astonish
+1 Withdraw
+6 Aromatic Mist
+12 Mega Drain
+18 Protect
+24 Sucker Punch
+30 Aromatherapy
+36 Giga Drain
+42 Nasty Plot
+48 Shadow Ball
+54 Memento
+60 Shell Smash
+0 Rest
+0 Snore
+0 Protect
+0 Giga Drain
+0 Will-O-Wisp
+0 Facade
+0 Imprison
+0 Payback
+0 Wonder Room
+0 Round
+0 Hex
+0 Phantom Force
+0 Psychic
+0 Metronome
+0 Substitute
+0 Psyshock
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Shadow Ball
+0 Trick
+0 Dark Pulse
+0 Nasty Plot
+0 Foul Play
+0 Stored Power
+0 Ally Switch
+
+Polteageist
+46
+1 Teatime
+1 Strength Sap
+1 Astonish
+1 Withdraw
+1 Aromatic Mist
+1 Mega Drain
+18 Protect
+24 Sucker Punch
+30 Aromatherapy
+36 Giga Drain
+42 Nasty Plot
+48 Shadow Ball
+54 Memento
+60 Shell Smash
+66 Curse
+0 Hyper Beam
+0 Giga Impact
+0 Light Screen
+0 Reflect
+0 Self-Destruct
+0 Rest
+0 Snore
+0 Protect
+0 Giga Drain
+0 Will-O-Wisp
+0 Facade
+0 Imprison
+0 Payback
+0 Wonder Room
+0 Round
+0 Hex
+0 Phantom Force
+0 Psychic
+0 Metronome
+0 Substitute
+0 Psyshock
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Shadow Ball
+0 Trick
+0 Dark Pulse
+0 Nasty Plot
+0 Foul Play
+0 Stored Power
+0 Ally Switch
+
+Hatenna
+39
+1 Confusion
+1 Play Nice
+5 Life Dew
+10 Disarming Voice
+15 Aromatherapy
+20 Psybeam
+25 Heal Pulse
+30 Dazzling Gleam
+35 Calm Mind
+40 Psychic
+45 Healing Wish
+0 Magical Leaf
+0 Thunder Wave
+0 Light Screen
+0 Safeguard
+0 Rest
+0 Snore
+0 Protect
+0 Giga Drain
+0 Charm
+0 Attract
+0 Facade
+0 Helping Hand
+0 Imprison
+0 Round
+0 Draining Kiss
+0 Mystical Fire
+0 Psychic
+0 Substitute
+0 Psyshock
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Skill Swap
+0 Calm Mind
+0 Dark Pulse
+0 Stored Power
+0 Play Rough
+0 Dazzling Gleam
+
+Hattrem
+41
+1 Brutal Swing
+1 Confusion
+1 Play Nice
+1 Life Dew
+1 Disarming Voice
+15 Aromatherapy
+20 Psybeam
+25 Heal Pulse
+30 Dazzling Gleam
+37 Calm Mind
+44 Psychic
+51 Healing Wish
+0 Magical Leaf
+0 Thunder Wave
+0 Light Screen
+0 Safeguard
+0 Rest
+0 Snore
+0 Protect
+0 Giga Drain
+0 Charm
+0 Attract
+0 Facade
+0 Helping Hand
+0 Imprison
+0 Round
+0 Draining Kiss
+0 Mystical Fire
+0 Brutal Swing
+0 Psychic
+0 Substitute
+0 Psyshock
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Skill Swap
+0 Calm Mind
+0 Dark Pulse
+0 Stored Power
+0 Play Rough
+0 Dazzling Gleam
+
+Hatterene
+56
+1 Psycho Cut
+1 Brutal Swing
+1 Confusion
+1 Play Nice
+1 Life Dew
+1 Disarming Voice
+15 Aromatherapy
+20 Psybeam
+25 Heal Pulse
+30 Dazzling Gleam
+37 Calm Mind
+46 Psychic
+55 Healing Wish
+64 Magic Powder
+0 Hyper Beam
+0 Giga Impact
+0 Magical Leaf
+0 Thunder Wave
+0 Light Screen
+0 Safeguard
+0 Rest
+0 Snore
+0 Protect
+0 Giga Drain
+0 Charm
+0 Attract
+0 Facade
+0 Helping Hand
+0 Imprison
+0 Power Swap
+0 Guard Swap
+0 Shadow Claw
+0 Psycho Cut
+0 Trick Room
+0 Wonder Room
+0 Magic Room
+0 Round
+0 Draining Kiss
+0 Mystical Fire
+0 Brutal Swing
+0 Swords Dance
+0 Psychic
+0 Substitute
+0 Psyshock
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Shadow Ball
+0 Future Sight
+0 Skill Swap
+0 Calm Mind
+0 Dark Pulse
+0 Power Whip
+0 Stored Power
+0 Play Rough
+0 Dazzling Gleam
+
+Impidimp
+43
+1 Fake Out
+1 Confide
+4 Bite
+8 Flatter
+12 Fake Tears
+16 Assurance
+20 Swagger
+24 Sucker Punch
+28 Torment
+33 Dark Pulse
+36 Nasty Plot
+40 Play Rough
+44 Foul Play
+0 Mega Punch
+0 Mega Kick
+0 Thunder Wave
+0 Rest
+0 Thief
+0 Snore
+0 Protect
+0 Attract
+0 Facade
+0 Revenge
+0 Fake Tears
+0 Assurance
+0 Drain Punch
+0 Round
+0 Retaliate
+0 Draining Kiss
+0 Low Kick
+0 Metronome
+0 Leech Life
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Uproar
+0 Taunt
+0 Trick
+0 Dark Pulse
+0 Nasty Plot
+0 Foul Play
+0 Play Rough
+0 Dazzling Gleam
+
+Morgrem
+48
+1 False Surrender
+1 Fake Out
+1 Confide
+1 Bite
+1 Flatter
+12 Fake Tears
+16 Assurance
+20 Swagger
+24 Sucker Punch
+28 Torment
+35 Dark Pulse
+40 Nasty Plot
+46 Play Rough
+52 Foul Play
+0 Mega Punch
+0 Mega Kick
+0 Thunder Wave
+0 Light Screen
+0 Reflect
+0 Rest
+0 Thief
+0 Snore
+0 Protect
+0 Attract
+0 Facade
+0 Revenge
+0 Fake Tears
+0 Assurance
+0 Drain Punch
+0 Shadow Claw
+0 Round
+0 Retaliate
+0 Draining Kiss
+0 Low Kick
+0 Metronome
+0 Leech Life
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Uproar
+0 Taunt
+0 Trick
+0 Dark Pulse
+0 Nasty Plot
+0 Foul Play
+0 Play Rough
+0 Dazzling Gleam
+0 Throat Chop
+
+Grimmsnarl
+71
+1 Spirit Break
+1 False Surrender
+1 Bulk Up
+1 Power-Up Punch
+1 Fake Out
+1 Confide
+1 Bite
+1 Flatter
+12 Fake Tears
+16 Assurance
+20 Swagger
+24 Sucker Punch
+28 Torment
+35 Dark Pulse
+40 Nasty Plot
+48 Play Rough
+56 Foul Play
+64 Hammer Arm
+0 Mega Punch
+0 Mega Kick
+0 Fire Punch
+0 Ice Punch
+0 Thunder Punch
+0 Hyper Beam
+0 Giga Impact
+0 Thunder Wave
+0 Light Screen
+0 Reflect
+0 Rest
+0 Thief
+0 Snore
+0 Protect
+0 Scary Face
+0 Attract
+0 Facade
+0 Revenge
+0 Brick Break
+0 Fake Tears
+0 Assurance
+0 Power Swap
+0 Drain Punch
+0 Shadow Claw
+0 Wonder Room
+0 Low Sweep
+0 Round
+0 Retaliate
+0 Draining Kiss
+0 Stomping Tantrum
+0 Body Slam
+0 Low Kick
+0 Metronome
+0 Leech Life
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Crunch
+0 Uproar
+0 Taunt
+0 Trick
+0 Superpower
+0 Bulk Up
+0 Dark Pulse
+0 Focus Blast
+0 Nasty Plot
+0 Power Whip
+0 Foul Play
+0 Play Rough
+0 Dazzling Gleam
+0 Darkest Lariat
+0 Throat Chop
+0 Body Press
+
+Obstagoon
+85
+1 Obstruct
+1 Cross Chop
+1 Submission
+1 Night Slash
+1 Switcheroo
+1 Pin Missile
+1 Baby-Doll Eyes
+1 Tackle
+1 Leer
+1 Sand Attack
+1 Lick
+9 Snarl
+12 Headbutt
+15 Hone Claws
+18 Fury Swipes
+23 Rest
+28 Take Down
+35 Scary Face
+42 Counter
+49 Taunt
+56 Double-Edge
+0 Mega Punch
+0 Mega Kick
+0 Fire Punch
+0 Ice Punch
+0 Thunder Punch
+0 Pin Missile
+0 Hyper Beam
+0 Giga Impact
+0 Thunder Wave
+0 Dig
+0 Screech
+0 Rest
+0 Thief
+0 Snore
+0 Protect
+0 Scary Face
+0 Icy Wind
+0 Attract
+0 Rain Dance
+0 Sunny Day
+0 Whirlpool
+0 Facade
+0 Swift
+0 Helping Hand
+0 Revenge
+0 Brick Break
+0 Fake Tears
+0 Mud Shot
+0 Payback
+0 Assurance
+0 Fling
+0 Shadow Claw
+0 Cross Poison
+0 Round
+0 Retaliate
+0 Snarl
+0 Stomping Tantrum
+0 Body Slam
+0 Surf
+0 Ice Beam
+0 Blizzard
+0 Low Kick
+0 Thunderbolt
+0 Thunder
+0 Focus Energy
+0 Substitute
+0 Reversal
+0 Endure
+0 Sleep Talk
+0 Iron Tail
+0 Shadow Ball
+0 Taunt
+0 Trick
+0 Hyper Voice
+0 Iron Defense
+0 Bulk Up
+0 Close Combat
+0 Seed Bomb
+0 X-Scissor
+0 Gunk Shot
+0 Grass Knot
+0 Work Up
+0 Throat Chop
+0 Body Press
+
+Perrserker
+63
+1 Iron Head
+1 Metal Burst
+1 Fake Out
+1 Growl
+1 Hone Claws
+1 Scratch
+12 Pay Day
+16 Metal Claw
+20 Taunt
+24 Swagger
+31 Fury Swipes
+36 Screech
+42 Slash
+48 Metal Sound
+54 Thrash
+0 Pay Day
+0 Hyper Beam
+0 Giga Impact
+0 Dig
+0 Screech
+0 Rest
+0 Thief
+0 Snore
+0 Protect
+0 Attract
+0 Rain Dance
+0 Sunny Day
+0 Facade
+0 U-turn
+0 Payback
+0 Assurance
+0 Fling
+0 Shadow Claw
+0 Round
+0 Retaliate
+0 Swords Dance
+0 Body Slam
+0 Thunderbolt
+0 Thunder
+0 Amnesia
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Iron Tail
+0 Crunch
+0 Shadow Ball
+0 Uproar
+0 Taunt
+0 Hyper Voice
+0 Iron Defense
+0 Gyro Ball
+0 Close Combat
+0 Dark Pulse
+0 Seed Bomb
+0 Nasty Plot
+0 Gunk Shot
+0 Iron Head
+0 Heavy Slam
+0 Foul Play
+0 Work Up
+0 Play Rough
+0 Throat Chop
+
+Cursola
+68
+1 Perish Song
+1 Tackle
+1 Harden
+1 Astonish
+1 Disable
+15 Spite
+20 Ancient Power
+25 Hex
+30 Curse
+35 Strength Sap
+40 Power Gem
+45 Night Shade
+50 Grudge
+55 Mirror Coat
+0 Pin Missile
+0 Hyper Beam
+0 Giga Impact
+0 Dig
+0 Screech
+0 Light Screen
+0 Reflect
+0 Safeguard
+0 Self-Destruct
+0 Rest
+0 Rock Slide
+0 Snore
+0 Protect
+0 Icy Wind
+0 Giga Drain
+0 Attract
+0 Sandstorm
+0 Rain Dance
+0 Sunny Day
+0 Hail
+0 Whirlpool
+0 Will-O-Wisp
+0 Facade
+0 Revenge
+0 Rock Tomb
+0 Icicle Spear
+0 Rock Blast
+0 Brine
+0 Round
+0 Hex
+0 Bulldoze
+0 Stomping Tantrum
+0 Body Slam
+0 Hydro Pump
+0 Surf
+0 Ice Beam
+0 Blizzard
+0 Earthquake
+0 Psychic
+0 Amnesia
+0 Leech Life
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Shadow Ball
+0 Iron Defense
+0 Calm Mind
+0 Power Gem
+0 Earth Power
+0 Stone Edge
+0 Stealth Rock
+0 Scald
+0 Throat Chop
+0 Liquidation
+
+Sirfetch'd
+47
+1 Iron Defense
+1 First Impression
+1 Peck
+1 Sand Attack
+1 Leer
+1 Fury Cutter
+15 Rock Smash
+20 Brutal Swing
+25 Detect
+30 Knock Off
+35 Defog
+40 Brick Break
+45 Swords Dance
+50 Slam
+55 Leaf Blade
+60 Final Gambit
+65 Brave Bird
+70 Meteor Assult
+0 Solar Blade
+0 Rest
+0 Snore
+0 Protect
+0 Steel Wing
+0 Attract
+0 Sunny Day
+0 Facade
+0 Helping Hand
+0 Revenge
+0 Brick Break
+0 Assurance
+0 Round
+0 Retaliate
+0 Brutal Swing
+0 Swords Dance
+0 Body Slam
+0 Focus Energy
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Superpower
+0 Iron Defense
+0 Leaf Blade
+0 Close Combat
+0 Poison Jab
+0 Brave Bird
+0 Work Up
+0 Throat Chop
+
+Mr. Rime
+99
+1 Fake Tears
+1 Slack Off
+1 After You
+1 Block
+1 Copycat
+1 Encore
+1 Role Play
+1 Protect
+1 Recycle
+1 Mimic
+1 Light Screen
+1 Reflect
+1 Safeguard
+1 Dazzling Gleam
+1 Misty Terrain
+1 Pound
+1 Rapid Spin
+1 Baton Pass
+1 Ice Shard
+12 Confusion
+16 Ally Switch
+20 Icy Wind
+24 Double Kick
+28 Psybeam
+32 Hypnosis
+36 Mirror Coat
+40 Sucker Punch
+44 Freeze-Dry
+48 Psychic
+52 Teeter Dance
+0 Mega Punch
+0 Mega Kick
+0 Ice Punch
+0 Hyper Beam
+0 Giga Impact
+0 Solar Beam
+0 Thunder Wave
+0 Screech
+0 Light Screen
+0 Reflect
+0 Safeguard
+0 Rest
+0 Thief
+0 Snore
+0 Protect
+0 Icy Wind
+0 Charm
+0 Attract
+0 Rain Dance
+0 Sunny Day
+0 Hail
+0 Facade
+0 Helping Hand
+0 Brick Break
+0 Fake Tears
+0 Icicle Spear
+0 Payback
+0 Fling
+0 Power Swap
+0 Guard Swap
+0 Drain Punch
+0 Avalanche
+0 Trick Room
+0 Wonder Room
+0 Magic Room
+0 Round
+0 Misty Terrain
+0 Psychic Terrain
+0 Stomping Tantrum
+0 Body Slam
+0 Ice Beam
+0 Blizzard
+0 Thunderbolt
+0 Thunder
+0 Psychic
+0 Metronome
+0 Substitute
+0 Psyshock
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Encore
+0 Shadow Ball
+0 Future Sight
+0 Uproar
+0 Taunt
+0 Trick
+0 Skill Swap
+0 Iron Defense
+0 Calm Mind
+0 Focus Blast
+0 Energy Ball
+0 Nasty Plot
+0 Zen Headbutt
+0 Grass Knot
+0 Foul Play
+0 Stored Power
+0 Ally Switch
+0 Dazzling Gleam
+
+Runerigus
+73
+1 Shadow Claw
+1 Scary Face
+1 Astonish
+1 Protect
+1 Haze
+1 Night Shade
+12 Disable
+16 Brutal Swing
+20 Crafty Shield
+24 Hex
+28 Mean Look
+32 Slam
+38 Curse
+44 Shadow Ball
+50 Earthquake
+56 Power Split
+56 Guard Split
+62 Destiny Bond
+0 Hyper Beam
+0 Giga Impact
+0 Safeguard
+0 Rest
+0 Rock Slide
+0 Thief
+0 Snore
+0 Protect
+0 Scary Face
+0 Attract
+0 Sandstorm
+0 Rain Dance
+0 Will-O-Wisp
+0 Facade
+0 Revenge
+0 Imprison
+0 Fake Tears
+0 Rock Tomb
+0 Sand Tomb
+0 Rock Blast
+0 Payback
+0 Power Swap
+0 Guard Swap
+0 Shadow Claw
+0 Trick Room
+0 Wonder Room
+0 Round
+0 Hex
+0 Bulldoze
+0 Phantom Force
+0 Brutal Swing
+0 Earthquake
+0 Psychic
+0 Amnesia
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Shadow Ball
+0 Taunt
+0 Trick
+0 Skill Swap
+0 Iron Defense
+0 Calm Mind
+0 Toxic Spikes
+0 Dark Pulse
+0 Dragon Pulse
+0 Energy Ball
+0 Earth Power
+0 Nasty Plot
+0 Zen Headbutt
+0 Stone Edge
+0 Stealth Rock
+0 Grass Knot
+0 Ally Switch
+0 Body Press
+
+Milcery
+28
+1 Tackle
+1 Aromatic Mist
+5 Sweet Kiss
+10 Sweet Scent
+15 Draining Kiss
+20 Aromatherapy
+25 Attract
+30 Acid Armor
+35 Dazzling Gleam
+40 Recover
+45 Misty Terrain
+50 Entrainment
+0 Rest
+0 Snore
+0 Protect
+0 Charm
+0 Attract
+0 Facade
+0 Helping Hand
+0 Fling
+0 Round
+0 Draining Kiss
+0 Misty Terrain
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Stored Power
+0 Dazzling Gleam
+
+Alcremie
+50
+1 Decorate
+1 Tackle
+1 Aromatic Mist
+1 Sweet Kiss
+1 Sweet Scent
+15 Draining Kiss
+20 Aromatherapy
+25 Attract
+30 Acid Armor
+35 Dazzling Gleam
+40 Recover
+45 Misty Terrain
+50 Entrainment
+0 Hyper Beam
+0 Giga Impact
+0 Magical Leaf
+0 Solar Beam
+0 Light Screen
+0 Safeguard
+0 Rest
+0 Snore
+0 Protect
+0 Giga Drain
+0 Charm
+0 Attract
+0 Facade
+0 Helping Hand
+0 Imprison
+0 Fake Tears
+0 Fling
+0 Drain Punch
+0 Wonder Room
+0 Magic Room
+0 Round
+0 Draining Kiss
+0 Misty Terrain
+0 Mystical Fire
+0 Psychic
+0 Metronome
+0 Tri Attack
+0 Substitute
+0 Psyshock
+0 Endure
+0 Sleep Talk
+0 Encore
+0 Calm Mind
+0 Energy Ball
+0 Stored Power
+0 Play Rough
+0 Dazzling Gleam
+
+Falinks
+50
+1 Tackle
+1 Protect
+5 Rock Smash
+10 Focus Energy
+15 Headbutt
+20 Bulk Up
+25 Endure
+30 Reversal
+35 First Impression
+40 No Retreat
+45 Iron Defense
+50 Close Combat
+55 Megahorn
+60 Counter
+0 Hyper Beam
+0 Giga Impact
+0 Screech
+0 Rest
+0 Rock Slide
+0 Snore
+0 Protect
+0 Beat Up
+0 Facade
+0 Helping Hand
+0 Revenge
+0 Brick Break
+0 Rock Tomb
+0 Payback
+0 Assurance
+0 Round
+0 Retaliate
+0 False Swipe
+0 Smart Strike
+0 Swords Dance
+0 Agility
+0 Focus Energy
+0 Substitute
+0 Reversal
+0 Endure
+0 Sleep Talk
+0 Megahorn
+0 Superpower
+0 Iron Defense
+0 Bulk Up
+0 Close Combat
+0 Poison Jab
+0 Focus Blast
+0 Zen Headbutt
+0 Iron Head
+0 Throat Chop
+
+Pincurchin
+46
+1 Peck
+1 Thunder Shock
+5 Water Gun
+10 Charge
+15 Fury Attack
+20 Spark
+25 Bubble Beam
+30 Recover
+35 Curse
+40 Electric Terrain
+45 Poison Jab
+50 Zing Zap
+55 Acupressure
+60 Discharge
+0 Pin Missile
+0 Thunder Wave
+0 Self-Destruct
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Rain Dance
+0 Facade
+0 Brine
+0 Payback
+0 Assurance
+0 Venoshock
+0 Round
+0 Hex
+0 Electric Terrain
+0 Hydro Pump
+0 Surf
+0 Thunderbolt
+0 Thunder
+0 Substitute
+0 Reversal
+0 Spikes
+0 Endure
+0 Sleep Talk
+0 Muddy Water
+0 Toxic Spikes
+0 Poison Jab
+0 Scald
+0 Venom Drench
+0 Throat Chop
+0 Liquidation
+
+Snom
+14
+1 Powder Snow
+1 Struggle Bug
+0 Rest
+0 Snore
+0 Protect
+0 Icy Wind
+0 Attract
+0 Facade
+0 Icicle Spear
+0 Round
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Bug Buzz
+
+Frosmoth
+51
+1 Icy Wind
+1 Powder Snow
+1 Struggle Bug
+1 Helping Hand
+1 Attract
+4 Stun Spore
+8 Infestation
+12 Mist
+16 Defog
+21 Feather Dance
+24 Aurora Beam
+28 Hail
+32 Bug Buzz
+36 Aurora Veil
+40 Blizzard
+44 Tailwind
+48 Wide Guard
+52 Quiver Dance
+0 Hyper Beam
+0 Giga Impact
+0 Light Screen
+0 Reflect
+0 Safeguard
+0 Rest
+0 Snore
+0 Protect
+0 Icy Wind
+0 Giga Drain
+0 Attract
+0 Hail
+0 Facade
+0 Helping Hand
+0 Imprison
+0 Weather Ball
+0 Icicle Spear
+0 U-turn
+0 Avalanche
+0 Round
+0 Acrobatics
+0 Air Slash
+0 Ice Beam
+0 Blizzard
+0 Leech Life
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Calm Mind
+0 Bug Buzz
+0 Hurricane
+0 Play Rough
+0 Dazzling Gleam
+
+Stonjourner
+48
+1 Rock Throw
+1 Block
+6 Rock Polish
+12 Rock Tomb
+18 Gravity
+24 Stomp
+30 Stealth Rock
+36 Rock Slide
+42 Body Slam
+48 Wide Guard
+54 Heavy Slam
+60 Stone Edge
+66 Mega Kick
+0 Mega Kick
+0 Hyper Beam
+0 Giga Impact
+0 Safeguard
+0 Self-Destruct
+0 Rest
+0 Rock Slide
+0 Snore
+0 Protect
+0 Attract
+0 Sandstorm
+0 Facade
+0 Imprison
+0 Rock Tomb
+0 Sand Tomb
+0 Rock Blast
+0 Assurance
+0 Wonder Room
+0 Round
+0 Bulldoze
+0 Brutal Swing
+0 Stomping Tantrum
+0 Body Slam
+0 Earthquake
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Superpower
+0 Iron Defense
+0 Earth Power
+0 Stone Edge
+0 Stealth Rock
+0 Heavy Slam
+0 Heat Crash
+0 Body Press
+
+Eiscue
+43
+1 Powder Snow
+1 Tackle
+6 Mist
+12 Weather Ball
+18 Icy Wind
+24 Headbutt
+30 Amnesia
+36 Freeze-Dry
+42 Hail
+48 Aurora Veil
+54 Surf
+60 Blizzard
+0 Ice Punch
+0 Reflect
+0 Rest
+0 Snore
+0 Protect
+0 Icy Wind
+0 Attract
+0 Hail
+0 Whirlpool
+0 Facade
+0 Dive
+0 Weather Ball
+0 Icicle Spear
+0 Brine
+0 Avalanche
+0 Round
+0 Hydro Pump
+0 Surf
+0 Ice Beam
+0 Blizzard
+0 Agility
+0 Waterfall
+0 Amnesia
+0 Substitute
+0 Reversal
+0 Endure
+0 Sleep Talk
+0 Iron Defense
+0 Zen Headbutt
+0 Iron Head
+0 Liquidation
+
+Indeedee
+60
+1 Stored Power
+1 Play Nice
+5 Encore
+5 Baton Pass
+10 Disarming Voice
+15 Psybeam
+20 Helping Hand
+25 After You
+25 Follow Me
+30 Aromatherapy
+35 Psychic
+40 Calm Mind
+45 Power Split
+45 Guard Split
+50 Psychic Terrain
+55 Last Resort
+55 Healing Wish
+0 Pay Day
+0 Magical Leaf
+0 Light Screen
+0 Reflect
+0 Safeguard
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Facade
+0 Swift
+0 Helping Hand
+0 Imprison
+0 Power Swap
+0 Guard Swap
+0 Drain Punch
+0 Trick Room
+0 Wonder Room
+0 Magic Room
+0 Round
+0 Draining Kiss
+0 Psychic Terrain
+0 Mystical Fire
+0 Psychic
+0 Metronome
+0 Tri Attack
+0 Substitute
+0 Psyshock
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Encore
+0 Shadow Ball
+0 Future Sight
+0 Trick
+0 Hyper Voice
+0 Calm Mind
+0 Energy Ball
+0 Zen Headbutt
+0 Stored Power
+0 Ally Switch
+0 Play Rough
+0 Dazzling Gleam
+
+Morpeko
+57
+1 Thunder Shock
+1 Tail Whip
+5 Leer
+10 Power Trip
+15 Quick Attack
+20 Flatter
+25 Bite
+30 Spark
+35 Torment
+40 Agility
+45 Bullet Seed
+50 Crunch
+55 Aura Wheel
+60 Thrash
+0 Thunder Punch
+0 Thunder Wave
+0 Rest
+0 Thief
+0 Snore
+0 Protect
+0 Scary Face
+0 Attract
+0 Facade
+0 Swift
+0 Revenge
+0 Brick Break
+0 Fake Tears
+0 Bullet Seed
+0 Payback
+0 Assurance
+0 Fling
+0 Thunder Fang
+0 Ice Fang
+0 Fire Fang
+0 Round
+0 Volt Switch
+0 Electroweb
+0 Snarl
+0 Electric Terrain
+0 Stomping Tantrum
+0 Thunderbolt
+0 Thunder
+0 Agility
+0 Substitute
+0 Outrage
+0 Endure
+0 Sleep Talk
+0 Crunch
+0 Uproar
+0 Taunt
+0 Dark Pulse
+0 Seed Bomb
+0 Nasty Plot
+0 Electro Ball
+0 Foul Play
+0 Wild Charge
+0 Psychic Fangs
+
+Cufant
+46
+1 Tackle
+1 Growl
+5 Rollout
+10 Rock Smash
+15 Bulldoze
+20 Stomp
+25 Iron Defense
+30 Dig
+35 Strength
+40 Iron Head
+45 Play Rough
+50 High Horsepower
+55 Superpower
+0 Mega Kick
+0 Dig
+0 Screech
+0 Rest
+0 Rock Slide
+0 Snore
+0 Protect
+0 Attract
+0 Facade
+0 Brick Break
+0 Rock Tomb
+0 Mud Shot
+0 Rock Blast
+0 Fling
+0 Round
+0 Bulldoze
+0 Brutal Swing
+0 Stomping Tantrum
+0 Body Slam
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Superpower
+0 Iron Defense
+0 Earth Power
+0 Zen Headbutt
+0 Power Whip
+0 Iron Head
+0 Stealth Rock
+0 Work Up
+0 Play Rough
+0 High Horsepower
+0 Body Press
+
+Copperajah
+60
+1 Heavy Slam
+1 Tackle
+1 Growl
+1 Rollout
+1 Rock Smash
+15 Bulldoze
+20 Stomp
+25 Iron Defense
+30 Dig
+37 Strength
+44 Iron Head
+51 Play Rough
+58 High Horsepower
+65 Superpower
+0 Mega Kick
+0 Hyper Beam
+0 Giga Impact
+0 Dig
+0 Screech
+0 Rest
+0 Rock Slide
+0 Snore
+0 Protect
+0 Scary Face
+0 Attract
+0 Facade
+0 Revenge
+0 Brick Break
+0 Rock Tomb
+0 Mud Shot
+0 Rock Blast
+0 Payback
+0 Fling
+0 Round
+0 Bulldoze
+0 Snarl
+0 Brutal Swing
+0 Stomping Tantrum
+0 Body Slam
+0 Earthquake
+0 Substitute
+0 Outrage
+0 Endure
+0 Sleep Talk
+0 Taunt
+0 Superpower
+0 Iron Defense
+0 Earth Power
+0 Zen Headbutt
+0 Flash Cannon
+0 Power Whip
+0 Iron Head
+0 Stone Edge
+0 Stealth Rock
+0 Heavy Slam
+0 Work Up
+0 Heat Crash
+0 Play Rough
+0 High Horsepower
+0 Body Press
+
+Dracozolt
+55
+1 Tackle
+1 Thunder Shock
+7 Charge
+14 Aerial Ace
+21 Ancient Power
+28 Pluck
+35 Dragon Tail
+42 Stomp
+49 Slam
+56 Discharge
+63 Bolt Beak
+70 Dragon Pulse
+77 Dragon Rush
+0 Mega Punch
+0 Mega Kick
+0 Thunder Punch
+0 Hyper Beam
+0 Giga Impact
+0 Fire Spin
+0 Thunder Wave
+0 Rest
+0 Rock Slide
+0 Snore
+0 Protect
+0 Rain Dance
+0 Sunny Day
+0 Facade
+0 Rock Tomb
+0 Rock Blast
+0 Thunder Fang
+0 Round
+0 Bulldoze
+0 Brutal Swing
+0 Stomping Tantrum
+0 Breaking Swipe
+0 Body Slam
+0 Flamethrower
+0 Low Kick
+0 Thunderbolt
+0 Thunder
+0 Earthquake
+0 Fire Blast
+0 Substitute
+0 Outrage
+0 Endure
+0 Sleep Talk
+0 Iron Tail
+0 Taunt
+0 Dragon Claw
+0 Dragon Pulse
+0 Earth Power
+0 Stone Edge
+0 Electro Ball
+0 Wild Charge
+0 High Horsepower
+
+Arctozolt
+54
+1 Powder Snow
+1 Thunder Shock
+7 Charge
+14 Echoed Voice
+21 Ancient Power
+28 Pluck
+35 Avalanche
+42 Freeze-Dry
+49 Slam
+56 Discharge
+63 Bolt Beak
+70 Icicle Crash
+77 Blizzard
+0 Mega Punch
+0 Mega Kick
+0 Thunder Punch
+0 Hyper Beam
+0 Giga Impact
+0 Thunder Wave
+0 Rest
+0 Rock Slide
+0 Snore
+0 Protect
+0 Icy Wind
+0 Rain Dance
+0 Hail
+0 Facade
+0 Rock Tomb
+0 Icicle Spear
+0 Rock Blast
+0 Payback
+0 Avalanche
+0 Thunder Fang
+0 Ice Fang
+0 Round
+0 Bulldoze
+0 Stomping Tantrum
+0 Body Slam
+0 Hydro Pump
+0 Surf
+0 Ice Beam
+0 Blizzard
+0 Low Kick
+0 Thunderbolt
+0 Thunder
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Iron Tail
+0 Taunt
+0 Hyper Voice
+0 Stone Edge
+0 Electro Ball
+0 Wild Charge
+
+Dracovish
+52
+1 Tackle
+1 Water Gun
+7 Protect
+14 Brutal Swing
+21 Ancient Power
+28 Bite
+35 Dragon Breath
+42 Stomp
+49 Super Fang
+56 Discharge
+63 Fishious Rend
+70 Dragon Pulse
+77 Dragon Rush
+0 Mega Kick
+0 Hyper Beam
+0 Giga Impact
+0 Rest
+0 Rock Slide
+0 Snore
+0 Protect
+0 Rain Dance
+0 Whirlpool
+0 Facade
+0 Dive
+0 Rock Tomb
+0 Rock Blast
+0 Brine
+0 Ice Fang
+0 Round
+0 Bulldoze
+0 Brutal Swing
+0 Stomping Tantrum
+0 Body Slam
+0 Hydro Pump
+0 Surf
+0 Low Kick
+0 Earthquake
+0 Waterfall
+0 Leech Life
+0 Substitute
+0 Outrage
+0 Endure
+0 Sleep Talk
+0 Crunch
+0 Dragon Pulse
+0 Earth Power
+0 Zen Headbutt
+0 Iron Head
+0 Stone Edge
+0 Scald
+0 Psychic Fangs
+0 Liquidation
+
+Arctovish
+48
+1 Powder Snow
+1 Water Gun
+7 Protect
+14 Icy Wind
+21 Ancient Power
+28 Bite
+35 Aurora Veil
+42 Freeze-Dry
+49 Super Fang
+56 Crunch
+63 Fishious Rend
+70 Icicle Crash
+77 Blizzard
+0 Hyper Beam
+0 Giga Impact
+0 Rest
+0 Rock Slide
+0 Snore
+0 Protect
+0 Icy Wind
+0 Rain Dance
+0 Hail
+0 Whirlpool
+0 Facade
+0 Dive
+0 Rock Tomb
+0 Icicle Spear
+0 Rock Blast
+0 Brine
+0 Avalanche
+0 Ice Fang
+0 Round
+0 Body Slam
+0 Hydro Pump
+0 Surf
+0 Ice Beam
+0 Blizzard
+0 Waterfall
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Crunch
+0 Iron Defense
+0 Zen Headbutt
+0 Iron Head
+0 Stone Edge
+0 Psychic Fangs
+0 Liquidation
+
+Duraludon
+53
+1 Metal Claw
+1 Leer
+6 Rock Smash
+12 Hone Claws
+18 Metal Sound
+24 Breaking Swipe
+30 Dragon Tail
+36 Iron Defense
+42 Laser Focus
+48 Dragon Claw
+54 Flash Cannon
+60 Metal Burst
+66 Hyper Beam
+0 Hyper Beam
+0 Giga Impact
+0 Solar Beam
+0 Thunder Wave
+0 Screech
+0 Light Screen
+0 Reflect
+0 Rest
+0 Rock Slide
+0 Snore
+0 Protect
+0 Scary Face
+0 Attract
+0 Facade
+0 Brick Break
+0 Rock Tomb
+0 Round
+0 Snarl
+0 Stomping Tantrum
+0 Breaking Swipe
+0 Swords Dance
+0 Body Slam
+0 Thunderbolt
+0 Thunder
+0 Substitute
+0 Outrage
+0 Endure
+0 Sleep Talk
+0 Iron Defense
+0 Dragon Claw
+0 Gyro Ball
+0 Dark Pulse
+0 Dragon Pulse
+0 Flash Cannon
+0 Iron Head
+0 Stone Edge
+0 Stealth Rock
+0 Heavy Slam
+0 Foul Play
+0 Body Press
+
+Dreepy
+17
+1 Astonish
+1 Infestation
+1 Quick Attack
+1 Bite
+0 Thunder Wave
+0 Rest
+0 Snore
+0 Protect
+0 Attract
+0 Facade
+0 Swift
+0 Helping Hand
+0 Round
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+
+Drakloak
+56
+1 Dragon Pulse
+1 Astonish
+1 Infestation
+1 Quick Attack
+1 Bite
+6 Lock-On
+12 Assurance
+18 Hex
+24 Agility
+30 Double Hit
+36 U-turn
+42 Dragon Dance
+48 Phantom Force
+54 Take Down
+61 Dragon Rush
+66 Double-Edge
+72 Last Resort
+0 Thunder Wave
+0 Rest
+0 Thief
+0 Snore
+0 Protect
+0 Steel Wing
+0 Attract
+0 Beat Up
+0 Will-O-Wisp
+0 Facade
+0 Swift
+0 Helping Hand
+0 Dive
+0 Brine
+0 U-turn
+0 Assurance
+0 Round
+0 Hex
+0 Acrobatics
+0 Phantom Force
+0 Breaking Swipe
+0 Flamethrower
+0 Hydro Pump
+0 Surf
+0 Thunderbolt
+0 Thunder
+0 Agility
+0 Fire Blast
+0 Substitute
+0 Outrage
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Shadow Ball
+0 Dragon Dance
+0 Dragon Pulse
+0 Ally Switch
+0 Scald
+0 Psychic Fangs
+
+Dragapult
+67
+1 Dragon Darts
+1 Dragon Breath
+1 Sucker Punch
+1 Astonish
+1 Infestation
+1 Quick Attack
+1 Bite
+6 Lock-On
+12 Assurance
+18 Hex
+24 Agility
+30 Double Hit
+36 U-turn
+42 Dragon Dance
+48 Phantom Force
+54 Take Down
+63 Dragon Rush
+70 Double-Edge
+78 Last Resort
+0 Fly
+0 Hyper Beam
+0 Giga Impact
+0 Solar Beam
+0 Thunder Wave
+0 Light Screen
+0 Reflect
+0 Rest
+0 Thief
+0 Snore
+0 Protect
+0 Steel Wing
+0 Attract
+0 Beat Up
+0 Will-O-Wisp
+0 Facade
+0 Swift
+0 Helping Hand
+0 Dive
+0 Brine
+0 U-turn
+0 Assurance
+0 Round
+0 Hex
+0 Acrobatics
+0 Phantom Force
+0 Breaking Swipe
+0 Body Slam
+0 Flamethrower
+0 Hydro Pump
+0 Surf
+0 Thunderbolt
+0 Thunder
+0 Agility
+0 Fire Blast
+0 Tri Attack
+0 Substitute
+0 Outrage
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Shadow Ball
+0 Dragon Claw
+0 Dragon Dance
+0 Dragon Pulse
+0 Ally Switch
+0 Scald
+0 Psychic Fangs
+
+Zacian
+57
+1 Sacred Sword
+1 Quick Guard
+1 Metal Claw
+1 Howl
+1 Quick Attack
+1 Bite
+11 Slash
+22 Swords Dance
+33 Iron Head
+44 Laser Focus
+55 Crunch
+66 Moonblast
+77 Close Combat
+88 Giga Impact
+0 Hyper Beam
+0 Giga Impact
+0 Solar Blade
+0 Dig
+0 Rest
+0 Snore
+0 Protect
+0 Scary Face
+0 Facade
+0 Swift
+0 Helping Hand
+0 Revenge
+0 Brick Break
+0 Imprison
+0 Assurance
+0 Thunder Fang
+0 Ice Fang
+0 Fire Fang
+0 Psycho Cut
+0 Round
+0 Retaliate
+0 Tail Slap
+0 Snarl
+0 False Swipe
+0 Air Slash
+0 Brutal Swing
+0 Swords Dance
+0 Agility
+0 Focus Energy
+0 Substitute
+0 Reversal
+0 Endure
+0 Sleep Talk
+0 Iron Tail
+0 Crunch
+0 Hyper Voice
+0 Close Combat
+0 Focus Blast
+0 Iron Head
+0 Work Up
+0 Wild Charge
+0 Play Rough
+0 Psychic Fangs
+
+Zamazenta
+59
+1 Metal Burst
+1 Wide Guard
+1 Metal Claw
+1 Howl
+1 Quick Attack
+1 Bite
+11 Slash
+22 Iron Defense
+33 Iron Head
+44 Laser Focus
+55 Crunch
+66 Moonblast
+77 Close Combat
+88 Giga Impact
+0 Hyper Beam
+0 Giga Impact
+0 Solar Beam
+0 Dig
+0 Light Screen
+0 Reflect
+0 Safeguard
+0 Rest
+0 Snore
+0 Protect
+0 Scary Face
+0 Facade
+0 Swift
+0 Helping Hand
+0 Revenge
+0 Imprison
+0 Payback
+0 Power Swap
+0 Guard Swap
+0 Thunder Fang
+0 Ice Fang
+0 Fire Fang
+0 Round
+0 Retaliate
+0 Tail Slap
+0 Snarl
+0 Agility
+0 Focus Energy
+0 Substitute
+0 Reversal
+0 Endure
+0 Sleep Talk
+0 Iron Tail
+0 Crunch
+0 Hyper Voice
+0 Iron Defense
+0 Close Combat
+0 Focus Blast
+0 Flash Cannon
+0 Iron Head
+0 Work Up
+0 Wild Charge
+0 Play Rough
+0 Dazzling Gleam
+0 Psychic Fangs
+
+Eternatus
+49
+1 Poison Tail
+1 Confuse Ray
+1 Dragon Tail
+1 Agility
+8 Toxic
+16 Venoshock
+24 Dragon Dance
+32 Cross Poison
+40 Dragon Pulse
+48 Flamethrower
+56 Dynamax Cannon
+64 Cosmic Power
+72 Recover
+80 Hyper Beam
+88 Eternabeam
+0 Fly
+0 Hyper Beam
+0 Giga Impact
+0 Solar Beam
+0 Screech
+0 Light Screen
+0 Reflect
+0 Rest
+0 Snore
+0 Protect
+0 Scary Face
+0 Facade
+0 Payback
+0 Assurance
+0 Cross Poison
+0 Venoshock
+0 Round
+0 Mystical Fire
+0 Brutal Swing
+0 Flamethrower
+0 Agility
+0 Substitute
+0 Sludge Bomb
+0 Endure
+0 Sleep Talk
+0 Shadow Ball
+0 Cosmic Power
+0 Dragon Dance
+0 Toxic Spikes
+0 Poison Jab
+0 Dragon Pulse
+0 Flash Cannon
+0 Sludge Wave
+0 Venom Drench
+
+Kubfu
+48
+1 Rock Smash
+1 Leer
+4 Endure
+8 Focus Energy
+12 Aerial Ace
+16 Scary Face
+20 Headbutt
+24 Brick Break
+28 Detect
+32 Bulk Up
+36 Iron Head
+40 Dynamic Punch
+44 Counter
+48 Close Combat
+52 Focus Punch
+0 Mega Punch
+0 Mega Kick
+0 Fire Punch
+0 Ice Punch
+0 Thunder Punch
+0 Dig
+0 Rest
+0 Snore
+0 Protect
+0 Scary Face
+0 Attract
+0 Facade
+0 Helping Hand
+0 Revenge
+0 Brick Break
+0 U-turn
+0 Low Sweep
+0 Round
+0 Acrobatics
+0 Retaliate
+0 Body Slam
+0 Low Kick
+0 Focus Energy
+0 Substitute
+0 Reversal
+0 Endure
+0 Sleep Talk
+0 Superpower
+0 Bulk Up
+0 Close Combat
+0 Zen Headbutt
+0 Iron Head
+0 Work Up
+
+Urshifu
+73
+1 Wicked Blow
+1 Sucker Punch
+1 Rock Smash
+1 Leer
+1 Endure
+1 Focus Energy
+12 Aerial Ace
+16 Scary Face
+20 Headbutt
+24 Brick Break
+28 Detect
+32 Bulk Up
+36 Iron Head
+40 Dynamic Punch
+44 Counter
+48 Close Combat
+52 Focus Punch
+0 Mega Punch
+0 Mega Kick
+0 Fire Punch
+0 Ice Punch
+0 Thunder Punch
+0 Giga Impact
+0 Dig
+0 Rest
+0 Rock Slide
+0 Snore
+0 Protect
+0 Scary Face
+0 Attract
+0 Beat Up
+0 Facade
+0 Swift
+0 Helping Hand
+0 Revenge
+0 Brick Break
+0 Rock Tomb
+0 U-turn
+0 Payback
+0 Assurance
+0 Fling
+0 Drain Punch
+0 Low Sweep
+0 Round
+0 Acrobatics
+0 Retaliate
+0 Snarl
+0 False Swipe
+0 Body Slam
+0 Low Kick
+0 Focus Energy
+0 Substitute
+0 Reversal
+0 Endure
+0 Sleep Talk
+0 Crunch
+0 Taunt
+0 Superpower
+0 Iron Defense
+0 Bulk Up
+0 Close Combat
+0 Aura Sphere
+0 Poison Jab
+0 Dark Pulse
+0 Focus Blast
+0 Zen Headbutt
+0 Iron Head
+0 Stone Edge
+0 Foul Play
+0 Work Up
+0 Darkest Lariat
+0 Throat Chop
+0 Body Press
+
+Zarude
+72
+1 Bind
+1 Scratch
+6 Leer
+12 Vine Whip
+18 Growth
+24 Fury Swipes
+30 Scary Face
+36 Grass Knot
+42 Bite
+46 U-turn
+54 Swagger
+60 Energy Ball
+66 Synthesis
+72 Hammer Arm
+78 Thrash
+84 Power Whip
+90 Jungle Healing
+0 Mega Punch
+0 Mega Kick
+0 Hyper Beam
+0 Giga Impact
+0 Magical Leaf
+0 Solar Beam
+0 Solar Blade
+0 Dig
+0 Rest
+0 Rock Slide
+0 Thief
+0 Snore
+0 Protect
+0 Scary Face
+0 Giga Drain
+0 Sunny Day
+0 Facade
+0 Swift
+0 Revenge
+0 Brick Break
+0 Rock Tomb
+0 Bullet Seed
+0 Mud Shot
+0 U-turn
+0 Payback
+0 Assurance
+0 Fling
+0 Drain Punch
+0 Round
+0 Acrobatics
+0 Snarl
+0 Grassy Terrain
+0 Brutal Swing
+0 Stomping Tantrum
+0 Body Press
+0 Low Kick
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Encore
+0 Iron Tail
+0 Crunch
+0 Taunt
+0 Superpower
+0 Hyper Voice
+0 Bulk Up
+0 Close Combat
+0 Dark Pulse
+0 Seed Bomb
+0 Energy Ball
+0 Nasty Plot
+0 Power Whip
+0 Grass Knot
+0 Darkest Lariat
+0 Throat Chop
+
+Regieleki
+45
+1 Thunder Shock
+1 Rapid Spin
+6 Electroweb
+12 Ancient Power
+18 Shock Wave
+24 Thunder Wave
+30 Extreme Speed
+36 Thunder Cage
+42 Thunderbolt
+48 Magnet Rise
+54 Thrash
+60 Lock-On
+66 Zap Cannon
+72 Hyper Beam
+78 Explosion
+0 Hyper Beam
+0 Giga Impact
+0 Thunder Wave
+0 Screech
+0 Light Screen
+0 Reflect
+0 Self-Destruct
+0 Rest
+0 Snore
+0 Protect
+0 Rain Dance
+0 Facade
+0 Swift
+0 Bounce
+0 Assurance
+0 Round
+0 Acrobatics
+0 Volt Switch
+0 Electroweb
+0 Electric Terrain
+0 Eerie Impulse
+0 Body Slam
+0 Thunderbolt
+0 Thunder
+0 Agility
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Electro Ball
+0 Wild Charge
+
+Regidrago
+39
+1 Twister
+1 Vise Grip
+6 Bite
+12 Ancient Power
+18 Dragon Breath
+24 Focus Energy
+30 Crunch
+36 Dragon Claw
+42 Hammer Arm
+48 Dragon Dance
+54 Thrash
+60 Laser Focus
+66 Dragon Energy
+72 Hyper Beam
+78 Explosion
+0 Hyper Beam
+0 Giga Impact
+0 Light Screen
+0 Reflect
+0 Self-Destruct
+0 Rest
+0 Snore
+0 Protect
+0 Facade
+0 Thunder Fang
+0 Fire Fang
+0 Round
+0 Breaking Swipe
+0 Body Slam
+0 Focus Energy
+0 Substitute
+0 Reversal
+0 Outrage
+0 Endure
+0 Sleep Talk
+0 Crunch
+0 Dragon Claw
+0 Dragon Dance
+0 Dragon Pulse
+
+Glastrier
+52
+1 Tackle
+1 Tail Whip
+6 Double Kick
+12 Avalanche
+18 Stomp
+24 Torment
+30 Mist
+36 Icicle Crash
+42 Take Down
+48 Iron Defense
+54 Thrash
+60 Taunt
+66 Double-Edge
+72 Swords Dance
+0 Hyper Beam
+0 Giga Impact
+0 Rest
+0 Snore
+0 Protect
+0 Scary Face
+0 Icy Wind
+0 Hail
+0 Facade
+0 Icicle Spear
+0 Mud Shot
+0 Payback
+0 Assurance
+0 Avalanche
+0 Round
+0 Bulldoze
+0 Snarl
+0 Smart Strike
+0 Stomping Tantrum
+0 Swords Dance
+0 Body Slam
+0 Ice Beam
+0 Blizzard
+0 Substitute
+0 Outrage
+0 Endure
+0 Sleep Talk
+0 Megahorn
+0 Crunch
+0 Uproar
+0 Taunt
+0 Superpower
+0 Iron Defense
+0 Close Combat
+0 Heavy Slam
+0 High Horsepower
+0 Throat Chop
+0 Body Press
+
+Spectrier
+46
+1 Tackle
+1 Tail Whip
+6 Double Kick
+12 Hex
+18 Stomp
+24 Confuse Ray
+30 Haze
+36 Shadow Ball
+42 Take Down
+48 Agility
+54 Thrash
+60 Disable
+66 Double-Edge
+72 Nasty Plot
+0 Hyper Beam
+0 Giga Impact
+0 Rest
+0 Snore
+0 Protect
+0 Scary Face
+0 Will-O-Wisp
+0 Facade
+0 Swift
+0 Mud Shot
+0 Payback
+0 Assurance
+0 Psycho Cut
+0 Round
+0 Hex
+0 Bulldoze
+0 Snarl
+0 Phantom Force
+0 Stomping Tantrum
+0 Body Slam
+0 Agility
+0 Substitute
+0 Endure
+0 Sleep Talk
+0 Crunch
+0 Shadow Ball
+0 Uproar
+0 Taunt
+0 Calm Mind
+0 Dark Pulse
+0 Nasty Plot
+0 Foul Play
+
+Calyrex
+66
+1 Pound
+1 Mega Drain
+1 Confusion
+1 Growth
+8 Life Dew
+16 Giga Drain
+24 Psyshock
+32 Helping Hand
+40 Aromatherapy
+48 Energy Ball
+56 Psychic
+64 Leech Seed
+72 Heal Pulse
+80 Solar Beam
+88 Future Sight
+0 Pay Day
+0 Hyper Beam
+0 Giga Impact
+0 Magical Leaf
+0 Solar Beam
+0 Solar Blade
+0 Light Screen
+0 Reflect
+0 Safeguard
+0 Rest
+0 Snore
+0 Protect
+0 Giga Drain
+0 Sunny Day
+0 Facade
+0 Swift
+0 Helping Hand
+0 Imprison
+0 Bullet Seed
+0 Power Swap
+0 Guard Swap
+0 Speed Swap
+0 Trick Room
+0 Wonder Room
+0 Magic Room
+0 Round
+0 Draining Kiss
+0 Grassy Terrain
+0 Psychic Terrain
+0 Psychic
+0 Agility
+0 Metronome
+0 Tri Attack
+0 Substitute
+0 Psyshock
+0 Endure
+0 Sleep Talk
+0 Baton Pass
+0 Encore
+0 Future Sight
+0 Trick
+0 Skill Swap
+0 Calm Mind
+0 Seed Bomb
+0 Energy Ball
+0 Zen Headbutt
+0 Leaf Storm
+0 Grass Knot
+0 Stored Power
+0 Ally Switch
+0 Pollen Puff
