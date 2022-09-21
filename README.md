@@ -2,7 +2,7 @@
 
 https://user-images.githubusercontent.com/43584979/168411698-30910dc6-26b7-42ba-a2cd-b7725ae650c8.mp4
 
-This is an update of the NationalDex project to include images and gifs to make the program more user friendly. If you choose the Generation 7 NationalDex, then it will contains every Pokemon from Kanto to Alola. If you choose the Generation 8 NationalDex, then it will contain the data for Pokemon available from Kanto to Alola in the Galar region. As more Pokemon get added to the games, I will continue to update the program. This program is capable of producing data for the regions starting with Kanto and ending with the current region of the current generation. The following is an example of what the program would look like if the user picked Gengar.
+This is an update of the NationalDex project to include images and gifs to make the program more user friendly. It will contain the data for Pokemon available from Kanto to Alola in the Galar region. As more Pokemon get added to the games, I will continue to update the program. This program is capable of producing data for the regions starting with Kanto and ending with the current region of the current generation. The following is an example of what the program would look like if the user picked Gengar.
 
 The information and images are © 2021 Pokémon. © 1995–2021 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, Pokémon character names, Nintendo Switch, Nintendo 3DS, Nintendo DS, Wii, Wii U, and WiiWare are trademarks of Nintendo.. I do not own anything used in this program, just a fan project since I love Pokemon!
 
